@@ -30,11 +30,11 @@ const _2 = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) =
     default: () => {
       return `${(0, import_index_5bb557bd.v)(import_background_79fcbe12.S, "SectionHero").$$render($$result, {
         title: "Historical Background",
-        bg: "../../static/backgrounds/earlyflag.jpg"
+        bg: "..//backgrounds/earlyflag.jpg"
       }, {}, {})}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
         parallax: true,
-        src: "../../static/backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg",
+        src: "..//backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg",
         classes: "flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
         default: () => {
@@ -59,7 +59,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/holy-roman-empire.jpg",
+        src: "..//backgrounds/holy-roman-empire.jpg",
         scrim: "light",
         opacity: "9",
         classes: "flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
@@ -73,7 +73,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
           })}
         ${(0, import_index_5bb557bd.v)(import_bio_card_8ad30ae6.B, "BioCard").$$render($$result, {
             name: "Charlemagne",
-            src: "../../static/character-cards/Charlemagne.jpg",
+            src: "..//character-cards/Charlemagne.jpg",
             years: "742-814",
             classes: ""
           }, {}, {
@@ -91,7 +91,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
           })}
     ${(0, import_index_5bb557bd.v)(import_bio_card_8ad30ae6.B, "BioCard").$$render($$result, {
             name: "Otto I",
-            src: "../../static/character-cards/Otto.jpg",
+            src: "..//character-cards/Otto.jpg",
             years: "912-973",
             classes: "2xl:order-first"
           }, {}, {
@@ -104,7 +104,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/damask_albedo-01.svg",
+        src: "..//backgrounds/damask_albedo-01.svg",
         cover: false,
         classes: "flex flex-col md:grid md:grid-cols-2 md:gap-24 auto-rows-max p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
@@ -123,7 +123,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         `;
             }
           })}</div>
-    <img src="${"../../static/content/dualcoronations.png"}" class="${"rounded-md shadow-lg"}" alt="${""}" loading="${"lazy"}">
+    <img src="${"..//content/dualcoronations.png"}" class="${"rounded-md shadow-lg"}" alt="${""}" loading="${"lazy"}">
     <div class="${"col-span-2 mx-auto"}">${(0, import_index_5bb557bd.v)(import_chapter_button_42b65814.C, "ChapterButton").$$render($$result, {
             numeral: "III",
             chapter: "Historical Background",

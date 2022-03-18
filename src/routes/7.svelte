@@ -10,10 +10,10 @@
 <Transition>
     
     <video class="w-screen h-screen -z-50 fixed inset-0 aspect-auto object-cover" loop={true} muted={true} autoplay={true}>
-        <source src="../../static/backgrounds/introcrawl.mp4" type="video/mp4">
+        <source src="..//backgrounds/introcrawl.mp4" type="video/mp4">
     </video>
-    <SectionHero title="The CharlesV|R Experience" bg="../../static/backgrounds/vr-goggles.jpg"/>
-    <Background parallax src="../../static/backgrounds/fabric.jpg" scrim="linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))" classes="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
+    <SectionHero title="The CharlesV|R Experience" bg="..//backgrounds/vr-goggles.jpg"/>
+    <Background parallax src="..//backgrounds/fabric.jpg" scrim="linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))" classes="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
         <Card classes="my-24">
         <div class="first-letter:text-[300%] w-full">
             Thanks to surviving eyewitness accounts of Charles’s imperial coronation, we know a great deal about what transpired, and yet concrete descriptions of actual music-making are rare and not very informative. Nevertheless, it is possible to reconstruct a plausible account of much of the music at the ceremony and to describe its cultural and historical significance.
@@ -23,23 +23,23 @@
         The coronation of Charles V raises questions surrounding a unified Europe, hegemony and colonialism, religious difference and tolerance, and the role of tradition in contemporaneous culture. These issues remain at the forefront of 21st-century society. Though the event occurred almost five hundred years ago, many of the questions that were at play in Charles V's coronation are still very much at play today.
     </Card>
 </Background>
-<Background src="../../static/backgrounds/vr-overtheshoulder.jpg" scrim="light" opacity="8" classes="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64">
+<Background src="..//backgrounds/vr-overtheshoulder.jpg" scrim="light" opacity="8" classes="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64">
     <div class="flex flex-col md:grid grid-cols-2 gap-24 my-24">
         <div class="grid grid-cols-2 place-items-center md:order-last gap-16">
             <div class="flex flex-col items-center">
-                <img src="../../static/content/pope.png" alt="" class="mb-2">
+                <img src="..//content/pope.png" alt="" class="mb-2">
                 Pope Clement VII
             </div>
             <div class="flex flex-col items-center">
-                <img src="../../static/content/choirsinger.png" alt="" class="mb-2">
+                <img src="..//content/choirsinger.png" alt="" class="mb-2">
                 Papal Choir Member
             </div>
             <div class="flex flex-col items-center">
-                <img src="../../static/content/pope.png" alt="" class="mb-2">
+                <img src="..//content/pope.png" alt="" class="mb-2">
                 Church Official
             </div>
             <div class="flex flex-col items-center">
-                <img src="../../static/content/choirsinger.png" alt="" class="mb-2">
+                <img src="..//content/choirsinger.png" alt="" class="mb-2">
                 Church Attendee
             </div>
         </div>
@@ -48,12 +48,12 @@
         </Card>
     </div>
 </Background>
-<Background src="../../static/backgrounds/crown.png" parallax classes="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
+<Background src="..//backgrounds/crown.png" parallax classes="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
     <Card classes="my-24 md:my-48" >
         During the experience, Pope Clement VII places the crown on Charles’s head, recites an oath, and conveys the imperial insignia. He understands the Latin he is reciting perfectly, and to emulate this, the text and translation of what he is saying accompanies his voice in the program. As the pope places the crown on Charles’s head or the scepter in his hand, the user can reflect on the symbolism of each object by looking at it and clicking on a footnote symbol.
     </Card> 
 </Background>
-<Background  src="../../static/backgrounds/vr-overview.jpg" scrim="light" opacity="8" classes="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
+<Background  src="..//backgrounds/vr-overview.jpg" scrim="light" opacity="8" classes="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
     <Card classes="my-24 md:my-48" light>
         The three other characters all experience different levels of understanding in regard to the ceremony. The member of the papal choir sings plainchant and complex polyphony in Latin as the ceremony progresses. He is engaged and focused on the music, while the attendee in the nave of the church cannot understand the Latin being sung. He can barely follow the experience, and his attention is therefore instead drawn to the conversations near him, the finery of the dignitaries’ garb, and the art and architecture that surround him. The church official also pays little attention to the liturgy. He alternatively looks on from one of the many side chapels in the cathedral. He marvels at the artwork and architecture that surround him and sizes up the clothing of his peers with a critical eye.
     </Card>

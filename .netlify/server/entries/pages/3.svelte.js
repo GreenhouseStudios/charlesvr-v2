@@ -53,44 +53,44 @@ const Tree_card = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, s
 });
 const Family_tree = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) => {
   return `<div class="${"md:w-2/3 bg-no-repeat bg-center bg-contain"}"${(0, import_index_5bb557bd.b)({
-    "background-image": `url(../../static/family-tree/tree.svg`
+    "background-image": `url(..//family-tree/tree.svg`
   })}><div class="${"grid grid-cols-4 gap-4 items-end"}">${(0, import_index_5bb557bd.v)(Tree_card, "TreeCard").$$render($$result, {
-    src: "../../static/family-tree/maximilian.jpg",
+    src: "..//family-tree/maximilian.jpg",
     name: "Emperor Maximilian I",
     years: "1459-1519"
   }, {}, {})}
         ${(0, import_index_5bb557bd.v)(Tree_card, "TreeCard").$$render($$result, {
-    src: "../../static/family-tree/mary.jpg",
+    src: "..//family-tree/mary.jpg",
     name: "Duchess Mary of Burgundy",
     years: "1457-1482"
   }, {}, {})}
         ${(0, import_index_5bb557bd.v)(Tree_card, "TreeCard").$$render($$result, {
-    src: "../../static/family-tree/isabella.jpg",
+    src: "..//family-tree/isabella.jpg",
     name: "Queen Isabella I of Castile",
     years: "1451-1504"
   }, {}, {})}
         ${(0, import_index_5bb557bd.v)(Tree_card, "TreeCard").$$render($$result, {
-    src: "../../static/family-tree/ferdinand.jpg",
+    src: "..//family-tree/ferdinand.jpg",
     name: "King Ferdinand II of Aragon",
     years: "1452-1516"
   }, {}, {})}</div>
     <div class="${"grid grid-cols-2 gap-4 place-items-center"}"><div class="${"h-[2px] bg-white bg-opacity-60 w-full"}"></div>
         <div class="${"h-[2px] bg-white bg-opacity-60 w-full"}"></div></div>
     <div class="${"grid grid-cols-2 gap-4 place-items-center"}">${(0, import_index_5bb557bd.v)(Tree_card, "TreeCard").$$render($$result, {
-    src: "../../static/family-tree/philip.jpg",
+    src: "..//family-tree/philip.jpg",
     name: "Philip the Handsome",
     years: "1478-1506",
     topLine: true
   }, {}, {})}
         ${(0, import_index_5bb557bd.v)(Tree_card, "TreeCard").$$render($$result, {
-    src: "../../static/family-tree/joanna.jpg",
+    src: "..//family-tree/joanna.jpg",
     name: "Joanna of Castile",
     years: "1479-1555",
     topLine: true
   }, {}, {})}</div>
     <div class="${"h-[2px] bg-white bg-opacity-60 w-5/6 mx-auto"}"></div>
     <div class="${"flex justify-center pb-4 md:mb-24"}">${(0, import_index_5bb557bd.v)(Tree_card, "TreeCard").$$render($$result, {
-    src: "../../static/family-tree/charlesv.jpg",
+    src: "..//family-tree/charlesv.jpg",
     name: "Charles V",
     years: "1500-1558",
     noLine: true,
@@ -103,11 +103,11 @@ const _3 = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) =
     default: () => {
       return `${(0, import_index_5bb557bd.v)(import_background_79fcbe12.S, "SectionHero").$$render($$result, {
         title: "Who was Charles V?",
-        bg: "../../static/backgrounds/charles.jpg"
+        bg: "..//backgrounds/charles.jpg"
       }, {}, {})}
     ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
         parallax: true,
-        src: "../../static/backgrounds/fabric.jpg",
+        src: "..//backgrounds/fabric.jpg",
         classes: "flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
         default: () => {
@@ -127,7 +127,7 @@ const _3 = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) =
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/battle-of-pavia.jpg",
+        src: "..//backgrounds/battle-of-pavia.jpg",
         scrim: "light",
         classes: "flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
@@ -140,7 +140,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
           })} 
         ${(0, import_index_5bb557bd.v)(import_bio_card_8ad30ae6.B, "BioCard").$$render($$result, {
             name: "King Francis I",
-            src: "../../static/character-cards/Francis I.jpg",
+            src: "..//character-cards/Francis I.jpg",
             years: "1494-1547",
             classes: "mb-4 md:mb-24"
           }, {}, {
@@ -159,7 +159,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/sackofrome.jpg",
+        src: "..//backgrounds/sackofrome.jpg",
         parallax: true,
         classes: "flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {

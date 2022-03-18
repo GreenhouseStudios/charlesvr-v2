@@ -29,12 +29,12 @@ const _5 = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) =
     default: () => {
       return `${(0, import_index_5bb557bd.v)(import_background_79fcbe12.S, "SectionHero").$$render($$result, {
         title: "A Focus on Music",
-        bg: "../../static/backgrounds/afocusonmusic.jpg",
+        bg: "..//backgrounds/afocusonmusic.jpg",
         opacity: "7"
       }, {}, {})}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
         parallax: true,
-        src: "../../static/backgrounds/Elderly_Karl_V.jpg",
+        src: "..//backgrounds/Elderly_Karl_V.jpg",
         scrim: "none",
         classes: "flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
@@ -62,7 +62,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/laudes.jpg",
+        src: "..//backgrounds/laudes.jpg",
         parallax: true,
         classes: "flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
@@ -82,7 +82,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/laudeswords.png",
+        src: "..//backgrounds/laudeswords.png",
         scrim: "light",
         opacity: "90",
         classes: "flex flex-col md:gap-24 auto-rows-max p-4 md:p-16 2xl:p-32 2xl:px-64"
@@ -110,10 +110,10 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.S, "SectionHero").$$render($$result, {
         title: "Dual Motets",
-        bg: "../../static/backgrounds/singing.jpg",
+        bg: "..//backgrounds/singing.jpg",
         opacity: "7"
       }, {}, {})}
-<video class="${"w-screen h-screen -z-50 fixed inset-0 aspect-auto object-cover"}" ${"loop"} ${"muted"} ${"autoplay"}><source src="${"../../static/backgrounds/choirman2.mp4"}" type="${"video/mp4"}"></video>
+<video class="${"w-screen h-screen -z-50 fixed inset-0 aspect-auto object-cover"}" ${"loop"} ${"muted"} ${"autoplay"}><source src="${"..//backgrounds/choirman2.mp4"}" type="${"video/mp4"}"></video>
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
         src: "",
         classes: "flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
@@ -128,7 +128,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/wideview.jpg",
+        src: "..//backgrounds/wideview.jpg",
         classes: "flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
         default: () => {
@@ -141,7 +141,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/detail.jpg",
+        src: "..//backgrounds/detail.jpg",
         classes: "flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
         default: () => {
@@ -166,7 +166,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/pope.jpg",
+        src: "..//backgrounds/pope.jpg",
         classes: "flex flex-col items-center p-4 pb-16 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
         default: () => {

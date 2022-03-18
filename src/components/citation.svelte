@@ -6,7 +6,7 @@
     <div class="p-2 w-max max-w-[65ch] text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam itaque, animi, perspiciatis amet iure praesentium hic temporibus alias nemo eligendi reprehenderit optio in. Dolor ipsa perspiciatis quisquam voluptate doloremque recusandae!
     </div>
-    <img src="../../static/drawersquiggle.png" alt="" class="w-auto h-32">
+    <img src="..//drawersquiggle.png" alt="" class="w-auto h-32">
 </div>
 
 <style>

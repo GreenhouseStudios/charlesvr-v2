@@ -29,12 +29,12 @@ const _6 = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) =
     default: () => {
       return `${(0, import_index_5bb557bd.v)(import_background_79fcbe12.S, "SectionHero").$$render($$result, {
         title: "A Coronation Mass",
-        bg: "../../static/backgrounds/exterior.jpg",
+        bg: "..//backgrounds/exterior.jpg",
         opacity: "7"
       }, {}, {})}
     ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
         parallax: true,
-        src: "../../static/backgrounds/paintings.jpg",
+        src: "..//backgrounds/paintings.jpg",
         classes: "flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
         default: () => {
@@ -52,7 +52,7 @@ const _6 = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) =
           })}`;
         }
       })}
-<video class="${"w-screen h-screen -z-50 fixed inset-0 aspect-auto object-cover"}" ${"loop"} ${"muted"} ${"autoplay"}><source src="${"../../static/backgrounds/choirshot.mp4"}" type="${"video/mp4"}"></video>
+<video class="${"w-screen h-screen -z-50 fixed inset-0 aspect-auto object-cover"}" ${"loop"} ${"muted"} ${"autoplay"}><source src="${"..//backgrounds/choirshot.mp4"}" type="${"video/mp4"}"></video>
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
         src: "",
         parallax: true,
@@ -68,7 +68,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/mural.jpg",
+        src: "..//backgrounds/mural.jpg",
         classes: "flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
         default: () => {
@@ -82,7 +82,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.S, "SectionHero").$$render($$result, {
         title: "A Melancholic Coronation",
-        bg: "../../static/backgrounds/stand.jpg",
+        bg: "..//backgrounds/stand.jpg",
         opacity: "7"
       }, {}, {})}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
@@ -105,7 +105,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/musicstand.jpg",
+        src: "..//backgrounds/musicstand.jpg",
         classes: "flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
         default: () => {
@@ -118,7 +118,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/wall.jpg",
+        src: "..//backgrounds/wall.jpg",
         parallax: true,
         classes: "flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {

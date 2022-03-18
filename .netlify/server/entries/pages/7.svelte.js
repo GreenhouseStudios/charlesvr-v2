@@ -26,14 +26,14 @@ var import_background_79fcbe12 = require("../../chunks/background-79fcbe12.js");
 const _7 = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) => {
   return `${(0, import_index_5bb557bd.v)(import_chapter_button_svelte_svelte_type_style_lang_63e096b9.T, "Transition").$$render($$result, {}, {}, {
     default: () => {
-      return `<video class="${"w-screen h-screen -z-50 fixed inset-0 aspect-auto object-cover"}" ${"loop"} ${"muted"} ${"autoplay"}><source src="${"../../static/backgrounds/introcrawl.mp4"}" type="${"video/mp4"}"></video>
+      return `<video class="${"w-screen h-screen -z-50 fixed inset-0 aspect-auto object-cover"}" ${"loop"} ${"muted"} ${"autoplay"}><source src="${"..//backgrounds/introcrawl.mp4"}" type="${"video/mp4"}"></video>
     ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.S, "SectionHero").$$render($$result, {
         title: "The CharlesV|R Experience",
-        bg: "../../static/backgrounds/vr-goggles.jpg"
+        bg: "..//backgrounds/vr-goggles.jpg"
       }, {}, {})}
     ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
         parallax: true,
-        src: "../../static/backgrounds/fabric.jpg",
+        src: "..//backgrounds/fabric.jpg",
         scrim: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))",
         classes: "flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
@@ -53,22 +53,22 @@ const _7 = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) =
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/vr-overtheshoulder.jpg",
+        src: "..//backgrounds/vr-overtheshoulder.jpg",
         scrim: "light",
         opacity: "8",
         classes: "flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
         default: () => {
-          return `<div class="${"flex flex-col md:grid grid-cols-2 gap-24 my-24"}"><div class="${"grid grid-cols-2 place-items-center md:order-last gap-16"}"><div class="${"flex flex-col items-center"}"><img src="${"../../static/content/pope.png"}" alt="${""}" class="${"mb-2"}">
+          return `<div class="${"flex flex-col md:grid grid-cols-2 gap-24 my-24"}"><div class="${"grid grid-cols-2 place-items-center md:order-last gap-16"}"><div class="${"flex flex-col items-center"}"><img src="${"..//content/pope.png"}" alt="${""}" class="${"mb-2"}">
                 Pope Clement VII
             </div>
-            <div class="${"flex flex-col items-center"}"><img src="${"../../static/content/choirsinger.png"}" alt="${""}" class="${"mb-2"}">
+            <div class="${"flex flex-col items-center"}"><img src="${"..//content/choirsinger.png"}" alt="${""}" class="${"mb-2"}">
                 Papal Choir Member
             </div>
-            <div class="${"flex flex-col items-center"}"><img src="${"../../static/content/pope.png"}" alt="${""}" class="${"mb-2"}">
+            <div class="${"flex flex-col items-center"}"><img src="${"..//content/pope.png"}" alt="${""}" class="${"mb-2"}">
                 Church Official
             </div>
-            <div class="${"flex flex-col items-center"}"><img src="${"../../static/content/choirsinger.png"}" alt="${""}" class="${"mb-2"}">
+            <div class="${"flex flex-col items-center"}"><img src="${"..//content/choirsinger.png"}" alt="${""}" class="${"mb-2"}">
                 Church Attendee
             </div></div>
         ${(0, import_index_5bb557bd.v)(import_chapter_button_svelte_svelte_type_style_lang_63e096b9.C, "Card").$$render($$result, { light: true }, {}, {
@@ -80,7 +80,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/crown.png",
+        src: "..//backgrounds/crown.png",
         parallax: true,
         classes: "flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
       }, {}, {
@@ -94,7 +94,7 @@ ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$ren
         }
       })}
 ${(0, import_index_5bb557bd.v)(import_background_79fcbe12.B, "Background").$$render($$result, {
-        src: "../../static/backgrounds/vr-overview.jpg",
+        src: "..//backgrounds/vr-overview.jpg",
         scrim: "light",
         opacity: "8",
         classes: "flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"

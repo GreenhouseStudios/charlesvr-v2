@@ -6,7 +6,7 @@
     <div id="nav-items" class="hidden md:grid sm:grid-cols-[1.5fr_repeat(6,_1fr)] lg:grid-cols-7 items-start min-h-[4rem] h-8 group hover:md:h-32 hover:lg:h-24 transition-[height] duration-[450ms]">
         <a href="/" data-chapter="1" class="flex flex-col justify-center my-6 pl-6">
             <div class="h-5 flex flex-col items-center mb-2">
-                <img src="../../static/logos/charlesvr-black.png" alt="Charles VR" class="max-h-full">
+                <img src="..//logos/charlesvr-black.png" alt="Charles VR" class="max-h-full">
             </div>
             <div class="text-lg leading-none text-center h-0 opacity-0 group-hover:opacity-100 transition-opacity duration-[400ms]">
                 Introduction to Charles V|R
@@ -63,7 +63,7 @@
     </div>
     <div id="nav-mobile" class="md:hidden h-16 flex justify-between items-center pl-4">
         <a href="/" class="h-full flex shrink py-5 pr-4">
-            <img src="../../static/logos/charlesvr-black.png" alt="Charles VR" class=" h-full w-auto">
+            <img src="..//logos/charlesvr-black.png" alt="Charles VR" class=" h-full w-auto">
         </a>
         <button id="nav-dropdown" class="p-4">
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">

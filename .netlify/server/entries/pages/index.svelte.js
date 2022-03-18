@@ -26,7 +26,7 @@ var import_chapter_button_42b65814 = require("../../chunks/chapter-button-42b658
 const Routes = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slots) => {
   return `${(0, import_index_5bb557bd.v)(import_chapter_button_svelte_svelte_type_style_lang_63e096b9.T, "Transition").$$render($$result, {}, {}, {
     default: () => {
-      return `<div class="${"min-h-screen flex items-center flex-col bg-cover bg-center pt-0 p-4 md:p-16 2xl:p-32 2xl:px-64"}" style="${"background-image: linear-gradient(rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.6)), url('../../static/backgrounds/index.png')"}"><img src="${"../../static/logos/charlesvr-duotone.png"}" alt="${"Charles VR"}" class="${"w-4/6 mt-48 mb-4"}">
+      return `<div class="${"min-h-screen flex items-center flex-col bg-cover bg-center pt-0 p-4 md:p-16 2xl:p-32 2xl:px-64"}" style="${"background-image: linear-gradient(rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.6)), url('..//backgrounds/index.png')"}"><img src="${"..//logos/charlesvr-duotone.png"}" alt="${"Charles VR"}" class="${"w-4/6 mt-48 mb-4"}">
         <div class="${"text-4xl text-[#900006] text-center leading-normal mb-16"}">A Virtual Reality Recreation of the
         <br>
         Imperial Coronation of Holy Roman Emperor Charles V
