@@ -1,8 +1,8 @@
 <script>
 	import Transition from './../components/transition.svelte';
 	import Card from './../components/card.svelte';
-	import Card from './../components/card.svelte';
 	import ChapterButton from './../components/chapter-button.svelte';
+	import Card from './../components/card.svelte';
 	import SectionHero from './../components/section-hero.svelte';
 </script>
 
@@ -34,6 +34,9 @@
 			world-historical importance for enthusiasts, students, and scholars of art, architecture,
 			history, music, religion, and virtual reality.
 		</Card>
+	
+		<ChapterButton numeral="II" chapter="Historical Background" path="2" light />
+
 		<Card light class="2xl:max-w-[50%]">
 			Travel to 1530 Bologna to attend the coronation mass of the Holy Roman Emperor, Charles V, in
 			this virtual reality recreation of San Petronio. The details of the coronation reflect the
@@ -50,9 +53,7 @@
 			Charles V|R offers a multi-modal window into this event of
 			world-historical importance for enthusiasts, students, and scholars of art, architecture,
 			history, music, religion, and virtual reality.
-		</Card>s
-		<ChapterButton numeral="II" chapter="Historical Background" path="2" light />
-
+		</Card>
 		
 		
 	</div>
