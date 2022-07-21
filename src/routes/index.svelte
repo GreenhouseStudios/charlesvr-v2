@@ -1,6 +1,7 @@
 <script>
 	import Transition from './../components/transition.svelte';
 	import Card from './../components/card.svelte';
+	import Card from './../components/card.svelte';
 	import ChapterButton from './../components/chapter-button.svelte';
 	import SectionHero from './../components/section-hero.svelte';
 </script>
