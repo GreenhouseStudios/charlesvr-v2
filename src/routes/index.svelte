@@ -34,18 +34,20 @@
 			history, music, religion, and virtual reality.
 		</Card>
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light />
+
+		<Card light class="max-w-[50%]">
+			Person, Role
+			<br />
+			Person, Role
+			<br />
+			Person, Role
+			<br />
+		</Card>
 		
 	</div>
 </Transition>
 
-<Card light class="max-w-[50%]">
-	Person, Role
-	<br />
-	Person, Role
-	<br />
-	Person, Role
-	<br />
-</Card>
+
 
 <style>
 </style>
