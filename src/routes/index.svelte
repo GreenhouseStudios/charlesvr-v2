@@ -38,7 +38,7 @@
 	</div>
 </Transition>
 
-<Card light class="2xl:max-w-[50%]">
+<Card light class="max-w-[50%]">
 	Person, Role
 	<br />
 	Person, Role
