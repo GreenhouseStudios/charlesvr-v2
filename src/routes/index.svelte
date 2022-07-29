@@ -35,6 +35,14 @@
 		</Card>
 	
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light />
+
+		<Card light class="2xl:max-w-[50%]">
+			Tom Lee
+			<br />
+			Brooke Foti
+			<br />
+			Alex Mueller
+		</Card>
 		
 	</div>
 </Transition>
