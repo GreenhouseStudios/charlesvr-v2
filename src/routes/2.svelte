@@ -57,6 +57,7 @@
 				years="742-814"
 				class=""
 			>
+			
 				<p>Became King of the Lombards in July 774, and King of the Franks in October 768</p>
 				<p>
 					Crowned first Holy Roman Emperor on December 25, 800 by Pope Leo III in Old St. Peter's
