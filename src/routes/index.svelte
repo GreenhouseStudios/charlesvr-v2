@@ -32,7 +32,7 @@
 			students, and scholars of art, architecture, history, music, religion, and virtual reality.
 		</Card>
 
-		<ChapterButton numeral="II" chapter="Historical Background" path="2" light />
+		<ChapterButton numeral="II" chapter="Historical Background" path="2" light class="p-4" />
 
 		<Card light class="2xl:max-w-[50%]">
 			Tom Lee, Design Technologist 
