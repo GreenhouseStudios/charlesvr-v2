@@ -35,7 +35,7 @@
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light class="p-4" />
 
 		<Card light class="m-10">
-			Charles VR Team
+			<bold>Charles VR Team</bold>
 			<br />
 			Tom Lee, Design Technologist 
 			<br />
