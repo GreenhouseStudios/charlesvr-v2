@@ -14,7 +14,7 @@
 >
 	<div class="shrink basis-1/3">
 		<img {src} {alt} class="rounded-md object-scale-down" />
-		<strong class="text-4xl lg:text-5xl">{citation}</strong>
+		<p>{citation}</p>
 	</div>
 	<div
 		class="mt-4 mb-8 flex grow basis-2/3 flex-col items-center justify-center px-4 text-center text-gold-400 md:mt-8"
