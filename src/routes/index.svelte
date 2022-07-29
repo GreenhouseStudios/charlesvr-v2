@@ -35,7 +35,6 @@
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light class="p-4" />
 
 		<Card light class="m-10">
-			<br />
 			Tom Lee, Design Technologist 
 			<br />
 			Tom Scheinfeldt, Director of Greenhouse 
@@ -83,7 +82,8 @@
 			John Spencer
 			<br />
 			Greenhouse Studios
-			<img src="..//logos/GS-Full-Brackets.png" alt="Charles VR" class="mt-48 mb-4 w-2/6" />
+			<br />
+			<img src="..//logos/GS-Full-Brackets.png" alt="Charles VR" class="mb-4 w-2/4" />
 
 		</Card>
 
