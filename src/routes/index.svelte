@@ -34,7 +34,7 @@
 
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light class="p-4" />
 
-		<Card light class="2xl:max-w-[50%]">
+		<Card light class="2xl:max-w-[50%] pt-10">
 			Tom Lee, Design Technologist 
 			<br />
 			Tom Scheinfeldt, Director of Greenhouse 
