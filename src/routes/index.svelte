@@ -82,9 +82,11 @@
 			<br />
 			John Spencer
 			<br />
+			Greenhouse Studios
+			<img src="..//logos/GS-Full-Brackets.png" alt="Charles VR" class="mt-48 mb-4 w-2/6" />
+
 		</Card>
 
-		<img src="..//logos/GS-Full-Brackets.png" alt="Charles VR" class="mt-48 mb-4 w-4/6" />
 
 	</div>
 </Transition>
