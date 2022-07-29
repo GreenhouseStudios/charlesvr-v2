@@ -35,7 +35,6 @@
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light class="p-4" />
 
 		<Card light class="m-10">
-			<bold>Charles VR Team</bold>
 			<br />
 			Tom Lee, Design Technologist 
 			<br />
@@ -85,7 +84,7 @@
 			<br />
 		</Card>
 
-		<img src="..//logos/GS-Full-Brackets-Green:Black.png" alt="Charles VR" class="mt-48 mb-4 w-4/6" />
+		<img src="..//logos/GS-Full-Brackets.png" alt="Charles VR" class="mt-48 mb-4 w-4/6" />
 
 	</div>
 </Transition>
