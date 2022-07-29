@@ -53,7 +53,7 @@
 			<BioCard
 				name="Charlemagne"
 				src="..//character-cards/Charlemagne.jpg"
-				<p>Source<a>https://upload.wikimedia.org/wikipedia/commons/b/b5/Aachen_Domschatz_Bueste1.jpg</a></p>
+				citation="https://upload.wikimedia.org/wikipedia/commons/b/b5/Aachen_Domschatz_Bueste1.jpg"
 				years="742-814"
 				class=""
 			>

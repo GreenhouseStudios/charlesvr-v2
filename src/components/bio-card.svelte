@@ -2,6 +2,7 @@
 	export let src;
 	export let alt = '';
 	export let name;
+	export let citation;
 	export let years;
 	export let classes = '';
 	export { classes as class };
