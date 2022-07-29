@@ -9,7 +9,7 @@
 </script>
 
 <Transition>
-	<SectionHero title="A Bolognese Coronation" bg="..//backgrounds/abolcoronation.jpg" opacity="7" />
+	<SectionHero title="An Imperial Coronation in Bologna" bg="..//backgrounds/abolcoronation.jpg" opacity="7" />
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
