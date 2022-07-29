@@ -83,7 +83,7 @@
 			<br />
 			Greenhouse Studios
 			<br />
-			<img src="..//logos/GS-Full-Brackets.png" alt="Charles VR" class="mb-4 w-2/4" />
+			<img src="..//logos/GS-Full-Brackets.png" alt="Charles VR" class="mb-4 w-50%" />
 
 		</Card>
 
