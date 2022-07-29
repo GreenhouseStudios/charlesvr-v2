@@ -35,11 +35,29 @@
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light />
 
 		<Card light class="2xl:max-w-[50%]">
-			Tom Lee, Design Technologist Tom Scheinfeldt, Director of Greenhouse Jonathan Ampiaw, MFA ‘20
-			Digital Media & Design Shawn Chen, BFA ‘20 Digital Media & Design Tim Miller, Dan Pejril, Eric
-			Rice, Michael Young, Jin Liu, MFA ‘23 Alex Mueller Cara Tracey Lauren Ciulla Lily Pashapour
-			Brooke Foti Gemmell Kenia Rodriguez Daisy Martin David Duncan Photographer… Eri Lauer Ryan
-			Freeland Brianna Ricciardone Rebecca Niland John Spencer
+			Tom Lee, Design Technologist 
+			Tom Scheinfeldt, Director of Greenhouse 
+			Jonathan Ampiaw, MFA ‘20 Digital Media & Design 
+			Shawn Chen, BFA ‘20 Digital Media & Design 
+			Tim Miller, Title
+			Dan Pejril, Title 
+			Eric Rice, Title
+			Michael Young, 
+			Jin Liu, MFA ‘23 
+			Alex Mueller 
+			Cara Tracey 
+			Lauren Ciulla 
+			Lily Pashapour
+			Brooke Foti Gemmell 
+			Kenia Rodriguez 
+			Daisy Martin 
+			David Duncan 
+			Photographer… 
+			Eri Lauer 
+			Ryan Freeland 
+			Brianna Ricciardone 
+			Rebecca Niland 
+			John Spencer
 		</Card>
 	</div>
 </Transition>
