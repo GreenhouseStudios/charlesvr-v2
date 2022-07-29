@@ -84,6 +84,9 @@
 			John Spencer
 			<br />
 		</Card>
+
+		<img src="..//logos/GS-Full-Brackets-Green:Black.png" alt="Charles VR" class="mt-48 mb-4 w-4/6" />
+
 	</div>
 </Transition>
 
