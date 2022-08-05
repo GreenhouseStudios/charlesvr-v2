@@ -10,6 +10,7 @@
 		class="flex min-h-screen flex-col items-center bg-cover bg-center p-4 pt-0 md:p-16 2xl:p-32 2xl:px-64"
 		style="background-image: linear-gradient(rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.6)), url('..//backgrounds/index.png')"
 	>
+		<img src="..//logos/charlesvr-duotone.png" alt="Charles VR" class="mt-48 mb-4 w-4/6" />
 		<div class="mb-16 text-center text-4xl leading-normal text-[#900006]">
 			A Virtual Reality Recreation of the
 			<br />
@@ -32,6 +33,7 @@
 		</Card>
 
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light class="p-4" />
+
 
 		<Card light class="m-10">
 			Jonathan Ampiaw, MFA ‘20 Digital Media & Design
