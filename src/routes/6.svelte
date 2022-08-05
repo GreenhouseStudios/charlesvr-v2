@@ -8,7 +8,7 @@
 </script>
 
 <Transition>
-	<SectionHero title="A Coronation Mass" bg="..//backgrounds/exterior.jpg" opacity="7" />
+	<SectionHero title="A Coronation Mass" bg="..//backgrounds/exterior.jpg"  />
 	<Background
 		parallax
 		src="..//backgrounds/paintings.jpg"
