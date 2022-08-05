@@ -8,7 +8,7 @@
 </script>
 
 <Transition>
-	<SectionHero title="Historical Background" bg="..//backgrounds/earlyflag.jpg" />
+	<SectionHero title="The Coronation in Context" bg="..//backgrounds/earlyflag.jpg" />
 	<Background
 		parallax
 		src="..//backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
