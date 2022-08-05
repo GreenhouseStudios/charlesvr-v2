@@ -69,7 +69,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/laudeswords.png"
+		src="..//backgrounds/sheetmusic.png"
 		scrim="light"
 		opacity="90"
 		class="flex auto-rows-max flex-col p-4 md:gap-24 md:p-16 2xl:p-32 2xl:px-64"
