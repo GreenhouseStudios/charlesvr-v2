@@ -10,14 +10,6 @@
 		class="flex min-h-screen flex-col items-center bg-cover bg-center p-4 pt-0 md:p-16 2xl:p-32 2xl:px-64"
 		style="background-image: linear-gradient(rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.6)), url('..//backgrounds/index.png')"
 	>
-	<video
-		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
-		loop={true}
-		muted={true}
-		autoplay={true}
-	>
-		<source src="..//backgrounds/introcrawl.mp4" type="video/mp4" />
-	</video>
 		<img src="..//logos/charlesvr-duotone.png" alt="Charles VR" class="mt-48 mb-4 w-4/6" />
 		<div class="mb-16 text-center text-4xl leading-normal text-[#900006]">
 			A Virtual Reality Recreation of the
@@ -41,6 +33,15 @@
 		</Card>
 
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light class="p-4" />
+
+		<video
+			class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
+			loop={true}
+			muted={true}
+			autoplay={true}
+		>
+			<source src="..//backgrounds/introcrawl.mp4" type="video/mp4" />
+		</video>
 
 		<Card light class="m-10">
 			Jonathan Ampiaw, MFA ‘20 Digital Media & Design
