@@ -10,6 +10,14 @@
 		class="flex min-h-screen flex-col items-center bg-cover bg-center p-4 pt-0 md:p-16 2xl:p-32 2xl:px-64"
 		style="background-image: linear-gradient(rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.6)), url('..//backgrounds/index.png')"
 	>
+	<video
+		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
+		loop={true}
+		muted={true}
+		autoplay={true}
+	>
+		<source src="..//backgrounds/introcrawl.mp4" type="video/mp4" />
+	</video>
 		<img src="..//logos/charlesvr-duotone.png" alt="Charles VR" class="mt-48 mb-4 w-4/6" />
 		<div class="mb-16 text-center text-4xl leading-normal text-[#900006]">
 			A Virtual Reality Recreation of the
@@ -35,58 +43,50 @@
 		<ChapterButton numeral="II" chapter="Historical Background" path="2" light class="p-4" />
 
 		<Card light class="m-10">
-			Tom Lee, Design Technologist 
+			Jonathan Ampiaw, MFA ‘20 Digital Media & Design
 			<br />
-			Tom Scheinfeldt, Director of Greenhouse 
+			Shawn Chen, BFA ‘20 Digital Media & Design
 			<br />
-			Jonathan Ampiaw, MFA ‘20 Digital Media & Design 
+			Lauren Ciulla
 			<br />
-			Shawn Chen, BFA ‘20 Digital Media & Design 
+			Dan Pejril, Asst. Professor-in-Residence, of Digital Media & Design
 			<br />
-			Tim Miller, Title
+			David Duncan
 			<br />
-			Dan Pejril, Title 
+			Ryan Freeland
 			<br />
-			Eric Rice, Title
+			Brooke Foti Gemmell
 			<br />
-			Michael Young, 
+			Eri Lauer
 			<br />
-			Jin Liu, MFA ‘23 
+			Tom Lee, Design Technologist
 			<br />
-			Alex Mueller 
+			Jin Liu, MFA ‘23 Digital Media & Design
 			<br />
-			Cara Tracey 
+			Daisy Martin
 			<br />
-			Lauren Ciulla 
+			Tim Miller,
+			<br />
+			Alex Mueller, BA ‘22 Digital Media & Design
+			<br />
+			Rebecca Niland
 			<br />
 			Lily Pashapour
 			<br />
-			Brooke Foti Gemmell 
+			Brianna Ricciardone
 			<br />
-			Kenia Rodriguez 
+			Eric Rice,
 			<br />
-			Daisy Martin 
+			Kenia Rodriguez
 			<br />
-			David Duncan 
-			<br />
-			Photographer… 
-			<br />
-			Eri Lauer 
-			<br />
-			Ryan Freeland 
-			<br />
-			Brianna Ricciardone 
-			<br />
-			Rebecca Niland 
+			Tom Scheinfeldt, Director of Greenhouse
 			<br />
 			John Spencer
 			<br />
-			Greenhouse Studios
+			Cara Tracey, BFA ‘22 Digital Media & Design
 			<br />
-
+			Michael Young,
 		</Card>
-
-
 	</div>
 </Transition>
 
