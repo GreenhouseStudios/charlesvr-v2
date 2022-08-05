@@ -77,12 +77,14 @@
 		<Card class="mb-4 md:mb-24 md:w-1/2 " light>
 			The symbolic importance of music for these Renaissance audiences is apparent in the
 			differences that existed between the royal coronation in Aachen and the imperial coronation in
-			Rome, or in Charles’s case, Bologna. Manuscripts that document the royal and imperial
-			coronation ceremonies reveal broad similarities between the two (anointing with oil and
-			bestowing of weapons and insignia, for example), but important details pertaining to music
-			distinguish the ceremonies. For the royal coronation in Aachen, the chants and prayers known
-			collectively as the proper were to be those for January 6, or the feast of Epiphany, the day
-			Christ’s divinity was revealed to the Magi.
+			Rome, or in Charles’s case, Bologna. Aachen was the traditional coronation site of German
+			kings (as opposed to emperors). A royal coronation (i.e., as king) had to happen before an
+			imperial coronation (i.e., as emperor) took place, normally in Rome. Manuscripts that document
+			the royal and imperial coronation ceremonies reveal broad similarities between the two
+			(anointing with oil and bestowing of weapons and insignia, for example), but important details
+			pertaining to music distinguish the ceremonies. For the royal coronation in Aachen, the chants
+			and prayers known collectively as the proper were to be those for January 6, or the feast of
+			Epiphany, the day Christ’s divinity was revealed to the Magi.
 		</Card>
 		<Card class="mb-4 self-end md:mb-24 md:w-1/2" light>
 			The allegorical significance of the texts of these chants in this context would not have gone
