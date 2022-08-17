@@ -12,17 +12,17 @@
 	class={'bg-maroon bg-opacity-[.85] flex flex-col md:flex-row gap-2 h-min w-full p-4 rounded-md backdrop-blur-3xl shadow-lg ' +
 		classes}
 >
-	<div class="shrink basis-1/3">
-		<img {src} {alt} class="rounded-md object-scale-down" />
-		<p>{citation}</p>
+	<div class="break-words w-1/3 flex flex-col items-center justify-center"><div>
+		<img {src} {alt} class="rounded-md object-scale-down block" />
+		<p class=" cursor-pointer text-gold-400 break-words max-w-sm text-center hover:text-white"><a href="{citation}">Source</a></p></div>
 	</div>
 	<div
-		class="mt-4 mb-8 flex grow basis-2/3 flex-col items-center justify-center px-4 text-center text-gold-400 md:mt-8"
+		class="text-center text-gold-400 p-2 w-2/3"
 	>
 		<strong class="text-4xl lg:text-5xl">{name}</strong>
 		<br />
 		<em class="mb-4 text-3xl md:mb-8 lg:text-4xl">{years}</em>
-		<div class="space-y-4 text-2xl lg:space-y-8 lg:text-3xl">
+		<div class="space-y-4 text-2xl lg:space-y-8 lg:text-2xl">
 			<slot />
 		</div>
 	</div>

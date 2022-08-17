@@ -44,7 +44,7 @@ const _layout = (0, import_index_5bb557bd.c)(($$result, $$props, $$bindings, slo
             </div></a>
         <a href="${"/6"}" data-chapter="${"6"}" class="${"flex flex-col py-3 px-2 hover:text-maroon transition-colors"}"><div class="${"text-4xl font-bold text-center"}">VI
             </div>
-            <div class="${"text-lg leading-none text-center h-0 opacity-0 group-hover:opacity-100 transition-opacity duration-[400ms]"}">Chapter 7+8
+            <div class="${"text-lg leading-none text-center h-0 opacity-0 group-hover:opacity-100 transition-opacity duration-[400ms]"}">A Melancholy Mass
             </div></a>
         <a href="${"/7"}" data-chapter="${"7"}" class="${"flex flex-col py-3 px-2 hover:text-maroon transition-colors"}"><div class="${"text-4xl font-bold text-center"}">VII
             </div>

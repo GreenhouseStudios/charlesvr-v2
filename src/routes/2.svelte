@@ -118,7 +118,7 @@
 		</div>
 		<img src="..//content/dualcoronations.png" class="rounded-md shadow-lg" alt="" loading="lazy" />
 		<div class="col-span-2 mx-auto">
-			<ChapterButton numeral="III" chapter="Historical Background" path="3" />
+			<ChapterButton numeral="III" chapter="Who Was Charles V?" path="3" />
 		</div>
 	</Background>
 </Transition>

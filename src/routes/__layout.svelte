@@ -74,7 +74,7 @@
 			<div
 				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100"
 			>
-				Chapter 7+8
+				A Melancholy Mass
 			</div>
 		</a>
 		<a

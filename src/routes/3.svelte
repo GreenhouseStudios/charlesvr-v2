@@ -91,7 +91,7 @@
 			unrest associated with the beginning of the Protestant Reformation, was the context in which
 			choices about the setting and music for the imperial coronation were made.
 		</Card>
-		<ChapterButton numeral="IV" chapter="A Bolognese Coronation" path="4" />
+		<ChapterButton numeral="IV" chapter="A Imperial Coronation in Bologna" path="4" />
 	</Background>
 </Transition>
 

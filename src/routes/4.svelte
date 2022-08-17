@@ -135,7 +135,7 @@
 				class="rounded-md shadow-lg"
 			/>
 		</div>
-		<Citation />
+		<!-- <Citation /> -->
 	</Background>
 	<!-- Red Section -->
 	<Background

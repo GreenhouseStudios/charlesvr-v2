@@ -8,7 +8,7 @@
 </script>
 
 <Transition>
-	<SectionHero title="A Coronation Mass" bg="..//backgrounds/exterior.jpg" "style = filter: brightness(2)" />
+	<SectionHero title="A Melancholy Mass"  style="filter: brightness(2)" />
 	<Background
 		parallax
 		src="..//backgrounds/paintings.jpg"
@@ -66,7 +66,7 @@
 			work in performance, its overall effect is unmistakably solemn and at least a little sad.
 		</Card>
 	</Background>
-	<SectionHero title="A Melancholic Coronation" bg="..//backgrounds/stand.jpg"  />
+	
 	<Background src="" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
 		<Card class="my-24 md:my-48">
 			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the

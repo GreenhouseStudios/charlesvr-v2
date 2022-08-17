@@ -7,7 +7,7 @@
 
 <div
 	class={flex +
-		' text-[22px] leading-10 font-normal p-4 backdrop-blur-3xl rounded-md shadow-lg h-min ' +
+		' text-[22px] leading-10 font-normal px-10 py-5 backdrop-blur-3xl rounded-md shadow-lg h-min ' +
 		(light
 			? 'bg-white bg-opacity-70 text-black font-medium '
 			: 'bg-black bg-opacity-60 text-white ') +
