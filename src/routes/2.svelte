@@ -12,26 +12,25 @@
 	<Background
 		parallax
 		src="..//backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
-		class="flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
-	>
-		<Card class="md:w-1/2">
-			<div class="w-full first-letter:text-[300%]">
+		class="flex flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64">
+		<Card class="md:w-1/2 flex justify-center">
+			<div class="w-full">
 				On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
 				Basilica San Petronio in Bologna. It was the last time a pope would crown an emperor, ending
 				a 700-year-old tradition that began with Charlemagne's coronation on Christmas Day in 800.
+				<br>
+				<br>
+				Amid increasing power of the Ottoman Empire to the east, the subjugation of the New World to
+				the west, and the rise of Protestantism within Europe itself, the political situation was
+				delicate. Charles could not be crowned in Rome, because Protestant German mercenaries he
+				employed in a conflict with France had sacked the Eternal City three years earlier.
+				<br>
+				<br>
+				This context informed the planning and execution of the ceremony, which had to conform to
+				tradition but also reflect the political realities of the day. For the newly-crowned Charles
+				V and Pope Clement, the coronation signified a continuation of an idealized, united,
+				Christian European state that had its origins in the Roman Empire itself.
 			</div>
-		</Card>
-		<Card class="md:w-1/2">
-			Amid increasing power of the Ottoman Empire to the east, the subjugation of the New World to
-			the west, and the rise of Protestantism within Europe itself, the political situation was
-			delicate. Charles could not be crowned in Rome, because Protestant German mercenaries he
-			employed in a conflict with France had sacked the Eternal City three years earlier.
-		</Card>
-		<Card class="md:w-1/2">
-			This context informed the planning and execution of the ceremony, which had to conform to
-			tradition but also reflect the political realities of the day. For the newly-crowned Charles V
-			and Pope Clement, the coronation signified a continuation of an idealized, united, Christian
-			European state that had its origins in the Roman Empire itself.
 		</Card>
 	</Background>
 	<Background
@@ -40,7 +39,7 @@
 		opacity="9"
 		class="flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="grid gap-24 2xl:grid-cols-[1fr_2fr]">
+		<div class="grid gap-24 2xl:grid-cols-[1fr_2fr] items-center">
 			<Card class="" light>
 				The Holy Roman Empire was an idealized re-establishment of the realm of Charlemagne, the
 				Frankish ruler whose territories corresponded roughly to those of modern France and Germany.
@@ -55,9 +54,8 @@
 				src="..//character-cards/Charlemagne.jpg"
 				citation="https://upload.wikimedia.org/wikipedia/commons/b/b5/Aachen_Domschatz_Bueste1.jpg"
 				years="742-814"
-				class=""
+				class="flex items-center"
 			>
-			
 				<p>Became King of the Lombards in July 774, and King of the Franks in October 768</p>
 				<p>
 					Crowned first Holy Roman Emperor on December 25, 800 by Pope Leo III in Old St. Peter's
@@ -66,7 +64,7 @@
 				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
 			</BioCard>
 		</div>
-		<div class="grid gap-24 2xl:grid-cols-[2fr_1fr]">
+		<div class="grid gap-24 2xl:grid-cols-[2fr_1fr] items-center">
 			<Card light class="">
 				After Charlemagne's death, disputes over power among his grandsons led to the precipitous
 				decline of the dynasty. For nearly a century the title went unclaimed, but was revived in
@@ -79,7 +77,7 @@
 				name="Otto I"
 				src="..//character-cards/Otto.jpg"
 				years="912-973"
-				class="2xl:order-first"
+				class="2xl:order-first flex items-center"
 			>
 				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
 				<p>Crowned Holy Roman Emperor in 962 due to his aid of Pope John XXII two years prior</p>
@@ -94,11 +92,11 @@
 	>
 		<div>
 			<h2
-				class="mb-12 w-full text-center text-4xl text-white underline decoration-gold-500 underline-offset-8 md:text-5xl lg:text-6xl"
+				class="mb-12 w-full text-center text-4xl text-white md:text-5xl lg:text-6xl"
 			>
 				Dual Coronations
 			</h2>
-			<Card class="mb-4 md:mb-12">
+			<Card class="mb-4 md:mb-12" >
 				Symbolically and politically, this relationship was marked in two coronations. The first was
 				a royal coronation as King of the Germans by the ducal electors in Charlemagne’s old
 				capital, Aachen. The second was an imperial, or papal, coronation as Emperor of the Romans
