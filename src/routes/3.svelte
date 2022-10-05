@@ -41,7 +41,7 @@
 		scrim="light"
 		class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="grid gap-24 2xl:grid-cols-[3fr_4fr]">
+		<div class="grid items-center gap-24 2xl:grid-cols-[3fr_4fr]">
 			<Card class="mb-4 md:mb-24" light>
 				Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
@@ -55,7 +55,7 @@
 				name="King Francis I"
 				src="..//character-cards/Francis I.jpg"
 				years="1494-1547"
-				class="mb-4 md:mb-24"
+				class="mb-4 md:mb-24 items-center"
 			>
 				<p>Crowned King of France in January 1515</p>
 				<p>
@@ -65,13 +65,6 @@
 				<p>Upheld a rivalry with Charles V until relucantly signing the Truce of Nice in 1538</p>
 			</BioCard>
 		</div>
-		<Card light class="mb-4 md:mb-24">
-			Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
-			especially badly in the 1525 Battle of Pavia, where he was roundly defeated and taken
-			prisoner. Charles, however, lacked the funds to pay his victorious, mostly Lutheran, army. In
-			the face of poverty, Lutheran hostility to the Papacy, and Clement’s alliance with France, the
-			army marched on Rome.
-		</Card>
 	</Background>
 	<Background
 		src="..//backgrounds/sackofrome.jpg"
@@ -79,13 +72,20 @@
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<Card class="mb-24">
+				Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
+				especially badly in the 1525 Battle of Pavia, where he was roundly defeated and taken
+				prisoner. Charles, however, lacked the funds to pay his victorious, mostly Lutheran, army. In
+				the face of poverty, Lutheran hostility to the Papacy, and Clement’s alliance with France, the
+				army marched on Rome.
+				<br>
+				<br>
 			The sack was brutal, and in the context of the history of the Holy Roman Empire, a shocking
 			event. Instead of defending Rome and its Church, the would-be Holy Roman Emperor besieged it
 			and effectively imprisoned the pope. In the aftermath, Charles heard from counselors who
 			denounced the sack and from others who supported it, but he seems to have had difficulty
 			reconciling the accounts of its brutality with political justifications.
-		</Card>
-		<Card>
+		<br> 
+		<br>
 			In the end, he wanted all memory of the event erased and to put the episode behind him.
 			Clement also felt prudent to make his peace with Charles. This, along with the political
 			unrest associated with the beginning of the Protestant Reformation, was the context in which
