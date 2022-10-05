@@ -1,25 +1,24 @@
 <script>
 	import Card from './card.svelte';
+	import NextChapter from './next-chapter.svelte';
 	export let numeral;
 	export let chapter;
 	export let path;
 	export let light = false;
 </script>
 
-<div class="mt-24 w-full sm:w-max">
-	<Card {light}>
-		<div class="flex w-full justify-center">Continue to next chapter:</div>
-	</Card>
-
+<div class=" w-full sm:w-max">
+	<NextChapter>
+	</NextChapter>
 	<a
 		id="button"
-		class="group mt-4 flex flex-col items-center rounded-xl px-6 shadow-lg shadow-black/30 transition-all duration-500 sm:flex-row sm:gap-6"
+		class="group flex m-10 flex-col items-center rounded-xl px-6 shadow-lg shadow-black/30 transition-all duration-500 sm:flex-row sm:gap-6"
 		href={path}
 	>
-		<p class="pb-2 text-8xl text-gold-500 transition-colors duration-500 group-hover:text-gold-400">
+		<p class="pb-2  px-2 text-6xl text-gold-500 transition-colors duration-500 group-hover:text-gold-400">
 			{numeral}
 		</p>
-		<p class="py-6 text-3xl text-white">
+		<p class="py-6 text-3xl text-white px-5">
 			{chapter}
 		</p>
 	</a>
@@ -35,4 +34,6 @@
 	#button:hover {
 		background-position: left bottom;
 	}
+
+
 </style>
