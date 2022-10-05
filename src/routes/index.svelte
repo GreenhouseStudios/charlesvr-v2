@@ -3,35 +3,36 @@
 	import Card from './../components/card.svelte';
 	import ChapterButton from './../components/chapter-button.svelte';
 	import SectionHero from './../components/section-hero.svelte';
+	import NextChapter from './../components/next-chapter.svelte';
 	let images = [1, 2, 3, 4, 5, 6];
 </script>
 
 <Transition>
 	<div
-		class="flex min-h-screen flex-col items-center bg-cover bg-center p-4 pt-0 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col items-center bg-cover bg-center p-4 pt-0 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<video
+	<video class='brightness-150 contrast-50' id="videobg"
 			src="..//cvr_trailer_compressed.mp4"
 			autoplay
 			muted
 			loop
-			style="width: 100vw; position: fixed; right: 0; bottom: 0; z-index: -1;"
+			style="position: fixed; right: 0; bottom: 0; z-index: -1;"
 		/>
 		<img src="..//logos/charlesvr-duotone.png" alt="Charles VR" class="z-10 mt-48 mb-4 w-4/6" />
-		<div class="mb-16 text-center text-4xl leading-normal text-[#900006]">
+		<div class="mb-16 text-center text-4xl leading-normal text-[#401221]">
 			A Virtual Reality Recreation of the
 			<br />
 			Imperial Coronation of Holy Roman Emperor Charles V
 		</div>
-		<Card light class="2xl:max-w-[50%]" flex="">
-			<p class="mb-5">
+		<Card light class="2xl:max-w-[80%] m-10" flex="">
+			<p class="mb-10">
 				Travel to 1530 Bologna to attend the coronation mass of the Holy Roman Emperor, Charles V,
 				in this virtual reality recreation of San Petronio. The details of the coronation reflect
 				the social and political turmoil of the times; the experience itself recreates the sights
 				and sounds of this religious and political ceremony using contemporaneous accounts, artwork,
 				and music as source material.
 			</p>
-			<p class="mb-5">
+			<p class="mb-10">
 				Experience the event from multiple perspectives — that of a member of the imperial/papal
 				court, a basilica official, or a Bolognese citizen. Hear music performed during the ceremony
 				as recorded by Ensemble Origo. Call up scholarly annotations to explore the layers of
@@ -44,26 +45,25 @@
 				virtual reality.
 			</p>
 		</Card>
+		<ChapterButton numeral="II" chapter="The Coronation in Context" path="2" light class="" />
 
-		<ChapterButton numeral="II" chapter="The Coronation in Context" path="2" light class="p-4" />
-
-		<Card light class="m-10 grid grid-cols-2">
+		<Card light class= " 2xl:max-w-[80%] m-10 grid grid-cols-2 gap-x-10">
 			<ul>
 				Jonathan Ampiaw, MFA ‘20 Digital Media & Design
 				<br />
 				Shawn Chen, BFA ‘20 Digital Media & Design
 				<br />
-				Lauren Ciulla
+				Lauren Ciulla, BA ‘20 Digital Media & Design
 				<br />
 				Dan Pejril, Asst. Professor-in-Residence, of Digital Media & Design
 				<br />
 				David Duncan
 				<br />
-				Ryan Freeland
+				Ryan Freeland, MFA ‘18 Digital Media & Design
 				<br />
-				Brooke Foti Gemmell
+				Brooke Foti Gemmell, Design Technologist
 				<br />
-				Eri Lauer
+				Eri Lauer, BA ‘20 Digital Media & Design
 				<br />
 				Tom Lee, Design Technologist
 				<br />
@@ -76,17 +76,17 @@
 				<br />
 				Alex Mueller, BA ‘22 Digital Media & Design
 				<br />
-				Rebecca Niland
+				Rebecca Niland, BA ‘17 Digital Media & Design
 				<br />
-				Lily Pashapour
+				Lily Pashapour, BA ‘20 Digital Media & Design
 				<br />
-				Brianna Ricciardone
+				Brianna Ricciardone, BA ‘17 Digital Media & Design
 				<br />
 				Eric Rice,
 				<br />
 				Kenia Rodriguez
 				<br />
-				Tom Scheinfeldt, Director of Greenhouse
+				Tom Scheinfeldt, Director of Greenhouse Studios
 				<br />
 				John Spencer
 				<br />
@@ -96,10 +96,10 @@
 			</ul>
 		</Card>
 
-		<Card light class="flex flex-col max-w-4xl">
+		<Card light class="flex flex-col 2xl:max-w-[80%]">
 		<h1 class="text-center text-3xl">Funders</h1>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium possimus non officiis natus quasi totam assumenda laboriosam dolores, debitis iusto esse recusandae dignissimos eos architecto alias a tempore enim.</p>
-		<div class="grid grid-cols-2">
+		<div class="grid gap-x-1 grid-cols-2">
 			{#each images as image}
 				<img
 					class="m-5 mx-auto"
@@ -109,9 +109,24 @@ C/O https://placeholder.com/"
 					alt="credits placeholder"
 				/>
 			{/each}</div>
-		</Card>
+		</Card>	
 	</div>
 </Transition>
-
 <style>
+@media (min-aspect-ratio: 16/9) {
+#videobg {
+	width: 100%;
+	height: auto;
+}
+}
+@media (max-aspect-ratio: 16/9) {
+	#videobg {
+		width: auto;
+		height: 100%;
+	}
+}
+
+video {
+max-width: auto;
+}
 </style>
