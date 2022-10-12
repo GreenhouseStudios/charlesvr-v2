@@ -1,6 +1,7 @@
 <script>
 	import Card from './card.svelte';
 	import NextChapter from './next-chapter.svelte';
+	import {ChevronRightIcon} from 'svelte-feather-icons';
 	export let numeral;
 	export let chapter;
 	export let path;
@@ -19,9 +20,10 @@
 			{numeral}
 		</p>
 		<p class="py-6 text-3xl text-white px-5">
-			{chapter}
+			{chapter} 	
 		</p>
-	</a>
+		<ChevronRightIcon size="3x" class="text-gold-500 transition-colors duration-1000 group-hover:text-gold-400"/>
+		</a>
 </div>
 
 <style>
@@ -34,6 +36,4 @@
 	#button:hover {
 		background-position: left bottom;
 	}
-
-
 </style>

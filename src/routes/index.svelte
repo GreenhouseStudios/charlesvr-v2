@@ -1,5 +1,6 @@
 <script>
 	import Transition from './../components/transition.svelte';
+	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
 	import ChapterButton from './../components/chapter-button.svelte';
 	import SectionHero from './../components/section-hero.svelte';
@@ -8,10 +9,16 @@
 </script>
 
 <Transition>
+	<Background
+		src="..//cvr_trailer_compressed.mp4"
+		scrim="light"
+		opacity="6"
+		class=""
+	>
 	<div
 		class="flex flex-col items-center bg-cover bg-center p-4 pt-0 md:p-16 2xl:p-32 2xl:px-64"
 	>
-	<video class='brightness-150 contrast-50' id="videobg"
+	<video class='' id="videobg"
 			src="..//cvr_trailer_compressed.mp4"
 			autoplay
 			muted
@@ -24,7 +31,7 @@
 			<br />
 			Imperial Coronation of Holy Roman Emperor Charles V
 		</div>
-		<Card light class="2xl:max-w-[80%] m-10" flex="">
+		<Card light class="max-w-[80%] m-10" flex="">
 			<p class="mb-10">
 				Travel to 1530 Bologna to attend the coronation mass of the Holy Roman Emperor, Charles V,
 				in this virtual reality recreation of San Petronio. The details of the coronation reflect
@@ -47,59 +54,61 @@
 		</Card>
 		<ChapterButton numeral="II" chapter="The Coronation in Context" path="2" light class="" />
 
-		<Card light class= " 2xl:max-w-[80%] m-10 grid grid-cols-2 gap-x-10">
+		<Card light class= "max-w-[80%] m-10 grid grid-cols-2 gap-x-10">
 			<ul>
-				Jonathan Ampiaw, MFA ‘20 Digital Media & Design
+				<strong>Jonathan Ampiaw,</strong> MFA ‘20 Digital Media & Design
 				<br />
-				Shawn Chen, BFA ‘20 Digital Media & Design
+				<strong>Shawn Chen,</strong> BFA ‘20 Digital Media & Design
 				<br />
-				Lauren Ciulla, BA ‘20 Digital Media & Design
+				<strong>Lauren Ciulla,</strong> BA ‘20 Digital Media & Design
 				<br />
-				Dan Pejril, Asst. Professor-in-Residence, of Digital Media & Design
+				<strong>Dan Pejril,</strong> Asst. Professor-in-Residence, of Digital Media & Design
 				<br />
-				David Duncan
+				<strong>David Duncan</strong>
 				<br />
-				Ryan Freeland, MFA ‘18 Digital Media & Design
+				<strong>Ryan Freeland,</strong> MFA ‘18 Digital Media & Design
 				<br />
-				Brooke Foti Gemmell, Design Technologist
+				<strong>Brooke Foti Gemmell,</strong> Design Technologist
 				<br />
-				Eri Lauer, BA ‘20 Digital Media & Design
+				<strong>Eri Lauer,</strong> BA ‘20 Digital Media & Design
 				<br />
-				Tom Lee, Design Technologist
+				<strong>Tom Lee,</strong> Design Technologist
 				<br />
-				Jin Liu, MFA ‘23 Digital Media & Design
+				<strong>Jin Liu,</strong> MFA ‘23 Digital Media & Design
 				<br />
-				Daisy Martin
+				<strong>Daisy Martin</strong>
 			</ul>
 			<ul>
-				Tim Miller,
+				<strong>Tim Miller,</strong>
 				<br />
-				Alex Mueller, BA ‘22 Digital Media & Design
+				<strong>Alex Mueller,</strong> BA ‘22 Digital Media & Design
 				<br />
-				Rebecca Niland, BA ‘17 Digital Media & Design
+				<strong>Rebecca Niland,</strong> BA ‘17 Digital Media & Design
 				<br />
-				Lily Pashapour, BA ‘20 Digital Media & Design
+				<strong>Lily Pashapour,</strong> BA ‘20 Digital Media & Design
 				<br />
-				Brianna Ricciardone, BA ‘17 Digital Media & Design
+				<strong>Brianna Ricciardone,</strong> BA ‘17 Digital Media & Design
 				<br />
-				Eric Rice,
+				<strong>Eric Rice,</strong>
 				<br />
-				Kenia Rodriguez
+				<strong>Kenia Rodriguez</strong>
 				<br />
-				Tom Scheinfeldt, Director of Greenhouse Studios
+				<strong>Tom Scheinfeldt,</strong> Director of Greenhouse Studios
 				<br />
-				John Spencer
+				<strong>John Spencer</strong>
 				<br />
-				Cara Tracey, BFA ‘22 Digital Media & Design
+				<strong>Cara Tracey,</strong> BFA ‘22 Digital Media & Design
 				<br />
-				Michael Young,
+				<strong>Michael Young,</strong>
+				<br />
+				<strong>Melina Sandel</strong> BFA ‘25 Digital Media & Design
 			</ul>
 		</Card>
 
-		<Card light class="flex flex-col 2xl:max-w-[80%]">
+		<Card light class="flex flex-col max-w-[80%] m-10">
 		<h1 class="text-center text-3xl">Funders</h1>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium possimus non officiis natus quasi totam assumenda laboriosam dolores, debitis iusto esse recusandae dignissimos eos architecto alias a tempore enim.</p>
-		<div class="grid gap-x-1 grid-cols-2">
+		<div class="grid gap-x-1 grid-cols-2 ">
 			{#each images as image}
 				<img
 					class="m-5 mx-auto"
@@ -111,6 +120,7 @@ C/O https://placeholder.com/"
 			{/each}</div>
 		</Card>	
 	</div>
+	</Background>
 </Transition>
 <style>
 @media (min-aspect-ratio: 16/9) {

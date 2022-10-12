@@ -41,8 +41,8 @@
 		scrim="light"
 		class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="grid items-center gap-24 2xl:grid-cols-[3fr_4fr]">
-			<Card class="mb-4 md:mb-24" light>
+		<div class="grid items-center gap-24 2xl:grid-cols-[1fr_1fr]">
+			<Card class="" light>
 				Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
 				grandfather, Holy Roman Emperor Maximilian I. He was selected over other possible candidates
@@ -55,7 +55,7 @@
 				name="King Francis I"
 				src="..//character-cards/Francis I.jpg"
 				years="1494-1547"
-				class="mb-4 md:mb-24 items-center"
+				class="items-center "
 			>
 				<p>Crowned King of France in January 1515</p>
 				<p>

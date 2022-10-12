@@ -39,7 +39,7 @@
 		opacity="9"
 		class="flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="grid gap-24 2xl:grid-cols-[1fr_2fr] items-center">
+		<div class="grid gap-24 2xl:grid-cols-[1fr_1fr] items-center">
 			<Card class="" light>
 				The Holy Roman Empire was an idealized re-establishment of the realm of Charlemagne, the
 				Frankish ruler whose territories corresponded roughly to those of modern France and Germany.
@@ -64,7 +64,7 @@
 				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
 			</BioCard>
 		</div>
-		<div class="grid gap-24 2xl:grid-cols-[2fr_1fr] items-center">
+		<div class="grid gap-24 2xl:grid-cols-[1fr_1fr] items-center">
 			<Card light class="">
 				After Charlemagne's death, disputes over power among his grandsons led to the precipitous
 				decline of the dynasty. For nearly a century the title went unclaimed, but was revived in
@@ -116,7 +116,7 @@
 		</div>
 		<img src="..//content/dualcoronations.png" class="rounded-md shadow-lg" alt="" loading="lazy" />
 		<div class="col-span-2 mx-auto">
-			<ChapterButton numeral="III" chapter="Who Was Charles V?" path="3" />
+			<ChapterButton numeral="III" chapter="Who Was Charles V?" path="3"/>
 		</div>
 	</Background>
 </Transition>

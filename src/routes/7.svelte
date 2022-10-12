@@ -31,7 +31,7 @@
 				much of the music at the ceremony and to describe its cultural and historical significance.
 			</div>
 		</Card>
-		<Card class="my-24">
+		<Card class="my-12">
 			The coronation of Charles V raises questions surrounding a unified Europe, hegemony and
 			colonialism, religious difference and tolerance, and the role of tradition in contemporaneous
 			culture. These issues remain at the forefront of 21st-century society. Though the event
@@ -45,7 +45,7 @@
 		opacity="8"
 		class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="my-24 flex grid-cols-2 flex-col gap-24 md:grid">
+		<div class="my-24 flex grid-cols-2 flex-col gap-24 md:grid items-center">
 			<div class="grid grid-cols-2 place-items-center gap-16 md:order-last">
 				<div class="flex flex-col items-center">
 					<img src="..//content/pope.png" alt="" class="mb-2" />

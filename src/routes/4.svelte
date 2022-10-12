@@ -64,7 +64,8 @@
 		scrim="none"
 		class="flex auto-rows-max flex-col p-4 md:gap-24 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="grid-cols-2 gap-4 md:grid md:gap-24">
+		<div class=" gap-4 flex items-center">
+			<div class="flex grow">
 			<Card class="mb-4 md:mb-24">
 				The splendor of the temporary décor set up for the coronation inside the church interior was
 				foreshadowed by the triumphal arches in the new all’antica architectural style of the
@@ -73,14 +74,19 @@
 				mythological or sacred tableaux vivants in the medieval manner set up along the processional
 				routes of earlier coronations.
 			</Card>
-			<img src="..//content/dedication-to-the-emperor.jpg" class="rounded-md shadow-lg" alt="" />
 		</div>
-		<Card class="mb-24 block" flex="">
-			<img
+		<div class="">
+			<img src="..//content/dedication-to-the-emperor.jpg" class="rounded-md shadow-lg" alt=""
+			/>
+		</div>
+		</div>
+		<div class="flex items-center gap-5">
+		<img
 				src="..//content/rota-porfiletica-st-peter.jpg"
-				class="float-left mr-4 max-w-[33%] rounded"
+				class="max-w-[50%] rounded"
 				alt=""
 			/>
+		<Card class="" flex="">
 			<p>
 				A wooden ramp led from one end of the piazza to the church entrance; it was lined with
 				parade armaments and with beautiful greenery in gilded basins. At the top of the steps
@@ -95,12 +101,14 @@
 				which marked the spot whereon Charlemagne knelt when he was crowned by Pope Leo III.
 			</p>
 		</Card>
-		<Card class="mb-24 block" flex="">
+		</div>
+		<div class="flex items-center gap-5">
 			<img
 				src="..//content/Maarten_van_Heemskerck_013.jpg"
-				class="float-right ml-4 max-w-[33%] rounded"
+				class="rounded"
 				alt=""
 			/>
+			<Card class="block" flex="">
 			<p>
 				Some idea of how these temporary chapels may have looked comes from a drawing of the
 				temporary tabernacle over the tomb of St. Peter in front of the apse in the Vatican
@@ -122,19 +130,26 @@
 				in Rome, Santa Maria Maggiore:
 			</p>
 		</Card>
-		<div class="flex grid-cols-3 flex-col gap-4 md:grid md:gap-8">
+	</div>
+	<div class="flex items-center gap-5">
+		<div class="img1">
 			<img src="..//content/Sanpetroniointerior.jpg" alt="" class="rounded-md shadow-lg" />
+		</div>
+		<div class="img2">
 			<img
 				src="..//content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
 				alt=""
 				class="rounded-md shadow-lg"
 			/>
+		</div>
+		<div class="img3">
 			<img
 				src="..//content/Coronation_of_Louis_XV_in_Reims.jpg"
 				alt=""
 				class="rounded-md shadow-lg"
 			/>
 		</div>
+	</div>
 		<!-- <Citation /> -->
 	</Background>
 	<!-- Red Section -->
@@ -156,27 +171,67 @@
 			portraits of the period give a good idea of what the effect of the costume and textile
 			decorations would have been.
 		</Card>
-		<div class="grid-cols-2 gap-4 md:grid md:gap-24">
+		<div class=" py-5 flex items-center justify-center gap-2">
+			<div>
 			<img
 				src="..//content/Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
 				alt=""
 				class="rounded-md shadow-lg"
 			/>
+			<!-- <Card>
+			<p>
+				Description Text
+			</p>
+		</Card> -->
+		</div>
+		<div>
 			<img
 				src="..//content/Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
 				alt=""
 				class="rounded-md shadow-lg"
 			/>
+			<!-- <Card>
+			<p>
+				Description Text
+			</p>
+		</Card> -->
+		</div>
+		<div>
 			<img
 				src="..//content/Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
 				alt=""
 				class="rounded-md shadow-lg"
 			/>
-			<img src="..//content/Giovanni_battista_moroni.jpg" alt="" class="rounded-md shadow-lg" />
+			<!-- <Card>
+			<p>
+				Description Text
+			</p>
+		</Card> -->
+		</div>
+		<div>
+			<img src="..//content/Giovanni_battista_moroni.jpg" alt="" class="rounded-md shadow-lg" 
+			/>
+			<!-- <Card>
+			<p>
+				Description Text
+			</p>
+		</Card> -->
+		</div>
 		</div>
 		<ChapterButton numeral="V" chapter="A Focus on Music" path="5" />
 	</Background>
 </Transition>
 
 <style>
+.img1 {
+flex: .664;
+}
+
+.img2 {
+flex: 1.2097;
+}
+
+.img3{
+flex: .70313
+}
 </style>
