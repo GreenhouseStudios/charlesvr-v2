@@ -1,8 +1,18 @@
 <script>
 	import '../app.css';
+	var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 </script>
 
-<nav class="fixed z-50 w-screen bg-gold-500 shadow-lg shadow-black/20">
+<nav class="z-50 fixed w-screen bg-gold-500 shadow-lg shadow-black/20 top-0" id="navbar">
 	<div
 		id="nav-items"
 		class="group hidden h-8 min-h-[4rem] items-start transition-[height] duration-[450ms] sm:grid-cols-[1.5fr_repeat(6,_1fr)] md:grid hover:md:h-32 lg:grid-cols-7 hover:lg:h-24"
@@ -12,7 +22,7 @@
 				<img src="..//logos/charlesvr-black.png" alt="Charles VR" class="max-h-full" />
 			</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100"
+				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100 opacity-transition"
 			>
 				Introduction to Charles V|R
 			</div>
@@ -107,3 +117,8 @@
 <div class="overflow-hidden">
 	<slot />
 </div>
+<style>
+#navbar {
+	transition: top 0.5s;
+}
+</style>
