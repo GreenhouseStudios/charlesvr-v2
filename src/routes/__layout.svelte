@@ -1,18 +1,21 @@
 <script>
+	let y;
 	import '../app.css';
 </script>
 
+
+{#if y < 50}
 <nav class="fixed z-50 w-screen bg-gold-500 shadow-lg shadow-black/20">
 	<div
 		id="nav-items"
-		class="group hidden h-8 min-h-[4rem] items-start transition-[height] duration-[450ms] sm:grid-cols-[1.5fr_repeat(6,_1fr)] md:grid hover:md:h-32 lg:grid-cols-7 hover:lg:h-24"
+		class="group hidden h-8 min-h-[4rem] items-start transition-[height] duration-[600ms] sm:grid-cols-[1.5fr_repeat(6,_1fr)] md:grid hover:md:h-32 lg:grid-cols-7 hover:lg:h-24"
 	>
 		<a href="/" data-chapter="1" class="my-6 flex flex-col justify-center pl-6">
 			<div class="mb-2 flex h-5 flex-col items-center">
 				<img src="..//logos/charlesvr-black.png" alt="Charles VR" class="max-h-full" />
 			</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100"
+				class="h-0 delay-200 text-center text-lg leading-none opacity-0 transition-opacity duration-[200ms] group-hover:opacity-100"
 			>
 				Introduction to Charles V|R
 			</div>
@@ -24,7 +27,7 @@
 		>
 			<div class="text-center text-4xl font-bold">II</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100"
+				class="h-0 text-center text-lg delay-200 leading-none opacity-0 transition-opacity duration-[200ms] group-hover:opacity-100"
 			>
 				The Coronation in Context
 			</div>
@@ -36,7 +39,7 @@
 		>
 			<div class="text-center text-4xl font-bold">III</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100"
+				class="h-0 text-center delay-200 text-lg leading-none opacity-0 transition-opacity duration-[200ms] group-hover:opacity-100"
 			>
 				Who Was Charles V?
 			</div>
@@ -48,7 +51,7 @@
 		>
 			<div class="text-center text-4xl font-bold">IV</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100"
+				class="h-0 text-center text-lg delay-200 leading-none opacity-0 transition-opacity duration-[200ms] group-hover:opacity-100"
 			>
 				An Imperial Coronation in Bologna
 			</div>
@@ -60,7 +63,7 @@
 		>
 			<div class="text-center text-4xl font-bold">V</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100"
+				class="h-0 text-center text-lg delay-200 leading-none opacity-0 transition-opacity duration-[200ms] group-hover:opacity-100"
 			>
 				A Focus on Music
 			</div>
@@ -72,7 +75,7 @@
 		>
 			<div class="text-center text-4xl font-bold">VI</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100"
+				class="h-0 text-center text-lg delay-200 leading-none opacity-0 transition-opacity duration-[200ms] group-hover:opacity-100"
 			>
 				A Melancholy Mass
 			</div>
@@ -84,7 +87,7 @@
 		>
 			<div class="text-center text-4xl font-bold">VII</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity duration-[400ms] group-hover:opacity-100"
+				class="h-0 text-center text-lg delay-200 leading-none opacity-0 transition-opacity duration-[200ms] group-hover:opacity-100"
 			>
 				The Charles V|R Experience
 			</div>
@@ -104,6 +107,8 @@
 		<div id="progress-bar" class="h-[2px] w-full bg-gold-500" />
 	</div>
 </nav>
+{/if}
 <div class="overflow-hidden">
 	<slot />
 </div>
+<svelte:window bind:scrollY={y} />
