@@ -1,4 +1,5 @@
 <script>
+	
 	import Transition from './../components/transition.svelte';
 	import FamilyTree from './../components/family-tree.svelte';
 	import BioCard from './../components/bio-card.svelte';
@@ -6,6 +7,7 @@
 	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
 	import SectionHero from './../components/section-hero.svelte';
+	
 </script>
 
 <Transition>
@@ -28,6 +30,7 @@
 			</div>
 		</Card>
 		<FamilyTree />
+
 		<Card class="mb-24">
 			King Ferdinand II of Aragon, his maternal grandfather, left him most of the Iberian Peninsula,
 			therefore making him King Carlos I of Spain. Charles also inherited eastern Spain and Aragon’s
@@ -41,7 +44,7 @@
 		scrim="light"
 		class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="grid items-center gap-24 2xl:grid-cols-[1fr_1fr]">
+		<div class="grid items-center gap-24 xl:grid-cols-[1fr_1fr]">
 			<Card class="" light>
 				Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
@@ -96,4 +99,5 @@
 </Transition>
 
 <style>
+
 </style>

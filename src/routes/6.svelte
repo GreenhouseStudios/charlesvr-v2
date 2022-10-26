@@ -8,7 +8,7 @@
 </script>
 
 <Transition>
-	<SectionHero title="A Melancholy Mass"  style="filter: brightness(2)" />
+	<SectionHero title="A Melancholy Mass"  style="filter:brightness(2)" />
 	<Background
 		parallax
 		src="..//backgrounds/paintings.jpg"
@@ -34,6 +34,7 @@
 			Charles held his maître des enfants in higher regard than his choirmaster.
 		</Card>
 	</Background>
+
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
@@ -42,7 +43,7 @@
 	>
 		<source src="..//backgrounds/choirshot.mp4" type="video/mp4" />
 	</video>
-	<Background src="" parallax class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
+	<Background src="static/backgrounds/basilicaexterior.jpg" parallax class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
 		<Card class="my-24 md:my-48">
 			The surviving accounts of the event mention a stretch of “prayers” after the singing of the
 			gradual. A report by Hironimo Bontempo makes a specific reference to singers reciting the
@@ -53,7 +54,7 @@
 		</Card>
 	</Background>
 	<Background src="..//backgrounds/mural.jpg" class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="mb-4 md:mb-24 ">
+		<Card class="m-10 ">
 			The mass may strike modern listeners as an odd choice for a coronation. A subsequent print of
 			the work identifies it not as a mass for coronation, but as the Missa Sur tous regretz, the
 			title referring to the fact that Sur tous regretz, a chanson by Jean Richafort, served as the
@@ -67,7 +68,7 @@
 		</Card>
 	</Background>
 	
-	<Background src="" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
+	<Background src="static/backgrounds/basilicaexterior2.jpg" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
 		<Card class="my-12">
 			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the
 			coronation and Charles’s documented embarrassment about it, to attribute the character of this

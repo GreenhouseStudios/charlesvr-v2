@@ -5,6 +5,7 @@
 	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
 	import SectionHero from './../components/section-hero.svelte';
+	import ImageCard from './../components/image-card.svelte';
 </script>
 
 <Transition>
@@ -39,11 +40,11 @@
 		opacity="9"
 		class="flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="grid gap-24 2xl:grid-cols-[1fr_1fr] items-center">
-			<Card class="" light>
+		<div class="grid gap-24 xl:grid-cols-[1fr_1fr] items-center">
+			<Card class=" z-50" light>
 				The Holy Roman Empire was an idealized re-establishment of the realm of Charlemagne, the
 				Frankish ruler whose territories corresponded roughly to those of modern France and Germany.
-				In the year 800, Charlemagne came to the aid of Pope Leo III, who had run afoul of the
+				In the year 800, Protestantism the office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head Charlemagne came to the aid of Pope Leo III, who had run afoul of the
 				nobility in Rome. He convened a council in Rome that affirmed Leo's papacy on December 1. In
 				return Leo crowned Charlemagne “Emperor of the Romans” in Old St. Peter's Basilica in a Mass
 				on Christmas Day, reserving for Charlemagne (now Charles I) the role of defender of Rome and
@@ -64,15 +65,7 @@
 				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
 			</BioCard>
 		</div>
-		<div class="grid gap-24 2xl:grid-cols-[1fr_1fr] items-center">
-			<Card light class="">
-				After Charlemagne's death, disputes over power among his grandsons led to the precipitous
-				decline of the dynasty. For nearly a century the title went unclaimed, but was revived in
-				962 when Otto I, the elected King of the Saxons, was once again crowned Emperor of the
-				Romans by the Pope in Rome. Otto's coronation forged a centuries-long special relationship
-				between the Papacy, the memory of Ancient Rome, and the consolidated Germanic realm–a “Holy
-				Roman Empire.”
-			</Card>
+		<div class="grid gap-24 xl:grid-cols-[1fr_1fr] items-center">
 			<BioCard
 				name="Otto I"
 				src="..//character-cards/Otto.jpg"
@@ -83,12 +76,20 @@
 				<p>Crowned Holy Roman Emperor in 962 due to his aid of Pope John XXII two years prior</p>
 				<p>Began the tradition of imperial coronations for Germanic rulers</p>
 			</BioCard>
+			<Card light class="">
+				After Charlemagne's death, disputes over power among his grandsons led to the precipitous
+				decline of the dynasty. For nearly a century the title went unclaimed, but was revived in
+				962 when Otto I, the elected King of the Saxons, was once again crowned Emperor of the
+				Romans by the Pope in Rome. Otto's coronation forged a centuries-long special relationship
+				between the Papacy, the memory of Ancient Rome, and the consolidated Germanic realm–a “Holy
+				Roman Empire.”
+			</Card>
 		</div>
 	</Background>
 	<Background
 		src="..//backgrounds/damask_albedo-01.svg"
 		cover={false}
-		class="flex auto-rows-max flex-col p-4 md:grid md:grid-cols-2 md:gap-24 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col p-16 lg:grid lg:grid-cols-2 md:gap-24  2xl:p-32 2xl:px-64"
 	>
 		<div>
 			<h2
@@ -96,14 +97,14 @@
 			>
 				Dual Coronations
 			</h2>
-			<Card class="mb-4 md:mb-12" >
+			<Card class="mb-12" >
 				Symbolically and politically, this relationship was marked in two coronations. The first was
 				a royal coronation as King of the Germans by the ducal electors in Charlemagne’s old
 				capital, Aachen. The second was an imperial, or papal, coronation as Emperor of the Romans
 				in Rome under the pope’s hand. From 962 until 1530, in principle each ruler of the Holy
 				Roman Empire was to receive both a royal and an imperial coronation.
 			</Card>
-			<Card class="-mb-12">
+			<Card class="mb-12">
 				During these five and a half centuries, these dual coronations served to ease two important
 				political tensions: the role of the German electors in choosing their leader versus
 				traditions of primogeniture and the role of papal, or sacred, power versus imperial, or
@@ -114,7 +115,12 @@
 				just as Charlemagne had been.
 			</Card>
 		</div>
-		<img src="..//content/dualcoronations.png" class="rounded-md shadow-lg" alt="" loading="lazy" />
+		<div class="flex items-center">
+			<ImageCard
+			src="..//content/dualcoronations.png"
+			citation=""
+			/>
+	</div>
 		<div class="col-span-2 mx-auto">
 			<ChapterButton numeral="III" chapter="Who Was Charles V?" path="3"/>
 		</div>
@@ -122,4 +128,5 @@
 </Transition>
 
 <style>
+
 </style>
