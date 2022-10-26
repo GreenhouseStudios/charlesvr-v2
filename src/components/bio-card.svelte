@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class={'bg-maroon bg-opacity-[.85] flex flex-col md:flex-row gap-2 h-min w-full p-4 rounded-md backdrop-blur-3xl shadow-lg ' +
+	class={'bg-maroon bg-opacity-[.85] flex flex-col items-center md:flex-row gap-2 h-min w-full p-4 rounded-md backdrop-blur-3xl shadow-lg -z-10' +
 		classes}
 >
 	<div class="break-words w-1/3 flex flex-col items-center justify-center"><div>
