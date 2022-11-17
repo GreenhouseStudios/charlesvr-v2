@@ -11,9 +11,10 @@
 </script>
 
 <Transition>
-	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" />
+	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" scrim="gold" opacity="5" />
 	<Background
 		parallax
+		scrim="maroon" opacity="8"
 		src="..//backgrounds/fabric.jpg"
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
@@ -30,7 +31,26 @@
 			</div>
 		</Card>
 		<FamilyTree />
-
+        <Card class= "mb-5 text-center text-base gap-5 sources">
+			<ul>
+				<li class="font-bold">Philip the Handsome</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold">Joanna of Castile</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold">Charles V</li>
+				<li class="leading-3 mb-5">Source</li>
+			</ul>
+			<ul>
+				<li class="font-bold">Emperor Maximimillian I</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold">Duchess Mary of Burgundy</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold">Queen Isabella I of Castille</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold"> King Ferdinand II of Aragon</li>
+				<li class="leading-3 mb-5">Source</li>
+			</ul>
+		</Card>
 		<Card class="mb-24">
 			King Ferdinand II of Aragon, his maternal grandfather, left him most of the Iberian Peninsula,
 			therefore making him King Carlos I of Spain. Charles also inherited eastern Spain and Aragon’s
@@ -41,10 +61,10 @@
 	</Background>
 	<Background
 		src="..//backgrounds/battle-of-pavia.jpg"
-		scrim="light"
-		class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="gold" opacity="7"
+		class="flex flex-col items-center p-4 justify-center md:p-16 "
 	>
-		<div class="grid items-center gap-24 xl:grid-cols-[1fr_1fr]">
+		<div class="grid items-center gap-12 xl:grid-cols-[1fr_1fr] my-20 md:my-24">
 			<Card class="" light>
 				Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
@@ -58,7 +78,7 @@
 				name="King Francis I"
 				src="..//character-cards/Francis I.jpg"
 				years="1494-1547"
-				class="items-center "
+				class="items-center w-full"
 			>
 				<p>Crowned King of France in January 1515</p>
 				<p>
@@ -72,9 +92,10 @@
 	<Background
 		src="..//backgrounds/sackofrome.jpg"
 		parallax
-		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col items-center p-4  md:p-16"
+		scrim="maroon" opacity="7"
 	>
-		<Card class="mb-24">
+		<Card class="mb-4" light >
 				Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
 				especially badly in the 1525 Battle of Pavia, where he was roundly defeated and taken
 				prisoner. Charles, however, lacked the funds to pay his victorious, mostly Lutheran, army. In
@@ -94,7 +115,7 @@
 			unrest associated with the beginning of the Protestant Reformation, was the context in which
 			choices about the setting and music for the imperial coronation were made.
 		</Card>
-		<ChapterButton numeral="IV" chapter="A Imperial Coronation in Bologna" path="4" />
+		<ChapterButton numeral="IV" chapter="An Imperial Coronation in Bologna" path="4" />
 	</Background>
 </Transition>
 
