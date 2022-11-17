@@ -9,5 +9,5 @@ export { classes as class };
 
 <div class={'flex flex-col justify-center items-center' + classes }><div>
     <img {src} {alt} class="rounded-md " />
-    <p class=" cursor-pointer text-white break-words text-center hover:underline m-2"><a href="{citation}">Source</a></p></div>
+    <p class=" cursor-pointer text-white break-words underline text-center underline-offset-2 hover:text-[#fec755] m-2"><a href="{citation}">Source</a></p></div>
 </div>
