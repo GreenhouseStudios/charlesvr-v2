@@ -8,9 +8,8 @@
 </script>
 
 <Transition>
-	<SectionHero title="A Melancholy Mass"  style="filter:brightness(2)" />
+	<SectionHero title="A Melancholy Mass" scrim="gold"/>
 	<Background
-		parallax
 		src="..//backgrounds/paintings.jpg"
 		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
@@ -53,8 +52,8 @@
 			an abbreviated form of the Laudes could have been sung during this fifteen-minute period.
 		</Card>
 	</Background>
-	<Background src="..//backgrounds/mural.jpg" class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="m-10 ">
+	<Background src="..//backgrounds/mural.jpg" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
+		<Card class="my-24 md:my-48">
 			The mass may strike modern listeners as an odd choice for a coronation. A subsequent print of
 			the work identifies it not as a mass for coronation, but as the Missa Sur tous regretz, the
 			title referring to the fact that Sur tous regretz, a chanson by Jean Richafort, served as the
@@ -68,7 +67,7 @@
 		</Card>
 	</Background>
 	
-	<Background src="static/backgrounds/basilicaexterior2.jpg" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
+	<Background src="static/backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
 		<Card class="my-12">
 			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the
 			coronation and Charles’s documented embarrassment about it, to attribute the character of this
