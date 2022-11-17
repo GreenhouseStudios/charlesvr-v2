@@ -17,6 +17,14 @@
 			background = `linear-gradient(rgba(0, 0, 0, 0.${opacity}), rgba(0, 0, 0, 0.${opacity})),url("${src}")`;
 			break;
 
+		case 'maroon':
+			background = `linear-gradient(rgba(64, 18, 33, 0.${opacity}), rgba(0, 0, 0, 0.${opacity})),url("${src}")`;
+			break;
+
+		case 'gold':
+			background = `linear-gradient(rgba(246, 200, 105, 0.${opacity}), rgba(246, 200, 105, 0.${opacity})),url("${src}")`;
+			break;	
+
 		case 'none':
 			background = `url("${src}")`;
 			break;
@@ -31,7 +39,7 @@
 	style:background-image={background}
 	class:bg-fixed={parallax}
 	class:bg-cover={cover}
-	class={'h-min ' + classes}
+	class={'h-min '+ classes}
 >
 	<slot />
 </div>
