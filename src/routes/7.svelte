@@ -16,7 +16,7 @@
 	>
 		<source src="..//backgrounds/introcrawl.mp4" type="video/mp4" />
 	</video>
-	<SectionHero title="The Charles V|R Experience" bg="..//backgrounds/vr-goggles.jpg" />
+	<SectionHero title="The Charles V|R Experience" bg="..//backgrounds/vr-goggles.jpg" scrim="gold" />
 	<Background
 		parallax
 		src="..//backgrounds/fabric.jpg"
