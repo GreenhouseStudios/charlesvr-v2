@@ -9,13 +9,15 @@
 </script>
 
 <Transition>
-	<SectionHero title="The Coronation in Context" bg="..//backgrounds/earlyflag.jpg" />
+	<SectionHero title="The Coronation in Context" bg="..//backgrounds/earlyflag.jpg" scrim="gold" opacity="7" class="backdrop-brightness-50" />
 	<Background
 		parallax
+		scrim="maroon"
+		opacity="7"
 		src="..//backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
 		class="flex flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="md:w-1/2 flex justify-center">
-			<div class="w-full">
+		<Card class="my-12 flex justify-center">
+			<div class="w-full ">
 				On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
 				Basilica San Petronio in Bologna. It was the last time a pope would crown an emperor, ending
 				a 700-year-old tradition that began with Charlemagne's coronation on Christmas Day in 800.
@@ -36,12 +38,12 @@
 	</Background>
 	<Background
 		src="..//backgrounds/holy-roman-empire.jpg"
-		scrim="light"
-		opacity="9"
+		scrim="gold"
+		opacity="8"
 		class="flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="grid gap-24 xl:grid-cols-[1fr_1fr] items-center">
-			<Card class=" z-50" light>
+		<div class="grid gap-12 xl:grid-cols-[1fr_1fr] items-center">
+			<Card class=" " light>
 				The Holy Roman Empire was an idealized re-establishment of the realm of Charlemagne, the
 				Frankish ruler whose territories corresponded roughly to those of modern France and Germany.
 				In the year 800, Protestantism the office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head Charlemagne came to the aid of Pope Leo III, who had run afoul of the
@@ -88,8 +90,9 @@
 	</Background>
 	<Background
 		src="..//backgrounds/damask_albedo-01.svg"
-		cover={false}
-		class="flex flex-col p-16 lg:grid lg:grid-cols-2 md:gap-24  2xl:p-32 2xl:px-64"
+		scrim="maroon"
+		opacity="7"
+		class="flex flex-col p-4 md:p-16 lg:grid lg:grid-cols-2 md:gap-24 "
 	>
 		<div>
 			<h2
