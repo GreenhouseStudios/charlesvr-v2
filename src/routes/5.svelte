@@ -8,7 +8,7 @@
 </script>
 
 <Transition>
-	<SectionHero title="A Focus on Music" bg="..//backgrounds/afocusonmusic.jpg" opacity="7" />
+	<SectionHero title="A Focus on Music" bg="..//backgrounds/afocusonmusic.jpg" opacity="7" scrim="gold" />
 	<Background
 		parallax
 		src="..//backgrounds/Elderly_Karl_V.jpg"
@@ -44,11 +44,11 @@
 	</Background>
 	<Background
 		src="..//backgrounds/sheetmusic.jpg"
-		scrim="light"
-		opacity="90"
+		scrim="maroon"
+		opacity="9"
 		class="flex auto-rows-max items-center flex-col p-4 md:gap-24 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="mb-4 md:w-1/2 " light>
+		<Card class="mb-4 p-4 md:p-16 " light>
 			The symbolic importance of music for these Renaissance audiences is apparent in the
 			differences that existed between the royal coronation in Aachen and the imperial coronation in
 			Rome, or in Charles’s case, Bologna. Aachen was the traditional coronation site of German
@@ -60,7 +60,7 @@
 			and prayers known collectively as the proper were to be those for January 6, or the feast of
 			Epiphany, the day Christ’s divinity was revealed to the Magi.
 		</Card>
-		<Card class="mb-4 md:w-1/2" light>
+		<Card class="mb-4 p-4 md:p-16" light>
 			The allegorical significance of the texts of these chants in this context would not have gone
 			unnoticed, for they refer repeatedly to Christ as a new king. The newly crowned king was to
 			rule on Christ’s behalf, and his authority was revealed to the faithful in the course of the
@@ -71,7 +71,7 @@
 			correct proper of the day be sung.
 		</Card>
 	</Background>
-	<SectionHero title="Dual Motets" bg="..//backgrounds/singing.jpg" opacity="7" />
+	<SectionHero title="Dual Motets" scrim = "gold" bg="..//backgrounds/singing.jpg" opacity="7" />
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
@@ -138,9 +138,9 @@
 	</Background>
 	<Background
 		src="..//backgrounds/pope.jpg"
-		class="p-4 md:p-16 2xl:p-32 2xl:px-64"
+		class="md:p-16 bg-bottom"
 	>
-	<div class="flex flex-col items-end">
+	<div class="flex flex-col items-end p-4 md:p-16">
 		<Card class="my-24 md:my-24 md:w-1/2">
 			There was a kind of parity between the choirs of Clement and Charles, since a composer from
 			each ensemble contributed a motet for the event. Adrien Thiebeault’s contribution to the
@@ -164,4 +164,5 @@
 </Transition>
 
 <style>
+
 </style>
