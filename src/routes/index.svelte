@@ -10,7 +10,7 @@
 </script>
 <Transition>
 	<Background
-		src="../static/charlesvrvideoblur.mp4"
+		src="..//charlesvrvideoblur.mp4"
 		scrim="gold"
 		opacity="4"
 		class=""
@@ -19,13 +19,13 @@
 		class="flex flex-col items-center gap-10 justify-center bg-cover bg-center p-4 md:p-16 "
 	>
 	<video class='fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover' id="videobg"
-			src="static/charlesvrvideoblur.mp4"
+			src="..//charlesvrvideoblur.mp4"
 			autoplay
 			muted
 			loop
 			style=""
 		/>
-		<img src="static/logos/charlesvr-newduotone.png" alt="Charles VR" class="z-10 mt-32 w-5/6 " />
+		<img src="..//logos/charlesvr-newduotone.png" alt="Charles VR" class="z-10 mt-32 w-5/6 " />
 		<div class="text-center text-3xl md:text-5xl w-5/6 font-medium text-[#4D1B2C]">
 			Experience the Imperial Coronation of Holy Roman Emperor Charles V
 		</div>
