@@ -12,7 +12,7 @@
 	>
 		<a href="/" data-chapter="1" class="my-6 flex flex-col justify-center pl-6">
 			<div class="mb-2 flex h-5 flex-col items-center">
-				<img src="static/logos/charlesvr-lightgold.png" alt="Charles VR" class="max-h-full" />
+				<img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class="max-h-full" />
 			</div>
 			<div
 				class="h-0 delay-200 text-center text-lg leading-none hover:text-gold-500 opacity-0 transition-opacity duration-[200ms] group-hover:opacity-100"
@@ -95,7 +95,7 @@
 	</div>
 	<div id="nav-mobile" class="flex h-16 items-center justify-between pl-4 md:hidden">
 		<a href="/" class="flex h-full shrink py-5 pr-4">
-			<img src="static/logos/charlesvr-lightgold.png" alt="Charles VR" class=" h-full w-auto" />
+			<img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class=" h-full w-auto" />
 		</a>
 		<div class="hamburger-menu">
 			<input id="menu__toggle" type="checkbox" />
@@ -103,7 +103,7 @@
 			  <span></span>
 			</label>
 			<ul class="menu__box">
-				<li><img src="static/logos/charlesvr-lightgold.png" alt="Charles VR" class=" menu_icon" /></li>
+				<li><img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class=" menu_icon" /></li>
 				<li><a class="menu__item hover:bg-maroon" href="/">I: Introduction to Charles VR</a></li>
 				<li><a class="menu__item hover:bg-maroon" href="/2">II: Coronation in Context</a></li>
 				<li><a class="menu__item hover:bg-maroon" href="/3">III: Who was Charles VR</a></li>
