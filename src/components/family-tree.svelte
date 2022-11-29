@@ -21,10 +21,10 @@
 		/>
 	</div>
 	<div class="grid grid-cols-2 place-items-center gap-4">
-		<div class="h-[2px] w-full bg-white bg-opacity-60" />
-		<div class="h-[2px] w-full bg-white bg-opacity-60" />
+		<div class="h-[3px] w-full bg-[#fec755] " />
+		<div class="h-[3px] w-full bg-[#fec755] " />
 	</div>
-	<div class="grid grid-cols-2 place-items-center gap-4">
+	<div class="grid grid-cols-2 place-items-center gap-4 border-[#fec755]">
 		<TreeCard
 			src="..//family-tree/philip.jpg"
 			name="Philip the Handsome"
@@ -33,7 +33,7 @@
 		/>
 		<TreeCard src="..//family-tree/joanna.jpg" name="Joanna of Castile" years="1479-1555" topLine />
 	</div>
-	<div class="mx-auto h-[2px] w-5/6 bg-white bg-opacity-60" />
+	<div class="mx-auto h-[3px] w-5/6 bg-[#fec755] " />
 	<div class="flex justify-center pb-4 md:mb-24">
 		<TreeCard
 			src="..//family-tree/charlesv.jpg"

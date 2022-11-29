@@ -1,4 +1,5 @@
 <script>
+	
 	import Transition from './../components/transition.svelte';
 	import FamilyTree from './../components/family-tree.svelte';
 	import BioCard from './../components/bio-card.svelte';
@@ -6,12 +7,14 @@
 	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
 	import SectionHero from './../components/section-hero.svelte';
+	
 </script>
 
 <Transition>
-	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" />
+	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" scrim="gold" opacity="5" />
 	<Background
 		parallax
+		scrim="maroon" opacity="8"
 		src="..//backgrounds/fabric.jpg"
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
@@ -28,6 +31,26 @@
 			</div>
 		</Card>
 		<FamilyTree />
+        <Card class= "mb-5 text-center text-base gap-5 sources">
+			<ul>
+				<li class="font-bold">Philip the Handsome</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold">Joanna of Castile</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold">Charles V</li>
+				<li class="leading-3 mb-5">Source</li>
+			</ul>
+			<ul>
+				<li class="font-bold">Emperor Maximimillian I</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold">Duchess Mary of Burgundy</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold">Queen Isabella I of Castille</li>
+				<li class="leading-3 mb-5">Source</li>
+				<li class="font-bold"> King Ferdinand II of Aragon</li>
+				<li class="leading-3 mb-5">Source</li>
+			</ul>
+		</Card>
 		<Card class="mb-24">
 			King Ferdinand II of Aragon, his maternal grandfather, left him most of the Iberian Peninsula,
 			therefore making him King Carlos I of Spain. Charles also inherited eastern Spain and Aragon’s
@@ -38,11 +61,11 @@
 	</Background>
 	<Background
 		src="..//backgrounds/battle-of-pavia.jpg"
-		scrim="light"
-		class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="gold" opacity="7"
+		class="flex flex-col items-center p-4 justify-center md:p-16 "
 	>
-		<div class="grid gap-24 2xl:grid-cols-[3fr_4fr]">
-			<Card class="mb-4 md:mb-24" light>
+		<div class="grid items-center gap-12 xl:grid-cols-[1fr_1fr] my-20 md:my-24">
+			<Card class="" light>
 				Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
 				grandfather, Holy Roman Emperor Maximilian I. He was selected over other possible candidates
@@ -55,7 +78,7 @@
 				name="King Francis I"
 				src="..//character-cards/Francis I.jpg"
 				years="1494-1547"
-				class="mb-4 md:mb-24"
+				class="items-center w-full"
 			>
 				<p>Crowned King of France in January 1515</p>
 				<p>
@@ -65,35 +88,37 @@
 				<p>Upheld a rivalry with Charles V until relucantly signing the Truce of Nice in 1538</p>
 			</BioCard>
 		</div>
-		<Card light class="mb-4 md:mb-24">
-			Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
-			especially badly in the 1525 Battle of Pavia, where he was roundly defeated and taken
-			prisoner. Charles, however, lacked the funds to pay his victorious, mostly Lutheran, army. In
-			the face of poverty, Lutheran hostility to the Papacy, and Clement’s alliance with France, the
-			army marched on Rome.
-		</Card>
 	</Background>
 	<Background
 		src="..//backgrounds/sackofrome.jpg"
 		parallax
-		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col items-center p-4  md:p-16"
+		scrim="maroon" opacity="7"
 	>
-		<Card class="mb-24">
+		<Card class="mb-4" light >
+				Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
+				especially badly in the 1525 Battle of Pavia, where he was roundly defeated and taken
+				prisoner. Charles, however, lacked the funds to pay his victorious, mostly Lutheran, army. In
+				the face of poverty, Lutheran hostility to the Papacy, and Clement’s alliance with France, the
+				army marched on Rome.
+				<br>
+				<br>
 			The sack was brutal, and in the context of the history of the Holy Roman Empire, a shocking
 			event. Instead of defending Rome and its Church, the would-be Holy Roman Emperor besieged it
 			and effectively imprisoned the pope. In the aftermath, Charles heard from counselors who
 			denounced the sack and from others who supported it, but he seems to have had difficulty
 			reconciling the accounts of its brutality with political justifications.
-		</Card>
-		<Card>
+		<br> 
+		<br>
 			In the end, he wanted all memory of the event erased and to put the episode behind him.
 			Clement also felt prudent to make his peace with Charles. This, along with the political
 			unrest associated with the beginning of the Protestant Reformation, was the context in which
 			choices about the setting and music for the imperial coronation were made.
 		</Card>
-		<ChapterButton numeral="IV" chapter="A Imperial Coronation in Bologna" path="4" />
+		<ChapterButton numeral="IV" chapter="An Imperial Coronation in Bologna" path="4" />
 	</Background>
 </Transition>
 
 <style>
+
 </style>

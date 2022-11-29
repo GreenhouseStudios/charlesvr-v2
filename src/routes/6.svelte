@@ -8,13 +8,12 @@
 </script>
 
 <Transition>
-	<SectionHero title="A Melancholy Mass"  style="filter: brightness(2)" />
+	<SectionHero title="A Melancholy Mass" scrim="gold"/>
 	<Background
-		parallax
 		src="..//backgrounds/paintings.jpg"
 		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="my-24 md:my-48">
+		<Card class="my-12">
 			<div class="w-full first-letter:text-[300%]">
 				In addition to these two motets, it seems likely that Nicolas Gombert was also called upon
 				to compose a work for the event, and indeed a five-voice mass published by the Scotto firm
@@ -24,7 +23,7 @@
 				imperial coronation is therefore widely accepted.
 			</div>
 		</Card>
-		<Card class="my-24 md:my-48">
+		<Card class="my-12">
 			A mass is a much larger undertaking than a motet. There is no question that Gombert’s mass is
 			an impressive work, one fairly typical of the composer’s style. All voice parts move
 			continuously, contain few rests, and are linked by imitation in which one voice repeats,
@@ -34,6 +33,7 @@
 			Charles held his maître des enfants in higher regard than his choirmaster.
 		</Card>
 	</Background>
+
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
@@ -42,7 +42,7 @@
 	>
 		<source src="..//backgrounds/choirshot.mp4" type="video/mp4" />
 	</video>
-	<Background src="" parallax class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
+	<Background src="static/backgrounds/basilicaexterior.jpg" parallax class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
 		<Card class="my-24 md:my-48">
 			The surviving accounts of the event mention a stretch of “prayers” after the singing of the
 			gradual. A report by Hironimo Bontempo makes a specific reference to singers reciting the
@@ -52,8 +52,8 @@
 			an abbreviated form of the Laudes could have been sung during this fifteen-minute period.
 		</Card>
 	</Background>
-	<Background src="..//backgrounds/mural.jpg" class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="mb-4 md:mb-24 ">
+	<Background src="..//backgrounds/mural.jpg" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
+		<Card class="my-24 md:my-48">
 			The mass may strike modern listeners as an odd choice for a coronation. A subsequent print of
 			the work identifies it not as a mass for coronation, but as the Missa Sur tous regretz, the
 			title referring to the fact that Sur tous regretz, a chanson by Jean Richafort, served as the
@@ -67,14 +67,14 @@
 		</Card>
 	</Background>
 	
-	<Background src="" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="my-24 md:my-48">
+	<Background src="static/backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
+		<Card class="my-12">
 			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the
 			coronation and Charles’s documented embarrassment about it, to attribute the character of this
 			mass to Charles’s regret. Its basis of the regretful chanson could channel Charles’s general
 			regret about the political situation and the Sack in particular.
 		</Card>
-		<Card class="my-24 md:my-48">
+		<Card class="my-12">
 			A more likely explanation is a particular predilection for melancholic music on Charles’s
 			part. In Luys de Narváez’s 1538 anthology of intabulations for the vihuela—versions of
 			polyphonic works for a guitar-like instrument popular in Spain at the time—a version of
@@ -114,7 +114,7 @@
 			prescribed ceremony and that the music was imbued with meaning that was meant to transcend the
 			political circumstances of the day.
 		</Card>
-		<ChapterButton numeral="VII" chapter="The CharlesV|R Experience" path="7" />
+		<ChapterButton numeral="VII" chapter="The Charles V|R Experience" path="7" />
 	</Background>
 </Transition>
 

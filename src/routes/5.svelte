@@ -8,14 +8,14 @@
 </script>
 
 <Transition>
-	<SectionHero title="A Focus on Music" bg="..//backgrounds/afocusonmusic.jpg" opacity="7" />
+	<SectionHero title="A Focus on Music" bg="..//backgrounds/afocusonmusic.jpg" opacity="7" scrim="gold" />
 	<Background
 		parallax
 		src="..//backgrounds/Elderly_Karl_V.jpg"
 		scrim="none"
 		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="mb-4 w-full md:mb-24 md:w-1/2">
+		<Card class="mb-4 w-full md:mb-10 md:w-1/2">
 			<div class="w-full first-letter:text-[300%]">
 				Charles and Clement could also control aspects of the prescribed liturgy and the music of
 				the Mass. It is clear from what we know of Charles’s personality that the ceremony–and not
@@ -23,7 +23,7 @@
 				biography of Charles V underscores the ruler’s interest in music:
 			</div>
 		</Card>
-		<Card class="mb-4 !text-4xl !leading-loose !text-gold-400 md:mb-24">
+		<Card class="mb-4 w-full md:mb-10 md:w-2/3 !text-gold-400 pl-10 ml-10 mr-0 text-3xl italic">
 			“And he knew music, and felt it and liked it, for many times the friars, behind the door,
 			heard him leave his cell and go to the main altar, and they saw him beating time and singing
 			in harmony with those who sang in the choir....”
@@ -43,38 +43,12 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/laudes.jpg"
-		parallax
-		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
-	>
-		<Card class="mb-4 md:mb-24">
-			The symbolic importance of music for these Renaissance audiences is apparent in the
-			differences that existed between the royal coronation in Aachen and the imperial coronation in
-			Rome, or in Charles’s case, Bologna. Manuscripts that document the royal and imperial
-			coronation ceremonies reveal broad similarities between the two (anointing with oil and
-			bestowing of weapons and insignia, for example), but important details pertaining to music
-			distinguish the ceremonies. For the royal coronation in Aachen, the chants and prayers known
-			collectively as the proper were to be those for January 6, or the feast of Epiphany, the day
-			Christ’s divinity was revealed to the Magi.
-		</Card>
-		<Card class="mb-4 md:mb-24">
-			The allegorical significance of the texts of these chants in this context would not have gone
-			unnoticed, for they refer repeatedly to Christ as a new king. The newly crowned king was to
-			rule on Christ’s behalf, and his authority was revealed to the faithful in the course of the
-			coronation ceremony, just as Christ was revealed to the Magi. As the Magi recognized the
-			authority of the infant Christ, kneeling down and paying him homage, so the secular rulers of
-			the Empire were to pay homage to the newly crowned king. In contrast to the proper chants of
-			Aachen’s royal coronation ceremonies, Rome’s imperial ceremonies required only that the
-			correct proper of the day be sung.
-		</Card>
-	</Background>
-	<Background
 		src="..//backgrounds/sheetmusic.jpg"
-		scrim="light"
-		opacity="90"
-		class="flex auto-rows-max flex-col p-4 md:gap-24 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="maroon"
+		opacity="9"
+		class="flex auto-rows-max items-center flex-col p-4 md:gap-24 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="mb-4 md:mb-24 md:w-1/2 " light>
+		<Card class="mb-4 p-4 md:p-16 " light>
 			The symbolic importance of music for these Renaissance audiences is apparent in the
 			differences that existed between the royal coronation in Aachen and the imperial coronation in
 			Rome, or in Charles’s case, Bologna. Aachen was the traditional coronation site of German
@@ -86,7 +60,7 @@
 			and prayers known collectively as the proper were to be those for January 6, or the feast of
 			Epiphany, the day Christ’s divinity was revealed to the Magi.
 		</Card>
-		<Card class="mb-4 self-end md:mb-24 md:w-1/2" light>
+		<Card class="mb-4 p-4 md:p-16" light>
 			The allegorical significance of the texts of these chants in this context would not have gone
 			unnoticed, for they refer repeatedly to Christ as a new king. The newly crowned king was to
 			rule on Christ’s behalf, and his authority was revealed to the faithful in the course of the
@@ -97,7 +71,7 @@
 			correct proper of the day be sung.
 		</Card>
 	</Background>
-	<SectionHero title="Dual Motets" bg="..//backgrounds/singing.jpg" opacity="7" />
+	<SectionHero title="Dual Motets" scrim = "gold" bg="..//backgrounds/singing.jpg" opacity="7" />
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
@@ -139,14 +113,15 @@
 		src="..//backgrounds/detail.jpg"
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="my-24 md:my-48">
+	<div class="flex flex-col items-start">
+		<Card class="my-24 md:my-24 md:w-1/2">
 			The opening of Festa’s motet is derived from the introit for Epiphany, referencing the royal
 			coronation ceremony in Aachen. The next portion of the text is from the introit for the third
 			mass on Christmas Day, Puer natus est, and may have had the effect of calling Charlemagne’s
 			imperial coronation on Christmas in the year 800 to mind. The rest of the text is derived from
 			various psalms.
 		</Card>
-		<Card class="mb-24">
+		<Card class="mb-12 md:w-1/2">
 			The final word of the motet, “fiat,” is relatively unusual in the liturgy and is almost
 			unheard of as the final word of liturgical text. Its meaning, “may it be done,” is roughly
 			equivalent to the Semitic “amen” used throughout the liturgy. The word was prescribed in
@@ -154,17 +129,19 @@
 			Thus the texts at both the beginning and the end of the motet refer to Aachen’s royal
 			coronation rite, a service in which the pope was never involved.
 		</Card>
-		<Card class="mb-24 md:my-48">
+		<Card class="mb-12 md:my-12 md:w-1/2">
 			Given Festa’s allegiance to Clement, the composer must have set these texts—and indeed the
 			very imperial “Christus vincit” cantus firmus—at Clement’s direction. Festa’s motet can
 			therefore be understood as a considerable homage to Charles on the part of Clement.
 		</Card>
+	</div>
 	</Background>
 	<Background
 		src="..//backgrounds/pope.jpg"
-		class="flex flex-col items-center p-4 pb-16 md:p-16 2xl:p-32 2xl:px-64"
+		class="md:p-16 bg-bottom"
 	>
-		<Card class="my-24 md:my-48">
+	<div class="flex flex-col items-end p-4 md:p-16">
+		<Card class="my-24 md:my-24 md:w-1/2">
 			There was a kind of parity between the choirs of Clement and Charles, since a composer from
 			each ensemble contributed a motet for the event. Adrien Thiebeault’s contribution to the
 			coronation’s music is the motet Coronat pontifex, which mentions Clement by name as a crowning
@@ -172,16 +149,20 @@
 			did not have the opportunity to crown a ruler as powerful as Charles. Unfortunately, only two
 			voices of this five- or six-voice work have survived.
 		</Card>
-		<Card class="mb-24">
+		<Card class="mb-24 md:w-1/2">
 			The result of the two motets—if they were heard in a sort of dialogue—is that Clement is
 			rendered subservient to Charles. This conclusion seems to also be borne out by some of
 			Clement’s behavior. There are two moments in the ceremony in which the emperor was to kiss the
 			pope’s feet. Clement was heard apologizing to the emperor in the first instance, and embracing
 			him to prevent the second from taking place.
 		</Card>
+		</div>
+		<div class="flex justify-center">
 		<ChapterButton numeral="VI" chapter="A Coronation Mass" path="6" />
+	</div>
 	</Background>
 </Transition>
 
 <style>
+
 </style>
