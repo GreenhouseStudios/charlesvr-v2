@@ -1,5 +1,6 @@
 <script>
 	let y;
+	let yes = false;
 	import '../app.css';
 </script>
 
@@ -42,7 +43,7 @@
 				class="h-0 text-center delay-200 text-lg leading-none opacity-0 transition-opacity duration-[200ms] group-hover:opacity-100"
 			>
 				Who Was Charles V?
-			</div>
+	</div>
 		</a>
 		<a
 			href="/4"
@@ -98,23 +99,29 @@
 			<img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class=" h-full w-auto" />
 		</a>
 		<div class="hamburger-menu">
-			<input id="menu__toggle" type="checkbox" />
+			<input id="menu__toggle" type="checkbox" checked={yes}/>
 			<label class="menu__btn" for="menu__toggle">
 			  <span></span>
 			</label>
 			<ul class="menu__box">
-				<li><img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class=" menu_icon" /></li>
-				<li><a class="menu__item hover:bg-maroon" href="/">I: Introduction to Charles VR</a></li>
-				<li><a class="menu__item hover:bg-maroon" href="/2">II: Coronation in Context</a></li>
-				<li><a class="menu__item hover:bg-maroon" href="/3">III: Who was Charles VR</a></li>
-				<li><a class="menu__item hover:bg-maroon" href="/4">IV: Focus on Music</a></li>
-				<li><a class="menu__item hover:bg-maroon" href="/5">V: A Melancholy Mass</a></li>
-				<li><a class="menu__item hover:bg-maroon" href="/6">VI: The Charles VR Experience</a></li>
+				<li><img src="static/logos/charlesvr-lightgold.png" alt="Charles VR" class=" menu_icon" /></li>
+				<br>
+				<div id="scroll-bar" class="flex h-[12px] w-screen items-center ">
+					<div id="progress-bar" class="h-[8px] w-full " />
+				</div>
+				<br>
+				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/">I: Introduction to Charles VR</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/2">II: Coronation in Context</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/3">III: Who was Charles V?</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/4">IV: An Imperial Coronation in Bologna</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/5">V: A Focus on Music</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/6">VI: A Melancholy Mass</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/7">VII: The Charles V|R Experience</a></li>
 			  </ul>
 			</div>
 	</div>
 	<div id="scroll-bar" class="flex h-[12px] w-screen items-center ">
-		<div id="progress-bar" class="h-[5px] w-full " />
+		<div id="progress-bar" class="h-[8px] w-full " />
 	</div>
 </nav>
 <!-- {/if} -->
@@ -183,7 +190,7 @@
 }
 .menu__item {
   display: block;
-  padding: 25px 50px;
+  padding: 20px 50px;
   color: #fec552;
   font-size: 20px;
   font-weight: 300;
@@ -196,8 +203,8 @@ nav {
 }
 
 #scroll-bar {
-	border-top: #fec755 2px solid;
-	border-bottom: #fec755 5px solid;
+	border-top: #fec755 3.5px solid;
+	border-bottom: #fec755 3.5px solid;
 }
 
 .menu_icon {
