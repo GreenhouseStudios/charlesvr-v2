@@ -6,6 +6,7 @@
 	import SectionHero from './../components/section-hero.svelte';
 	import NextChapter from './../components/next-chapter.svelte';
 	import { onMount } from 'svelte';
+	import Tooltip from './../components/tooltip.svelte';
 	let images = [1, 2, 3, 4, 5, 6];
 </script>
 <Transition>
@@ -31,8 +32,7 @@
 		</div>
 		<Card light class="md:max-w-[80%]" flex="">
 			<p class="mt-10 mb-10">
-				Travel to 1530 Bologna to attend the <span class="tooltip"> <span class="tooltiptext">the act or occasion of crowning
-				</span><strong>coronation</strong></span> mass of the Holy Roman Emperor, Charles V,
+				Travel to 1530 Bologna to attend the <Tooltip word="coronation">the act or occasion of crowning</Tooltip> mass of the Holy Roman Emperor, Charles V,
 				in this virtual reality recreation of San Petronio. The details of the coronation reflect
 				the social and political turmoil of the times; the experience itself recreates the sights
 				and sounds of this religious and political ceremony using contemporaneous accounts, artwork,
@@ -159,31 +159,7 @@ C/O https://placeholder.com/"
 	</Background>
 </Transition>
 <style>
-.tooltip {
-  cursor: pointer;  
-  color: black;
-  position: relative;
-  text-decoration: underline;
-}
-.tooltiptext {
-  opacity: 0;
-  background-color: rgb(255, 255, 255);
-  color: black;
-  border-radius: 6px;
-  position: absolute;
-  padding: 5px;
-  z-index: auto;
-  width: max-content;
-  bottom: 30px;
-  line-height: 1;
-}
 
-.tooltip:hover .tooltiptext {
-	opacity: 1;
-    transition: 0.3s;
-}
 
-.tooltiptext:hover {
-	display: none;
-}
+
 </style>

@@ -1,0 +1,50 @@
+<script>
+    export let word;
+</script>
+
+<span class="tooltip">
+	<strong>
+		{word}
+        <span class="tooltiptext"><slot>Definition here</slot></span>
+	</strong>
+</span>
+
+<style>
+
+.tooltip {
+  cursor: pointer;  
+  color: black;
+  position: relative;
+  text-decoration: underline;
+}
+
+.tooltiptext {
+  opacity: 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 6px;
+  position: absolute;
+  padding: 5px;
+  z-index: auto;
+  width: max-content;
+  /* bottom: 30px; */
+
+  line-height: 1;
+}
+
+@media screen and (min-width: 650px){
+	.tooltiptext{
+		top: -30px;
+  		left: -100px;
+	}
+}
+
+.tooltip:hover .tooltiptext {
+	opacity: 1;
+    transition: 0.3s;
+}
+
+.tooltiptext:hover {
+	display: none;
+}
+</style>
