@@ -1,7 +1,10 @@
 <script>
 	let y;
-	let yes = false;
+	let menuOpen = false;
 	import '../app.css';
+	function toggleMenu(){
+		menuOpen = !menuOpen;
+	}
 </script>
 
 
@@ -99,7 +102,7 @@
 			<img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class=" h-full w-auto" />
 		</a>
 		<div class="hamburger-menu">
-			<input id="menu__toggle" type="checkbox" checked={yes}/>
+			<input id="menu__toggle" type="checkbox" checked={menuOpen} on:click={toggleMenu}/>
 			<label class="menu__btn" for="menu__toggle">
 			  <span></span>
 			</label>
@@ -110,13 +113,13 @@
 					<div id="progress-bar" class="h-[8px] w-full " />
 				</div>
 				<br>
-				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/">I: Introduction to Charles VR</a></li>
-				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/2">II: Coronation in Context</a></li>
-				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/3">III: Who was Charles V?</a></li>
-				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/4">IV: An Imperial Coronation in Bologna</a></li>
-				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/5">V: A Focus on Music</a></li>
-				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/6">VI: A Melancholy Mass</a></li>
-				<li><a class="menu__item hover:bg-maroon"  on:click={() => (yes = !yes)}  href="/7">VII: The Charles V|R Experience</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={toggleMenu}  href="/">I: Introduction to Charles VR</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={toggleMenu}  href="/2">II: Coronation in Context</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={toggleMenu}  href="/3">III: Who was Charles V?</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={toggleMenu}  href="/4">IV: An Imperial Coronation in Bologna</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={toggleMenu}  href="/5">V: A Focus on Music</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={toggleMenu}  href="/6">VI: A Melancholy Mass</a></li>
+				<li><a class="menu__item hover:bg-maroon"  on:click={toggleMenu}  href="/7">VII: The Charles V|R Experience</a></li>
 			  </ul>
 			</div>
 	</div>
