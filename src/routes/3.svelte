@@ -11,15 +11,15 @@
 </script>
 
 <Transition>
-	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" scrim="gold" opacity="5" />
+	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" scrim="gold" opacity1="0" opacity2="5" />
 	<Background
 		parallax
-		scrim="maroon" opacity="8"
+		scrim="maroonblack" opacity1="7" opacity2="7"
 		src="..//backgrounds/fabric.jpg"
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="mb-24 w-full">
-			<div class="w-full first-letter:text-[300%]">
+		<Card class=" w-full">
+			<div class="w-full ">
 				Charles Habsburg was born in Ghent, a region now located in Belgium. His four grandparents,
 				Emperor Maximilian I of the Holy Roman Empire, Duchess Mary of Burgundy, King Ferdinand II
 				of Aragon, and Queen Isabella I of Castile, carefully planned a dynastic marriage that would
@@ -31,7 +31,7 @@
 			</div>
 		</Card>
 		<FamilyTree />
-        <Card class= "mb-5 text-center text-base gap-5 sources">
+        <Card class= " text-center text-base gap-5 sources">
 			<ul>
 				<li class="font-bold">Philip the Handsome</li>
 				<li class="leading-3 mb-5">Source</li>
@@ -51,7 +51,7 @@
 				<li class="leading-3 mb-5">Source</li>
 			</ul>
 		</Card>
-		<Card class="mb-24">
+		<Card class="">
 			King Ferdinand II of Aragon, his maternal grandfather, left him most of the Iberian Peninsula,
 			therefore making him King Carlos I of Spain. Charles also inherited eastern Spain and Aragon’s
 			colonies in the Mediterranean. From Queen Isabella I of Castile, his paternal grandmother,
@@ -61,10 +61,11 @@
 	</Background>
 	<Background
 		src="..//backgrounds/battle-of-pavia.jpg"
-		scrim="gold" opacity="7"
+		scrim="gold" opacity1="7" opacity2="3"
 		class="flex flex-col items-center p-4 justify-center md:p-16 "
+		parallax
 	>
-		<div class="grid items-center gap-12 xl:grid-cols-[1fr_1fr] my-20 md:my-24">
+		<div class="grid items-center md:h-[100vh] gap-12 xl:grid-cols-[1fr_1fr]">
 			<Card class="" light>
 				Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
@@ -93,23 +94,23 @@
 		src="..//backgrounds/sackofrome.jpg"
 		parallax
 		class="flex flex-col items-center p-4  md:p-16"
-		scrim="maroon" opacity="7"
+		scrim="maroonblack" opacity1="7" opacity2="7"
 	>
-		<Card class="mb-4" light >
+		<Card class="" dark >
 				Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
 				especially badly in the 1525 Battle of Pavia, where he was roundly defeated and taken
 				prisoner. Charles, however, lacked the funds to pay his victorious, mostly Lutheran, army. In
 				the face of poverty, Lutheran hostility to the Papacy, and Clement’s alliance with France, the
 				army marched on Rome.
-				<br>
-				<br>
+</Card>
+<Card>
 			The sack was brutal, and in the context of the history of the Holy Roman Empire, a shocking
 			event. Instead of defending Rome and its Church, the would-be Holy Roman Emperor besieged it
 			and effectively imprisoned the pope. In the aftermath, Charles heard from counselors who
 			denounced the sack and from others who supported it, but he seems to have had difficulty
 			reconciling the accounts of its brutality with political justifications.
-		<br> 
-		<br>
+		</Card>
+		<Card>
 			In the end, he wanted all memory of the event erased and to put the episode behind him.
 			Clement also felt prudent to make his peace with Charles. This, along with the political
 			unrest associated with the beginning of the Protestant Reformation, was the context in which

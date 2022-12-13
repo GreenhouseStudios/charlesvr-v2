@@ -13,7 +13,8 @@
 	<Background
 		src="..//charlesvrvideoblur.mp4"
 		scrim="gold"
-		opacity="4"
+		opacity1="5"
+		opacity2="7"
 		class=""
 	>
 	<div
@@ -38,25 +39,27 @@
 				and sounds of this religious and political ceremony using contemporaneous accounts, artwork,
 				and music as source material.
 			</p>
-			<p class="mb-10">
+			<br>
+			<p class="">
 				Experience the event from multiple perspectives — that of a member of the imperial papal
 				court, a basilica official, or a Bolognese citizen. Hear music performed during the ceremony
 				as recorded by Ensemble Origo. Call up scholarly annotations to explore the layers of
 				meaning embedded in the art, architecture, and various ceremonial objects present in the
 				scene.
 			</p>
-			<p class="mb-10">
+			<br>
+			<p class="">
 				Charles V|R offers a multi-modal window into this event of world-historical importance for
 				enthusiasts, students, and scholars of art, architecture, history, music, religion, and
 				virtual reality.
 			</p>
 		</Card>
-	<!-- </div> -->
 		<ChapterButton numeral="II" chapter="The Coronation in Context" path="2" light class="" />
 		<Card light class="flex flex-col md:max-w-[80%]">
 			<h1 class="text-center text-3xl "><strong>Contributors</strong></h1>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium possimus non officiis natus quasi totam assumenda laboriosam dolores, debitis iusto esse recusandae dignissimos eos architecto alias a tempore enim.</p>
-			<div class="grid sm:grid-cols-2 md:gap-5 md:grid-cols-4">
+			<br>
+			<div class="grid sm:grid-cols-2 md:gap-5 md:grid-cols-3 lg:grid-cols-4">
 			<ul class="text-center">
 				<div class="leading-5 mb-2"><strong>Jonathan Ampiaw</strong> </div>
 				<div class="text-base mb-5 leading-4">MFA ‘20 Digital Media & Design</div>
@@ -102,6 +105,8 @@
 			<ul class="text-center">
 				<div class="leading-5 mb-2"><strong>Kenia Rodriguez</strong></div>
 				<div class="text-base mb-5 leading-4">Lorem ipsum</div>
+				<div class="leading-5 mb-2"><strong>Melina Sandel</strong></div>
+				<div class="text-base mb-5 leading-4">BFA ‘25 Digital Media & Design </div>
 				<div class="leading-5 mb-2"><strong>Tom Scheinfeldt</strong> </div>
 				<div class="text-base mb-5 leading-4">Director of Greenhouse Studios </div>
 				<div class="leading-5 mb-2"><strong>John Spencer</strong></div>
@@ -110,8 +115,6 @@
 				<div class="text-base mb-5 leading-4">BFA ‘22 Digital Media & Design </div>
 				<div class="leading-5 mb-2"><strong>Michael Young</strong></div>
 				<div class="text-base mb-5 leading-4">Lorem ipsum</div>
-				<div class="leading-5 mb-2"><strong>Melina Sandel</strong></div>
-				<div class="text-base mb-5 leading-4">BFA ‘25 Digital Media & Design </div>
 			</ul>
 		</div>
 		</Card>
@@ -155,6 +158,7 @@ C/O https://placeholder.com/"
 					alt="credits placeholder"
 				/>
 		</Card>	
+		<ChapterButton numeral="II" chapter="The Coronation in Context" path="2" light class="" />
 	</div>
 	</Background>
 </Transition>

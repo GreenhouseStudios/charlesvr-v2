@@ -11,7 +11,7 @@
 </script>
 
 <Transition>
-	<SectionHero title="An Imperial Coronation in Bologna" bg="..//backgrounds/abolcoronation.jpg" opacity="7" scrim="dark" />
+	<SectionHero title="An Imperial Coronation in Bologna" bg="..//backgrounds/abolcoronationdark.jpg" opacity1="2" opacity2="7" scrim="gold" />
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
@@ -21,13 +21,14 @@
 		<source src="..//backgrounds/updatedmap.mp4" type="video/mp4" />
 	</video>
 	<Background
+	    opacity1="5" opacity2="1"
+		scrim="maroon"
 		parallax
 		src=""
-		scrim="none"
-		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-around items-end p-4 h-[100vh] md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="md:w-1/2 mb-4 md:mb-24 lg:w-1/3">
-			<div class="w-full first-letter:text-[300%]">
+		<Card class="md:w-1/2 lg:w-1/3">
+			<div class="w-full ">
 				Charles's sack of Rome had made a Roman coronation impossible. Bologna, with its large
 				Basilica San Petronio, was chosen as a suitable substitute location, but the change of venue
 				presented significant problems from a symbolic point of view. The geography of the Eternal
@@ -43,11 +44,13 @@
 		</Card>
 	</Background>
 	<Background
+	opacity1="5" opacity2="3"
+	scrim="gold"
 		src="..//backgrounds/crowning.jpg"
 		parallax
-		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col items-center justify-center md:items-end p-4 h-[100vh] md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="mb-4 md:mb-24 md:w-1/2">
+		<Card class="md:w-1/2" light>
 			Although Charles and Clement could not control the location of the ceremony, they were able to
 			control the date: February 24, 1530, Charles’s thirtieth birthday. On the Church calendar,
 			February 24 celebrates the life of Saint Mathias, the man chosen to replace Judas Iscariot as
@@ -63,8 +66,8 @@
 	<!-- Purple Section -->
 	<Background
 		src="..//backgrounds/tex16-1.jpg"
+	    opacity1="7" opacity2="9"
 		scrim="maroon"
-		opacity="5"
 		class="flex flex-col p-4 md:gap-24 md:p-16"
 		parallax
 	>
@@ -109,20 +112,25 @@
 		</Card>
 		</div>
 		<div class=" flex flex-col items-center md:flex-row md:gap-5">
+			<Card class="flex items-center md:w-1/2 mb-5" flex="">
+				<p>
+					Some idea of how these temporary chapels may have looked comes from a drawing of the
+					temporary tabernacle over the tomb of St. Peter in front of the apse in the Vatican
+					basilica, although the chapels set up in San Petronio were smaller and less monumental.</p>
+			</Card>
 			<ImageCard
 			src="..//content/Maarten_van_Heemskerck_013.jpg"
 			citation=""
 			class=""
 			/>
-			<Card class="flex items-center md:w-1/2 mb-5" flex="">
-			<p>
-				Some idea of how these temporary chapels may have looked comes from a drawing of the
-				temporary tabernacle over the tomb of St. Peter in front of the apse in the Vatican
-				basilica, although the chapels set up in San Petronio were smaller and less monumental.</p>
-			</Card>
 	</div>
-	<div class="flex flex-col items-center">
-	<Card class=" mb-5 " flex="">
+	<div class=" flex flex-col items-center md:flex-row md:gap-5">
+		<ImageCard
+			src="..//content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
+			citation=""
+			class="img2"
+			/>
+	<Card class="md:w-1/2 " flex="">
 		<p>This drawing also shows that in 1530, St. Peter’s was not the magnificently decorated majestic
 		“queen of basilicas” we see today; it was indeed an ungainly, partly dismantled
 		Constantinian/Early Christian basilica of the fourth century, with an unfinished Renaissance
@@ -140,11 +148,6 @@
 		in Rome, Santa Maria Maggiore:
 	</p> 
 </Card>
-<ImageCard
-			src="..//content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
-			citation=""
-			class="img2"
-			/>
 		</div>
 <div class="flex items-center mb-5 gap-5 md:gap-10">
 	<Card>
@@ -155,85 +158,105 @@
 		<ImageCard
 			src="..//content/Sanpetroniointerior.jpg"
 			citation=""
-			class="img1"
 			/>
 	</div>
 	<div class="flex items-center gap-5">
+		<div class="img1">
 			<ImageCard
-			src="static/content/sanpetronio.jpg"
+			src="..//content/sanpetronio.jpg"
 			citation=""
-			class="img1"
 			/>
+		</div>
+		<div class="img2">
 			<ImageCard
-			src="static/content/sacredelouis.jpeg"
+			src="..//content/sacredelouis.jpeg"
 			citation=""
-			class="img3"
 			/>
+		</div>
+		<div class="img3">
 			<ImageCard
 			src="..//content/Coronation_of_Louis_XV_in_Reims.jpg"
 			citation=""
-			class="img3"
 			/>
+		</div>
 	</div>
 		<!-- <Citation /> -->
 	</Background>
 	<!-- Red Section -->
 	<Background
 		parallax
-		scrim="maroon"
-		opacity="7"
+	    opacity1="5" opacity2="8"
+		scrim="goldblack"
 		src="..//backgrounds/tex16-35.jpg"
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="mb-4 md:mb-24">
+		<Card class="" >
 			The sumptuous decorations of tapestries and luxurious textiles not only gave the occasion and
 			the interior a festive air, but also showcased the quality of textile production in Charles
 			V’s Flemish territories. These brocades, silks, velvets and damasks were made in imitation of
 			and in competition with the prized textiles of the Islamic world and of China.
 		</Card>
-		<Card class="mb-4 md:mb-24">
+		<Card class="" >
 			Such precious stuffs adorned the garb of the spectators as well as the interior of the church.
 			Indeed the most detailed contemporary account of the coronation devotes more space to minute
 			description of what the dignitaries were wearing than to any other subject. Aristocratic
 			portraits of the period give a good idea of what the effect of the costume and textile
 			decorations would have been.
 		</Card>
-		<div class="grid md:grid-cols-4 grid-cols-2 items-center justify-center gap-4 mb-4 md:mb-24">
+		<div class="flex items-center justify-center">
+			<div class="flex flex-col md:flex-row gap-4 mr-5 md:mr-0 justify-center">
+			<div class="img4">
 			<ImageCard
 			src="..//content/Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
 			citation=""
 			/>
+		</div>
+		<div class="img5">
 			<ImageCard
 			src="..//content/Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
 			citation=""
 			/>
+		</div>
+	</div>
+	<div class="flex flex-col md:flex-row gap-5 justify-center">
+		<div class="img6">
 			<ImageCard
 			src="..//content/Giovanni_battista_moroni.jpg"
 			citation=""
 			/>
+		</div>
+		<div class="img7">
 			<ImageCard
 			src="..//content/Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
 			citation=""
 			/>
 		</div>
-		<Card class="mb-4 md:mb-24">
+	</div>
+		</div>
+		<Card class="mb-4 md:mb-24" >
 			<p>The vestments of the clergy, choristers and musicians were every bit as elaborate. </p>
 		</Card>
-		<div class="grid md:grid-cols-3 gap-2 mb-4 md:mb-24">
+		<div class="flex items-center gap-5">
+			<div class="img8">
 		<ImageCard
-			src="static/content/singingangels.jpg"
-			citation=""
-			/>
-			<ImageCard
-			src="static/content/St._Peter_Niccoline_Chapel.jpg"
-			citation=""
-			/>
-			<ImageCard
-			src="static/content/saintaugustineofhippo.jpeg"
+			src="..//content/singingangels.jpg"
 			citation=""
 			/>
 		</div>
-		<Card class="mb-4 md:mb-24">
+		<div class="img9">
+			<ImageCard
+			src="..//content/St._Peter_Niccoline_Chapel.jpg"
+			citation=""
+			/>
+		</div>
+		<div class="img10">
+			<ImageCard
+			src="..//content/saintaugustineofhippo.jpeg"
+			citation=""
+			/>
+		</div>
+		</div>
+		<Card class="mb-4 md:mb-24" >
 			<p>Decorations with fragrant foliage and flowers freshened the air inside the crowded 
 				church, at a time when frequent bathing was rare. Temporary bleacher-like seating 
 				filled the space and accommodated the spectators; some of the bleachers collapsed
@@ -255,6 +278,34 @@ flex: 1.2097;
 }
 
 .img3{
-flex: .70313
+flex: .59
+}
+
+.img4 {
+	flex: .45;	
+}
+
+.img5 {
+	flex: .5	
+}
+
+.img6 {
+	flex: .51	
+}
+
+.img7 {
+	flex: .42	
+}
+
+.img8{
+	flex: .45;
+}
+
+.img9 {
+	flex: .24;	
+}
+
+.img10 {
+	flex: .35;	
 }
 </style>

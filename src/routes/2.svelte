@@ -9,14 +9,15 @@
 </script>
 
 <Transition>
-	<SectionHero title="The Coronation in Context" bg="..//backgrounds/earlyflag.jpg" scrim="gold" opacity="7" class="backdrop-brightness-50" />
+	<SectionHero title="The Coronation in Context" bg="..//backgrounds/earlyflagdark.jpg" scrim="gold" opacity1="1" opacity2="7" class="backdrop-brightness-50" />
 	<Background
 		parallax
 		scrim="maroon"
-		opacity="7"
+		opacity1="7"
+		opacity2="2"
 		src="..//backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
 		class="flex flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="my-12 flex justify-center">
+		<Card class="my-24 flex justify-center">
 			<div class="w-full ">
 				On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
 				Basilica San Petronio in Bologna. It was the last time a pope would crown an emperor, ending
@@ -39,10 +40,11 @@
 	<Background
 		src="..//backgrounds/holy-roman-empire.jpg"
 		scrim="gold"
-		opacity="8"
+		opacity1="8"
+		opacity2="6"
 		class="flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class="grid gap-12 xl:grid-cols-[1fr_1fr] items-center">
+		<div class="grid gap-4 md:gap-12 xl:grid-cols-[1fr_1fr] items-center">
 			<Card class=" " light>
 				The Holy Roman Empire was an idealized re-establishment of the realm of Charlemagne, the
 				Frankish ruler whose territories corresponded roughly to those of modern France and Germany.
@@ -67,7 +69,7 @@
 				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
 			</BioCard>
 		</div>
-		<div class="grid gap-24 xl:grid-cols-[1fr_1fr] items-center">
+		<div class="grid gap-4 md:gap-12 xl:grid-cols-[1fr_1fr] items-center">
 			<BioCard
 				name="Otto I"
 				src="..//character-cards/Otto.jpg"
@@ -90,24 +92,26 @@
 	</Background>
 	<Background
 		src="..//backgrounds/damask_albedo-01.svg"
-		scrim="maroon"
-		opacity="7"
+		scrim="maroonblack"
+		opacity1="7"
+		opacity2="7"
 		class="flex flex-col p-4 md:p-16 lg:grid lg:grid-cols-2 md:gap-24 "
 	>
+
 		<div>
 			<h2
-				class="mb-12 w-full text-center text-4xl text-white md:text-5xl lg:text-6xl"
+				class=" w-full text-center text-4xl text-white md:text-5xl mt-4 md:mt-0 lg:text-6xl"
 			>
 				Dual Coronations
 			</h2>
-			<Card class="mb-12" >
+			<Card class="" >
 				Symbolically and politically, this relationship was marked in two coronations. The first was
 				a royal coronation as King of the Germans by the ducal electors in Charlemagne’s old
 				capital, Aachen. The second was an imperial, or papal, coronation as Emperor of the Romans
 				in Rome under the pope’s hand. From 962 until 1530, in principle each ruler of the Holy
 				Roman Empire was to receive both a royal and an imperial coronation.
 			</Card>
-			<Card class="mb-12">
+			<Card class="">
 				During these five and a half centuries, these dual coronations served to ease two important
 				political tensions: the role of the German electors in choosing their leader versus
 				traditions of primogeniture and the role of papal, or sacred, power versus imperial, or

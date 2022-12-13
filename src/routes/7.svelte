@@ -16,33 +16,36 @@
 	>
 		<source src="..//backgrounds/introcrawl.mp4" type="video/mp4" />
 	</video>
-	<SectionHero title="The Charles V|R Experience" bg="..//backgrounds/vr-goggles.jpg" scrim="gold" />
+	<SectionHero title="The Charles V|R Experience" bg="..//backgrounds/vr-goggles.jpg" scrim="gold" opacity1="1" opacity2="7" />
 	<Background
 		parallax
 		src="..//backgrounds/fabric.jpg"
-		scrim="linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))"
-		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="maroon"
+		opacity1="7"
+		opacity2="5"
+		class="flex flex-row items-center p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh]"
 	>
 		<Card class="my-24">
-			<div class="w-full first-letter:text-[300%]">
+			<div class="w-full ">
 				Thanks to surviving eyewitness accounts of Charles’s imperial coronation, we know a great
 				deal about what transpired, and yet concrete descriptions of actual music-making are rare
 				and not very informative. Nevertheless, it is possible to reconstruct a plausible account of
 				much of the music at the ceremony and to describe its cultural and historical significance.
-			</div>
-		</Card>
-		<Card class="my-12">
-			The coronation of Charles V raises questions surrounding a unified Europe, hegemony and
+<br>
+<br>
+				The coronation of Charles V raises questions surrounding a unified Europe, hegemony and
 			colonialism, religious difference and tolerance, and the role of tradition in contemporaneous
 			culture. These issues remain at the forefront of 21st-century society. Though the event
 			occurred almost five hundred years ago, many of the questions that were at play in Charles V's
 			coronation are still very much at play today.
+			</div>
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/vr-overtheshoulder.jpg"
-		scrim="light"
-		opacity="8"
+		src="static/backgrounds/basilicafloor.jpg"
+		scrim="gold"
+		opacity1="8"
+		opacity2="7"
 		class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<div class="my-24 flex grid-cols-2 flex-col gap-24 md:grid items-center">
@@ -79,9 +82,12 @@
 	<Background
 		src="..//backgrounds/crown.png"
 		parallax
-		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="maroon"
+		opacity1="8"
+		opacity2="5"
+		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh] justify-center"
 	>
-		<Card class="my-24 md:my-48">
+		<Card class="">
 			During the experience, Pope Clement VII places the crown on Charles’s head, recites an oath,
 			and conveys the imperial insignia. He understands the Latin he is reciting perfectly, and to
 			emulate this, the text and translation of what he is saying accompanies his voice in the
@@ -92,9 +98,10 @@
 	</Background>
 	<Background
 		src="..//backgrounds/vr-overview.jpg"
-		scrim="light"
-		opacity="8"
-		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="gold"
+		opacity1="7"
+		opacity2="5"
+		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh] justify-center"
 	>
 		<Card class="my-24 md:my-48" light>
 			The three other characters all experience different levels of understanding in regard to the
@@ -108,8 +115,8 @@
 			sizes up the clothing of his peers with a critical eye.
 		</Card>
 	</Background>
-	<Background src="" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="my-24 md:my-48">
+	<Background src="" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh] justify-center" scrim="maroonblack" opacity1="5" opacity2="7">
+		<Card class="">
 			The coronation mass would have been heard by many and seen directly by very few. Its sound and
 			its location were undoubtedly its most important features. Users can encounter both from
 			various points of view in the Charles V|R Experience.
