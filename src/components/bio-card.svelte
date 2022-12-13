@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class={'background bg-opacity-[.85] flex flex-col items-center md:flex-row gap-2 h-min w-full p-4 rounded-md backdrop-blur-3xl shadow-lg -z-10' +
+	class={'background bg-opacity-[.85] flex flex-col items-center md:flex-row gap-2 p-8 h-min w-full p-4 rounded-md backdrop-blur-3xl shadow-lg -z-10' +
 		classes}
 >
 	<div class="break-words w-1/3 flex flex-col items-center justify-center"><div>
@@ -22,7 +22,7 @@
 		<strong class="text-3xl lg:text-5xl">{name}</strong>
 		<br />
 		<em class="mb-4 text-2xl md:mb-8 lg:text-4xl">{years}</em>
-		<div class="space-y-4 text-lg md:text-[22px] md:leading-10  lg:space-y-8">
+		<div class="space-y-4 text-lg md:text-[22px] md:leading-9 lg:space-y-8">
 			<slot />
 		</div>
 	</div>
