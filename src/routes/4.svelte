@@ -7,11 +7,16 @@
 	import Card from './../components/card.svelte';
 	import SectionHero from './../components/section-hero.svelte';
 	import ImageCard from './../components/image-card.svelte';
-
 </script>
 
 <Transition>
-	<SectionHero title="An Imperial Coronation in Bologna" bg="..//backgrounds/abolcoronationdark.jpg" opacity1="2" opacity2="7" scrim="gold" />
+	<SectionHero
+		title="An Imperial Coronation in Bologna"
+		bg="..//backgrounds/abolcoronationdark.jpg"
+		opacity1="2"
+		opacity2="7"
+		scrim="gold"
+	/>
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
@@ -21,11 +26,12 @@
 		<source src="..//backgrounds/updatedmap.mp4" type="video/mp4" />
 	</video>
 	<Background
-	    opacity1="5" opacity2="1"
+		opacity1="5"
+		opacity2="1"
 		scrim="maroon"
 		parallax
 		src=""
-		class="flex flex-col justify-around items-end p-4 h-[100vh] md:p-16 2xl:p-32 2xl:px-64"
+		class="flex h-[100vh] flex-col items-end justify-around p-4 md:h-min md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<Card class="md:w-1/2 lg:w-1/3">
 			<div class="w-full ">
@@ -44,11 +50,12 @@
 		</Card>
 	</Background>
 	<Background
-	opacity1="5" opacity2="3"
-	scrim="gold"
+		opacity1="5"
+		opacity2="3"
+		scrim="gold"
 		src="..//backgrounds/crowning.jpg"
 		parallax
-		class="flex flex-col items-center justify-center md:items-end p-4 h-[100vh] md:p-16 2xl:p-32 2xl:px-64"
+		class="flex h-[100vh] flex-col items-center justify-center p-4 md:h-min md:items-end md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<Card class="md:w-1/2" light>
 			Although Charles and Clement could not control the location of the ceremony, they were able to
@@ -66,137 +73,123 @@
 	<!-- Purple Section -->
 	<Background
 		src="..//backgrounds/tex16-1.jpg"
-	    opacity1="7" opacity2="9"
+		opacity1="7"
+		opacity2="9"
 		scrim="maroon"
 		class="flex flex-col p-4 md:gap-24 md:p-16"
 		parallax
 	>
-		<div class=" flex flex-col mb-2 md:gap-5  items-center md:flex-row">
-
-			<div class="flex my-5 items-center">
-			<Card class="">
-				The splendor of the temporary décor set up for the coronation inside the church interior was
-				foreshadowed by the triumphal arches in the new all’antica architectural style of the
-				Italian Renaissance that were set up along the processional route leading from the town hall
-				to the entrance of San Petronio. These were a marked departure from allegorizing
-				mythological or sacred tableaux vivants in the medieval manner set up along the processional
-				routes of earlier coronations.
+		<div class=" mb-2 flex flex-col items-center  md:flex-row md:gap-5">
+			<div class="my-5 flex items-center">
+				<Card class="">
+					The splendor of the temporary décor set up for the coronation inside the church interior
+					was foreshadowed by the triumphal arches in the new all’antica architectural style of the
+					Italian Renaissance that were set up along the processional route leading from the town
+					hall to the entrance of San Petronio. These were a marked departure from allegorizing
+					mythological or sacred tableaux vivants in the medieval manner set up along the
+					processional routes of earlier coronations.
+				</Card>
+			</div>
+			<div class=" flex flex-col items-center  md:flex-row">
+				<ImageCard src="static/content/popeclementvii.jpg" citation="" />
+			</div>
+		</div>
+		<div class="flex flex-col items-center md:flex-row md:gap-5">
+			<ImageCard src="static/content/rota-porfiletica-st-peter.jpg" citation="" />
+			<Card class="mb-5 flex items-center md:w-1/2" flex="">
+				<p>
+					A wooden ramp led from one end of the piazza to the church entrance; it was lined with
+					parade armaments and with beautiful greenery in gilded basins. At the top of the steps
+					leading to the church’s main entrance portal, a temporary wooden chapel of Sancta Maria
+					Inter Turres was erected; two more such chapels, named for San Gregorio and San Maurizio,
+					were set up inside the church on the left side. These temporary structures helped to
+					“transform” for the occasion the church of San Petronio into the Vatican basilica of St.
+					Peter’s; they stood in for three chapels in St. Peter’s that were important to the
+					coronation ceremony. A disc of porphyry for Charles to kneel on when he was crowned was
+					placed inside the church on the wooden ramp leading from the church entrance to the High
+					Altar. This was a reference to the the rota porphiletica in the pavement of St. Peter’s,
+					which marked the spot whereon Charlemagne knelt when he was crowned by Pope Leo III.
+				</p>
 			</Card>
 		</div>
-		<div class=" flex flex-col items-center  md:flex-row">
-			<ImageCard
-			src="static/content/popeclementvii.jpg"
-			citation=""
-			/>
-		</div>
-		</div>
-		<div class="flex md:gap-5 flex-col md:flex-row items-center">
-			<ImageCard
-			src="..//content/rota-porfiletica-st-peter.jpg"
-			citation=""
-			/>
-		<Card class="flex items-center mb-5 md:w-1/2" flex="">
-			<p>
-				A wooden ramp led from one end of the piazza to the church entrance; it was lined with
-				parade armaments and with beautiful greenery in gilded basins. At the top of the steps
-				leading to the church’s main entrance portal, a temporary wooden chapel of Sancta Maria
-				Inter Turres was erected; two more such chapels, named for San Gregorio and San Maurizio,
-				were set up inside the church on the left side. These temporary structures helped to
-				“transform” for the occasion the church of San Petronio into the Vatican basilica of St.
-				Peter’s; they stood in for three chapels in St. Peter’s that were important to the
-				coronation ceremony. A disc of porphyry for Charles to kneel on when he was crowned was
-				placed inside the church on the wooden ramp leading from the church entrance to the High
-				Altar. This was a reference to the the rota porphiletica in the pavement of St. Peter’s,
-				which marked the spot whereon Charlemagne knelt when he was crowned by Pope Leo III.
-			</p>
-		</Card>
-		</div>
 		<div class=" flex flex-col items-center md:flex-row md:gap-5">
-			<Card class="flex items-center md:w-1/2 mb-5" flex="">
+			<Card class="mb-5 flex items-center md:w-1/2" flex="">
 				<p>
 					Some idea of how these temporary chapels may have looked comes from a drawing of the
 					temporary tabernacle over the tomb of St. Peter in front of the apse in the Vatican
-					basilica, although the chapels set up in San Petronio were smaller and less monumental.</p>
+					basilica, although the chapels set up in San Petronio were smaller and less monumental.
+				</p>
 			</Card>
-			<ImageCard
-			src="..//content/Maarten_van_Heemskerck_013.jpg"
-			citation=""
-			class=""
-			/>
-	</div>
-	<div class=" flex flex-col items-center md:flex-row md:gap-5">
-		<ImageCard
-			src="..//content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
-			citation=""
-			class="img2"
-			/>
-	<Card class="md:w-1/2 " flex="">
-		<p>This drawing also shows that in 1530, St. Peter’s was not the magnificently decorated majestic
-		“queen of basilicas” we see today; it was indeed an ungainly, partly dismantled
-		Constantinian/Early Christian basilica of the fourth century, with an unfinished Renaissance
-		centralized church rising within and around it. The Church of San Petronio itself was still
-		under construction; it had yet to be vaulted and the choir was later extended and enlarged.
-		The unfinished condition of both churches may have made the conceit of San Petronio
-		tranformed into St. Peter’s easier to accept at the time. The wooden platform put up for the
-		occasion in the middle of San Petronio was arranged to make the area in front of the high
-		altar appear sunken, to suggest the sunken crypt-like space in front of the high altar in
-		St. Peter’s. According to Vasari, the nave was lined with wooden Ionic colonnades set up for
-		the coronation. If Vasari was correct, these colonnades would have enhanced the intended
-		transformation of San Petronio into Saint Peter’s, which, as the drawing shows, still had
-		its original Constantinian rows of spolia columns lining the nave. An idea of what such an
-		Ionic colonnade would have looked like can be gained from a Fifth-Century Christian basilica
-		in Rome, Santa Maria Maggiore:
-	</p> 
-</Card>
+			<ImageCard src="static/content/Maarten_van_Heemskerck_013.jpg" citation="" class="" />
 		</div>
-<div class="flex items-center mb-5 gap-5 md:gap-10">
-	<Card>
-	<p>Although there are no detailed visual records of the ceremony, other depictions of 
-		the temporary decorations set up for post-medieval coronations taking place in 
-		Gothic churches help us to visualize the event.</p>
-	</Card>
-		<ImageCard
-			src="..//content/Sanpetroniointerior.jpg"
-			citation=""
-			/>
-	</div>
-	<div class="flex items-center gap-5">
-		<div class="img1">
-			<ImageCard
-			src="..//content/sanpetronio.jpg"
-			citation=""
-			/>
+		<div class=" flex flex-col items-center md:flex-row md:gap-5">
+			<div class="flex flex-col">
+				<ImageCard
+					src="static/content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
+					citation=""
+					class=""
+				/>
+				<ImageCard src="static/content/tempchapels.jpg" citation="" class="" />
+			</div>
+			<Card class="md:w-1/2 " flex="">
+				<p>
+					This drawing also shows that in 1530, St. Peter’s was not the magnificently decorated
+					majestic “queen of basilicas” we see today; it was indeed an ungainly, partly dismantled
+					Constantinian/Early Christian basilica of the fourth century, with an unfinished
+					Renaissance centralized church rising within and around it. The Church of San Petronio
+					itself was still under construction; it had yet to be vaulted and the choir was later
+					extended and enlarged. The unfinished condition of both churches may have made the conceit
+					of San Petronio tranformed into St. Peter’s easier to accept at the time. The wooden
+					platform put up for the occasion in the middle of San Petronio was arranged to make the
+					area in front of the high altar appear sunken, to suggest the sunken crypt-like space in
+					front of the high altar in St. Peter’s. According to Vasari, the nave was lined with
+					wooden Ionic colonnades set up for the coronation. If Vasari was correct, these colonnades
+					would have enhanced the intended transformation of San Petronio into Saint Peter’s, which,
+					as the drawing shows, still had its original Constantinian rows of spolia columns lining
+					the nave. An idea of what such an Ionic colonnade would have looked like can be gained
+					from a Fifth-Century Christian basilica in Rome, Santa Maria Maggiore:
+				</p>
+			</Card>
 		</div>
-		<div class="img2">
-			<ImageCard
-			src="..//content/sacredelouis.jpeg"
-			citation=""
-			/>
+		<div class="mb-5 flex items-center gap-5 md:gap-10">
+			<Card>
+				<p>
+					Although there are no detailed visual records of the ceremony, other depictions of the
+					temporary decorations set up for post-medieval coronations taking place in Gothic churches
+					help us to visualize the event.
+				</p>
+			</Card>
+			<ImageCard src="static/content/Sanpetroniointerior.jpg" citation="" />
 		</div>
-		<div class="img3">
-			<ImageCard
-			src="..//content/Coronation_of_Louis_XV_in_Reims.jpg"
-			citation=""
-			/>
+		<div class="flex items-center gap-5">
+			<div class="img1">
+				<ImageCard src="static/content/sanpetronio.jpg" citation="" />
+			</div>
+			<div class="img2">
+				<ImageCard src="static/content/sacredelouis.jpeg" citation="" />
+			</div>
+			<div class="img3">
+				<ImageCard src="static/content/Coronation_of_Louis_XV_in_Reims.jpg" citation="" />
+			</div>
 		</div>
-	</div>
 		<!-- <Citation /> -->
 	</Background>
 	<!-- Red Section -->
 	<Background
 		parallax
-	    opacity1="5" opacity2="8"
+		opacity1="5"
+		opacity2="8"
 		scrim="goldblack"
 		src="..//backgrounds/tex16-35.jpg"
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class="" >
+		<Card class="" light>
 			The sumptuous decorations of tapestries and luxurious textiles not only gave the occasion and
 			the interior a festive air, but also showcased the quality of textile production in Charles
 			V’s Flemish territories. These brocades, silks, velvets and damasks were made in imitation of
 			and in competition with the prized textiles of the Islamic world and of China.
 		</Card>
-		<Card class="" >
+		<Card class="" light>
 			Such precious stuffs adorned the garb of the spectators as well as the interior of the church.
 			Indeed the most detailed contemporary account of the coronation devotes more space to minute
 			description of what the dignitaries were wearing than to any other subject. Aristocratic
@@ -204,64 +197,53 @@
 			decorations would have been.
 		</Card>
 		<div class="flex items-center justify-center">
-			<div class="flex flex-col md:flex-row gap-4 mr-5 md:mr-0 justify-center">
-			<div class="img4">
-			<ImageCard
-			src="..//content/Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
-			citation=""
-			/>
+			<div class="mr-5 flex flex-col justify-center gap-4 md:mr-0 md:flex-row">
+				<div class="img4">
+					<ImageCard
+						src="static/content/Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
+						citation=""
+					/>
+				</div>
+				<div class="img5">
+					<ImageCard
+						src="static/content/Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
+						citation=""
+					/>
+				</div>
+			</div>
+			<div class="flex flex-col justify-center gap-5 md:flex-row">
+				<div class="img6">
+					<ImageCard src="static/content/Giovanni_battista_moroni.jpg" citation="" />
+				</div>
+				<div class="img7">
+					<ImageCard
+						src="static/content/Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
+						citation=""
+					/>
+				</div>
+			</div>
 		</div>
-		<div class="img5">
-			<ImageCard
-			src="..//content/Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
-			citation=""
-			/>
-		</div>
-	</div>
-	<div class="flex flex-col md:flex-row gap-5 justify-center">
-		<div class="img6">
-			<ImageCard
-			src="..//content/Giovanni_battista_moroni.jpg"
-			citation=""
-			/>
-		</div>
-		<div class="img7">
-			<ImageCard
-			src="..//content/Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
-			citation=""
-			/>
-		</div>
-	</div>
-		</div>
-		<Card class="mb-4 md:mb-24" >
-			<p>The vestments of the clergy, choristers and musicians were every bit as elaborate. </p>
+		<Card class="mb-4 md:mb-24" light>
+			<p>The vestments of the clergy, choristers and musicians were every bit as elaborate.</p>
 		</Card>
 		<div class="flex items-center gap-5">
 			<div class="img8">
-		<ImageCard
-			src="..//content/singingangels.jpg"
-			citation=""
-			/>
+				<ImageCard src="static/content/singingangels.jpg" citation="" />
+			</div>
+			<div class="img9">
+				<ImageCard src="static/content/St._Peter_Niccoline_Chapel.jpg" citation="" />
+			</div>
+			<div class="img10">
+				<ImageCard src="static/content/saintaugustineofhippo.jpeg" citation="" />
+			</div>
 		</div>
-		<div class="img9">
-			<ImageCard
-			src="..//content/St._Peter_Niccoline_Chapel.jpg"
-			citation=""
-			/>
-		</div>
-		<div class="img10">
-			<ImageCard
-			src="..//content/saintaugustineofhippo.jpeg"
-			citation=""
-			/>
-		</div>
-		</div>
-		<Card class="mb-4 md:mb-24" >
-			<p>Decorations with fragrant foliage and flowers freshened the air inside the crowded 
-				church, at a time when frequent bathing was rare. Temporary bleacher-like seating 
-				filled the space and accommodated the spectators; some of the bleachers collapsed
-				at one point in the ceremony, causing panic among the crowd and killing a few 
-				unfortunate onlookers.</p>
+		<Card class="mb-4 md:mb-24" light>
+			<p>
+				Decorations with fragrant foliage and flowers freshened the air inside the crowded church,
+				at a time when frequent bathing was rare. Temporary bleacher-like seating filled the space
+				and accommodated the spectators; some of the bleachers collapsed at one point in the
+				ceremony, causing panic among the crowd and killing a few unfortunate onlookers.
+			</p>
 		</Card>
 		<!-- grid md:grid-cols-4 grid-cols-2 items-center justify-center gap-2 -->
 		<ChapterButton numeral="V" chapter="A Focus on Music" path="5" />
@@ -269,43 +251,43 @@
 </Transition>
 
 <style>
-.img1 {
-flex: .664;
-}
+	.img1 {
+		flex: 0.664;
+	}
 
-.img2 {
-flex: 1.2097;
-}
+	.img2 {
+		flex: 1.2097;
+	}
 
-.img3{
-flex: .59
-}
+	.img3 {
+		flex: 0.59;
+	}
 
-.img4 {
-	flex: .45;	
-}
+	.img4 {
+		flex: 0.45;
+	}
 
-.img5 {
-	flex: .5	
-}
+	.img5 {
+		flex: 0.5;
+	}
 
-.img6 {
-	flex: .51	
-}
+	.img6 {
+		flex: 0.51;
+	}
 
-.img7 {
-	flex: .42	
-}
+	.img7 {
+		flex: 0.42;
+	}
 
-.img8{
-	flex: .45;
-}
+	.img8 {
+		flex: 0.45;
+	}
 
-.img9 {
-	flex: .24;	
-}
+	.img9 {
+		flex: 0.24;
+	}
 
-.img10 {
-	flex: .35;	
-}
+	.img10 {
+		flex: 0.35;
+	}
 </style>
