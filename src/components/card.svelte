@@ -7,10 +7,10 @@
 
 <div
 	class={flex +
-		'text-lg md:text-[22px] md:leading-9 font-normal md:px-10 px-5 py-5 md:my-12 my-4 backdrop-blur-3xl rounded-md shadow-lg h-min ' +
+		' md:leading-9 font-normal md:px-10 px-5 py-5 md:my-12 my-4 backdrop-blur-3xl rounded-md shadow-lg h-min ' +
 		(light
-			? 'bg-[#F9F4E8] bg-opacity-90 text-[#1C0A10]  '
-			: 'bg-[#1C0A10] bg-opacity-80 text-[#F9F4E8] ') +
+			? 'bg-[#F9F4E8] bg-opacity-90 text-[#1C0A10] md:text-[20px] text-[18px]  '
+			: 'bg-[#1C0A10] bg-opacity-80 text-[#F9F4E8] md:text-[20px] text-[18px] ') +
 		classes}
 >
 	<slot />
