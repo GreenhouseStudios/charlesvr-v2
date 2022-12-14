@@ -2,13 +2,13 @@
 	import Card from './card.svelte';
 	import NextChapter from './next-chapter.svelte';
 	import {ChevronRightIcon} from 'svelte-feather-icons';
+	import 'material-icons/iconfont/material-icons.css';
 	export let numeral;
 	export let chapter;
 	export let path;
-	export let light = false;
 </script>
 
-<div class=" sm:w-max shadow-lg m-4 md:m-12">
+<div class="flex items-center sm:w-max shadow-lg m-4 md:m-12">
 	<a
 		id="button"
 		class="group flex flex-row items-center justify-center rounded-xl p-4 shadow-black/30 transition-all duration-500  sm:gap-6"
@@ -20,7 +20,7 @@
 		<p class=" text-2xl text-white chapter">
 			{chapter} 	
 		</p>
-		<ChevronRightIcon size="2.5x" class="text-gold-400 transition-colors duration-1000 group-hover:text-gold-400"/>
+		<span class="material-icons">chevron_right</span>
 		</a>
 </div>
 
@@ -33,11 +33,18 @@
 		background: rgb(84, 24, 44);
 	}
 
+	.material-icons{
+		color: #F6C869;
+		font-size: 48px;
+	}
+
 	#button:hover {
 		background-position: left bottom;
 		background: rgb(84, 24, 44);
         transform: scale(1.10);
 	}
+
+
 
 	@media screen and (max-width: 650px) {
   .chapter {
@@ -53,5 +60,10 @@
   .numeral{
 	font-size: 36px;
   }
+
+  .material-icons{
+		color: #F6C869;
+		font-size: 36px;
+	}
 }
 </style>
