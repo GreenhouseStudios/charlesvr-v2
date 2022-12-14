@@ -16,7 +16,7 @@
 		opacity1="7"
 		opacity2="2"
 		src="..//backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
-		class="flex flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64">
+		class="flex flex-col h-[100vh] justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64">
 		<Card class="my-24 flex justify-center">
 			<div class="w-full ">
 				On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
