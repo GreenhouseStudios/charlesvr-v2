@@ -28,6 +28,7 @@
   "type": "module",
   "dependencies": {
     "feather-icons": "^4.29.0",
+    "material-icons": "^1.13.1",
     "svelte-feather-icons": "^4.0.0"
   }
 }
