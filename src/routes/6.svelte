@@ -43,8 +43,8 @@
 	>
 		<source src="..//backgrounds/choirshot.mp4" type="video/mp4" />
 	</video>
-	<Background src="..//backgrounds/basilicaexterior.jpg" parallax class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="my-24 md:my-48">
+	<Background src="..//backgrounds/basilicaexterior.jpg" parallax class="flex flex-col h-[100vh] justify-center items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
+		<Card class="my-24 md:my-48 ">
 			The surviving accounts of the event mention a stretch of “prayers” after the singing of the
 			gradual. A report by Hironimo Bontempo makes a specific reference to singers reciting the
 			prayers: “His majesty having had all these [insignia], a number of prayers were sung by the
