@@ -1,8 +1,14 @@
 <script>
     export let word;
+    export let light = false;
+	export let classes = '';
+	export { classes as class };
 </script>
 
-<span class="tooltip">
+<span class={(light
+? 'tooltip text-[#F9F4E8] md:text-[20px] text-[18px]  '
+: ' tooltip text-[#1C0A10] md:text-[20px] text-[18px] ') +
+classes}>
 	<strong>
 		{word}
         <span class="tooltiptext"><slot>Definition here</slot></span>
