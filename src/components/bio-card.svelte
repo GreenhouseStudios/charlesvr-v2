@@ -6,15 +6,16 @@
 	export let years;
 	export let classes = '';
 	export { classes as class };
+	import 'material-icons/iconfont/material-icons.css';
 </script>
 
 <div
 	class={'background bg-opacity-[.85] flex flex-col items-center md:flex-row gap-2 p-8 h-min w-full p-4 rounded-md backdrop-blur-3xl shadow-lg -z-10' +
 		classes}
 >
-	<div class="break-words w-1/3 flex flex-col items-center justify-center"><div>
+	<div class="break-words w-1/3 flex flex-col items-center justify-center">
 		<img {src} {alt} class="rounded-md object-scale-down block" />
-		<p class=" cursor-pointer text-gold-400 break-words max-w-sm underline text-center underline-offset-2 hover:text-white"><a href="{citation}">Source</a></p></div>
+		<span class="material-icons"><a href="{citation}">menu_book</a></span>
 	</div>
 	<div
 		class="text-center text-gold-400 p-2 md:w-2/3"
@@ -36,4 +37,19 @@
 	.background {
 		background-color: #54172c;
 	}
+
+	.material-icons{
+        color: #fec755;
+        font-size: 36px;
+    }
+
+    .material-icons:hover{
+        color: white;
+    }
+
+    @media screen and (max-width: 768px){
+        .material-icons{
+        font-size: 24px;
+    }  
+    }
 </style>
