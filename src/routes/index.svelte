@@ -8,6 +8,7 @@
 	import { onMount } from 'svelte';
 	import Tooltip from './../components/tooltip.svelte';
 	let images = [1, 2, 3, 4, 5, 6];
+	// let definitions = [{ word: 'coronation', definition: 'the act or occasion of crowning' }];
 </script>
 
 <Transition>
@@ -28,12 +29,11 @@
 			</div>
 			<Card light class="md:max-w-[80%]" flex="">
 				<p class="mt-10 mb-10">
-					Travel to 1530 Bologna to attend the <Tooltip word="coronation"
-						>the act or occasion of crowning</Tooltip
-					> mass of the Holy Roman Emperor, Charles V, in this virtual reality recreation of San Petronio.
-					The details of the coronation reflect the social and political turmoil of the times; the experience
-					itself recreates the sights and sounds of this religious and political ceremony using contemporaneous
-					accounts, artwork, and music as source material.
+					Travel to 1530 Bologna to attend the <Tooltip def="the act or occasion of crowning">coronation</Tooltip> mass of the Holy Roman Emperor,
+					Charles V, in this virtual reality recreation of San Petronio. The details of the coronation
+					reflect the social and political turmoil of the times; the experience itself recreates the
+					sights and sounds of this religious and political ceremony using contemporaneous accounts,
+					artwork, and music as source material.
 				</p>
 				<br />
 				<p class="">
@@ -189,10 +189,10 @@
 						alt="credits placeholder"
 					/>
 					<img
-					class="col-span-2 mx-auto"
-					src="static/logos/OrigoLogo.png"
-					alt="credits placeholder"
-				/>
+						class="col-span-2 mx-auto"
+						src="static/logos/OrigoLogo.png"
+						alt="credits placeholder"
+					/>
 					<img
 						class="m-5 mx-auto"
 						src="https://via.placeholder.com/300
