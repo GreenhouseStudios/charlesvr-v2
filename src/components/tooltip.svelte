@@ -34,6 +34,7 @@
 		color: black;
 		position: relative;
 		text-decoration: underline;
+		display: inline-block;
 	}
 
 	.tooltiptext {
@@ -46,7 +47,6 @@
 		z-index: auto;
 		width: max-content;
 		/* bottom: 30px; */
-
 		line-height: 1;
 	}
 
