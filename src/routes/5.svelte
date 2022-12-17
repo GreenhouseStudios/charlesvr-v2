@@ -5,6 +5,7 @@
 	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
 	import SectionHero from './../components/section-hero.svelte';
+	import Tooltip from './../components/tooltip.svelte';
 </script>
 
 <Transition>
@@ -32,10 +33,10 @@
 		<Card class=" md:w-3/5">
 			Music was extremely important to the ceremony and to the culture and politics of the
 			Renaissance. Nearly every liturgical text in the period was sung, and even lay people could
-			recognize plainchant sung daily or on important feast days. Because liturgical music had a
+			recognize <Tooltip word="plainchant" light>a monophonic rhythmically free liturgical chant of any of various Christian rites</Tooltip> sung daily or on important feast days. Because liturgical music had a
 			long tradition of elaborations of prescribed plainchant with polyphony (music with multiple
 			parts), listeners in the period were often very capable of hearing the original chant embedded
-			within a composition such as a motet and understanding its significance — a practice similar
+			within a composition such as a <Tooltip word="motet" light>a polyphonic choral composition on a sacred text usually without instrumental accompaniment</Tooltip> and understanding its significance — a practice similar
 			in some ways to recognizing a sample in today’s hip hop. Popular songs could also be used as
 			the basis for polyphonic masses, again resulting in a kind of intertextuality that could carry
 			significant meaning. In both instances — motets based on chant and masses based on popular
@@ -58,7 +59,7 @@
 			kings (as opposed to emperors). A royal coronation (i.e., as king) had to happen before an
 			imperial coronation (i.e., as emperor) took place, normally in Rome. Manuscripts that document
 			the royal and imperial coronation ceremonies reveal broad similarities between the two
-			(anointing with oil and bestowing of weapons and insignia, for example), but important details
+			(anointing with oil and bestowing of weapons and <Tooltip word="insignia">a badge of authority or honor</Tooltip>, for example), but important details
 			pertaining to music distinguish the ceremonies. For the royal coronation in Aachen, the chants
 			and prayers known collectively as the proper were to be those for January 6, or the feast of
 			Epiphany, the day Christ’s divinity was revealed to the Magi.
@@ -86,7 +87,7 @@
 	<Background src="" class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="gold" opacity1="7" opacity2="3">
 		<Card class="" light>
 			Other aspects of the event demonstrate the ways in which music was put to political purposes
-			in the coronation. Because the retinues of both the pope and the emperor were in attendance at
+			in the coronation. Because the <Tooltip word="retinues">a group of retainers or attendants</Tooltip> of both the pope and the emperor were in attendance at
 			the coronation, the choirs of both men were present. The papal choir included the celebrated
 			Italian composer Costanzo Festa, and the imperial choir was directed by Adrien Thiebault, a
 			relatively unknown composer today. The imperial choir’s most illustrious member was the South
@@ -107,7 +108,7 @@
 		<Card class="">
 			Festa’s contribution was the six-voice motet, Ecce advenit dominator. It is preserved in a
 			Sistine Chapel manuscript that contains no attributions, but seems to be dedicated exclusively
-			to Festa’s works. The work’s most immediately striking feature is a cantus firmus clearly
+			to Festa’s works. The work’s most immediately striking feature is a <Tooltip word="cantus firmus" light>the plainsong or simple Gregorian melody originally sung in unison and prescribed as to form and use by ecclesiastical tradition</Tooltip> clearly
 			based upon the ancient opening acclamation of the Laudes Regiæ: “Christus vincit, christus
 			regnat, christus imperat.” For a time, this motet was identified with the coronation of
 			Clement rather than Charles, but Pietschmann is able to cite an obscure Spanish manuscript
@@ -122,7 +123,7 @@
 	>
 	<div class="flex flex-col items-start">
 		<Card class="md:w-1/2" light>
-			The opening of Festa’s motet is derived from the introit for Epiphany, referencing the royal
+			The opening of Festa’s motet is derived from the <Tooltip word="introit">a piece of music sung or played at the beginning of a worship service</Tooltip> for Epiphany, referencing the royal
 			coronation ceremony in Aachen. The next portion of the text is from the introit for the third
 			mass on Christmas Day, Puer natus est, and may have had the effect of calling Charlemagne’s
 			imperial coronation on Christmas in the year 800 to mind. The rest of the text is derived from

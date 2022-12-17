@@ -18,7 +18,7 @@
 		src="..//backgrounds/fabric.jpg"
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card class=" w-full">
+		<Card class="">
 			<div class="w-full ">
 				Charles Habsburg was born in Ghent, a region now located in Belgium. His four grandparents,
 				Emperor Maximilian I of the Holy Roman Empire, Duchess Mary of Burgundy, King Ferdinand II

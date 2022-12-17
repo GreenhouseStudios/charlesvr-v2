@@ -27,23 +27,25 @@
 				Experience the Imperial Coronation of Holy Roman Emperor Charles V
 			</div>
 			<Card light class="md:max-w-[80%]" flex="">
-				<p class="mt-10 mb-10">
+				<p class="">
 					Travel to 1530 Bologna to attend the <Tooltip word="coronation"
-						>the act or occasion of crowning</Tooltip
-					> mass of the Holy Roman Emperor, Charles V, in this virtual reality recreation of San Petronio.
+						 >the act or occasion of crowning</Tooltip
+					> mass of the Holy Roman Emperor, Charles V, in this virtual reality recreation of <Tooltip word="San Petronio"
+					>a large and iconic church in Bologna, Italy; the site of Charles’s coronation </Tooltip
+			   >.
 					The details of the coronation reflect the social and political turmoil of the times; the experience
-					itself recreates the sights and sounds of this religious and political ceremony using contemporaneous
+					itself recreates the sights and sounds of this religious and political ceremony using <Tooltip word="contemporaneous">existing, occurring, or originating during the same time</Tooltip>
 					accounts, artwork, and music as source material.
 				</p>
-				<br />
+				<br>
 				<p class="">
 					Experience the event from multiple perspectives — that of a member of the imperial papal
-					court, a basilica official, or a Bolognese citizen. Hear music performed during the
+					court, a <Tooltip word="basilica">a Roman Catholic church given ceremonial privileges</Tooltip> official, or a Bolognese citizen. Hear music performed during the
 					ceremony as recorded by Ensemble Origo. Call up scholarly annotations to explore the
 					layers of meaning embedded in the art, architecture, and various ceremonial objects
 					present in the scene.
 				</p>
-				<br />
+				<br>
 				<p class="">
 					Charles V|R offers a multi-modal window into this event of world-historical importance for
 					enthusiasts, students, and scholars of art, architecture, history, music, religion, and

@@ -6,6 +6,7 @@
 	import Card from './../components/card.svelte';
 	import SectionHero from './../components/section-hero.svelte';
 	import ImageCard from './../components/image-card.svelte';
+	import Tooltip from './../components/tooltip.svelte';
 </script>
 
 <Transition>
@@ -17,7 +18,7 @@
 		opacity2="2"
 		src="..//backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
 		class="flex flex-col h-[100vh] justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="my-24 flex justify-center">
+		<Card class="flex justify-center">
 			<div class="w-full ">
 				On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
 				Basilica San Petronio in Bologna. It was the last time a pope would crown an emperor, ending
@@ -45,11 +46,11 @@
 		class="flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<div class="grid gap-4 md:gap-12 xl:grid-cols-[1fr_1fr] items-center">
-			<Card class=" " light>
+			<Card class="" light>
 				The Holy Roman Empire was an idealized re-establishment of the realm of Charlemagne, the
 				Frankish ruler whose territories corresponded roughly to those of modern France and Germany.
 				In the year 800, Protestantism the office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head Charlemagne came to the aid of Pope Leo III, who had run afoul of the
-				nobility in Rome. He convened a council in Rome that affirmed Leo's papacy on December 1. In
+				nobility in Rome. He convened a council in Rome that affirmed Leo's <Tooltip word="papacy">the office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head</Tooltip> on December 1. In
 				return Leo crowned Charlemagne “Emperor of the Romans” in Old St. Peter's Basilica in a Mass
 				on Christmas Day, reserving for Charlemagne (now Charles I) the role of defender of Rome and
 				of the Church.
@@ -106,7 +107,7 @@
 			</h2>
 			<Card class="" >
 				Symbolically and politically, this relationship was marked in two coronations. The first was
-				a royal coronation as King of the Germans by the ducal electors in Charlemagne’s old
+				a royal coronation as King of the Germans by the <Tooltip word="ducal" light>the office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head</Tooltip> electors in Charlemagne’s old
 				capital, Aachen. The second was an imperial, or papal, coronation as Emperor of the Romans
 				in Rome under the pope’s hand. From 962 until 1530, in principle each ruler of the Holy
 				Roman Empire was to receive both a royal and an imperial coronation.
@@ -114,7 +115,7 @@
 			<Card class="">
 				During these five and a half centuries, these dual coronations served to ease two important
 				political tensions: the role of the German electors in choosing their leader versus
-				traditions of primogeniture and the role of papal, or sacred, power versus imperial, or
+				traditions of <Tooltip word="primogeniture" light>an exclusive right of inheritance belonging to the eldest son</Tooltip> and the role of papal, or sacred, power versus imperial, or
 				secular, power. While every Christian coronation ceremony aims to affirm the new monarch’s
 				power as God-given, the particular tension between these political elements in the German
 				realm made such an affirmation of paramount importance. These twin ceremonies were thus

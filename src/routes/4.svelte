@@ -7,6 +7,7 @@
 	import Card from './../components/card.svelte';
 	import SectionHero from './../components/section-hero.svelte';
 	import ImageCard from './../components/image-card.svelte';
+	import Tooltip from './../components/tooltip.svelte';
 </script>
 
 <Transition>
@@ -45,7 +46,7 @@
 			The imperial and papal courts therefore set about faithfully reproducing the symbolic
 			geography of Rome in and around the Basilica of San Petronio. They also worked to ensure that
 			the liturgy of the coronation Mass was performed as it would have been in Rome, drawing up a
-			detailed ordo which specified the texts to be read and chanted in keeping with the age-old
+			detailed <Tooltip word="ordo" light>a list of offices and feasts of the Roman Catholic Church for each day of the year</Tooltip> which specified the texts to be read and chanted in keeping with the age-old
 			traditions.
 		</Card>
 	</Background>
@@ -105,7 +106,7 @@
 					were set up inside the church on the left side. These temporary structures helped to
 					“transform” for the occasion the church of San Petronio into the Vatican basilica of St.
 					Peter’s; they stood in for three chapels in St. Peter’s that were important to the
-					coronation ceremony. A disc of porphyry for Charles to kneel on when he was crowned was
+					coronation ceremony. A disc of <Tooltip word="porphyry" light>a rock consisting of feldspar crystals embedded in a compact dark red or purple groundmass</Tooltip> for Charles to kneel on when he was crowned was
 					placed inside the church on the wooden ramp leading from the church entrance to the High
 					Altar. This was a reference to the the rota porphiletica in the pavement of St. Peter’s,
 					which marked the spot whereon Charlemagne knelt when he was crowned by Pope Leo III.
@@ -186,7 +187,7 @@
 		<Card class="" light>
 			The sumptuous decorations of tapestries and luxurious textiles not only gave the occasion and
 			the interior a festive air, but also showcased the quality of textile production in Charles
-			V’s Flemish territories. These brocades, silks, velvets and damasks were made in imitation of
+			V’s Flemish territories. These <Tooltip word="brocades">a rich silk fabric with raised patterns in gold and silver</Tooltip>, silks, velvets and <Tooltip word="damasks">a firm lustrous fabric (as of linen, cotton, silk, or rayon) made with flat patterns in a satin weave on a plain-woven ground on jacquard looms</Tooltip> were made in imitation of
 			and in competition with the prized textiles of the Islamic world and of China.
 		</Card>
 		<Card class="" light>
@@ -234,7 +235,7 @@
 				<ImageCard src="static/content/St._Peter_Niccoline_Chapel.jpg" citation="" />
 			</div>
 			<div class="img10">
-				<ImageCard src="static/content/saintaugustineofhippo.jpeg" citation="" />
+				<ImageCard src="..//content/saintaugustineofhippo.jpeg" citation="" />
 			</div>
 		</div>
 		<Card class="mb-4 md:mb-24" light>
