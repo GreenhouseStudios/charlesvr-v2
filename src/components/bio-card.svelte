@@ -10,16 +10,14 @@
 </script>
 
 <div
-	class={'background bg-opacity-[.85] flex flex-col items-center md:flex-row gap-2 p-8 h-min w-full p-4 rounded-md backdrop-blur-3xl shadow-lg -z-10' +
+	class={'background bg-opacity-[.85] flex flex-col items-center md:flex-row gap-2  h-min w-full p-4 rounded-md backdrop-blur-3xl shadow-lg -z-10' +
 		classes}
 >
-	<div class="break-words w-1/3 flex flex-col items-center justify-center">
-		<img {src} {alt} class="rounded-md object-scale-down block" />
-		<span class="material-icons"><a href="{citation}">menu_book</a></span>
+	<div class=" bioimg flex w-1/3 flex-col items-center justify-center break-words">
+		<img {src} {alt} class="rounded-md bioimg" />
+		<span class="material-icons"><a href={citation}>menu_book</a></span>
 	</div>
-	<div
-		class="text-center text-gold-400 p-2 md:w-2/3"
-	>
+	<div class="p-2 text-center text-gold-400 md:w-2/3">
 		<strong class="text-3xl lg:text-5xl">{name}</strong>
 		<br />
 		<em class="mb-4 text-2xl md:mb-8 lg:text-4xl">{years}</em>
@@ -38,18 +36,25 @@
 		background-color: #54172c;
 	}
 
-	.material-icons{
-        color: #fec755;
-        font-size: 36px;
-    }
+	.material-icons {
+		color: #fec755;
+		font-size: 36px;
+	}
 
-    .material-icons:hover{
-        color: white;
-    }
+	.material-icons:hover {
+		color: white;
+	}
 
-    @media screen and (max-width: 768px){
-        .material-icons{
-        font-size: 24px;
-    }  
-    }
+	@media screen and (max-width: 768px) {
+		.material-icons {
+			font-size: 24px;
+		}
+		.bioimg{
+			object-fit: cover;
+			padding: 10px;
+			width: 400px; 
+            height: 250px;
+			object-position: 80% 20%;;
+		}
+	}
 </style>
