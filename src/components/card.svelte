@@ -2,11 +2,10 @@
 	export let light = false;
 	export let classes = '';
 	export { classes as class };
-	export let flex = 'flex';
 </script>
 
 <div
-	class={flex +
+	class={
 		' md:leading-9 font-normal md:px-10 px-5 py-5 md:my-12 my-4 backdrop-blur-3xl rounded-md shadow-lg h-min ' +
 		(light
 			? 'bg-[#F9F4E8] bg-opacity-90 text-[#1C0A10] md:text-[20px] text-[18px]  '
