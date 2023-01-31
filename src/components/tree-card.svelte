@@ -15,7 +15,7 @@
 		<img {src} {alt} class="rounded-t" />
 		<div class="rounded-b px-2 background">
 			<div class="md:block hidden">
-			<div class="py-2 text-sm text-center text-white fontcolor">
+			<div class="py-2 text-base text-center text-white fontcolor">
 				<div class="leading-tight tracking-wide">
 					{name}
 				</div>
