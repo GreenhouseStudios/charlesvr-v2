@@ -17,6 +17,7 @@ export { classes as class };
     .material-icons{
         color: #fec755;
         font-size: 36px;
+        margin-bottom: 10px;
     }
 
     .material-icons:hover{
