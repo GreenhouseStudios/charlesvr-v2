@@ -108,7 +108,7 @@
 		<Card class="">
 			Festa’s contribution was the six-voice motet, Ecce advenit dominator. It is preserved in a
 			Sistine Chapel manuscript that contains no attributions, but seems to be dedicated exclusively
-			to Festa’s works. The work’s most immediately striking feature is a <Tooltip word="cantus firmus" light>the plainsong or simple Gregorian melody originally sung in unison and prescribed as to form and use by ecclesiastical tradition</Tooltip> clearly
+			to Festa’s works. The work’s most immediately striking feature is a <Tooltip def="the plainsong or simple Gregorian melody originally sung in unison and prescribed as to form and use by ecclesiastical tradition" light>cantus firmus</Tooltip> clearly
 			based upon the ancient opening acclamation of the Laudes Regiæ: “Christus vincit, christus
 			regnat, christus imperat.” For a time, this motet was identified with the coronation of
 			Clement rather than Charles, but Pietschmann is able to cite an obscure Spanish manuscript
@@ -123,7 +123,7 @@
 	>
 	<div class="flex flex-col items-start">
 		<Card class="md:w-1/2" light>
-			The opening of Festa’s motet is derived from the <Tooltip word="introit">a piece of music sung or played at the beginning of a worship service</Tooltip> for Epiphany, referencing the royal
+			The opening of Festa’s motet is derived from the <Tooltip def="a piece of music sung or played at the beginning of a worship service">introit</Tooltip> for Epiphany, referencing the royal
 			coronation ceremony in Aachen. The next portion of the text is from the introit for the third
 			mass on Christmas Day, Puer natus est, and may have had the effect of calling Charlemagne’s
 			imperial coronation on Christmas in the year 800 to mind. The rest of the text is derived from
