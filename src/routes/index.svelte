@@ -7,6 +7,7 @@
 	import NextChapter from './../components/next-chapter.svelte';
 	import { onMount } from 'svelte';
 	import Tooltip from './../components/tooltip.svelte';
+	
 	let images = [1, 2, 3, 4, 5, 6];
 	// let definitions = [{ word: 'coronation', definition: 'the act or occasion of crowning' }];
 </script>
@@ -63,6 +64,10 @@
 					<div class="text-center">
 						<div class="mb-1 leading-4"><strong>Jonathan Ampiaw</strong></div>
 						<div class="mb-5 text-base leading-4">MFA ‘20 Digital Media & Design</div>
+					</div>
+					<div class="text-center">
+						<div class="mb-1 leading-4"><strong>Clarissa Ceglio</strong></div>
+						<div class="mb-5 text-base leading-4">Greenhouse Studios Associate Director of Research</div>
 					</div>
 					<div class="text-center">
 						<div class="mb-1 leading-4"><strong>Shawn Chen</strong></div>
@@ -223,7 +228,7 @@ C/O https://placeholder.com/"
 					/>
 				</div></Card
 			>
-			<ChapterButton numeral="II" chapter="The Coronation in Context" path="2" light class="" />
+			<ChapterButton numeral="II" chapter="The Coronation in Context" path="2" class="" />
 		</div>
 	</Background>
 </Transition>
