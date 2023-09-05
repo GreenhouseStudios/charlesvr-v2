@@ -96,7 +96,8 @@
 			</div>
 		</div>
 		<div class="flex flex-col items-center md:flex-row md:gap-5">
-			<ImageCard src="static/content/rota-porfiletica-st-peter.jpg" citation="" />
+			<ImageCard src="static/content/rota-porfiletica-st-peter.jpg" citation="https://www.romawonder.com/wp-content/uploads/2017/07/rota-porfiletica-st-
+			peter.jpg" />
 			<Card class="mb-5 flex items-center md:w-1/2" flex="">
 				<p>
 					A wooden ramp led from one end of the piazza to the church entrance; it was lined with
@@ -121,13 +122,13 @@
 					basilica, although the chapels set up in San Petronio were smaller and less monumental.
 				</p>
 			</Card>
-			<ImageCard src="static/content/Maarten_van_Heemskerck_013.jpg" citation="" class="" />
+			<ImageCard src="static/content/Maarten_van_Heemskerck_013.jpg" citation="https://commons.wikimedia.org/wiki/File:Maarten_van_Heemskerck_013.jpg" class="" />
 		</div>
 		<div class=" flex flex-col items-center md:flex-row md:gap-5">
 			<div class="flex flex-col">
 				<ImageCard
 					src="static/content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
-					citation=""
+					citation="https://commons.wikimedia.org/wiki/File:Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
 					class=""
 				/>
 				<ImageCard src="static/content/tempchapels.jpg" citation="" class="" />
@@ -160,17 +161,17 @@
 					help us to visualize the event.
 				</p>
 			</Card>
-			<ImageCard src="static/content/Sanpetroniointerior.jpg" citation="" />
+			<ImageCard src="static/content/Sanpetroniointerior.jpg" citation="https://commons.wikimedia.org/wiki/File:Sanpetroniointerior.jpg" />
 		</div>
 		<div class="flex items-center gap-5">
 			<div class="img1">
-				<ImageCard src="static/content/sanpetronio.jpg" citation="" />
+				<ImageCard src="static/content/sanpetronio.jpg" citation="https://cs.wikipedia.org/wiki/Korunovace_%C4%8Desk%C3%BDch_panovn%C3%ADk%C5%AF#/media/Soubor:Eduard_Gurk_001.jpg" />
 			</div>
 			<div class="img2">
-				<ImageCard src="static/content/sacredelouis.jpeg" citation="" />
+				<ImageCard src="static/content/sacredelouis.jpeg" citation="https://commons.wikimedia.org/wiki/File:Sacre_de_Louis_XV_%C3%A0_Reims.jpg" />
 			</div>
 			<div class="img3">
-				<ImageCard src="static/content/Coronation_of_Louis_XV_in_Reims.jpg" citation="" />
+				<ImageCard src="static/content/Coronation_of_Louis_XV_in_Reims.jpg" citation="https://commons.wikimedia.org/wiki/File:Coronation_of_Louis_XV_in_Reims.JPG" />
 			</div>
 		</div>
 		<!-- <Citation /> -->
@@ -202,24 +203,24 @@
 				<div class="img4">
 					<ImageCard
 						src="static/content/Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
-						citation=""
+						citation="https://commons.wikimedia.org/wiki/File:Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
 					/>
 				</div>
 				<div class="img5">
 					<ImageCard
 						src="static/content/Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
-						citation=""
+						citation="https://en.wikipedia.org/wiki/Portrait_of_Eleanor_of_Toledo#/media/File:Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
 					/>
 				</div>
 			</div>
 			<div class="flex flex-col justify-center gap-5 md:flex-row">
 				<div class="img6">
-					<ImageCard src="static/content/Giovanni_battista_moroni.jpg" citation="" />
+					<ImageCard src="static/content/Giovanni_battista_moroni.jpg" citation="https://commons.wikimedia.org/wiki/File:Giovanni_battista_moroni,_ritratto_du_don_gabriel_de_la_cueva,_duca_di_albuquerque_e_governatore_spagnolo_di_milano,_1560.JPG" />
 				</div>
 				<div class="img7">
 					<ImageCard
 						src="static/content/Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
-						citation=""
+						citation="https://nl.wikipedia.org/wiki/Bestand:Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
 					/>
 				</div>
 			</div>
@@ -229,13 +230,13 @@
 		</Card>
 		<div class="flex items-center gap-5">
 			<div class="img8">
-				<ImageCard src="static/content/singingangels.jpg" citation="" />
+				<ImageCard src="static/content/singingangels.jpg" citation="https://www.flickr.com/photos/8545333@N07/2208696665" />
 			</div>
 			<div class="img9">
-				<ImageCard src="static/content/St._Peter_Niccoline_Chapel.jpg" citation="" />
+				<ImageCard src="static/content/St._Peter_Niccoline_Chapel.jpg" citation="https://en.wikipedia.org/wiki/Niccoline_Chapel#/media/File:St._Peter_Niccoline_Chapel.jpg" />
 			</div>
 			<div class="img10">
-				<ImageCard src="..//content/saintaugustineofhippo.jpeg" citation="" />
+				<ImageCard src="..//content/saintaugustineofhippo.jpeg" citation="https://www.metmuseum.org/art/collection/search/471903" />
 			</div>
 		</div>
 		<Card class="mb-4 md:mb-24" light>

@@ -31,26 +31,6 @@
 			</div>
 		</Card>
 		<FamilyTree />
-        <Card class= " text-center text-base gap-5 sources">
-			<ul>
-				<li class="font-bold">Philip the Handsome</li>
-				<li class="leading-3 mb-5">Source</li>
-				<li class="font-bold">Joanna of Castile</li>
-				<li class="leading-3 mb-5">Source</li>
-				<li class="font-bold">Charles V</li>
-				<li class="leading-3 mb-5">Source</li>
-			</ul>
-			<ul>
-				<li class="font-bold">Emperor Maximimillian I</li>
-				<li class="leading-3 mb-5">Source</li>
-				<li class="font-bold">Duchess Mary of Burgundy</li>
-				<li class="leading-3 mb-5">Source</li>
-				<li class="font-bold">Queen Isabella I of Castille</li>
-				<li class="leading-3 mb-5">Source</li>
-				<li class="font-bold"> King Ferdinand II of Aragon</li>
-				<li class="leading-3 mb-5">Source</li>
-			</ul>
-		</Card>
 		<Card class="">
 			King Ferdinand II of Aragon, his maternal grandfather, left him most of the Iberian Peninsula,
 			therefore making him King Carlos I of Spain. Charles also inherited eastern Spain and Aragon’s
@@ -80,6 +60,7 @@
 				src="..//character-cards/Francis I.jpg"
 				years="1494-1547"
 				class="items-center w-full"
+				citation="http://img.over-blog.com/222x300/4/98/42/54/renaissance/francois.jpg"
 			>
 				<p>Crowned King of France in January 1515</p>
 				<p>

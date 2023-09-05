@@ -76,6 +76,7 @@
 				src="..//character-cards/Otto.jpg"
 				years="912-973"
 				class="2xl:order-first flex items-center"
+				citation="https://upload.wikimedia.org/wikipedia/commons/9/99/Bas-c%C3%B4t%C3%A9_nord,_baie_VI_Otto_Rex_(dernier_tiers_XIIe).jpg"
 			>
 				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
 				<p>Crowned Holy Roman Emperor in 962 due to his aid of Pope John XXII two years prior</p>
@@ -126,7 +127,7 @@
 		<div class="flex items-center">
 			<ImageCard
 			src="..//content/dualcoronations.png"
-			citation=""
+			citation="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Henry_VII_Holy_Roman_Emperor.jpg/500px-Henry_VII_Holy_Roman_Emperor.jpg"
 			/>
 	</div>
 		<div class="col-span-2 mx-auto">
