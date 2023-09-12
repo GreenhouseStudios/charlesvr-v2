@@ -125,13 +125,13 @@
 			<ImageCard src="static/content/Maarten_van_Heemskerck_013.jpg" citation="https://commons.wikimedia.org/wiki/File:Maarten_van_Heemskerck_013.jpg" class="" />
 		</div>
 		<div class=" flex flex-col items-center md:flex-row md:gap-5">
-			<div class="flex flex-col">
+			<div class="flex flex-col w-1/2">
 				<ImageCard
 					src="static/content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
 					citation="https://commons.wikimedia.org/wiki/File:Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
-					class=""
+					class="w-full"
 				/>
-				<ImageCard src="static/content/tempchapels.jpg" citation="" class="" />
+				<ImageCard src="static/content/tempchapels.jpg" citation="" class="w-full" />
 			</div>
 			<Card class="md:w-1/2 " flex="">
 				<p>

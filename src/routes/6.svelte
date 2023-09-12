@@ -43,7 +43,7 @@
 	>
 		<source src="..//backgrounds/choirshot.mp4" type="video/mp4" />
 	</video>
-	<Background src="..//backgrounds/basilicaexterior.jpg" parallax class="flex flex-col h-[100vh] justify-center items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
+	<Background src="..//backgrounds/basilicaexterior.jpg" parallax class="flex flex-col h-[100vh] justify-center items-end p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="gold" opacity1="4" opacity2="3">
 		<Card class="my-24 md:my-48 ">
 			The surviving accounts of the event mention a stretch of “prayers” after the singing of the
 			gradual. A report by Hironimo Bontempo makes a specific reference to singers reciting the
@@ -74,8 +74,8 @@
 		</Card>
 	</Background>
 	
-	<Background src="..//backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="my-12">
+	<Background src="..//backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="gold" opacity1="7" opacity2="3">
+		<Card class="my-12" light>
 			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the
 			coronation and Charles’s documented embarrassment about it, to attribute the character of this
 			mass to Charles’s regret. Its basis of the regretful chanson could channel Charles’s general

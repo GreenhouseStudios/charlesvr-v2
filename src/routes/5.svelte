@@ -33,10 +33,10 @@
 		<Card class=" md:w-3/5">
 			Music was extremely important to the ceremony and to the culture and politics of the
 			Renaissance. Nearly every liturgical text in the period was sung, and even lay people could
-			recognize <Tooltip word="plainchant" light>a monophonic rhythmically free liturgical chant of any of various Christian rites</Tooltip> sung daily or on important feast days. Because liturgical music had a
+			recognize <Tooltip def="a monophonic rhythmically free liturgical chant of any of various Christian rites" light>plainchant</Tooltip> sung daily or on important feast days. Because liturgical music had a
 			long tradition of elaborations of prescribed plainchant with polyphony (music with multiple
 			parts), listeners in the period were often very capable of hearing the original chant embedded
-			within a composition such as a <Tooltip word="motet" light>a polyphonic choral composition on a sacred text usually without instrumental accompaniment</Tooltip> and understanding its significance — a practice similar
+			within a composition such as a <Tooltip word="a polyphonic choral composition on a sacred text usually without instrumental accompaniment" light>motet</Tooltip> and understanding its significance — a practice similar
 			in some ways to recognizing a sample in today’s hip hop. Popular songs could also be used as
 			the basis for polyphonic masses, again resulting in a kind of intertextuality that could carry
 			significant meaning. In both instances — motets based on chant and masses based on popular
@@ -59,7 +59,7 @@
 			kings (as opposed to emperors). A royal coronation (i.e., as king) had to happen before an
 			imperial coronation (i.e., as emperor) took place, normally in Rome. Manuscripts that document
 			the royal and imperial coronation ceremonies reveal broad similarities between the two
-			(anointing with oil and bestowing of weapons and <Tooltip word="insignia">a badge of authority or honor</Tooltip>, for example), but important details
+			(anointing with oil and bestowing of weapons and <Tooltip def="a badge of authority or honor">insignia</Tooltip>, for example), but important details
 			pertaining to music distinguish the ceremonies. For the royal coronation in Aachen, the chants
 			and prayers known collectively as the proper were to be those for January 6, or the feast of
 			Epiphany, the day Christ’s divinity was revealed to the Magi.
@@ -87,7 +87,7 @@
 	<Background src="" class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="gold" opacity1="7" opacity2="3">
 		<Card class="" light>
 			Other aspects of the event demonstrate the ways in which music was put to political purposes
-			in the coronation. Because the <Tooltip word="retinues">a group of retainers or attendants</Tooltip> of both the pope and the emperor were in attendance at
+			in the coronation. Because the <Tooltip def="a group of retainers or attendants">retinues</Tooltip> of both the pope and the emperor were in attendance at
 			the coronation, the choirs of both men were present. The papal choir included the celebrated
 			Italian composer Costanzo Festa, and the imperial choir was directed by Adrien Thiebault, a
 			relatively unknown composer today. The imperial choir’s most illustrious member was the South
