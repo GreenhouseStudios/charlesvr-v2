@@ -24,14 +24,42 @@
 >
 	<strong on:click={toggle}>
 		<slot />
-		<span class="tooltiptext">{def}</span>
+		<span class={(light
+			? 'tooltiplight tooltiptext'
+			: ' tooltipdark tooltiptext') + classes}>{def}</span>
 	</strong>
 </span>
-
 <style>
-	.tooltip {
+	
+/* .tooltip {
+  position: relative;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 5px 0;
+  line-height: 24px;
+    position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+} */
+	
+.tooltip {
 		cursor: pointer;
-		color: black;
 		position: relative;
 		text-decoration: underline;
 		display: inline-block;
@@ -45,16 +73,21 @@
 		position: absolute;
 		padding: 5px;
 		z-index: auto;
-		width: max-content;
-		/* bottom: 30px; */
+		width: 200px;
+	    bottom: 30px; 
+		left: -50px;
 		line-height: 1;
+		font-size: 14px;
 	}
 
-	@media screen and (min-width: 650px) {
-		.tooltiptext {
-			top: -30px;
-			left: -100px;
-		}
+	.tooltiplight{
+		background-color: rgb(255, 255, 255);
+		color: black;	
+	}
+
+	.tooltipdark{
+		background-color: rgb(0, 0, 0);
+		color: rgb(255, 255, 255);
 	}
 
 	.tooltip:hover .tooltiptext {
@@ -65,4 +98,5 @@
 	.tooltiptext:hover {
 		display: none;
 	}
+
 </style>
