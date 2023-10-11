@@ -27,8 +27,11 @@
   },
   "type": "module",
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "feather-icons": "^4.29.0",
     "material-icons": "^1.13.1",
+    "svelte-fa": "^3.0.4",
     "svelte-feather-icons": "^4.0.0"
   }
 }
