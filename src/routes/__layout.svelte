@@ -1,6 +1,7 @@
 <script>
 	let y;
 	let menuOpen = false;
+	import { page } from '$app/stores';
 	import '../app.css';
 	import Modal from '../components/modal.svelte';
 	function toggleMenu() {
@@ -28,11 +29,11 @@
 			</div>
 		</a>
 		<a
-			href="/2"
-			data-chapter="2"
+			href="/1"
+			data-chapter="1"
 			class="flex flex-col py-3 px-2 transition-colors hover:text-gold-500"
 		>
-			<div class="text-center text-4xl">II</div>
+			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/1'}">I</div>
 			<div
 				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
@@ -40,11 +41,11 @@
 			</div>
 		</a>
 		<a
-			href="/3"
-			data-chapter="3"
+			href="/2"
+			data-chapter="2"
 			class="flex flex-col py-3 px-2 transition-colors hover:text-gold-500"
 		>
-			<div class="text-center text-4xl">III</div>
+			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/2'}">II</div>
 			<div
 				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
@@ -52,11 +53,11 @@
 			</div>
 		</a>
 		<a
-			href="/4"
-			data-chapter="4"
+			href="/3"
+			data-chapter="3"
 			class="flex flex-col py-3 px-2 transition-colors hover:text-gold-500"
 		>
-			<div class="text-center text-4xl">IV</div>
+			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/3'}">III</div>
 			<div
 				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
@@ -64,11 +65,11 @@
 			</div>
 		</a>
 		<a
-			href="/5"
-			data-chapter="5"
+			href="/4"
+			data-chapter="4"
 			class="flex flex-col py-3 px-2 transition-colors hover:text-gold-500"
 		>
-			<div class="text-center text-4xl">V</div>
+			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/4'}">IV</div>
 			<div
 				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
@@ -76,11 +77,11 @@
 			</div>
 		</a>
 		<a
-			href="/6"
-			data-chapter="6"
+			href="/5"
+			data-chapter="5"
 			class="flex flex-col py-3 px-2 transition-colors hover:text-gold-500"
 		>
-			<div class="text-center text-4xl">VI</div>
+			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/5'}">V</div>
 			<div
 				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
@@ -88,11 +89,11 @@
 			</div>
 		</a>
 		<a
-			href="/7"
-			data-chapter="7"
+			href="/6"
+			data-chapter="6"
 			class="flex flex-col py-3 px-2 transition-colors hover:text-gold-500"
 		>
-			<div class="text-center text-4xl">VII</div>
+			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/6'}">VI</div>
 			<div
 				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
@@ -111,7 +112,10 @@
 			</label>
 			<ul class="menu__box">
 				<li>
+					<a class="" on:click={toggleMenu} href="/"
+						>
 					<img src="static/logos/charlesvr-lightgold.png" alt="Charles VR" class=" menu_icon" />
+					</a>
 				</li>
 				<br />
 				<div id="scroll-bar" class="flex h-[12px] w-screen items-center ">
@@ -119,38 +123,33 @@
 				</div>
 				<br />
 				<li>
-					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/"
-						>I: Introduction to Charles VR</a
+					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/1"
+						>I: The Coronation in Context</a
 					>
 				</li>
 				<li>
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/2"
-						>II: Coronation in Context</a
+						>II: Who was Charles V?</a
 					>
 				</li>
 				<li>
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/3"
-						>III: Who was Charles V?</a
+						>III: An Imperial Coronation in Bologna</a
 					>
 				</li>
 				<li>
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/4"
-						>IV: An Imperial Coronation in Bologna</a
+						>IV: A Focus on Music</a
 					>
 				</li>
 				<li>
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/5"
-						>V: A Focus on Music</a
+						>V: A Melancholy Mass</a
 					>
 				</li>
 				<li>
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/6"
-						>VI: A Melancholy Mass</a
-					>
-				</li>
-				<li>
-					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/7"
-						>VII: The Charles V|R Experience</a
+						>VI: The Charles V|R Experience</a
 					>
 				</li>
 			</ul>
@@ -223,7 +222,8 @@
 		padding: 40px 0;
 		list-style: none;
 		box-shadow: 5px 0px 0px rgb(64 18 33);
-		transition-duration: 0.25s;
+		transition-duration: .3s;
+		transition-timing-function: ease-in-out;
 	}
 	.menu__item {
 		display: block;
@@ -232,7 +232,6 @@
 		font-size: 20px;
 		font-weight: 300;
 		text-decoration: none;
-		transition-duration: 0.25s;
 	}
 	nav {
 		color: #fec755;
@@ -248,4 +247,9 @@
 		padding: 25px 50px;
 		width: 75%;
 	}
+
+.active {
+text-decoration: underline;
+}
+
 </style>
