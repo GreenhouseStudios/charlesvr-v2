@@ -11,7 +11,7 @@
 	let background;
 	switch (scrim) {
 		case 'light':
-			background = `linear-gradient(rgba(255, 255, 255, 0.${opacity1}), rgba(255, 255, 255, 0.${opacity2})),url("${src}")`;
+			background = `linear-gradient(rgba(255, 235, 175, 0.${opacity1}), rgba(255, 235, 175, 0.${opacity2})),url("${src}")`;
 			break;
 
 		case 'dark':
