@@ -1,23 +1,20 @@
 <script>
-	import Card from './card.svelte';
-	import NextChapter from './next-chapter.svelte';
-	import {ChevronRightIcon} from 'svelte-feather-icons';
 	import 'material-icons/iconfont/material-icons.css';
 	export let numeral;
 	export let chapter;
 	export let path;
 </script>
 
-<div class="flex items-center sm:w-max shadow-lg m-4 md:m-12">
+<div class="flex items-center sm:w-max  ">
 	<a
 		id="button"
-		class="group flex flex-row items-center justify-center rounded-xl p-4 shadow-black/30 transition-all duration-500  sm:gap-6"
+		class="group flex flex-row items-center justify-center rounded-xl p-2 shadow-black/30   sm:gap-6"
 		href={path}
 	>
-		<p class="numeral text-5xl px-2 text-gold-400 transition-colors group-hover:text-gold-400 duration-500">
+		<p class="numeral text-4xl px-2 text-gold-400 transition-colors group-hover:text-gold-400 duration-500">
 			{numeral}
 		</p>
-		<p class=" text-2xl text-white chapter">
+		<p class=" text-xl text-white chapter">
 			{chapter} 	
 		</p>
 		<span class="material-icons">chevron_right</span>
@@ -30,18 +27,17 @@
 		background-size: 200% 100%;
 		background-position: right bottom;
 		border: #F6C869 3px solid;
-		background: rgb(84, 24, 44);
+		background: #54182c;
+	}
+
+	#button:hover {
+		background-position: left bottom;
+		background: #000000;
 	}
 
 	.material-icons{
 		color: #F6C869;
 		font-size: 48px;
-	}
-
-	#button:hover {
-		background-position: left bottom;
-		background: rgb(84, 24, 44);
-        transform: scale(1.10);
 	}
 
 
