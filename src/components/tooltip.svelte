@@ -19,8 +19,8 @@
 
 <span
 	class={(light
-		? 'tooltip text-[#F9F4E8] md:text-[20px] text-[18px]  '
-		: ' tooltip text-[#1C0A10] md:text-[20px] text-[18px] ') + classes}
+		? 'tooltip text-[#F9F4E8] md:text-[24px] text-[18px]'
+		: ' tooltip text-[#1C0A10] md:text-[24px] text-[18px] ') + classes}
 >
 	<strong on:click={toggle}>
 		<slot />
@@ -71,13 +71,13 @@
 		color: black;
 		border-radius: 6px;
 		position: absolute;
-		padding: 5px;
+		padding: 10px;
 		z-index: auto;
 		width: 200px;
 	    bottom: 30px; 
-		left: -50px;
-		line-height: 1;
-		font-size: 14px;
+		left: -25px;
+		line-height: 1.1;
+		font-size: 18px;
 	}
 
 	.tooltiplight{
