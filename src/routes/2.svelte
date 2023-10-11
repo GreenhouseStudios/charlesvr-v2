@@ -1,141 +1,106 @@
 <script>
-	import Transition from './../components/transition.svelte';
-	import BioCard from './../components/bio-card.svelte';
-	import ChapterButton from './../components/chapter-button.svelte';
-	import Background from './../components/background.svelte';
-	import Card from './../components/card.svelte';
-	import SectionHero from './../components/section-hero.svelte';
-	import ImageCard from './../components/image-card.svelte';
-	import Tooltip from './../components/tooltip.svelte';
+	
+	import Transition from '../components/transition.svelte';
+	import FamilyTree from '../components/family-tree.svelte';
+	import BioCard from '../components/bio-card.svelte';
+	import ChapterButton from '../components/chapter-button.svelte';
+	import Background from '../components/background.svelte';
+	import Card from '../components/card.svelte';
+	import SectionHero from '../components/section-hero.svelte';
+	import Footer from '../components/footer.svelte';	
 </script>
 
 <Transition>
-	<SectionHero title="The Coronation in Context" bg="..//backgrounds/earlyflagdark.jpg" scrim="gold" opacity1="1" opacity2="7" class="backdrop-brightness-50" />
+	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" scrim="gold" opacity1="0" opacity2="5" />
 	<Background
 		parallax
-		scrim="maroon"
-		opacity1="7"
-		opacity2="2"
-		src="..//backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
-		class="flex flex-col h-[100vh] justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="flex justify-center">
+		scrim="maroonblack" opacity1="7" opacity2="7"
+		src="..//backgrounds/fabric.jpg"
+		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+	>
+		<Card class="">
 			<div class="w-full ">
-				On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
-				Basilica San Petronio in Bologna. It was the last time a pope would crown an emperor, ending
-				a 700-year-old tradition that began with Charlemagne's coronation on Christmas Day in 800.
-				<br>
-				<br>
-				Amid increasing power of the Ottoman Empire to the east, the subjugation of the New World to
-				the west, and the rise of Protestantism within Europe itself, the political situation was
-				delicate. Charles could not be crowned in Rome, because Protestant German mercenaries he
-				employed in a conflict with France had sacked the Eternal City three years earlier.
-				<br>
-				<br>
-				This context informed the planning and execution of the ceremony, which had to conform to
-				tradition but also reflect the political realities of the day. For the newly-crowned Charles
-				V and Pope Clement, the coronation signified a continuation of an idealized, united,
-				Christian European state that had its origins in the Roman Empire itself.
+				Charles Habsburg was born in Ghent, a region now located in Belgium. His four grandparents,
+				Emperor Maximilian I of the Holy Roman Empire, Duchess Mary of Burgundy, King Ferdinand II
+				of Aragon, and Queen Isabella I of Castile, carefully planned a dynastic marriage that would
+				result in one extremely profitable heir. Charles was the eldest son of Philip the Handsome
+				and Joanna of Castile, and he therefore inherited ample land throughout Europe. From Duchess
+				Mary of Burgundy, his maternal grandmother, he acquired the remaining land of the Duchy of
+				Burgundy in southern Europe, Flanders in the north (presently known as Belgium and the
+				Netherlands), and some holdings in central Europe.
 			</div>
+		</Card>
+		<FamilyTree />
+		<Card class="">
+			King Ferdinand II of Aragon, his maternal grandfather, left him most of the Iberian Peninsula,
+			therefore making him King Carlos I of Spain. Charles also inherited eastern Spain and Aragon’s
+			colonies in the Mediterranean. From Queen Isabella I of Castile, his paternal grandmother,
+			Charles acquired central Spain and Castile’s American colonies. Emperor Maximilian I of the
+			Holy Roman Empire, his paternal grandfather, left him the Austrian crownlands.
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/holy-roman-empire.jpg"
-		scrim="gold"
-		opacity1="8"
-		opacity2="6"
-		class="flex flex-col space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
+		src="..//backgrounds/battle-of-pavia.jpg"
+		scrim="light" opacity1="9" opacity2="7"
+		class="flex flex-col items-center p-4 justify-center md:p-16 "
+		parallax
 	>
-		<div class="grid gap-4 md:gap-12 xl:grid-cols-[1fr_1fr] items-center">
+		<div class="grid items-center md:h-[100vh] gap-12 xl:grid-cols-[1fr_1fr]">
 			<Card class="" light>
-				The Holy Roman Empire was an idealized re-establishment of the realm of Charlemagne, the
-				Frankish ruler whose territories corresponded roughly to those of modern France and Germany.
-				In the year 800, Protestantism the office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head Charlemagne came to the aid of Pope Leo III, who had run afoul of the
-				nobility in Rome. He convened a council in Rome that affirmed Leo's <Tooltip def="the office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head">papacy</Tooltip> on December 1. In
-				return Leo crowned Charlemagne “Emperor of the Romans” in Old St. Peter's Basilica in a Mass
-				on Christmas Day, reserving for Charlemagne (now Charles I) the role of defender of Rome and
-				of the Church.
+				Through this formidable personal inheritance and a combination of bribes and threats,
+				Charles was able to position himself as the electors’ choice for successor to his late
+				grandfather, Holy Roman Emperor Maximilian I. He was selected over other possible candidates
+				such as King Henry VIII of England, King Francis I of France, and Frederick the Wise, the
+				duke of Saxony. Following his royal coronation in Aachen in 1520, he did what many of these
+				other European rulers feared he would: he joined his grandfather’s Holy Roman Empire with
+				his mother’s kingdoms of Spain and the Netherlands.
 			</Card>
 			<BioCard
-				name="Charlemagne"
-				src="..//character-cards/Charlemagne.jpg"
-				citation="https://upload.wikimedia.org/wikipedia/commons/b/b5/Aachen_Domschatz_Bueste1.jpg"
-				years="742-814"
-				class="flex items-center"
+				name="King Francis I"
+				src="..//character-cards/Francis I.jpg"
+				years="1494-1547"
+				class="items-center w-full"
+				citation="http://img.over-blog.com/222x300/4/98/42/54/renaissance/francois.jpg"
 			>
-				<p>Became King of the Lombards in July 774, and King of the Franks in October 768</p>
+				<p>Crowned King of France in January 1515</p>
 				<p>
-					Crowned first Holy Roman Emperor on December 25, 800 by Pope Leo III in Old St. Peter's
-					Basilica in Rome.
+					Made France the first country in Europe to establish formal relations with the Ottoman
+					Empire
 				</p>
-				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
+				<p>Upheld a rivalry with Charles V until relucantly signing the Truce of Nice in 1538</p>
 			</BioCard>
-		</div>
-		<div class="grid gap-4 md:gap-12 xl:grid-cols-[1fr_1fr] items-center">
-			<BioCard
-				name="Otto I"
-				src="..//character-cards/Otto.jpg"
-				years="912-973"
-				class="2xl:order-first flex items-center"
-				citation="https://upload.wikimedia.org/wikipedia/commons/9/99/Bas-c%C3%B4t%C3%A9_nord,_baie_VI_Otto_Rex_(dernier_tiers_XIIe).jpg"
-			>
-				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
-				<p>Crowned Holy Roman Emperor in 962 due to his aid of Pope John XXII two years prior</p>
-				<p>Began the tradition of imperial coronations for Germanic rulers</p>
-			</BioCard>
-			<Card light class="">
-				After Charlemagne's death, disputes over power among his grandsons led to the precipitous
-				decline of the dynasty. For nearly a century the title went unclaimed, but was revived in
-				962 when Otto I, the elected King of the Saxons, was once again crowned Emperor of the
-				Romans by the Pope in Rome. Otto's coronation forged a centuries-long special relationship
-				between the Papacy, the memory of Ancient Rome, and the consolidated Germanic realm–a “Holy
-				Roman Empire.”
-			</Card>
 		</div>
 	</Background>
 	<Background
-		src="..//backgrounds/damask_albedo-01.svg"
-		scrim="maroonblack"
-		opacity1="7"
-		opacity2="7"
-		class="flex flex-col p-4 md:p-16 lg:grid lg:grid-cols-2 md:gap-24 "
+		src="..//backgrounds/sackofrome.jpg"
+		parallax
+		class="flex flex-col items-center p-4  md:p-16"
+		scrim="maroonblack" opacity1="9" opacity2="7"
 	>
-
-		<div>
-			<h2
-				class=" w-full text-center text-4xl text-white md:text-5xl mt-4 md:mt-0 lg:text-6xl"
-			>
-				Dual Coronations
-			</h2>
-			<Card class="" >
-				Symbolically and politically, this relationship was marked in two coronations. The first was
-				a royal coronation as King of the Germans by the <Tooltip def="the office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head" light>ducal</Tooltip> electors in Charlemagne’s old
-				capital, Aachen. The second was an imperial, or papal, coronation as Emperor of the Romans
-				in Rome under the pope’s hand. From 962 until 1530, in principle each ruler of the Holy
-				Roman Empire was to receive both a royal and an imperial coronation.
-			</Card>
-			<Card class="">
-				During these five and a half centuries, these dual coronations served to ease two important
-				political tensions: the role of the German electors in choosing their leader versus
-				traditions of <Tooltip def="an exclusive right of inheritance belonging to the eldest son" light>primogeniture</Tooltip> and the role of papal, or sacred, power versus imperial, or
-				secular, power. While every Christian coronation ceremony aims to affirm the new monarch’s
-				power as God-given, the particular tension between these political elements in the German
-				realm made such an affirmation of paramount importance. These twin ceremonies were thus
-				charged with meaning, elevating the emperor as the primary defender of the Christian faith,
-				just as Charlemagne had been.
-			</Card>
-		</div>
-		<div class="flex items-center">
-			<ImageCard
-			src="..//content/dualcoronations.png"
-			citation="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Henry_VII_Holy_Roman_Emperor.jpg/500px-Henry_VII_Holy_Roman_Emperor.jpg"
-			/>
-	</div>
-		<div class="col-span-2 mx-auto">
-			<ChapterButton numeral="III" chapter="Who Was Charles V?" path="3"/>
-		</div>
+		<Card class="" dark >
+				Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
+				especially badly in the 1525 Battle of Pavia, where he was roundly defeated and taken
+				prisoner. Charles, however, lacked the funds to pay his victorious, mostly Lutheran, army. In
+				the face of poverty, Lutheran hostility to the Papacy, and Clement’s alliance with France, the
+				army marched on Rome.
+</Card>
+<Card>
+			The sack was brutal, and in the context of the history of the Holy Roman Empire, a shocking
+			event. Instead of defending Rome and its Church, the would-be Holy Roman Emperor besieged it
+			and effectively imprisoned the pope. In the aftermath, Charles heard from counselors who
+			denounced the sack and from others who supported it, but he seems to have had difficulty
+			reconciling the accounts of its brutality with political justifications.
+		</Card>
+		<Card>
+			In the end, he wanted all memory of the event erased and to put the episode behind him.
+			Clement also felt prudent to make his peace with Charles. This, along with the political
+			unrest associated with the beginning of the Protestant Reformation, was the context in which
+			choices about the setting and music for the imperial coronation were made.
+		</Card>
+		<ChapterButton numeral="III" chapter="An Imperial Coronation in Bologna" path="3" />
 	</Background>
 </Transition>
-
+<Footer></Footer>
 <style>
 
 </style>

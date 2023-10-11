@@ -1,177 +1,141 @@
 <script>
-	import Transition from './../components/transition.svelte';
-	import BioCard from './../components/bio-card.svelte';
-	import ChapterButton from './../components/chapter-button.svelte';
-	import Background from './../components/background.svelte';
-	import Card from './../components/card.svelte';
-	import SectionHero from './../components/section-hero.svelte';
-	import Tooltip from './../components/tooltip.svelte';
+	import Transition from '../components/transition.svelte';
+	import BioCard from '../components/bio-card.svelte';
+	import ChapterButton from '../components/chapter-button.svelte';
+	import Background from '../components/background.svelte';
+	import Card from '../components/card.svelte';
+	import SectionHero from '../components/section-hero.svelte';
+	import Footer from '../components/footer.svelte';
 </script>
 
 <Transition>
-	<SectionHero title="A Focus on Music" bg="..//backgrounds/afocusonmusic.jpg" opacity1="1" opacity2="5" scrim="gold" />
+	<SectionHero title="A Melancholy Mass" scrim="gold" opacity1="1" opacity2="5"/>
 	<Background
-		src="..//backgrounds/Elderly_Karl_V.jpg"
-		scrim="maroon"
-		opacity1="7"
-		opacity2="3"
-		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64 bg-bottom"
+		src="..//backgrounds/paintings.jpg"
+		class="flex flex-col items-end justify-center h-[100vh] p-4 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="maroon" opacity1="7" opacity2="2"
 	>
-		<Card class="w-full  md:w-3/5">
-			<div class="w-full">
-				Charles and Clement could also control aspects of the prescribed liturgy and the music of
-				the Mass. It is clear from what we know of Charles’s personality that the ceremony–and not
-				least its music–was important to him. An oft-cited passage from Prudencio de Sandoval’s
-				biography of Charles V underscores the ruler’s interest in music:
+		<Card class="">
+			<div class="w-full ">
+				In addition to these two motets, it seems likely that Nicolas Gombert was also called upon
+				to compose a work for the event, and indeed a five-voice mass published by the Scotto firm
+				of Venice in 1542 is entitled “Missa a la incoronacion.” Gombert was in Charles’s employ at
+				the time of the coronation, and the mass in question is securely attributed to Gombert in
+				two printed sources. The assertion that this mass was at least composed for Charles’s
+				imperial coronation is therefore widely accepted.
 			</div>
 		</Card>
-		<Card class="w-full md:w-2/3 !text-gold-400 pl-10 ml-10 mr-0 md:text-3xl text-2xl italic">
-			“And he knew music, and felt it and liked it, for many times the friars, behind the door,
-			heard him leave his cell and go to the main altar, and they saw him beating time and singing
-			in harmony with those who sang in the choir....”
-		</Card>
-		<Card class=" md:w-3/5">
-			Music was extremely important to the ceremony and to the culture and politics of the
-			Renaissance. Nearly every liturgical text in the period was sung, and even lay people could
-			recognize <Tooltip def="a monophonic rhythmically free liturgical chant of any of various Christian rites" light>plainchant</Tooltip> sung daily or on important feast days. Because liturgical music had a
-			long tradition of elaborations of prescribed plainchant with polyphony (music with multiple
-			parts), listeners in the period were often very capable of hearing the original chant embedded
-			within a composition such as a <Tooltip word="a polyphonic choral composition on a sacred text usually without instrumental accompaniment" light>motet</Tooltip> and understanding its significance — a practice similar
-			in some ways to recognizing a sample in today’s hip hop. Popular songs could also be used as
-			the basis for polyphonic masses, again resulting in a kind of intertextuality that could carry
-			significant meaning. In both instances — motets based on chant and masses based on popular
-			songs — liturgical text is combined with musical references to different text that serves as a
-			kind of commentary or gloss.
+		<Card class="">
+			A mass is a much larger undertaking than a motet. There is no question that Gombert’s mass is
+			an impressive work, one fairly typical of the composer’s style. All voice parts move
+			continuously, contain few rests, and are linked by imitation in which one voice repeats,
+			recognizably if not literally, a portion of melody previously heard in another voice. This
+			produces a style marked by grandezza and achieves a marvelous effect. It is likely that,
+			despite the fact that Thiebault was senior to Gombert in the emperor’s musical hierarchy,
+			Charles held his maître des enfants in higher regard than his choirmaster.
 		</Card>
 	</Background>
-	<Background
-		src="..//backgrounds/sheetmusic.jpg"
-		scrim="gold"
-		opacity1="8"
-		opacity2="5"
-		class="flex auto-rows-max items-center flex-col p-4 md:gap-24 md:p-16 2xl:p-32 2xl:px-64"
-		parallax
-	>
-		<Card class="mb-12 p-4 md:p-16 " light>
-			The symbolic importance of music for these Renaissance audiences is apparent in the
-			differences that existed between the royal coronation in Aachen and the imperial coronation in
-			Rome, or in Charles’s case, Bologna. Aachen was the traditional coronation site of German
-			kings (as opposed to emperors). A royal coronation (i.e., as king) had to happen before an
-			imperial coronation (i.e., as emperor) took place, normally in Rome. Manuscripts that document
-			the royal and imperial coronation ceremonies reveal broad similarities between the two
-			(anointing with oil and bestowing of weapons and <Tooltip def="a badge of authority or honor">insignia</Tooltip>, for example), but important details
-			pertaining to music distinguish the ceremonies. For the royal coronation in Aachen, the chants
-			and prayers known collectively as the proper were to be those for January 6, or the feast of
-			Epiphany, the day Christ’s divinity was revealed to the Magi.
-		</Card>
-		<Card class="mb-4 p-4 md:p-16" light>
-			The allegorical significance of the texts of these chants in this context would not have gone
-			unnoticed, for they refer repeatedly to Christ as a new king. The newly crowned king was to
-			rule on Christ’s behalf, and his authority was revealed to the faithful in the course of the
-			coronation ceremony, just as Christ was revealed to the Magi. As the Magi recognized the
-			authority of the infant Christ, kneeling down and paying him homage, so the secular rulers of
-			the Empire were to pay homage to the newly crowned king. In contrast to the proper chants of
-			Aachen’s royal coronation ceremonies, Rome’s imperial ceremonies required only that the
-			correct proper of the day be sung.
-		</Card>
-	</Background>
-	<SectionHero title="Dual Motets" scrim = "maroon" bg="..//backgrounds/singing.jpg" opacity1="5" opacity2="7" />
+
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
 		muted={true}
 		autoplay={true}
 	>
-		<source src="..//backgrounds/choirman2.mp4" type="video/mp4" />
+		<source src="..//backgrounds/choirshot.mp4" type="video/mp4" />
 	</video>
-	<Background src="" class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="gold" opacity1="7" opacity2="3">
-		<Card class="" light>
-			Other aspects of the event demonstrate the ways in which music was put to political purposes
-			in the coronation. Because the <Tooltip def="a group of retainers or attendants">retinues</Tooltip> of both the pope and the emperor were in attendance at
-			the coronation, the choirs of both men were present. The papal choir included the celebrated
-			Italian composer Costanzo Festa, and the imperial choir was directed by Adrien Thiebault, a
-			relatively unknown composer today. The imperial choir’s most illustrious member was the South
-			Netherlandish composer Nicolas Gombert, who served as master of the emperor’s choirboys. A
-			witness to the coronation mentioned that the Credo was sung in canto figurato, a euphemism for
-			polyphony at the time. It seems unlikely that the Credo would have been the only work of
-			polyphony at the event. It is likely that polyphonic works by all three composers were heard
-			at Charles’s coronation.
+	<Background src="..//backgrounds/basilicaexterior.jpg" parallax class="flex flex-col h-[100vh] justify-center items-end p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="6">
+		<Card class="my-24 md:my-48" light>
+			The surviving accounts of the event mention a stretch of “prayers” after the singing of the
+			gradual. A report by Hironimo Bontempo makes a specific reference to singers reciting the
+			prayers: “His majesty having had all these [insignia], a number of prayers were sung by the
+			singers while the emperor was kneeling, and he was that way for more than a quarter hour.”
+			This is when the Laudes Regiæ were to be sung, and it seems plausible that the two motets and
+			an abbreviated form of the Laudes could have been sung during this fifteen-minute period.
 		</Card>
 	</Background>
-	<Background
-		src="..//backgrounds/wideview.jpg"
-		scrim="maroon"
-		opacity1="7"
-		opacity2="3"
-		class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
-	>
+	<Background src="..//backgrounds/mural.jpg" class="flex flex-col justify-center items-center h-[100vh] p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="maroon" opacity1="7" opacity2="3">
 		<Card class="">
-			Festa’s contribution was the six-voice motet, Ecce advenit dominator. It is preserved in a
-			Sistine Chapel manuscript that contains no attributions, but seems to be dedicated exclusively
-			to Festa’s works. The work’s most immediately striking feature is a <Tooltip def="the plainsong or simple Gregorian melody originally sung in unison and prescribed as to form and use by ecclesiastical tradition" light>cantus firmus</Tooltip> clearly
-			based upon the ancient opening acclamation of the Laudes Regiæ: “Christus vincit, christus
-			regnat, christus imperat.” For a time, this motet was identified with the coronation of
-			Clement rather than Charles, but Pietschmann is able to cite an obscure Spanish manuscript
-			that also preserves the work. In this version, the word “Christus” in the cantus firmus has
-			been replaced with “Carolus,” removing any doubt about the work’s association with Charles V.
+			The mass may strike modern listeners as an odd choice for a coronation. A subsequent print of
+			the work identifies it not as a mass for coronation, but as the Missa Sur tous regretz, the
+			title referring to the fact that Sur tous regretz, a chanson by Jean Richafort, served as the
+			mass’s model. The song is a decidedly sad one. Its text translates: 
+		</Card>
+		<Card class=" !text-gold-400 text-2xl md:text-3xl italic">
+			“Above all regrets, I cry
+			most piteously for my own, heaving sighs piercing my weary heart. Since I have lost my amiable
+			liqueur, I complain and will complain for a long time.”
+		</Card>
+		<Card class="">
+			The tone of the four-voice chanson,
+			which is cast in the Dorian mode, matches the regret of the text, with a pervading imitative
+			texture that Gombert thickens in his mass through the use of an additional voice and the
+			continuous movement that Bartoli describes. Though much depends on the interpretation of the
+			work in performance, its overall effect is unmistakably solemn and at least a little sad.
+		</Card>
+	</Background>
+	
+	<Background src="..//backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="6">
+		<Card class="my-12" light>
+			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the
+			coronation and Charles’s documented embarrassment about it, to attribute the character of this
+			mass to Charles’s regret. Its basis of the regretful chanson could channel Charles’s general
+			regret about the political situation and the Sack in particular.
+		</Card>
+		<Card class="" light>
+			A more likely explanation is a particular predilection for melancholic music on Charles’s
+			part. In Luys de Narváez’s 1538 anthology of intabulations for the vihuela—versions of
+			polyphonic works for a guitar-like instrument popular in Spain at the time—a version of
+			Josquin des Prez’s Mille Regretz bears the title “La Canción del Emperador.” Mille Regretz was
+			the model for a mass by Cristóbal de Morales that appeared in a print bearing Charles’s coat
+			of arms. In a 1995 article on allusions to Josquin’s Mille Regretz, Owen Rees noted Charles’s
+			likely familiarity with a manuscript owned by his aunt that contained a number of similar
+			“regret” chansons. While it may be difficult for modern listeners to distinguish between
+			expressions of sadness and solemnity in this style of polyphony, this particular occasion
+			seems to express the latter by redeploying counterpoint originally meant to express the
+			former.
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/detail.jpg"
-		class="flex flex-col bg-bottom items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
-		scrim="gold" opacity1="5" opacity2="3"
+		src="..//backgrounds/musicstand.jpg"
+		class="flex flex-col h-[100vh] justify-center items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="maroon" opacity1="7" opacity2="3"
 	>
-	<div class="flex flex-col items-start">
-		<Card class="md:w-1/2" light>
-			The opening of Festa’s motet is derived from the <Tooltip def="a piece of music sung or played at the beginning of a worship service">introit</Tooltip> for Epiphany, referencing the royal
-			coronation ceremony in Aachen. The next portion of the text is from the introit for the third
-			mass on Christmas Day, Puer natus est, and may have had the effect of calling Charlemagne’s
-			imperial coronation on Christmas in the year 800 to mind. The rest of the text is derived from
-			various psalms.
+		<Card class="my-24 md:my-48">
+			Whether Gombert’s mass expresses Charles’s regret or simple solemnity will remain obscure.
+			None of the surviving commentary on the coronation mentions the character of the music, and
+			indeed only a single source mentions polyphonic performance at all. The accounts make clear
+			that the large crowds made hearing the proceedings difficult, and we may well imagine that
+			whatever meaning was drawn from any of the music—chant and polyphony alike—was reserved for
+			those participants in the ceremony who could hear it. This exclusivity may have gone even
+			further, since Gombert’s mass was originally published without reference to its model.
 		</Card>
-		<Card class="md:w-1/2" light>
-			The final word of the motet, “fiat,” is relatively unusual in the liturgy and is almost
-			unheard of as the final word of liturgical text. Its meaning, “may it be done,” is roughly
-			equivalent to the Semitic “amen” used throughout the liturgy. The word was prescribed in
-			Aachen’s coronation ritual and was associated with the “Caesar-hails” of the Roman Empire.
-			Thus the texts at both the beginning and the end of the motet refer to Aachen’s royal
-			coronation rite, a service in which the pope was never involved.
-		</Card>
-		<Card class="md:w-1/2" light>
-			Given Festa’s allegiance to Clement, the composer must have set these texts—and indeed the
-			very imperial “Christus vincit” cantus firmus—at Clement’s direction. Festa’s motet can
-			therefore be understood as a considerable homage to Charles on the part of Clement.
-		</Card>
-	</div>
 	</Background>
 	<Background
-		src="..//backgrounds/pope.jpg"
-		class="md:p-16 flex flex-col items-center justify-center bg-bottom"
-		scrim="maroonblack" opacity1="7" opacity2="5"
+		src="..//backgrounds/wall.jpg"
+		parallax
+		class="flex flex-col h-[100vh] justify-center items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="goldblack" opacity1="7" opacity2="7"
 	>
-	<div class="flex flex-col items-end p-4 md:p-16">
-		<Card class=" md:w-1/2">
-			There was a kind of parity between the choirs of Clement and Charles, since a composer from
-			each ensemble contributed a motet for the event. Adrien Thiebeault’s contribution to the
-			coronation’s music is the motet Coronat pontifex, which mentions Clement by name as a crowning
-			pope. The motet compliments Clement, but it does so by distinguishing him from other popes who
-			did not have the opportunity to crown a ruler as powerful as Charles. Unfortunately, only two
-			voices of this five- or six-voice work have survived.
+		<Card class="my-24 md:my-48" >
+			It is conceivable that Charles and Gombert were the only listeners who knew the model
+			definitively during the coronation ceremony itself. What is clear is that Charles and Clement
+			both made conscious choices about the repertory to be performed in the context of a highly
+			prescribed ceremony and that the music was imbued with meaning that was meant to transcend the
+			political circumstances of the day.
 		</Card>
-		<Card class=" md:w-1/2">
-			The result of the two motets—if they were heard in a sort of dialogue—is that Clement is
-			rendered subservient to Charles. This conclusion seems to also be borne out by some of
-			Clement’s behavior. There are two moments in the ceremony in which the emperor was to kiss the
-			pope’s feet. Clement was heard apologizing to the emperor in the first instance, and embracing
-			him to prevent the second from taking place.
-		</Card>
-		</div>
-		<div class="flex justify-center mb-4">
-		<ChapterButton numeral="VI" chapter="A Coronation Mass" path="6" />
-	</div>
+		<ChapterButton numeral="VI" chapter="The Charles V|R Experience" path="6" />
 	</Background>
 </Transition>
-
+<Footer></Footer>
 <style>
+	@media (max-width: 768px) {
+		.dropcap:first-letter {
+		font-size: 4rem;
+		float: left;
+		margin: -.4em 0.1em -.5em 0;
+	}
+}
 
+	
 </style>

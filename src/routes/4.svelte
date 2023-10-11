@@ -1,295 +1,178 @@
 <script>
-	import Citation from './../components/citation.svelte';
-	import Transition from './../components/transition.svelte';
-	import BioCard from './../components/bio-card.svelte';
-	import ChapterButton from './../components/chapter-button.svelte';
-	import Background from './../components/background.svelte';
-	import Card from './../components/card.svelte';
-	import SectionHero from './../components/section-hero.svelte';
-	import ImageCard from './../components/image-card.svelte';
-	import Tooltip from './../components/tooltip.svelte';
+	import Transition from '../components/transition.svelte';
+	import BioCard from '../components/bio-card.svelte';
+	import ChapterButton from '../components/chapter-button.svelte';
+	import Background from '../components/background.svelte';
+	import Card from '../components/card.svelte';
+	import SectionHero from '../components/section-hero.svelte';
+	import Tooltip from '../components/tooltip.svelte';
+	import Footer from '../components/footer.svelte';
 </script>
 
 <Transition>
-	<SectionHero
-		title="An Imperial Coronation in Bologna"
-		bg="..//backgrounds/abolcoronationdark.jpg"
-		opacity1="2"
+	<SectionHero title="A Focus on Music" bg="..//backgrounds/afocusonmusic.jpg" opacity1="1" opacity2="5" scrim="gold" />
+	<Background
+		src="..//backgrounds/Elderly_Karl_V.jpg"
+		scrim="maroon"
+		opacity1="7"
+		opacity2="3"
+		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64 bg-bottom"
+	>
+		<Card class="w-full  md:w-3/5">
+			<div class="w-full">
+				Charles and Clement could also control aspects of the prescribed liturgy and the music of
+				the Mass. It is clear from what we know of Charles’s personality that the ceremony–and not
+				least its music–was important to him. An oft-cited passage from Prudencio de Sandoval’s
+				biography of Charles V underscores the ruler’s interest in music:
+			</div>
+		</Card>
+		<Card class="w-full md:w-2/3 !text-gold-400 pl-10 ml-10 mr-0 md:text-3xl text-2xl italic">
+			“And he knew music, and felt it and liked it, for many times the friars, behind the door,
+			heard him leave his cell and go to the main altar, and they saw him beating time and singing
+			in harmony with those who sang in the choir....”
+		</Card>
+		<Card class=" md:w-3/5">
+			Music was extremely important to the ceremony and to the culture and politics of the
+			Renaissance. Nearly every liturgical text in the period was sung, and even lay people could
+			recognize <Tooltip def="Plainchant: A monophonic rhythmically free liturgical chant of any of various Christian rites" light>plainchant</Tooltip> sung daily or on important feast days. Because liturgical music had a
+			long tradition of elaborations of prescribed plainchant with polyphony (music with multiple
+			parts), listeners in the period were often very capable of hearing the original chant embedded
+			within a composition such as a <Tooltip def="Motet: A polyphonic choral composition on a sacred text usually without instrumental accompaniment" light>motet</Tooltip> and understanding its significance — a practice similar
+			in some ways to recognizing a sample in today’s hip hop. Popular songs could also be used as
+			the basis for polyphonic masses, again resulting in a kind of intertextuality that could carry
+			significant meaning. In both instances — motets based on chant and masses based on popular
+			songs — liturgical text is combined with musical references to different text that serves as a
+			kind of commentary or gloss.
+		</Card>
+	</Background>
+	<Background
+		src="..//backgrounds/sheetmusic.jpg"
+		scrim="light"
+		opacity1="9"
 		opacity2="7"
-		scrim="gold"
-	/>
+		class="flex auto-rows-max items-center flex-col p-4 md:gap-24 md:p-16 2xl:p-32 2xl:px-64"
+		parallax
+	>
+		<Card class="mb-12 p-4 md:p-16 " light>
+			The symbolic importance of music for these Renaissance audiences is apparent in the
+			differences that existed between the royal coronation in Aachen and the imperial coronation in
+			Rome, or in Charles’s case, Bologna. Aachen was the traditional coronation site of German
+			kings (as opposed to emperors). A royal coronation (i.e., as king) had to happen before an
+			imperial coronation (i.e., as emperor) took place, normally in Rome. Manuscripts that document
+			the royal and imperial coronation ceremonies reveal broad similarities between the two
+			(anointing with oil and bestowing of weapons and <Tooltip def="Insignia: A badge of authority or honor">insignia</Tooltip>, for example), but important details
+			pertaining to music distinguish the ceremonies. For the royal coronation in Aachen, the chants
+			and prayers known collectively as the proper were to be those for January 6, or the feast of
+			Epiphany, the day Christ’s divinity was revealed to the Magi.
+		</Card>
+		<Card class="mb-4 p-4 md:p-16" light>
+			The allegorical significance of the texts of these chants in this context would not have gone
+			unnoticed, for they refer repeatedly to Christ as a new king. The newly crowned king was to
+			rule on Christ’s behalf, and his authority was revealed to the faithful in the course of the
+			coronation ceremony, just as Christ was revealed to the Magi. As the Magi recognized the
+			authority of the infant Christ, kneeling down and paying him homage, so the secular rulers of
+			the Empire were to pay homage to the newly crowned king. In contrast to the proper chants of
+			Aachen’s royal coronation ceremonies, Rome’s imperial ceremonies required only that the
+			correct proper of the day be sung.
+		</Card>
+	</Background>
+	<SectionHero title="Dual Motets" scrim = "maroon" bg="..//backgrounds/singing.jpg" opacity1="5" opacity2="7" />
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
 		muted={true}
 		autoplay={true}
 	>
-		<source src="..//backgrounds/updatedmap.mp4" type="video/mp4" />
+		<source src="..//backgrounds/choirman2.mp4" type="video/mp4" />
 	</video>
+	<Background src="" class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="7">
+		<Card class="" light>
+			Other aspects of the event demonstrate the ways in which music was put to political purposes
+			in the coronation. Because the <Tooltip def="Retinues: A group of retainers or attendants">retinues</Tooltip> of both the pope and the emperor were in attendance at
+			the coronation, the choirs of both men were present. The papal choir included the celebrated
+			Italian composer Costanzo Festa, and the imperial choir was directed by Adrien Thiebault, a
+			relatively unknown composer today. The imperial choir’s most illustrious member was the South
+			Netherlandish composer Nicolas Gombert, who served as master of the emperor’s choirboys. A
+			witness to the coronation mentioned that the Credo was sung in canto figurato, a euphemism for
+			polyphony at the time. It seems unlikely that the Credo would have been the only work of
+			polyphony at the event. It is likely that polyphonic works by all three composers were heard
+			at Charles’s coronation.
+		</Card>
+	</Background>
 	<Background
-		opacity1="5"
-		opacity2="1"
+		src="..//backgrounds/wideview.jpg"
 		scrim="maroon"
-		parallax
-		src=""
-		class="flex h-[100vh] flex-col items-end justify-around p-4 md:h-min md:p-16 2xl:p-32 2xl:px-64"
-	>
-		<Card class="md:w-1/2 lg:w-1/3">
-			<div class="w-full ">
-				Charles's sack of Rome had made a Roman coronation impossible. Bologna, with its large
-				Basilica San Petronio, was chosen as a suitable substitute location, but the change of venue
-				presented significant problems from a symbolic point of view. The geography of the Eternal
-				City and Saint Peter’s Basilica were vital to the centuries-old rituals of the event.
-			</div>
-		</Card>
-		<Card class="md:w-1/2 lg:w-1/3">
-			The imperial and papal courts therefore set about faithfully reproducing the symbolic
-			geography of Rome in and around the Basilica of San Petronio. They also worked to ensure that
-			the liturgy of the coronation Mass was performed as it would have been in Rome, drawing up a
-			detailed <Tooltip def="a list of offices and feasts of the Roman Catholic Church for each day of the year" light>ordo</Tooltip> which specified the texts to be read and chanted in keeping with the age-old
-			traditions.
-		</Card>
-	</Background>
-	<Background
-		opacity1="5"
-		opacity2="3"
-		scrim="gold"
-		src="..//backgrounds/crowning.jpg"
-		parallax
-		class="flex h-[100vh] flex-col items-center justify-center p-4 md:h-min md:items-end md:p-16 2xl:p-32 2xl:px-64"
-	>
-		<Card class="md:w-1/2" light>
-			Although Charles and Clement could not control the location of the ceremony, they were able to
-			control the date: February 24, 1530, Charles’s thirtieth birthday. On the Church calendar,
-			February 24 celebrates the life of Saint Mathias, the man chosen to replace Judas Iscariot as
-			the twelfth apostle. By virtue of the fact that Charles was born on his feast day, Mathias was
-			effectively Charles’s patron saint. The selection of this day drew attention to the
-			relationship, symbolically casting Charles in Mathias’s place. The text of the proper for
-			Mathias’s feast day consistently underscores the close connection between Christ, his
-			apostles, and kingship, making it altogether appropriate for the occasion. The Gospel reading
-			for the day, from the passage in Acts in which the selection of Mathias is described, followed
-			immediately after the coronation itself.
-		</Card>
-	</Background>
-	<!-- Purple Section -->
-	<Background
-		src="..//backgrounds/tex16-1.jpg"
 		opacity1="7"
-		opacity2="9"
-		scrim="maroon"
-		class="flex flex-col p-4 md:gap-24 md:p-16"
-		parallax
+		opacity2="3"
+		class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<div class=" mb-2 flex flex-col items-center  md:flex-row md:gap-5">
-			<div class="my-5 flex items-center">
-				<Card class="">
-					The splendor of the temporary décor set up for the coronation inside the church interior
-					was foreshadowed by the triumphal arches in the new all’antica architectural style of the
-					Italian Renaissance that were set up along the processional route leading from the town
-					hall to the entrance of San Petronio. These were a marked departure from allegorizing
-					mythological or sacred tableaux vivants in the medieval manner set up along the
-					processional routes of earlier coronations.
-				</Card>
-			</div>
-			<div class=" flex flex-col items-center  md:flex-row">
-				<ImageCard src="static/content/popeclementvii.jpg" citation="" />
-			</div>
-		</div>
-		<div class="flex flex-col items-center md:flex-row md:gap-5">
-			<ImageCard src="static/content/rota-porfiletica-st-peter.jpg" citation="https://www.romawonder.com/wp-content/uploads/2017/07/rota-porfiletica-st-
-			peter.jpg" />
-			<Card class="mb-5 flex items-center md:w-1/2" flex="">
-				<p>
-					A wooden ramp led from one end of the piazza to the church entrance; it was lined with
-					parade armaments and with beautiful greenery in gilded basins. At the top of the steps
-					leading to the church’s main entrance portal, a temporary wooden chapel of Sancta Maria
-					Inter Turres was erected; two more such chapels, named for San Gregorio and San Maurizio,
-					were set up inside the church on the left side. These temporary structures helped to
-					“transform” for the occasion the church of San Petronio into the Vatican basilica of St.
-					Peter’s; they stood in for three chapels in St. Peter’s that were important to the
-					coronation ceremony. A disc of <Tooltip def="a rock consisting of feldspar crystals embedded in a compact dark red or purple groundmass" light>porphyry</Tooltip> for Charles to kneel on when he was crowned was
-					placed inside the church on the wooden ramp leading from the church entrance to the High
-					Altar. This was a reference to the the rota porphiletica in the pavement of St. Peter’s,
-					which marked the spot whereon Charlemagne knelt when he was crowned by Pope Leo III.
-				</p>
-			</Card>
-		</div>
-		<div class=" flex flex-col items-center md:flex-row md:gap-5">
-			<Card class="mb-5 flex items-center md:w-1/2" flex="">
-				<p>
-					Some idea of how these temporary chapels may have looked comes from a drawing of the
-					temporary tabernacle over the tomb of St. Peter in front of the apse in the Vatican
-					basilica, although the chapels set up in San Petronio were smaller and less monumental.
-				</p>
-			</Card>
-			<ImageCard src="static/content/Maarten_van_Heemskerck_013.jpg" citation="https://commons.wikimedia.org/wiki/File:Maarten_van_Heemskerck_013.jpg" class="" />
-		</div>
-		<div class=" flex flex-col items-center md:flex-row md:gap-5">
-			<div class="flex flex-col w-1/2">
-				<ImageCard
-					src="static/content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
-					citation="https://commons.wikimedia.org/wiki/File:Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
-					class="w-full"
-				/>
-				<ImageCard src="static/content/tempchapels.jpg" citation="" class="w-full" />
-			</div>
-			<Card class="md:w-1/2 " flex="">
-				<p>
-					This drawing also shows that in 1530, St. Peter’s was not the magnificently decorated
-					majestic “queen of basilicas” we see today; it was indeed an ungainly, partly dismantled
-					Constantinian/Early Christian basilica of the fourth century, with an unfinished
-					Renaissance centralized church rising within and around it. The Church of San Petronio
-					itself was still under construction; it had yet to be vaulted and the choir was later
-					extended and enlarged. The unfinished condition of both churches may have made the conceit
-					of San Petronio tranformed into St. Peter’s easier to accept at the time. The wooden
-					platform put up for the occasion in the middle of San Petronio was arranged to make the
-					area in front of the high altar appear sunken, to suggest the sunken crypt-like space in
-					front of the high altar in St. Peter’s. According to Vasari, the nave was lined with
-					wooden Ionic colonnades set up for the coronation. If Vasari was correct, these colonnades
-					would have enhanced the intended transformation of San Petronio into Saint Peter’s, which,
-					as the drawing shows, still had its original Constantinian rows of spolia columns lining
-					the nave. An idea of what such an Ionic colonnade would have looked like can be gained
-					from a Fifth-Century Christian basilica in Rome, Santa Maria Maggiore:
-				</p>
-			</Card>
-		</div>
-		<div class="mb-5 flex items-center gap-5 md:gap-10">
-			<Card>
-				<p>
-					Although there are no detailed visual records of the ceremony, other depictions of the
-					temporary decorations set up for post-medieval coronations taking place in Gothic churches
-					help us to visualize the event.
-				</p>
-			</Card>
-			<ImageCard src="static/content/Sanpetroniointerior.jpg" citation="https://commons.wikimedia.org/wiki/File:Sanpetroniointerior.jpg" />
-		</div>
-		<div class="flex items-center gap-5">
-			<div class="img1">
-				<ImageCard src="static/content/sanpetronio.jpg" citation="https://cs.wikipedia.org/wiki/Korunovace_%C4%8Desk%C3%BDch_panovn%C3%ADk%C5%AF#/media/Soubor:Eduard_Gurk_001.jpg" />
-			</div>
-			<div class="img2">
-				<ImageCard src="static/content/sacredelouis.jpeg" citation="https://commons.wikimedia.org/wiki/File:Sacre_de_Louis_XV_%C3%A0_Reims.jpg" />
-			</div>
-			<div class="img3">
-				<ImageCard src="static/content/Coronation_of_Louis_XV_in_Reims.jpg" citation="https://commons.wikimedia.org/wiki/File:Coronation_of_Louis_XV_in_Reims.JPG" />
-			</div>
-		</div>
-		<!-- <Citation /> -->
+		<Card class="">
+			Festa’s contribution was the six-voice motet, Ecce advenit dominator. It is preserved in a
+			Sistine Chapel manuscript that contains no attributions, but seems to be dedicated exclusively
+			to Festa’s works. The work’s most immediately striking feature is a <Tooltip def="Cantus firmus: The plainsong or simple Gregorian melody originally sung in unison and prescribed as to form and use by ecclesiastical tradition" light>cantus firmus</Tooltip> clearly
+			based upon the ancient opening acclamation of the Laudes Regiæ: “Christus vincit, christus
+			regnat, christus imperat.” For a time, this motet was identified with the coronation of
+			Clement rather than Charles, but Pietschmann is able to cite an obscure Spanish manuscript
+			that also preserves the work. In this version, the word “Christus” in the cantus firmus has
+			been replaced with “Carolus,” removing any doubt about the work’s association with Charles V.
+		</Card>
 	</Background>
-	<!-- Red Section -->
 	<Background
-		parallax
-		opacity1="5"
-		opacity2="8"
-		scrim="goldblack"
-		src="..//backgrounds/tex16-35.jpg"
-		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		src="..//backgrounds/detail.jpg"
+		class="flex flex-col bg-bottom items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		scrim="light" opacity1="7" opacity2="7"
 	>
-		<Card class="" light>
-			The sumptuous decorations of tapestries and luxurious textiles not only gave the occasion and
-			the interior a festive air, but also showcased the quality of textile production in Charles
-			V’s Flemish territories. These <Tooltip def="a rich silk fabric with raised patterns in gold and silver">brocades</Tooltip>, silks, velvets and <Tooltip def="a firm lustrous fabric (as of linen, cotton, silk, or rayon) made with flat patterns in a satin weave on a plain-woven ground on jacquard looms">damasks</Tooltip> were made in imitation of
-			and in competition with the prized textiles of the Islamic world and of China.
+	<div class="flex flex-col items-start">
+		<Card class="md:w-1/2" light>
+			The opening of Festa’s motet is derived from the <Tooltip def="Introit: A piece of music sung or played at the beginning of a worship service">introit</Tooltip> for Epiphany, referencing the royal
+			coronation ceremony in Aachen. The next portion of the text is from the introit for the third
+			mass on Christmas Day, Puer natus est, and may have had the effect of calling Charlemagne’s
+			imperial coronation on Christmas in the year 800 to mind. The rest of the text is derived from
+			various psalms.
 		</Card>
-		<Card class="" light>
-			Such precious stuffs adorned the garb of the spectators as well as the interior of the church.
-			Indeed the most detailed contemporary account of the coronation devotes more space to minute
-			description of what the dignitaries were wearing than to any other subject. Aristocratic
-			portraits of the period give a good idea of what the effect of the costume and textile
-			decorations would have been.
+		<Card class="md:w-1/2" light>
+			The final word of the motet, “fiat,” is relatively unusual in the liturgy and is almost
+			unheard of as the final word of liturgical text. Its meaning, “may it be done,” is roughly
+			equivalent to the Semitic “amen” used throughout the liturgy. The word was prescribed in
+			Aachen’s coronation ritual and was associated with the “Caesar-hails” of the Roman Empire.
+			Thus the texts at both the beginning and the end of the motet refer to Aachen’s royal
+			coronation rite, a service in which the pope was never involved.
 		</Card>
-		<div class="flex items-center justify-center">
-			<div class="mr-5 flex flex-col justify-center gap-4 md:mr-0 md:flex-row">
-				<div class="img4">
-					<ImageCard
-						src="static/content/Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
-						citation="https://commons.wikimedia.org/wiki/File:Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
-					/>
-				</div>
-				<div class="img5">
-					<ImageCard
-						src="static/content/Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
-						citation="https://en.wikipedia.org/wiki/Portrait_of_Eleanor_of_Toledo#/media/File:Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
-					/>
-				</div>
-			</div>
-			<div class="flex flex-col justify-center gap-5 md:flex-row">
-				<div class="img6">
-					<ImageCard src="static/content/Giovanni_battista_moroni.jpg" citation="https://commons.wikimedia.org/wiki/File:Giovanni_battista_moroni,_ritratto_du_don_gabriel_de_la_cueva,_duca_di_albuquerque_e_governatore_spagnolo_di_milano,_1560.JPG" />
-				</div>
-				<div class="img7">
-					<ImageCard
-						src="static/content/Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
-						citation="https://nl.wikipedia.org/wiki/Bestand:Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
-					/>
-				</div>
-			</div>
+		<Card class="md:w-1/2" light>
+			Given Festa’s allegiance to Clement, the composer must have set these texts—and indeed the
+			very imperial “Christus vincit” cantus firmus—at Clement’s direction. Festa’s motet can
+			therefore be understood as a considerable homage to Charles on the part of Clement.
+		</Card>
+	</div>
+	</Background>
+	<Background
+		src="..//backgrounds/pope.jpg"
+		class="md:p-16 flex flex-col items-center justify-center bg-bottom"
+		scrim="maroonblack" opacity1="7" opacity2="9"
+	>
+	<div class="flex flex-col items-end p-4 md:p-16">
+		<Card class=" md:w-1/2">
+			There was a kind of parity between the choirs of Clement and Charles, since a composer from
+			each ensemble contributed a motet for the event. Adrien Thiebeault’s contribution to the
+			coronation’s music is the motet Coronat pontifex, which mentions Clement by name as a crowning
+			pope. The motet compliments Clement, but it does so by distinguishing him from other popes who
+			did not have the opportunity to crown a ruler as powerful as Charles. Unfortunately, only two
+			voices of this five- or six-voice work have survived.
+		</Card>
+		<Card class=" md:w-1/2">
+			The result of the two motets—if they were heard in a sort of dialogue—is that Clement is
+			rendered subservient to Charles. This conclusion seems to also be borne out by some of
+			Clement’s behavior. There are two moments in the ceremony in which the emperor was to kiss the
+			pope’s feet. Clement was heard apologizing to the emperor in the first instance, and embracing
+			him to prevent the second from taking place.
+		</Card>
 		</div>
-		<Card class="mb-4 md:mb-24" light>
-			<p>The vestments of the clergy, choristers and musicians were every bit as elaborate.</p>
-		</Card>
-		<div class="flex items-center gap-5">
-			<div class="img8">
-				<ImageCard src="static/content/singingangels.jpg" citation="https://www.flickr.com/photos/8545333@N07/2208696665" />
-			</div>
-			<div class="img9">
-				<ImageCard src="static/content/St._Peter_Niccoline_Chapel.jpg" citation="https://en.wikipedia.org/wiki/Niccoline_Chapel#/media/File:St._Peter_Niccoline_Chapel.jpg" />
-			</div>
-			<div class="img10">
-				<ImageCard src="..//content/saintaugustineofhippo.jpeg" citation="https://www.metmuseum.org/art/collection/search/471903" />
-			</div>
-		</div>
-		<Card class="mb-4 md:mb-24" light>
-			<p>
-				Decorations with fragrant foliage and flowers freshened the air inside the crowded church,
-				at a time when frequent bathing was rare. Temporary bleacher-like seating filled the space
-				and accommodated the spectators; some of the bleachers collapsed at one point in the
-				ceremony, causing panic among the crowd and killing a few unfortunate onlookers.
-			</p>
-		</Card>
-		<!-- grid md:grid-cols-4 grid-cols-2 items-center justify-center gap-2 -->
-		<ChapterButton numeral="V" chapter="A Focus on Music" path="5" />
+		<div class="flex justify-center mb-4">
+		<ChapterButton numeral="V" chapter="A Coronation Mass" path="5" />
+	</div>
 	</Background>
 </Transition>
-
+<Footer></Footer>
 <style>
-	.img1 {
-		flex: 0.664;
-	}
 
-	.img2 {
-		flex: 1.2097;
-	}
-
-	.img3 {
-		flex: 0.59;
-	}
-
-	.img4 {
-		flex: 0.45;
-	}
-
-	.img5 {
-		flex: 0.5;
-	}
-
-	.img6 {
-		flex: 0.51;
-	}
-
-	.img7 {
-		flex: 0.42;
-	}
-
-	.img8 {
-		flex: 0.45;
-	}
-
-	.img9 {
-		flex: 0.24;
-	}
-
-	.img10 {
-		flex: 0.35;
-	}
 </style>
