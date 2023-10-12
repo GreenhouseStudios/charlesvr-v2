@@ -1,122 +1,129 @@
 <script>
-	import Transition from './../components/transition.svelte';
-	import BioCard from './../components/bio-card.svelte';
-	import ChapterButton from './../components/chapter-button.svelte';
-	import Background from './../components/background.svelte';
-	import Card from './../components/card.svelte';
-	import SectionHero from './../components/section-hero.svelte';
+	import Transition from '../components/transition.svelte';
+	import BioCard from '../components/bio-card.svelte';
+	import ChapterButton from '../components/chapter-button.svelte';
+	import Background from '../components/background.svelte';
+	import Card from '../components/card.svelte';
+	import SectionHero from '../components/section-hero.svelte';
+	import Footer from '../components/footer.svelte';
 </script>
 
 <Transition>
-	<SectionHero title="A Melancholy Mass" scrim="gold"/>
-	<Background
-		src="..//backgrounds/paintings.jpg"
-		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64"
-	>
-		<Card class="my-12">
-			<div class="w-full first-letter:text-[300%]">
-				In addition to these two motets, it seems likely that Nicolas Gombert was also called upon
-				to compose a work for the event, and indeed a five-voice mass published by the Scotto firm
-				of Venice in 1542 is entitled “Missa a la incoronacion.” Gombert was in Charles’s employ at
-				the time of the coronation, and the mass in question is securely attributed to Gombert in
-				two printed sources. The assertion that this mass was at least composed for Charles’s
-				imperial coronation is therefore widely accepted.
-			</div>
-		</Card>
-		<Card class="my-12">
-			A mass is a much larger undertaking than a motet. There is no question that Gombert’s mass is
-			an impressive work, one fairly typical of the composer’s style. All voice parts move
-			continuously, contain few rests, and are linked by imitation in which one voice repeats,
-			recognizably if not literally, a portion of melody previously heard in another voice. This
-			produces a style marked by grandezza and achieves a marvelous effect. It is likely that,
-			despite the fact that Thiebault was senior to Gombert in the emperor’s musical hierarchy,
-			Charles held his maître des enfants in higher regard than his choirmaster.
-		</Card>
-	</Background>
-
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
 		muted={true}
 		autoplay={true}
 	>
-		<source src="..//backgrounds/choirshot.mp4" type="video/mp4" />
+		<source src="..//backgrounds/introcrawl.mp4" type="video/mp4" />
 	</video>
-	<Background src="..//backgrounds/basilicaexterior.jpg" parallax class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="my-24 md:my-48">
-			The surviving accounts of the event mention a stretch of “prayers” after the singing of the
-			gradual. A report by Hironimo Bontempo makes a specific reference to singers reciting the
-			prayers: “His majesty having had all these [insignia], a number of prayers were sung by the
-			singers while the emperor was kneeling, and he was that way for more than a quarter hour.”
-			This is when the Laudes Regiæ were to be sung, and it seems plausible that the two motets and
-			an abbreviated form of the Laudes could have been sung during this fifteen-minute period.
-		</Card>
-	</Background>
-	<Background src="..//backgrounds/mural.jpg" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="my-24 md:my-48">
-			The mass may strike modern listeners as an odd choice for a coronation. A subsequent print of
-			the work identifies it not as a mass for coronation, but as the Missa Sur tous regretz, the
-			title referring to the fact that Sur tous regretz, a chanson by Jean Richafort, served as the
-			mass’s model. The song is a decidedly sad one. Its text translates: “Above all regrets, I cry
-			most piteously for my own, heaving sighs piercing my weary heart. Since I have lost my amiable
-			liqueur, I complain and will complain for a long time.” The tone of the four-voice chanson,
-			which is cast in the Dorian mode, matches the regret of the text, with a pervading imitative
-			texture that Gombert thickens in his mass through the use of an additional voice and the
-			continuous movement that Bartoli describes. Though much depends on the interpretation of the
-			work in performance, its overall effect is unmistakably solemn and at least a little sad.
-		</Card>
-	</Background>
-	
-	<Background src="..//backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64">
-		<Card class="my-12">
-			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the
-			coronation and Charles’s documented embarrassment about it, to attribute the character of this
-			mass to Charles’s regret. Its basis of the regretful chanson could channel Charles’s general
-			regret about the political situation and the Sack in particular.
-		</Card>
-		<Card class="my-12">
-			A more likely explanation is a particular predilection for melancholic music on Charles’s
-			part. In Luys de Narváez’s 1538 anthology of intabulations for the vihuela—versions of
-			polyphonic works for a guitar-like instrument popular in Spain at the time—a version of
-			Josquin des Prez’s Mille Regretz bears the title “La Canción del Emperador.” Mille Regretz was
-			the model for a mass by Cristóbal de Morales that appeared in a print bearing Charles’s coat
-			of arms. In a 1995 article on allusions to Josquin’s Mille Regretz, Owen Rees noted Charles’s
-			likely familiarity with a manuscript owned by his aunt that contained a number of similar
-			“regret” chansons. While it may be difficult for modern listeners to distinguish between
-			expressions of sadness and solemnity in this style of polyphony, this particular occasion
-			seems to express the latter by redeploying counterpoint originally meant to express the
-			former.
-		</Card>
-	</Background>
+	<SectionHero title="The Charles V|R Experience" bg="..//backgrounds/vr-goggles.jpg" scrim="gold" opacity1="1" opacity2="7" />
 	<Background
-		src="..//backgrounds/musicstand.jpg"
-		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
-	>
-		<Card class="my-24 md:my-48">
-			Whether Gombert’s mass expresses Charles’s regret or simple solemnity will remain obscure.
-			None of the surviving commentary on the coronation mentions the character of the music, and
-			indeed only a single source mentions polyphonic performance at all. The accounts make clear
-			that the large crowds made hearing the proceedings difficult, and we may well imagine that
-			whatever meaning was drawn from any of the music—chant and polyphony alike—was reserved for
-			those participants in the ceremony who could hear it. This exclusivity may have gone even
-			further, since Gombert’s mass was originally published without reference to its model.
-		</Card>
-	</Background>
-	<Background
-		src="..//backgrounds/wall.jpg"
 		parallax
-		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		src="..//backgrounds/fabric.jpg"
+		scrim="maroon"
+		opacity1="7"
+		opacity2="5"
+		class="flex flex-row items-center p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh]"
 	>
-		<Card class="my-24 md:my-48">
-			It is conceivable that Charles and Gombert were the only listeners who knew the model
-			definitively during the coronation ceremony itself. What is clear is that Charles and Clement
-			both made conscious choices about the repertory to be performed in the context of a highly
-			prescribed ceremony and that the music was imbued with meaning that was meant to transcend the
-			political circumstances of the day.
+		<Card class="my-24">
+			<div class="w-full ">
+				Thanks to surviving eyewitness accounts of Charles’s imperial coronation, we know a great
+				deal about what transpired, and yet concrete descriptions of actual music-making are rare
+				and not very informative. Nevertheless, it is possible to reconstruct a plausible account of
+				much of the music at the ceremony and to describe its cultural and historical significance.
+<br>
+<br>
+				The coronation of Charles V raises questions surrounding a unified Europe, hegemony and
+			colonialism, religious difference and tolerance, and the role of tradition in contemporaneous
+			culture. These issues remain at the forefront of 21st-century society. Though the event
+			occurred almost five hundred years ago, many of the questions that were at play in Charles V's
+			coronation are still very much at play today.
+			</div>
 		</Card>
-		<ChapterButton numeral="VII" chapter="The Charles V|R Experience" path="7" />
+	</Background>
+	<Background
+		src="static/backgrounds/basilicafloor.jpg"
+		scrim="light"
+		opacity1="9"
+		opacity2="7"
+		class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
+	>
+		<div class="my-24 flex grid-cols-2 flex-col gap-24 md:grid items-center">
+			<div class="grid grid-cols-2 place-items-center gap-16 md:order-last">
+				<div class="flex flex-col items-center">
+					<img src="..//content/pope.png" alt="" class="mb-2" />
+					Pope Clement VII
+				</div>
+				<div class="flex flex-col items-center">
+					<img src="..//content/choirsinger.png" alt="" class="mb-2" />
+					Papal Choir Member
+				</div>
+				<div class="flex flex-col items-center">
+					<img src="..//content/pope.png" alt="" class="mb-2" />
+					Church Official
+				</div>
+				<div class="flex flex-col items-center">
+					<img src="..//content/choirsinger.png" alt="" class="mb-2" />
+					Church Attendee
+				</div>
+			</div>
+			<Card light>
+				The Charles V|R experience encourages students to engage with these issues in their
+				historical context. Users can inhabit four different characters, each in a different
+				location inside the Basilica of San Petronio, and each with a different role in the
+				ceremony. These characters are Pope Clement VII, a member of the papal choir, an attendee in
+				the nave of the church, and a church official. Each role comes with a different level of
+				comprehension of the proceedings and the activity each character undertakes. The four roles
+				the user can inhabit demonstrate the degree to which physical access, literacy, and overall
+				understanding were determined by class distinctions in early modern society.
+			</Card>
+		</div>
+	</Background>
+	<Background
+		src="..//backgrounds/crown.png"
+		parallax
+		scrim="maroon"
+		opacity1="8"
+		opacity2="5"
+		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh] justify-center"
+	>
+		<Card class="">
+			During the experience, Pope Clement VII places the crown on Charles’s head, recites an oath,
+			and conveys the imperial insignia. He understands the Latin he is reciting perfectly, and to
+			emulate this, the text and translation of what he is saying accompanies his voice in the
+			program. As the pope places the crown on Charles’s head or the scepter in his hand, the user
+			can reflect on the symbolism of each object by looking at it and clicking on a footnote
+			symbol.
+		</Card>
+	</Background>
+	<Background
+		src="..//backgrounds/vr-overview.jpg"
+		scrim="light"
+		opacity1="8"
+		opacity2="6"
+		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh] justify-center"
+	>
+		<Card class="my-24 md:my-48" light>
+			The three other characters all experience different levels of understanding in regard to the
+			ceremony. The member of the papal choir sings plainchant and complex polyphony in Latin as the
+			ceremony progresses. He is engaged and focused on the music, while the attendee in the nave of
+			the church cannot understand the Latin being sung. He can barely follow the experience, and
+			his attention is therefore instead drawn to the conversations near him, the finery of the
+			dignitaries’ garb, and the art and architecture that surround him. The church official also
+			pays little attention to the liturgy. He alternatively looks on from one of the many side
+			chapels in the cathedral. He marvels at the artwork and architecture that surround him and
+			sizes up the clothing of his peers with a critical eye.
+		</Card>
+	</Background>
+	<Background src="" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh] justify-center" scrim="maroonblack" opacity1="5" opacity2="7">
+		<Card class="">
+			The coronation mass would have been heard by many and seen directly by very few. Its sound and
+			its location were undoubtedly its most important features. Users can encounter both from
+			various points of view in the Charles V|R Experience.
+		</Card>
 	</Background>
 </Transition>
-
+<Footer></Footer>
 <style>
 </style>

@@ -1,26 +1,23 @@
 <script>
-	import Card from './card.svelte';
-	import NextChapter from './next-chapter.svelte';
-	import {ChevronRightIcon} from 'svelte-feather-icons';
+	import 'material-icons/iconfont/material-icons.css';
 	export let numeral;
 	export let chapter;
 	export let path;
-	export let light = false;
 </script>
 
-<div class=" sm:w-max shadow-lg">
+<div class="flex items-center sm:w-max  ">
 	<a
 		id="button"
-		class="group flex flex-row items-center justify-center rounded-sm p-4 shadow-black/30 transition-all duration-500  sm:gap-6"
+		class="group flex flex-row items-center justify-center rounded-xl p-2 shadow-black/30   sm:gap-6"
 		href={path}
 	>
-		<p class="  numeral text-5xl px-2 text-gold-400 transition-colors group-hover:text-gold-400 duration-500">
+		<p class="numeral text-4xl px-2 text-gold-400 transition-colors group-hover:text-gold-400 duration-500">
 			{numeral}
 		</p>
-		<p class=" text-2xl text-white chapter">
+		<p class=" text-xl text-white chapter">
 			{chapter} 	
 		</p>
-		<ChevronRightIcon size="3x" class="text-gold-400  transition-colors duration-1000 group-hover:text-gold-400"/>
+		<span class="material-icons">chevron_right</span>
 		</a>
 </div>
 
@@ -29,15 +26,21 @@
 		/* background: linear-gradient(to left, #401221 50%, rgb(84, 24, 44) 50%); */
 		background-size: 200% 100%;
 		background-position: right bottom;
-		border: #F6C869 2px solid;
-		background: rgb(84, 24, 44);
+		border: #F6C869 3px solid;
+		background: #54182c;
 	}
 
 	#button:hover {
 		background-position: left bottom;
-		background: rgb(84, 24, 44);
-        transform: scale(1.10);
+		background: #000000;
 	}
+
+	.material-icons{
+		color: #F6C869;
+		font-size: 48px;
+	}
+
+
 
 	@media screen and (max-width: 650px) {
   .chapter {
@@ -51,7 +54,12 @@
   }
 
   .numeral{
-	font-size: 48px;
+	font-size: 36px;
   }
+
+  .material-icons{
+		color: #F6C869;
+		font-size: 36px;
+	}
 }
 </style>

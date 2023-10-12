@@ -2,12 +2,31 @@
 export let src;
 export let alt = '';
 export let citation;
+import 'material-icons/iconfont/material-icons.css';
 export let classes = '';
 export { classes as class };
 
 </script>
 
-<div class={'flex flex-col justify-center items-center' + classes }><div>
+<div class={'flex flex-col justify-center items-center' + classes }>
     <img {src} {alt} class="rounded-md " />
-    <p class=" cursor-pointer text-white break-words underline text-center underline-offset-2 hover:text-[#fec755] m-2"><a href="{citation}">Source</a></p></div>
+    <span class="material-icons"><a href="{citation}">menu_book</a></span>
 </div>
+
+<style>
+    .material-icons{
+        color: #fec755;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .material-icons:hover{
+        color: white;
+    }
+
+    @media screen and (max-width: 768px){
+        .material-icons{
+        font-size: 24px;
+    }  
+    }
+</style>
