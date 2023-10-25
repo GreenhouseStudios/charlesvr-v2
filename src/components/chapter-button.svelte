@@ -3,9 +3,12 @@
 	export let numeral;
 	export let chapter;
 	export let path;
+	export let classes = '';
+	export { classes as class };
 </script>
 
-<div class="flex items-center sm:w-max  ">
+<div class={"flex items-center sm:w-max  " +
+classes}>
 	<a
 		id="button"
 		class="group flex flex-row items-center justify-center rounded-xl p-2 shadow-black/30   sm:gap-6"
