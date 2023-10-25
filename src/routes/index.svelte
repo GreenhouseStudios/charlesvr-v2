@@ -10,7 +10,33 @@
 	import ImageCard from './../components/image-card.svelte';
 	import Footer from './../components/footer.svelte';
 	import Button from './../components/button.svelte';
-
+	let people = [
+		{ personName: 'Jonathan Ampiaw', personTitle: 'MFA ‘20 Digital Media & Design' },
+		{ personName: 'Clarissa Ceglio', personTitle: 'Greenhouse Studios Associate Director of Research' },
+		{ personName: 'Shawn Chen', personTitle: 'BFA ‘20 Digital Media & Design' },
+		{ personName: 'Lauren Ciulla', personTitle: 'BA ‘20 Digital Media & Design' },
+		{ personName: 'David Duncan', personTitle: 'PhD Candidate, History, UC Santa Cruz' },
+		{ personName: 'Ryan Freeland', personTitle: 'MFA ‘18 Digital Media & Design' },
+		{ personName: 'Brooke Foti Gemmell', personTitle: 'Greenhouse Studios Design Strategist' },
+		{ personName: 'Eri Lauer', personTitle: 'BA ‘20 Digital Media & Design' },
+		{ personName: 'Tom Lee', personTitle: 'Greenhouse Studios Technology Strategist' },
+		{ personName: 'Jin Liu', personTitle: 'MFA ‘23 Digital Media & Design' },
+		{ personName: 'Daisy Martin', personTitle: 'Director, History & Civics Project, UC Santa Cruz' },
+		{ personName: 'Tim Miller', personTitle: 'Greenhouse Studios Mellon Fellow' },
+		{ personName: 'Alex Mueller', personTitle: 'BA ‘22 Digital Media & Design' },
+		{ personName: 'Rebecca Niland', personTitle: 'BA ‘17 Digital Media & Design' },
+		{ personName: 'Lily Pashapour', personTitle: 'BA ‘20 Digital Media & Design' },
+		{ personName: 'Dan Pejril', personTitle: 'Asst. Prof. in-Residence, Digital Media & Design' },
+		{ personName: 'Photographer', personTitle: 'Lorem ipsum' },
+		{ personName: 'Brianna Ricciardone', personTitle: 'BA ‘17 Digital Media & Design' },
+		{ personName: 'Eric Rice', personTitle: 'Dept. Head & Professor of Music History' },
+		{ personName: 'Kenia Rodriguez', personTitle: "PhD '25 English Language & Literature/Letters" },
+		{ personName: 'Melina Sandel', personTitle: 'BFA ‘25 Digital Media & Design' },
+		{ personName: 'Tom Scheinfeldt', personTitle: 'Director of Greenhouse Studios' },
+		{ personName: 'John Spencer', personTitle: 'Lorem ipsum' },
+		{ personName: 'Cara Tracey', personTitle: 'BFA ‘22 Digital Media & Design' },
+		{ personName: 'Michael Young', personTitle: 'Publishing Services & Humanities Librarian' }
+	];
 	let images = [1, 2, 3, 4, 5, 6];
 	// let definitions = [{ word: 'coronation', definition: 'the act or occasion of crowning' }];
 </script>
@@ -18,7 +44,7 @@
 <Transition>
 	<Background src="..//charlesvrvideoblur.mp4" scrim="gold" opacity1="5" opacity2="7" class="">
 		<div
-			class=" flex h-[80vh] flex-col items-center justify-center gap-10 bg-cover bg-center p-6 md:p-16"
+			class=" flex h-[80vh] flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16"
 		>
 			<video
 				class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
@@ -31,12 +57,12 @@
 			/>
 			<div class="mt-32 md:max-w-[70%]">
 				<img src="..//logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
-				<div class="  m-3 mt-5 text-center text-xl font-medium text-[#4D1B2C] md:text-2xl">
+				<div class="  m-3 mt-5 text-center text-xl font-medium text-[#4D1B2C] md:text-3xl">
 					Experience the Imperial Coronation of Holy Roman Emperor Charles V
 				</div>
 			</div>
 			<br />
-			<div class="arrow animated bounce"/>
+			<div class="arrow animated bounce" />
 		</div>
 	</Background>
 	<Background
@@ -128,117 +154,14 @@
 						src="static/logos/greenhouse-square-logo.png"
 						alt="credits placeholder"
 					/>
+
 					<div class="grid sm:grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Jonathan Ampiaw</strong></div>
-							<div class="mb-5 text-[18px] leading-5">MFA ‘20 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Clarissa Ceglio</strong></div>
-							<div class="mb-5 text-[18px] leading-5">
-								Greenhouse Studios Associate Director of Research
+						{#each people as person}
+							<div class="text-center">
+								<div class="mb-1 leading-10"><strong>{person.personName}</strong></div>
+								<div class="mb-5 text-[18px] leading-5">{person.personTitle}</div>
 							</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Shawn Chen</strong></div>
-							<div class="mb-5 text-[18px] leading-5">BFA ‘20 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Lauren Ciulla</strong></div>
-							<div class="mb-5 text-[18px] leading-5">BA ‘20 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>David Duncan</strong></div>
-							<div class="mb-5 text-[18px] leading-5">PhD Candidate, History, UC Santa Cruz</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Ryan Freeland</strong></div>
-							<div class="mb-5 text-[18px] leading-5">MFA ‘18 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Brooke Foti Gemmell</strong></div>
-							<div class="mb-5 text-[18px] leading-5">Greenhouse Studios Design Strategist</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Eri Lauer</strong></div>
-							<div class="mb-5 text-[18px] leading-5">BA ‘20 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Tom Lee</strong></div>
-							<div class="mb-5 text-[18px] leading-5">Greenhouse Studios Technology Strategist</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Jin Liu</strong></div>
-							<div class="mb-5 text-[18px] leading-5">MFA ‘23 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Daisy Martin</strong></div>
-							<div class="mb-5 text-[18px] leading-5">
-								Director, History & Civics Project, UC Santa Cruz
-							</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Tim Miller</strong></div>
-							<div class="mb-5 text-[18px] leading-5">Greenhouse Studios Mellon Fellow</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Alex Mueller</strong></div>
-							<div class="mb-5 text-[18px] leading-5">BA ‘22 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Rebecca Niland</strong></div>
-							<div class="mb-5 text-[18px] leading-5">BA ‘17 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Lily Pashapour</strong></div>
-							<div class="mb-5 text-[18px] leading-5">BA ‘20 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Dan Pejril</strong></div>
-							<div class="mb-5 text-[18px] leading-5">
-								Asst. Prof. in-Residence, Digital Media & Design
-							</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Photographer</strong></div>
-							<div class="mb-5 text-[18px] leading-5">Lorem ipsum</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Brianna Ricciardone</strong></div>
-							<div class="mb-5 text-[18px] leading-5">BA ‘17 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Eric Rice</strong></div>
-							<div class="mb-5 text-[18px] leading-5">Dept. Head & Professor of Music History</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Kenia Rodriguez</strong></div>
-							<div class="mb-5 text-[18px] leading-5">
-								PhD '25 English Language & Literature/Letters
-							</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Melina Sandel</strong></div>
-							<div class="mb-5 text-[18px] leading-5">BFA ‘25 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Tom Scheinfeldt</strong></div>
-							<div class="mb-5 text-[18px] leading-5">Director of Greenhouse Studios</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>John Spencer</strong></div>
-							<div class="mb-5 text-[18px] leading-5">Lorem ipsum</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Cara Tracey</strong></div>
-							<div class="mb-5 text-[18px] leading-5">BFA ‘22 Digital Media & Design</div>
-						</div>
-						<div class="text-center">
-							<div class="mb-1 leading-10"><strong>Michael Young</strong></div>
-							<div class="mb-5 text-[18px] leading-5">
-								Publishing Services & Humanities Librarian
-							</div>
-						</div>
+						{/each}
 					</div>
 				</div>
 			</Card>
