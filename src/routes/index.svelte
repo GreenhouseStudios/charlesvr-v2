@@ -2,12 +2,7 @@
 	import Transition from './../components/transition.svelte';
 	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
-	import ChapterButton from './../components/chapter-button.svelte';
-	import SectionHero from './../components/section-hero.svelte';
-	import NextChapter from './../components/next-chapter.svelte';
-	import { onMount } from 'svelte';
 	import Tooltip from './../components/tooltip.svelte';
-	import ImageCard from './../components/image-card.svelte';
 	import Footer from './../components/footer.svelte';
 	import Button from './../components/button.svelte';
 	let people = [
@@ -72,22 +67,20 @@
 		opacity2="9"
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
-		<div class="flex flex-col items-center  justify-center  sm:my-0 sm:flex-row  sm:px-0 ">
-			<div class="switch">
-				<Card light class="margins">
-					<p class="image-description">
+		<div class="flex flex-col-reverse items-center justify-center  sm:my-0 sm:flex-row  sm:px-0 ">
+				<Card light class="m-0 md:m-0 lg:m-18 xl:m-28 md:text-[22px] text-[20px] lg:text-[28px]">
+					<p class="pb-12 sm:pb-0">
 						Travel to 1530 Bologna to attend the <Tooltip
-							def="Coronation: The act or occasion of crowning"><p class="tooltip-size">coronation</p></Tooltip
+							def="Coronation: The act or occasion of crowning"><p class="md:text-[22px] text-[20px] lg:text-[28px]">coronation</p></Tooltip
 						> mass of the Holy Roman Emperor, Charles V, in this virtual reality recreation of San Petronio.
 						The details of the coronation reflect the social and political turmoil of the times; the
 						experience itself recreates the sights and sounds of this religious and political ceremony
 						using <Tooltip
 							def="Contemporaneous: Existing, occurring, or originating during the same time
-					"><p class="tooltip-size">contemporaneous</p></Tooltip
+					"><p class="md:text-[22px] text-[20px] lg:text-[28px]">contemporaneous</p></Tooltip
 						> accounts, artwork, and music as source material.
 					</p>
 				</Card>
-			</div>
 			<img src="static/content/rudy-placeholder-4.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
@@ -100,13 +93,13 @@
 	>
 		<div class="flex flex-col items-center justify-center sm:my-0 sm:flex-row sm:px-0 ">
 			<img src="static/content/rudy-placeholder.jpg" alt="tbd" class="dog  h-[75vh]" />
-			<Card class="margins">
-				<p class="image-description">
+			<Card class=" m-0 md:m-4 lg:m-18 xl:m-28    md:text-[20px] text-[20px] lg:text-[28px] ">
+				<p class="pb-12 sm:pb-0">
 					Experience the event from multiple perspectives — that of a member of the imperial papal
 					court, a 
 						<Tooltip
 						def="Basilica: A Roman Catholic church given ceremonial privileges"
-						light><p class="tooltip-size">basilica</p>
+						light><p class="md:text-[22px] text-[20px] lg:text-[28px]">basilica</p>
 						</Tooltip> 
 					official, or a Bolognese citizen. Hear music performed during the ceremony as recorded by
 					Ensemble Origo. Call up scholarly annotations to explore the layers of meaning embedded in
@@ -122,9 +115,9 @@
 		opacity2="9"
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
-		<div class="flex flex-col items-center sm:my-0 sm:flex-row sm:px-0 ">
-			<div class="switch image-description">
-				<Card class="margins" light>
+		<div class="flex flex-col-reverse items-center sm:my-0 sm:flex-row sm:px-0 image-description">
+				<Card class="m-0 md:m-4 lg:m-18 xl:m-28  md:text-[20px] text-[20px] lg:text-[28px]" light>
+					<div class="pb-12 sm:pb-0">
 					<p class="">
 						Charles V|R offers a multi-modal window into this event of world-historical importance
 						for enthusiasts, students, and scholars of art, architecture, history, music, religion,
@@ -134,14 +127,14 @@
 						<Button title="Read More" path="1" class="" />
 						<Button title="Download" path="2" class="" />
 					</div>
+					</div>
 				</Card>
-			</div>
 			<img src="static/content/rudy-placeholder-2.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
 	<Background src="..//charlesvrvideoblur.mp4" scrim="maroon" opacity1="9" opacity2="9" class="">
 		<div class="flex items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16 ">
-			<Card dark class="w-[100%] md:w-[80%]">
+			<Card  class="w-[100%] md:w-[80%]">
 				<div class="p-4">
 					<h1 class="m-4 text-center text-6xl"><strong>Credits</strong></h1>
 					<img
@@ -196,40 +189,6 @@
 <Footer />
 
 <style>
-		@media screen and (max-width: 800px) {
-		:global(.margins) {
-			margin: 1rem;
-			font-size: 20px;
-		}
-		.tooltip-size {
-		font-size: 20px ;
-	}
-
-	}
-
-	@media screen and (min-width: 800px) {
-		:global(.margins) {
-			margin: 3rem;
-			font-size: 24px;
-		}
-		.tooltip-size {
-		font-size: 24px;
-	}
-
-	}
-
-	@media screen and (min-width: 1350px) {
-		:global(.margins) {
-			margin: 150px;
-			font-size: 28px;
-		}
-		.tooltip-size {
-		font-size: 28px;
-	}
-
-	}
-
-
 	.dog {
 		aspect-ratio: 1/1;
 		object-fit: cover;
@@ -245,14 +204,6 @@
 			aspect-ratio: auto;
 			width: 100%;
 			height: auto;
-		}
-
-		.switch {
-			order: 2;
-		}
-
-		.image-description {
-			padding-bottom: 50px
 		}
 	}
 
