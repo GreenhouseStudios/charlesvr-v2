@@ -11,14 +11,14 @@
 </script>
 
 <Transition>
-	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" scrim="gold" opacity1="0" opacity2="5" />
+	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" scrim="blackgold" opacity1="5" opacity2="7" />
 	<Background
 		parallax
 		scrim="maroonblack" opacity1="7" opacity2="7"
 		src="..//backgrounds/fabric.jpg"
 		class="flex flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64 items-center"
 	>
-		<Card class="flex w-full justify-center p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16 ">
+		<Card class=" ">
 			<div class="w-full  ">
 				Charles Habsburg was born in Ghent, a region now located in Belgium. His four grandparents,
 				Emperor Maximilian I of the Holy Roman Empire, Duchess Mary of Burgundy, King Ferdinand II
@@ -31,7 +31,7 @@
 			</div>
 		</Card>
 		<FamilyTree />
-		<Card class="flex w-full justify-center p-4 text-[18px] leading-relaxed md:p-16 md:text-[20px] lg:text-[24px]">
+		<Card class="">
 			King Ferdinand II of Aragon, his maternal grandfather, left him most of the Iberian Peninsula,
 			therefore making him King Carlos I of Spain. Charles also inherited eastern Spain and Aragon’s
 			colonies in the Mediterranean. From Queen Isabella I of Castile, his paternal grandmother,
@@ -78,7 +78,7 @@
 		src="..//backgrounds/sackofrome.jpg"
 		parallax
 		class="flex flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64 items-center"
-		scrim="maroonblack" opacity1="9" opacity2="8"
+		scrim="maroonblack" opacity1="8" opacity2="8"
 	>
 		<Card class="flex w-full justify-center p-4 text-[18px] leading-relaxed md:p-16 md:text-[20px] lg:text-[24px]" >
 				Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
