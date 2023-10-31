@@ -9,7 +9,6 @@
 	import Tooltip from '../components/tooltip.svelte';
 	import Footer from '../components/footer.svelte';
 	import TextCard from '../components/text-card.svelte';
-	import TextCardBg from '../components/text-card-bg.svelte';
 
 </script>
 
@@ -19,50 +18,51 @@
 		bg="..//backgrounds/abolcoronationdark.jpg"
 		opacity1="2"
 		opacity2="7"
-		scrim="gold"
+		scrim="blackgold"
 	/>
-	<video
-		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
-		loop={true}
-		muted={true}
-		autoplay={true}
-	>
-		<source src="..//backgrounds/updatedmap.mp4" type="video/mp4" />
-	</video>
 	<Background
-		opacity1="7"
-		opacity2="5"
+		opacity1="9"
+		opacity2="7"
 		scrim="maroon"
 		parallax
 		src=""
-		class="flex  flex-col items-end justify-around md:h-min "
+		class="justify-center md:grid md:grid-cols-[1fr_1fr] items-center flex flex-col-reverse"
 	>
-		<TextCardBg class="text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed w-1/3">
-			<p class="m-4 md:m-24 p-4 md:p-16 ">
-				Charles's sack of Rome had made a Roman coronation impossible. Bologna, with its large
-				Basilica San Petronio, was chosen as a suitable substitute location, but the change of venue
-				presented significant problems from a symbolic point of view. The geography of the Eternal
-				City and Saint Peter’s Basilica were vital to the centuries-old rituals of the event.
+	<TextCard class="">
+			Charles's sack of Rome had made a Roman coronation impossible. Bologna, with its large
+			Basilica San Petronio, was chosen as a suitable substitute location, but the change of venue
+			presented significant problems from a symbolic point of view. The geography of the Eternal
+			City and Saint Peter’s Basilica were vital to the centuries-old rituals of the event.
 <br />
 <br />
 The imperial and papal courts therefore set about faithfully reproducing the symbolic
-			geography of Rome in and around the Basilica of San Petronio. They also worked to ensure that
-			the liturgy of the coronation Mass was performed as it would have been in Rome, drawing up a
-			detailed <Tooltip def="Ordo: A list of offices and feasts of the Roman Catholic Church for each day of the year" light>ordo</Tooltip> which specified the texts to be read and chanted in keeping with the age-old
-			traditions.
-			</p>
-		</TextCardBg>
+		geography of Rome in and around the Basilica of San Petronio. They also worked to ensure that
+		the liturgy of the coronation Mass was performed as it would have been in Rome, drawing up a
+		detailed <Tooltip def="Ordo: A list of offices and feasts of the Roman Catholic Church for each day of the year" light>ordo</Tooltip> which specified the texts to be read and chanted in keeping with the age-old
+		traditions.
+	</TextCard>
+	<video
+	class="opacity-40 object-cover h-full"
+	loop={true}
+	muted={true}
+	autoplay={true}
+>
+	<source src="..//backgrounds/updatedmap.mp4" type="video/mp4" />
+</video>
+<div>
+</div>
 	</Background>
 	<Background
-		opacity1="5"
-		opacity2="3"
+		opacity1="9"
+		opacity2="9"
 		scrim="light"
 		src="..//backgrounds/crowning.jpg"
 		parallax
-		class="flex  flex-col items-center justify-center md:h-min md:items-start"
+		class="justify-center md:grid md:grid-cols-[1fr_1fr] items-center flex flex-col"
 	>
-		<TextCardBg class="md:w-1/2 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed" light>
-			<p class="m-4 md:m-24 p-4 md:p-16 ">Although Charles and Clement could not control the location of the ceremony, they were able to
+		<img src="..//backgrounds/crowning.jpg" alt=" Crowning of Charles V" class="h-full w-full object-cover opacity-50 ">
+		<TextCard class="" light>
+Although Charles and Clement could not control the location of the ceremony, they were able to
 			control the date: February 24, 1530, Charles’s thirtieth birthday. On the Church calendar,
 			February 24 celebrates the life of Saint Mathias, the man chosen to replace Judas Iscariot as
 			the twelfth apostle. By virtue of the fact that Charles was born on his feast day, Mathias was
@@ -71,8 +71,8 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 			Mathias’s feast day consistently underscores the close connection between Christ, his
 			apostles, and kingship, making it altogether appropriate for the occasion. The Gospel reading
 			for the day, from the passage in Acts in which the selection of Mathias is described, followed
-			immediately after the coronation itself.</p>
-		</TextCardBg>
+			immediately after the coronation itself.
+		</TextCard>
 	</Background>
 	<!-- Purple Section -->
 	<Background
@@ -80,11 +80,10 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 		opacity1="7"
 		opacity2="9"
 		scrim="maroon"
-		class="justify-center grid grid-cols-[1fr_1fr] items-center"
+		class="justify-center md:grid md:grid-cols-[1fr_1fr] items-center flex flex-col-reverse"
 		parallax
 	>
-				<ImageCard src="static/content/popeclementvii.jpg" citation="" class="" width="w-2/3"  />
-				<TextCard class="p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16">
+				<TextCard class="">
 					The splendor of the temporary décor set up for the coronation inside the church interior
 					was foreshadowed by the triumphal arches in the new all’antica architectural style of the
 					Italian Renaissance that were set up along the processional route leading from the town
@@ -92,16 +91,19 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 					mythological or sacred tableaux vivants in the medieval manner set up along the
 					processional routes of earlier coronations.
 				</TextCard>
+				<ImageCard src="static/content/popeclementvii.jpg" citation="" class="" width="w-2/3"  />
 		</Background>
 		<Background
 		src="..//backgrounds/tex16-1.jpg"
 		opacity1="7"
 		opacity2="9"
 		scrim="light"
-		class="justify-center grid grid-cols-[1fr_1fr] items-center"
+		class="justify-center md:grid md:grid-cols-[1fr_1fr] items-center flex flex-col"
 		parallax
 	>
-			<TextCard class="flex items-center p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16" light>
+	<ImageCard src="static/content/rota-porfiletica-st-peter.jpg" citation="https://www.romawonder.com/wp-content/uploads/2017/07/rota-porfiletica-st-
+	peter.jpg" class="" light/>
+			<TextCard class="" light>
 				<p>
 					A wooden ramp led from one end of the piazza to the church entrance; it was lined with
 					parade armaments and with beautiful greenery in gilded basins. At the top of the steps
@@ -116,8 +118,7 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 					which marked the spot whereon Charlemagne knelt when he was crowned by Pope Leo III.
 				</p>
 			</TextCard>
-			<ImageCard src="static/content/rota-porfiletica-st-peter.jpg" citation="https://www.romawonder.com/wp-content/uploads/2017/07/rota-porfiletica-st-
-			peter.jpg" class="" light/>
+
 
 		</Background>
 		<Background
@@ -125,25 +126,36 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 		opacity1="7"
 		opacity2="9"
 		scrim="maroon"
-		class="justify-center grid grid-cols-[1fr_1fr] items-center"
+		class="justify-center md:grid md:grid-cols-[1fr_1fr] items-center flex flex-col-reverse"
 		parallax
 	>
-			<ImageCard src="static/content/Maarten_van_Heemskerck_013.jpg" citation="https://commons.wikimedia.org/wiki/File:Maarten_van_Heemskerck_013.jpg" class="" />
-			<TextCard class="flex items-center  p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16" >
+			<TextCard class=" " >
 					Some idea of how these temporary chapels may have looked comes from a drawing of the
 					temporary tabernacle over the tomb of St. Peter in front of the apse in the Vatican
 					basilica, although the chapels set up in San Petronio were smaller and less monumental.
 			</TextCard>
+			<ImageCard src="static/content/Maarten_van_Heemskerck_013.jpg" citation="https://commons.wikimedia.org/wiki/File:Maarten_van_Heemskerck_013.jpg" class="" />
+
 		</Background>
 		<Background
 		src="..//backgrounds/tex16-1.jpg"
 		opacity1="7"
 		opacity2="9"
 		scrim="light"
-		class="justify-center grid grid-cols-[1fr_1fr] items-center"
+		class="justify-center md:grid md:grid-cols-[1fr_1fr] items-center flex flex-col"
 		parallax
 	>
-			<TextCard class=" p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16" light>
+	<div class="flex md:flex-col flex-row items-center">
+		<ImageCard
+			src="static/content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
+			citation="https://commons.wikimedia.org/wiki/File:Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
+			class=""
+			width="md:w-1/2"
+			light
+		/>
+		<ImageCard src="static/content/tempchapels.jpg" citation="" class="" width="md:w-1/2" light />
+	</div>
+			<TextCard class="" light>
 				<p>
 					This drawing also shows that in 1530, St. Peter’s was not the magnificently decorated
 					majestic “queen of basilicas” we see today; it was indeed an ungainly, partly dismantled
@@ -162,33 +174,23 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 					from a Fifth-Century Christian basilica in Rome, Santa Maria Maggiore:
 				</p>
 			</TextCard>
-			<div class="flex flex-col">
-				<ImageCard
-					src="static/content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
-					citation="https://commons.wikimedia.org/wiki/File:Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
-					class=""
-					width="w-2/3"
-					light
-				/>
-				<ImageCard src="static/content/tempchapels.jpg" citation="" class="" width="w-2/3" light />
-			</div>
 		</Background>
 		<Background
 		src="..//backgrounds/tex16-1.jpg"
 		opacity1="7"
 		opacity2="9"
 		scrim="maroon"
-		class="justify-center grid grid-cols-[1fr_1fr] items-center"
+		class="justify-center md:grid md:grid-cols-[1fr_1fr] items-center flex flex-col-reverse"
 		parallax
 	>
-			<ImageCard src="static/content/Sanpetroniointerior.jpg" citation="https://commons.wikimedia.org/wiki/File:Sanpetroniointerior.jpg" width="w-2/3" />
-			<TextCard class="p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16">
-				<p>
-					Although there are no detailed visual records of the ceremony, other depictions of the
-					temporary decorations set up for post-medieval coronations taking place in Gothic churches
-					help us to visualize the event.
-				</p>
-			</TextCard>
+	<TextCard class="">
+		<p>
+			Although there are no detailed visual records of the ceremony, other depictions of the
+			temporary decorations set up for post-medieval coronations taking place in Gothic churches
+			help us to visualize the event.
+		</p>
+	</TextCard>		
+	<ImageCard src="static/content/Sanpetroniointerior.jpg" citation="https://commons.wikimedia.org/wiki/File:Sanpetroniointerior.jpg" width="w-2/3" />
 		</Background>
 		<Background
 		src="..//backgrounds/tex16-1.jpg"
@@ -198,23 +200,18 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 		parallax
 	>
-		<div class="flex items-center gap-5">
-			<div class="img1">
-				<ImageCard src="static/content/sanpetronio.jpg" citation="https://cs.wikipedia.org/wiki/Korunovace_%C4%8Desk%C3%BDch_panovn%C3%ADk%C5%AF#/media/Soubor:Eduard_Gurk_001.jpg" light />
-			</div>
-			<div class="img2">
-				<ImageCard src="static/content/sacredelouis.jpeg" citation="https://commons.wikimedia.org/wiki/File:Sacre_de_Louis_XV_%C3%A0_Reims.jpg" light />
-			</div>
-			<div class="img3">
-				<ImageCard src="static/content/Coronation_of_Louis_XV_in_Reims.jpg" citation="https://commons.wikimedia.org/wiki/File:Coronation_of_Louis_XV_in_Reims.JPG" light />
-			</div>
-		</div>
-		<Card class="p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16" light >
-			The sumptuous decorations of tapestries and luxurious textiles not only gave the occasion and
-			the interior a festive air, but also showcased the quality of textile production in Charles
-			V’s Flemish territories. These <Tooltip def="Brocades: A rich silk fabric with raised patterns in gold and silver" >brocades</Tooltip>, silks, velvets and <Tooltip def="Damasks: A firm lustrous fabric (as of linen, cotton, silk, or rayon) made with flat patterns in a satin weave on a plain-woven ground on jacquard looms" >damasks</Tooltip> were made in imitation of
-			and in competition with the prized textiles of the Islamic world and of China.
+	<div class="flex items-center md:gap-5 ">
+			<ImageCard src="static/content/sanpetronio.jpg" citation="https://cs.wikipedia.org/wiki/Korunovace_%C4%8Desk%C3%BDch_panovn%C3%ADk%C5%AF#/media/Soubor:Eduard_Gurk_001.jpg" width="w-full" light />
+			<ImageCard src="static/content/sacredelouis.jpeg" citation="https://commons.wikimedia.org/wiki/File:Sacre_de_Louis_XV_%C3%A0_Reims.jpg" light width="w-full" />
+			<ImageCard src="static/content/Coronation_of_Louis_XV_in_Reims.jpg" citation="https://commons.wikimedia.org/wiki/File:Coronation_of_Louis_XV_in_Reims.JPG" light width="w-full" />
+	</div>
+	<Card class="p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16" light >
+		The sumptuous decorations of tapestries and luxurious textiles not only gave the occasion and
+		the interior a festive air, but also showcased the quality of textile production in Charles
+		V’s Flemish territories. These <Tooltip def="Brocades: A rich silk fabric with raised patterns in gold and silver" >brocades</Tooltip>, silks, velvets and <Tooltip def="Damasks: A firm lustrous fabric (as of linen, cotton, silk, or rayon) made with flat patterns in a satin weave on a plain-woven ground on jacquard looms" >damasks</Tooltip> were made in imitation of
+		and in competition with the prized textiles of the Islamic world and of China.
 </Card>
+		
 	</Background>
 	<!-- Red Section -->
 	<Background
@@ -258,8 +255,8 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 			description of what the dignitaries were wearing than to any other subject. Aristocratic
 			portraits of the period give a good idea of what the effect of the costume and textile
 			decorations would have been.
-			
-			<p>The vestments of the clergy, choristers and musicians were every bit as elaborate.</p>
+			<br />
+			The vestments of the clergy, choristers and musicians were every bit as elaborate.
 
 		</Card>
 		</Background>
@@ -336,4 +333,6 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 	.img10 {
 		flex: 0.35;
 	}
+
+
 </style>
