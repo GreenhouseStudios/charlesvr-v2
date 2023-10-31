@@ -5,7 +5,7 @@
 <img src="../static/logos/charlesvr-lightgold.png" class="w-[300px]" alt="Charles VR Logo">
 <div class="flex items-center justify-center gap-5 m-5">
 <p class="text-[#F6C869] text-3xl">©</p>
-<img src="../static/logos/greenhouse-yellow.png" class="w-[250px]" alt="Charles VR Logo">
+<img src="../static/logos/greenhouse-yellow.png" class="w-[250px]" alt="Greenhouse Studios Logo">
 </div>
 <div class="social-media-container">
 <a href="mailto:greenhousestudios@uconn.edu">
