@@ -28,7 +28,7 @@
 
 <div
 class={
-	'flex flex-col items-center md:flex-row p-5' +
+	'flex flex-col items-center md:flex-row p-10' +
 	(light
 		? ' text-[#1C0A10]  bg-[#FFE2A5] '
 		: ' text-[#F9F4E8]  bg-[#54182c] ') +
@@ -58,7 +58,7 @@ class={
 				{/if}
 			</div>
 		</div>
-		<img src="../static/content/flip-icon-{color}.png" alt="flip button" class="flip m-1 h-[25px] w-[25px] md:h-[35px] md:w-[35px]" on:click={() => flipped = !flipped}>
+		<img src="../static/content/flip-icon-{color}.png" alt="flip button" class="flip mt-3 h-[25px] w-[25px] md:h-[35px] md:w-[35px]" on:click={() => flipped = !flipped}>
 
 	</div>
 </div>
@@ -141,5 +141,9 @@ class={
 		justify-content: center;
 		align-items: center;
 		}
+
+.bioimg:hover {
+	cursor: pointer;
+}
 
 </style>
