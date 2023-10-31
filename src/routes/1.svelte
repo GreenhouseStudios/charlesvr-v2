@@ -14,8 +14,8 @@
 	<SectionHero
 		title="The Coronation in Context"
 		bg="..//backgrounds/earlyflagdark.jpg"
-		scrim="gold"
-		opacity1="1"
+		scrim="blackgold"
+		opacity1="4"
 		opacity2="7"
 		class="backdrop-brightness-50"
 	/>
@@ -54,15 +54,16 @@
 		opacity2="8"
 		class="flex flex-col"
 	>
-		<div class="grid items-center lg:grid-cols-[1fr_1fr]">
+		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr] ">
 			<Card
-				class="m-4 md:m-24 p-4 md:p-16 text-[18px] leading-relaxed  md:text-[20px] lg:text-[24px]"
+				class=""
 				light
 			>
-				The Holy Roman Empire was an idealized re-establishment of the realm of <strong>Charlemagne</strong>, the
-				Frankish ruler whose territories corresponded roughly to those of modern France and Germany.
-				In the year 800, Protestantism the office of the pope; succession or line of popes; the
-				system of government of the Roman Catholic Church of which the pope is the supreme head
+				The Holy Roman Empire was an idealized re-establishment of the realm of <strong
+					>Charlemagne</strong
+				>, the Frankish ruler whose territories corresponded roughly to those of modern France and
+				Germany. In the year 800, Protestantism the office of the pope; succession or line of popes;
+				the system of government of the Roman Catholic Church of which the pope is the supreme head
 				Charlemagne came to the aid of Pope Leo III, who had run afoul of the nobility in Rome. He
 				convened a council in Rome that affirmed Leo's <Tooltip
 					def="Papacy: The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
@@ -76,7 +77,7 @@
 				src="..//character-cards/Charlemagne.jpg"
 				citation="https://upload.wikimedia.org/wikipedia/commons/b/b5/Aachen_Domschatz_Bueste1.jpg"
 				years="742-814"
-				class="flex h-full items-center justify-center "
+				class="flex h-full w-full items-center justify-center "
 				light
 			>
 				<p>Became King of the Lombards in July 774, and King of the Franks in October 768</p>
@@ -95,21 +96,23 @@
 		opacity2="8"
 		class="flex flex-col"
 	>
-		<div class="grid items-center lg:grid-cols-[1fr_1fr]">
-			<Card class="md:m-24 p-4 m-4 text-[18px] leading-relaxed md:p-16 md:text-[20px] lg:text-[24px]">
+		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
+			<Card
+				class=""
+			>
 				After Charlemagne's death, disputes over power among his grandsons led to the precipitous
 				decline of the dynasty. For nearly a century the title went unclaimed, but was revived in
-				962 when <strong>Otto I</strong>, the elected King of the Saxons, was once again crowned Emperor of the
-				Romans by the Pope in Rome. Otto's coronation forged a centuries-long special relationship
-				between the Papacy, the memory of Ancient Rome, and the consolidated Germanic realm–a “Holy
-				Roman Empire.”
+				962 when <strong>Otto I</strong>, the elected King of the Saxons, was once again crowned
+				Emperor of the Romans by the Pope in Rome. Otto's coronation forged a centuries-long special
+				relationship between the Papacy, the memory of Ancient Rome, and the consolidated Germanic
+				realm–a “Holy Roman Empire.”
 			</Card>
 			<BioCard
 				name="Otto I"
 				src="..//character-cards/Otto-card.jpg"
 				years="912-973"
 				color="white"
-				class="flex h-full items-center justify-center  "
+				class="flex h-full w-full items-center justify-center  "
 				citation="https://upload.wikimedia.org/wikipedia/commons/9/99/Bas-c%C3%B4t%C3%A9_nord,_baie_VI_Otto_Rex_(dernier_tiers_XIIe).jpg"
 			>
 				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
@@ -125,44 +128,53 @@
 		opacity2="7"
 		class="flex flex-col"
 	>
-
-		<div class="grid items-center lg:grid-cols-[1fr_1fr]">
+		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
 			<div>
-				<Card class="md:m-24 p-4 text-[18px] m-4 leading-relaxed md:p-16 md:text-[20px] lg:text-[24px]" light>
-					<h2 class="text-center text-4xl md:text-6xl text-black m-12">
+				<Card
+					class=""
+					light
+				>
+					<h2 class="m-12 text-center text-4xl text-black md:text-6xl ">
 						<strong>Dual Coronations</strong>
 					</h2>
 					<div class="mb-5">
-					Symbolically and politically, this relationship was marked in two coronations. The first
-					was a royal coronation as King of the Germans by the <Tooltip
-						def="Ducal: The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
-						>ducal</Tooltip
-					> electors in Charlemagne’s old capital, Aachen. The second was an imperial, or papal, coronation
-					as Emperor of the Romans in Rome under the pope’s hand. From 962 until 1530, in principle each
-					ruler of the Holy Roman Empire was to receive both a royal and an imperial coronation.
-				</div>
-				<div>
-					During these five and a half centuries, these dual coronations served to ease two
-					important political tensions: the role of the German electors in choosing their leader
-					versus traditions of <Tooltip
-						def="Primogeniture: An exclusive right of inheritance belonging to the eldest son"
-						>primogeniture</Tooltip
-					> and the role of papal, or sacred, power versus imperial, or secular, power. While every Christian
-					coronation ceremony aims to affirm the new monarch’s power as God-given, the particular tension
-					between these political elements in the German realm made such an affirmation of paramount
-					importance. These twin ceremonies were thus charged with meaning, elevating the emperor as
-					the primary defender of the Christian faith, just as Charlemagne had been.
-					<ChapterButton numeral="II" chapter="Who Was Charles V?" path="2" class="my-10 justify-center" />
-				</div>
+						Symbolically and politically, this relationship was marked in two coronations. The first
+						was a royal coronation as King of the Germans by the <Tooltip
+							def="Ducal: The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
+							>ducal</Tooltip
+						> electors in Charlemagne’s old capital, Aachen. The second was an imperial, or papal, coronation
+						as Emperor of the Romans in Rome under the pope’s hand. From 962 until 1530, in principle
+						each ruler of the Holy Roman Empire was to receive both a royal and an imperial coronation.
+					</div>
+					<div class="flex flex-col items-center">
+						<div>
+						During these five and a half centuries, these dual coronations served to ease two
+						important political tensions: the role of the German electors in choosing their leader
+						versus traditions of <Tooltip
+							def="Primogeniture: An exclusive right of inheritance belonging to the eldest son"
+							>primogeniture</Tooltip
+						> and the role of papal, or sacred, power versus imperial, or secular, power. While every
+						Christian coronation ceremony aims to affirm the new monarch’s power as God-given, the particular
+						tension between these political elements in the German realm made such an affirmation of
+						paramount importance. These twin ceremonies were thus charged with meaning, elevating the
+						emperor as the primary defender of the Christian faith, just as Charlemagne had been.
+					</div>
+						<ChapterButton
+							numeral="II"
+							chapter="Who Was Charles V?"
+							path="2"
+							class="my-10 justify-center"
+						/>
+					</div>
 				</Card>
-				</div>
-					<ImageCardColor
-						class="flex h-full items-center justify-center"
-						src="..//content/dualcoronations.png"
-						light
-						citation=""
-					/>
 			</div>
+			<ImageCardColor
+				class="flex h-full items-center justify-center"
+				src="..//content/dualcoronations.png"
+				light
+				citation=""
+			/>
+		</div>
 		<!-- <div class="col-span-2 mx-auto">
 			<ChapterButton numeral="II" chapter="Who Was Charles V?" path="2" />
 		</div> -->
