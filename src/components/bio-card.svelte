@@ -47,18 +47,16 @@ class={
 						<div class="space-y-4 text-lg text-[18px] md:leading-12 lg:space-y-8">
 							<slot />
 						</div>
-						<!-- <img src="../static/content/flip-icon-{color}.png" alt="flip button" class="flip mx-auto"> -->
 					</div>
 				</div>
 				{:else}
 				<div class="side" transition:flip>
 					<img {src} {alt} class="rounded-md bioimg h-full" />
-					<!-- <img src="../static/content/flip-icon-{color}.png" alt="flip button" class="flip"> -->
 				</div>
 				{/if}
 			</div>
 		</div>
-		<img src="../static/content/flip-icon-{color}.png" alt="flip button" class="flip mt-3 h-[25px] w-[25px] md:h-[35px] md:w-[35px]" on:click={() => flipped = !flipped}>
+		<img src="../../content/flip-icon-{color}.png" alt="flip button" class="flip mt-3 h-[25px] w-[25px] md:h-[35px] md:w-[35px]" on:click={() => flipped = !flipped}>
 
 	</div>
 </div>

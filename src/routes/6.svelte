@@ -43,7 +43,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="static/backgrounds/basilicafloor.jpg"
+		src="../../backgrounds/basilicafloor.jpg"
 		scrim="light"
 		opacity1="9"
 		opacity2="7"

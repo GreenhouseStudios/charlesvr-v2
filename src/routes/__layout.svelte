@@ -114,7 +114,7 @@
 				<li>
 					<a class="" on:click={toggleMenu} href="/"
 						>
-					<img src="static/logos/charlesvr-lightgold.png" alt="Charles VR" class=" menu_icon" />
+					<img src="../../logos/charlesvr-lightgold.png" alt="Charles VR" class=" menu_icon" />
 					</a>
 				</li>
 				<br />

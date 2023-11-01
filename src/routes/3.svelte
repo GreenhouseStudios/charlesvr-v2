@@ -91,7 +91,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 					mythological or sacred tableaux vivants in the medieval manner set up along the
 					processional routes of earlier coronations.
 				</TextCard>
-				<ImageCard src="static/content/popeclementvii.jpg" citation="" class="" width="w-2/3"  />
+				<ImageCard src="../../content/popeclementvii.jpg" citation="" class="" width="w-2/3"  />
 		</Background>
 		<Background
 		src="../../backgrounds/tex16-1.jpg"
@@ -101,7 +101,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 		class="justify-center md:grid md:grid-cols-[1fr_1fr] items-center flex flex-col"
 		parallax
 	>
-	<ImageCard src="static/content/rota-porfiletica-st-peter.jpg" citation="https://www.romawonder.com/wp-content/uploads/2017/07/rota-porfiletica-st-
+	<ImageCard src="../../content/rota-porfiletica-st-peter.jpg" citation="https://www.romawonder.com/wp-content/uploads/2017/07/rota-porfiletica-st-
 	peter.jpg" class="" light/>
 			<TextCard class="" light>
 				<p>
@@ -134,7 +134,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 					temporary tabernacle over the tomb of St. Peter in front of the apse in the Vatican
 					basilica, although the chapels set up in San Petronio were smaller and less monumental.
 			</TextCard>
-			<ImageCard src="static/content/Maarten_van_Heemskerck_013.jpg" citation="https://commons.wikimedia.org/wiki/File:Maarten_van_Heemskerck_013.jpg" class="" />
+			<ImageCard src="../../content/Maarten_van_Heemskerck_013.jpg" citation="https://commons.wikimedia.org/wiki/File:Maarten_van_Heemskerck_013.jpg" class="" />
 
 		</Background>
 		<Background
@@ -147,13 +147,13 @@ Although Charles and Clement could not control the location of the ceremony, the
 	>
 	<div class="flex md:flex-col flex-row items-center">
 		<ImageCard
-			src="static/content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
+			src="../../content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
 			citation="https://commons.wikimedia.org/wiki/File:Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
 			class=""
 			width="md:w-1/2"
 			light
 		/>
-		<ImageCard src="static/content/tempchapels.jpg" citation="" class="" width="md:w-1/2" light />
+		<ImageCard src="../../content/tempchapels.jpg" citation="" class="" width="md:w-1/2" light />
 	</div>
 			<TextCard class="" light>
 				<p>
@@ -190,7 +190,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 			help us to visualize the event.
 		</p>
 	</TextCard>		
-	<ImageCard src="static/content/Sanpetroniointerior.jpg" citation="https://commons.wikimedia.org/wiki/File:Sanpetroniointerior.jpg" width="w-2/3" />
+	<ImageCard src="../../content/Sanpetroniointerior.jpg" citation="https://commons.wikimedia.org/wiki/File:Sanpetroniointerior.jpg" width="w-2/3" />
 		</Background>
 		<Background
 		src="../../backgrounds/tex16-1.jpg"
@@ -201,9 +201,9 @@ Although Charles and Clement could not control the location of the ceremony, the
 		parallax
 	>
 	<div class="flex items-center md:gap-5 ">
-			<ImageCard src="static/content/sanpetronio.jpg" citation="https://cs.wikipedia.org/wiki/Korunovace_%C4%8Desk%C3%BDch_panovn%C3%ADk%C5%AF#/media/Soubor:Eduard_Gurk_001.jpg" width="w-full" light />
-			<ImageCard src="static/content/sacredelouis.jpeg" citation="https://commons.wikimedia.org/wiki/File:Sacre_de_Louis_XV_%C3%A0_Reims.jpg" light width="w-full" />
-			<ImageCard src="static/content/Coronation_of_Louis_XV_in_Reims.jpg" citation="https://commons.wikimedia.org/wiki/File:Coronation_of_Louis_XV_in_Reims.JPG" light width="w-full" />
+			<ImageCard src="../../content/sanpetronio.jpg" citation="https://cs.wikipedia.org/wiki/Korunovace_%C4%8Desk%C3%BDch_panovn%C3%ADk%C5%AF#/media/Soubor:Eduard_Gurk_001.jpg" width="w-full" light />
+			<ImageCard src="../../content/sacredelouis.jpeg" citation="https://commons.wikimedia.org/wiki/File:Sacre_de_Louis_XV_%C3%A0_Reims.jpg" light width="w-full" />
+			<ImageCard src="../../content/Coronation_of_Louis_XV_in_Reims.jpg" citation="https://commons.wikimedia.org/wiki/File:Coronation_of_Louis_XV_in_Reims.JPG" light width="w-full" />
 	</div>
 	<Card class="p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16" light >
 		The sumptuous decorations of tapestries and luxurious textiles not only gave the occasion and
@@ -226,24 +226,24 @@ Although Charles and Clement could not control the location of the ceremony, the
 			<div class="mr-5 flex flex-col justify-center gap-4 md:mr-0 md:flex-row">
 				<div class="img4">
 					<ImageCard
-						src="static/content/Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
+						src="../../content/Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
 						citation="https://commons.wikimedia.org/wiki/File:Moretto,_ritratto_di_giovane,_1540-45_ca._02.jpg"
 					/>
 				</div>
 				<div class="img5">
 					<ImageCard
-						src="static/content/Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
+						src="../../content/Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
 						citation="https://en.wikipedia.org/wiki/Portrait_of_Eleanor_of_Toledo#/media/File:Bronzino_-_Eleonora_di_Toledo_col_figlio_Giovanni_-_Google_Art_Project.jpg"
 					/>
 				</div>
 			</div>
 			<div class="flex flex-col justify-center gap-5 md:flex-row">
 				<div class="img6">
-					<ImageCard src="static/content/Giovanni_battista_moroni.jpg" citation="https://commons.wikimedia.org/wiki/File:Giovanni_battista_moroni,_ritratto_du_don_gabriel_de_la_cueva,_duca_di_albuquerque_e_governatore_spagnolo_di_milano,_1560.JPG" />
+					<ImageCard src="../../content/Giovanni_battista_moroni.jpg" citation="https://commons.wikimedia.org/wiki/File:Giovanni_battista_moroni,_ritratto_du_don_gabriel_de_la_cueva,_duca_di_albuquerque_e_governatore_spagnolo_di_milano,_1560.JPG" />
 				</div>
 				<div class="img7">
 					<ImageCard
-						src="static/content/Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
+						src="../../content/Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
 						citation="https://nl.wikipedia.org/wiki/Bestand:Isotta_Brembati_Grumelli,_by_Giovanni_Battista_Moroni.jpg"
 					/>
 				</div>
@@ -270,10 +270,10 @@ Although Charles and Clement could not control the location of the ceremony, the
 	>
 		<div class="flex items-center gap-5">
 			<div class="img8">
-				<ImageCard src="static/content/singingangels.jpg" citation="https://www.flickr.com/photos/8545333@N07/2208696665" />
+				<ImageCard src="../../content/singingangels.jpg" citation="https://www.flickr.com/photos/8545333@N07/2208696665" />
 			</div>
 			<div class="img9">
-				<ImageCard src="static/content/St._Peter_Niccoline_Chapel.jpg" citation="https://en.wikipedia.org/wiki/Niccoline_Chapel#/media/File:St._Peter_Niccoline_Chapel.jpg" />
+				<ImageCard src="../../content/St._Peter_Niccoline_Chapel.jpg" citation="https://en.wikipedia.org/wiki/Niccoline_Chapel#/media/File:St._Peter_Niccoline_Chapel.jpg" />
 			</div>
 			<div class="img10">
 				<ImageCard src="../../content/saintaugustineofhippo.jpeg" citation="https://www.metmuseum.org/art/collection/search/471903" />
