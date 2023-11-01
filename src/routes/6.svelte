@@ -15,12 +15,12 @@
 		muted={true}
 		autoplay={true}
 	>
-		<source src="..//backgrounds/introcrawl.mp4" type="video/mp4" />
+		<source src="../../backgrounds/introcrawl.mp4" type="video/mp4" />
 	</video>
-	<SectionHero title="The Charles V|R Experience" bg="..//backgrounds/vr-goggles.jpg" scrim="blackgold" opacity1="5" opacity2="7" />
+	<SectionHero title="The Charles V|R Experience" bg="../../backgrounds/vr-goggles.jpg" scrim="blackgold" opacity1="5" opacity2="7" />
 	<Background
 		parallax
-		src="..//backgrounds/fabric.jpg"
+		src="../../backgrounds/fabric.jpg"
 		scrim="maroon"
 		opacity1="7"
 		opacity2="5"
@@ -52,19 +52,19 @@
 		<div class="my-24 flex grid-cols-2 flex-col gap-24 md:grid items-center">
 			<div class="grid grid-cols-2 place-items-center gap-16 md:order-last">
 				<div class="flex flex-col items-center">
-					<img src="..//content/pope.png" alt="" class="mb-2" />
+					<img src="../../content/pope.png" alt="" class="mb-2" />
 					Pope Clement VII
 				</div>
 				<div class="flex flex-col items-center">
-					<img src="..//content/choirsinger.png" alt="" class="mb-2" />
+					<img src="../../content/choirsinger.png" alt="" class="mb-2" />
 					Papal Choir Member
 				</div>
 				<div class="flex flex-col items-center">
-					<img src="..//content/pope.png" alt="" class="mb-2" />
+					<img src="../../content/pope.png" alt="" class="mb-2" />
 					Church Official
 				</div>
 				<div class="flex flex-col items-center">
-					<img src="..//content/choirsinger.png" alt="" class="mb-2" />
+					<img src="../../content/choirsinger.png" alt="" class="mb-2" />
 					Church Attendee
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 		</div>
 	</Background>
 	<Background
-		src="..//backgrounds/crown.png"
+		src="../../backgrounds/crown.png"
 		parallax
 		scrim="maroon"
 		opacity1="8"
@@ -98,7 +98,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/vr-overview.jpg"
+		src="../../backgrounds/vr-overview.jpg"
 		scrim="light"
 		opacity1="8"
 		opacity2="6"

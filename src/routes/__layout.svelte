@@ -20,7 +20,7 @@
 	>
 		<a href="/" data-chapter="1" class="my-6 flex flex-col justify-center pl-6">
 			<div class="mb-2 flex h-5 flex-col items-center">
-				<img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class="max-h-full" />
+				<img src="../../logos/charlesvr-lightgold.png" alt="Charles VR" class="max-h-full" />
 			</div>
 			<div
 				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] hover:text-gold-500 group-hover:opacity-100"
@@ -103,7 +103,7 @@
 	</div>
 	<div id="nav-mobile" class="flex h-16 items-center justify-between pl-4 md:hidden">
 		<a href="/" class="flex h-full shrink py-5 pr-4">
-			<img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class=" h-full w-auto" />
+			<img src="../../logos/charlesvr-lightgold.png" alt="Charles VR" class=" h-full w-auto" />
 		</a>
 		<div class="hamburger-menu">
 			<input id="menu__toggle" type="checkbox" checked={menuOpen} on:click={toggleMenu} />

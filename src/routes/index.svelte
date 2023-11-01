@@ -37,21 +37,21 @@
 </script>
 
 <Transition>
-	<Background src="..//charlesvrvideoblur.mp4" scrim="gold" opacity1="5" opacity2="7" class="">
+	<Background src="../../charlesvrvideoblur.mp4" scrim="gold" opacity1="5" opacity2="7" class="">
 		<div
 			class=" flex h-[80vh] flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16"
 		>
 			<video
 				class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 				id="videobg"
-				src="..//charlesvrvideoblur.mp4"
+				src="../../charlesvrvideoblur.mp4"
 				autoplay
 				muted
 				loop
 				style=""
 			/>
 			<div class="mt-32 md:max-w-[70%]">
-				<img src="..//logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
+				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
 				<div class="  m-3 mt-5 text-center text-xl font-medium text-[#4D1B2C] md:text-3xl">
 					Experience the Imperial Coronation of Holy Roman Emperor Charles V
 				</div>
@@ -61,7 +61,7 @@
 		</div>
 	</Background>
 	<Background
-		src="..//charlesvrvideoblur.mp4"
+		src="../../charlesvrvideoblur.mp4"
 		scrim="light"
 		opacity1="9"
 		opacity2="9"
@@ -85,7 +85,7 @@
 		</div>
 	</Background>
 	<Background
-		src="..//charlesvrvideoblur.mp4"
+		src="../../charlesvrvideoblur.mp4"
 		scrim="maroon"
 		opacity1="9"
 		opacity2="9"
@@ -109,7 +109,7 @@
 		</div>
 	</Background>
 	<Background
-		src="..//charlesvrvideoblur.mp4"
+		src="../../charlesvrvideoblur.mp4"
 		scrim="light"
 		opacity1="9"
 		opacity2="9"
@@ -132,7 +132,7 @@
 			<img src="static/content/rudy-placeholder-2.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
-	<Background src="..//charlesvrvideoblur.mp4" scrim="maroon" opacity1="9" opacity2="9" class="">
+	<Background src="../../charlesvrvideoblur.mp4" scrim="maroon" opacity1="9" opacity2="9" class="">
 		<div class="flex items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16 ">
 			<Card  class="w-[100%] md:w-[80%]">
 				<div class="p-4">
@@ -160,7 +160,7 @@
 			</Card>
 		</div>
 	</Background>
-	<Background src="..//charlesvrvideoblur.mp4" scrim="light" opacity1="9" opacity2="9" class="">
+	<Background src="../../charlesvrvideoblur.mp4" scrim="light" opacity1="9" opacity2="9" class="">
 		<div class=" flex flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16">
 			<Card light class="flex flex-col  ">
 				<h1 class="my-10 text-center text-6xl text-[#54182c] md:mb-20 ">

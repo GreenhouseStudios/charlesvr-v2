@@ -13,7 +13,7 @@
 <Transition>
 	<SectionHero
 		title="The Coronation in Context"
-		bg="..//backgrounds/earlyflagdark.jpg"
+		bg="../../backgrounds/earlyflagdark.jpg"
 		scrim="blackgold"
 		opacity1="4"
 		opacity2="7"
@@ -24,7 +24,7 @@
 		scrim="maroon"
 		opacity1="7"
 		opacity2="2"
-		src="..//backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
+		src="../../backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
 		class="flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<Card
@@ -48,7 +48,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/holy-roman-empire.jpg"
+		src="../../backgrounds/holy-roman-empire.jpg"
 		scrim="light"
 		opacity1="9"
 		opacity2="8"
@@ -74,7 +74,7 @@
 			</Card>
 			<BioCard
 				name="Charlemagne"
-				src="..//character-cards/Charlemagne.jpg"
+				src="../../character-cards/Charlemagne.jpg"
 				citation="https://upload.wikimedia.org/wikipedia/commons/b/b5/Aachen_Domschatz_Bueste1.jpg"
 				years="742-814"
 				class="flex h-full w-full items-center justify-center "
@@ -90,7 +90,7 @@
 		</div>
 	</Background>
 	<Background
-		src="..//backgrounds/holy-roman-empire.jpg"
+		src="../../backgrounds/holy-roman-empire.jpg"
 		scrim="maroon"
 		opacity1="8"
 		opacity2="8"
@@ -109,7 +109,7 @@
 			</Card>
 			<BioCard
 				name="Otto I"
-				src="..//character-cards/Otto-card.jpg"
+				src="../../character-cards/Otto-card.jpg"
 				years="912-973"
 				color="white"
 				class="flex h-full w-full items-center justify-center  "
@@ -122,7 +122,7 @@
 		</div>
 	</Background>
 	<Background
-		src="..//backgrounds/damask_albedo-01.svg"
+		src="../../backgrounds/damask_albedo-01.svg"
 		scrim="light"
 		opacity1="9"
 		opacity2="7"
@@ -170,7 +170,7 @@
 			</div>
 			<ImageCardColor
 				class="flex h-full items-center justify-center"
-				src="..//content/dualcoronations.png"
+				src="../../content/dualcoronations.png"
 				light
 				citation=""
 			/>

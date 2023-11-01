@@ -10,9 +10,9 @@
 </script>
 
 <Transition>
-	<SectionHero title="A Focus on Music" bg="..//backgrounds/afocusonmusic.jpg" opacity1="5" opacity2="7" scrim="blackgold" />
+	<SectionHero title="A Focus on Music" bg="../../backgrounds/afocusonmusic.jpg" opacity1="5" opacity2="7" scrim="blackgold" />
 	<Background
-		src="..//backgrounds/Elderly_Karl_V.jpg"
+		src="../../backgrounds/Elderly_Karl_V.jpg"
 		scrim="maroon"
 		opacity1="7"
 		opacity2="3"
@@ -44,7 +44,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/sheetmusic.jpg"
+		src="../../backgrounds/sheetmusic.jpg"
 		scrim="light"
 		opacity1="9"
 		opacity2="7"
@@ -74,14 +74,14 @@
 			correct proper of the day be sung.
 		</Card>
 	</Background>
-	<SectionHero title="Dual Motets" scrim = "maroon" bg="..//backgrounds/singing.jpg" opacity1="5" opacity2="7" />
+	<SectionHero title="Dual Motets" scrim = "maroon" bg="../../backgrounds/singing.jpg" opacity1="5" opacity2="7" />
 	<video
 		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
 		loop={true}
 		muted={true}
 		autoplay={true}
 	>
-		<source src="..//backgrounds/choirman2.mp4" type="video/mp4" />
+		<source src="../../backgrounds/choirman2.mp4" type="video/mp4" />
 	</video>
 	<Background src="" class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="7">
 		<Card class="" light>
@@ -98,7 +98,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/wideview.jpg"
+		src="../../backgrounds/wideview.jpg"
 		scrim="maroon"
 		opacity1="7"
 		opacity2="3"
@@ -116,7 +116,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/detail.jpg"
+		src="../../backgrounds/detail.jpg"
 		class="flex flex-col bg-bottom items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 		scrim="light" opacity1="7" opacity2="7"
 	>
@@ -144,7 +144,7 @@
 	</div>
 	</Background>
 	<Background
-		src="..//backgrounds/pope.jpg"
+		src="../../backgrounds/pope.jpg"
 		class="md:p-16 flex flex-col items-center justify-center bg-bottom"
 		scrim="maroonblack" opacity1="7" opacity2="9"
 	>

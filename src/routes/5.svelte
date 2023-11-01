@@ -11,7 +11,7 @@
 <Transition>
 	<SectionHero title="A Melancholy Mass" scrim="blackgold" opacity1="4" opacity2="7"/>
 	<Background
-		src="..//backgrounds/paintings.jpg"
+		src="../../backgrounds/paintings.jpg"
 		class="flex flex-col items-end justify-center h-[100vh] p-4 md:p-16 2xl:p-32 2xl:px-64"
 		scrim="maroon" opacity1="7" opacity2="2"
 	>
@@ -40,9 +40,9 @@
 		muted={true}
 		autoplay={true}
 	>
-		<source src="..//backgrounds/choirshot.mp4" type="video/mp4" />
+		<source src="../../backgrounds/choirshot.mp4" type="video/mp4" />
 	</video>
-	<Background src="..//backgrounds/basilicaexterior.jpg" parallax class="flex flex-col h-[100vh] justify-center items-end p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="6">
+	<Background src="../../backgrounds/basilicaexterior.jpg" parallax class="flex flex-col h-[100vh] justify-center items-end p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="6">
 		<Card class="" light>
 			The surviving accounts of the event mention a stretch of “prayers” after the singing of the
 			gradual. A report by Hironimo Bontempo makes a specific reference to singers reciting the
@@ -52,7 +52,7 @@
 			an abbreviated form of the Laudes could have been sung during this fifteen-minute period.
 		</Card>
 	</Background>
-	<Background src="..//backgrounds/mural.jpg" class="flex flex-col justify-center items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="maroon" opacity1="7" opacity2="3">
+	<Background src="../../backgrounds/mural.jpg" class="flex flex-col justify-center items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="maroon" opacity1="7" opacity2="3">
 		<Card class="">
 			The mass may strike modern listeners as an odd choice for a coronation. A subsequent print of
 			the work identifies it not as a mass for coronation, but as the Missa Sur tous regretz, the
@@ -73,7 +73,7 @@
 		</Card>
 	</Background>
 	
-	<Background src="..//backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="6">
+	<Background src="../../backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="6">
 		<Card class="" light>
 			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the
 			coronation and Charles’s documented embarrassment about it, to attribute the character of this
@@ -95,7 +95,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/musicstand.jpg"
+		src="../../backgrounds/musicstand.jpg"
 		class="flex flex-col  justify-center items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 		scrim="maroon" opacity1="7" opacity2="3"
 	>
@@ -110,7 +110,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/wall.jpg"
+		src="../../backgrounds/wall.jpg"
 		parallax
 		class="flex flex-col h-[100vh] justify-center items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 		scrim="goldblack" opacity1="7" opacity2="7"

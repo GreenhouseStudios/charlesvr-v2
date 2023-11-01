@@ -15,7 +15,7 @@
 <Transition>
 	<SectionHero
 		title="An Imperial Coronation in Bologna"
-		bg="..//backgrounds/abolcoronationdark.jpg"
+		bg="../../backgrounds/abolcoronationdark.jpg"
 		opacity1="2"
 		opacity2="7"
 		scrim="blackgold"
@@ -47,7 +47,7 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 	muted={true}
 	autoplay={true}
 >
-	<source src="..//backgrounds/updatedmap.mp4" type="video/mp4" />
+	<source src="../../backgrounds/updatedmap.mp4" type="video/mp4" />
 </video>
 <div>
 </div>
@@ -56,11 +56,11 @@ The imperial and papal courts therefore set about faithfully reproducing the sym
 		opacity1="9"
 		opacity2="9"
 		scrim="light"
-		src="..//backgrounds/crowning.jpg"
+		src="../../backgrounds/crowning.jpg"
 		parallax
 		class="justify-center md:grid md:grid-cols-[1fr_1fr] items-center flex flex-col"
 	>
-		<img src="..//backgrounds/crowning.jpg" alt=" Crowning of Charles V" class="h-full w-full object-cover opacity-50 ">
+		<img src="../../backgrounds/crowning.jpg" alt=" Crowning of Charles V" class="h-full w-full object-cover opacity-50 ">
 		<TextCard class="" light>
 Although Charles and Clement could not control the location of the ceremony, they were able to
 			control the date: February 24, 1530, Charles’s thirtieth birthday. On the Church calendar,
@@ -76,7 +76,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 	</Background>
 	<!-- Purple Section -->
 	<Background
-		src="..//backgrounds/tex16-1.jpg"
+		src="../../backgrounds/tex16-1.jpg"
 		opacity1="7"
 		opacity2="9"
 		scrim="maroon"
@@ -94,7 +94,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 				<ImageCard src="static/content/popeclementvii.jpg" citation="" class="" width="w-2/3"  />
 		</Background>
 		<Background
-		src="..//backgrounds/tex16-1.jpg"
+		src="../../backgrounds/tex16-1.jpg"
 		opacity1="7"
 		opacity2="9"
 		scrim="light"
@@ -122,7 +122,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 
 		</Background>
 		<Background
-		src="..//backgrounds/tex16-1.jpg"
+		src="../../backgrounds/tex16-1.jpg"
 		opacity1="7"
 		opacity2="9"
 		scrim="maroon"
@@ -138,7 +138,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 
 		</Background>
 		<Background
-		src="..//backgrounds/tex16-1.jpg"
+		src="../../backgrounds/tex16-1.jpg"
 		opacity1="7"
 		opacity2="9"
 		scrim="light"
@@ -176,7 +176,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 			</TextCard>
 		</Background>
 		<Background
-		src="..//backgrounds/tex16-1.jpg"
+		src="../../backgrounds/tex16-1.jpg"
 		opacity1="7"
 		opacity2="9"
 		scrim="maroon"
@@ -193,7 +193,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 	<ImageCard src="static/content/Sanpetroniointerior.jpg" citation="https://commons.wikimedia.org/wiki/File:Sanpetroniointerior.jpg" width="w-2/3" />
 		</Background>
 		<Background
-		src="..//backgrounds/tex16-1.jpg"
+		src="../../backgrounds/tex16-1.jpg"
 		opacity1="7"
 		opacity2="9"
 		scrim="light"
@@ -219,7 +219,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 		opacity1="8"
 		opacity2="8"
 		scrim="maroon"
-		src="..//backgrounds/tex16-35.jpg"
+		src="../../backgrounds/tex16-35.jpg"
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<div class="flex items-center justify-center">
@@ -265,7 +265,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 		opacity1="8"
 		opacity2="8"
 		scrim="goldblack"
-		src="..//backgrounds/tex16-35.jpg"
+		src="../../backgrounds/tex16-35.jpg"
 		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<div class="flex items-center gap-5">
@@ -276,7 +276,7 @@ Although Charles and Clement could not control the location of the ceremony, the
 				<ImageCard src="static/content/St._Peter_Niccoline_Chapel.jpg" citation="https://en.wikipedia.org/wiki/Niccoline_Chapel#/media/File:St._Peter_Niccoline_Chapel.jpg" />
 			</div>
 			<div class="img10">
-				<ImageCard src="..//content/saintaugustineofhippo.jpeg" citation="https://www.metmuseum.org/art/collection/search/471903" />
+				<ImageCard src="../../content/saintaugustineofhippo.jpeg" citation="https://www.metmuseum.org/art/collection/search/471903" />
 			</div>
 		</div>
 		<Card class="p-4 text-[18px] md:text-[20px] lg:text-[24px] leading-relaxed md:p-16" >

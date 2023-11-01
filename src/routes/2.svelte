@@ -11,11 +11,11 @@
 </script>
 
 <Transition>
-	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" scrim="blackgold" opacity1="5" opacity2="7" />
+	<SectionHero title="Who was Charles V?" bg="../../backgrounds/charles.jpg" scrim="blackgold" opacity1="5" opacity2="7" />
 	<Background
 		parallax
 		scrim="maroonblack" opacity1="7" opacity2="7"
-		src="..//backgrounds/fabric.jpg"
+		src="../../backgrounds/fabric.jpg"
 		class="flex flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64 items-center"
 	>
 		<Card class=" ">
@@ -40,7 +40,7 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/battle-of-pavia.jpg"
+		src="../../backgrounds/battle-of-pavia.jpg"
 		scrim="light"
 		opacity1="8"
 		opacity2="8"
@@ -58,7 +58,7 @@
 			</Card>
 			<BioCard
 				name="King Francis I"
-				src="..//character-cards/Francis I.jpg"
+				src="../../character-cards/Francis I.jpg"
 				years="1494-1547"
 				color="black"
 				class="flex h-full items-center justify-center  "
@@ -75,7 +75,7 @@
 		</div>
 	</Background>
 	<Background
-		src="..//backgrounds/sackofrome.jpg"
+		src="../../backgrounds/sackofrome.jpg"
 		parallax
 		class="flex flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64 items-center"
 		scrim="maroonblack" opacity1="8" opacity2="8"
