@@ -81,7 +81,7 @@
 						> accounts, artwork, and music as source material.
 					</p>
 				</Card>
-			<img src="../static/content/rudy-placeholder-4.jpg" alt="tbd" class="dog h-[75vh]" />
+			<img src="../../static/content/rudy-placeholder-4.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
 	<Background
@@ -92,7 +92,7 @@
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col items-center justify-center sm:my-0 sm:flex-row sm:px-0 ">
-			<img src="../static/content/rudy-placeholder.jpg" alt="tbd" class="dog  h-[75vh]" />
+			<img src="../../static/content/rudy-placeholder.jpg" alt="tbd" class="dog  h-[75vh]" />
 			<Card class=" m-0 md:m-4 lg:m-18 xl:m-28    md:text-[20px] text-[20px] lg:text-[28px] ">
 				<p class="pb-12 sm:pb-0">
 					Experience the event from multiple perspectives — that of a member of the imperial papal
@@ -129,7 +129,7 @@
 					</div>
 					</div>
 				</Card>
-			<img src="../static/content/rudy-placeholder-2.jpg" alt="tbd" class="dog h-[75vh]" />
+			<img src="../../static/content/rudy-placeholder-2.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
 	<Background src="../../charlesvrvideoblur.mp4" scrim="maroon" opacity1="9" opacity2="9" class="">
@@ -139,12 +139,12 @@
 					<h1 class="m-4 text-center text-6xl"><strong>Credits</strong></h1>
 					<img
 						class="mx-auto my-20 hidden  w-[50%] md:block"
-						src="../static/logos/greenhouselogowhite.png"
+						src="../../static/logos/greenhouselogowhite.png"
 						alt="credits placeholder"
 					/>
 					<img
 						class=" mx-auto my-10 w-[25%] md:hidden"
-						src="../static/logos/greenhouse-square-logo.png"
+						src="../../static/logos/greenhouse-square-logo.png"
 						alt="credits placeholder"
 					/>
 
@@ -171,16 +171,16 @@
 				>
 					<img
 						class="max-h-[100px] md:max-h-full p-2 "
-						src="../static/logos/Mellon_Logomark_Lockup_Black.png"
+						src="../../static/logos/Mellon_Logomark_Lockup_Black.png"
 						alt="credits placeholder"
 					/>
 					<img
 						class=" max-h-[100px] md:max-h-full p-2 "
-						src="../static/logos/ucsantacruzlogo.png"
+						src="../../static/logos/ucsantacruzlogo.png"
 						alt="credits placeholder"
 					/>
-					<img class=" max-h-[125px] md:max-h-full p-2" src="../static/logos/OrigoLogo.png" alt="credits placeholder" />
-					<img class=" max-h-[100px] md:max-h-full p-2" src="../static/logos/kress-logo.png" alt="credits placeholder" />
+					<img class=" max-h-[125px] md:max-h-full p-2" src="../../static/logos/OrigoLogo.png" alt="credits placeholder" />
+					<img class=" max-h-[100px] md:max-h-full p-2" src="../../static/logos/kress-logo.png" alt="credits placeholder" />
 				</div>
 			</Card>
 		</div>
@@ -274,7 +274,7 @@
 		margin-left: -20px;
 		width: 75px;
 		height: 75px;
-		background-image: url(../static/content/down-arrow.png);
+		background-image: url(../../static/content/down-arrow.png);
 		background-size: contain;
 	}
 
