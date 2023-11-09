@@ -31,33 +31,6 @@
 </span>
 <style>
 	
-/* .tooltip {
-  position: relative;
-  display: inline-block;
-  text-decoration: underline;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 150px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  border-radius: 6px;
-  font-size: 16px;
-  padding: 5px 0;
-  line-height: 24px;
-    position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-} */
-	
 .tooltip {
 		cursor: pointer;
 		position: relative;
