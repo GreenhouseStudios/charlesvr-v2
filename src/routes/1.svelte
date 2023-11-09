@@ -52,9 +52,9 @@
 		scrim="light"
 		opacity1="9"
 		opacity2="8"
-		class="flex flex-col"
+		class="flex flex-col bg-center	"
 	>
-		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr] ">
+		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]  ">
 			<Card
 				class=""
 				light
@@ -92,9 +92,9 @@
 	<Background
 		src="../../backgrounds/holy-roman-empire.jpg"
 		scrim="maroon"
-		opacity1="8"
-		opacity2="8"
-		class="flex flex-col"
+		opacity1="9"
+		opacity2="9"
+		class="flex flex-col bg-center	"
 	>
 		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
 			<Card
