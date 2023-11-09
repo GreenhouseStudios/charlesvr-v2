@@ -11,7 +11,7 @@
 </script>
 
 <Transition>
-	<SectionHero title="Who was Charles V?" bg="../../backgrounds/charles.jpg" scrim="blackgold" opacity1="5" opacity2="7" />
+	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charlesedit.jpg" scrim="blackgold" opacity1="5" opacity2="7" class="" />
 	<Background
 		parallax
 		scrim="maroonblack" opacity1="7" opacity2="7"
