@@ -3,7 +3,6 @@
 	export let alt = '';
 	export let name;
 	export let color = "black";
-	export let citation;
 	export let light = false;
 	export let years;
 	export let classes = '';
@@ -35,7 +34,7 @@ class={
 	classes}
 
 >
-	<div class=" bioimg flex w-1/3 flex-col items-center justify-center break-words">
+	<div class=" bioimg flex w-1/3 flex-col items-center justify-center break-words m-5">
 		<div class="card-container" on:click={() => flipped = !flipped}>
 			<div class="card">
 				{#if flipped}
@@ -56,8 +55,10 @@ class={
 				{/if}
 			</div>
 		</div>
-		<img src="../../content/flip-icon-{color}.png" alt="flip button" class="flip mt-3 h-[25px] w-[25px] md:h-[35px] md:w-[35px]" on:click={() => flipped = !flipped}>
-
+		<div on:click={() => flipped = !flipped} class="flex flex-col items-center flip ">
+		<p class="text-[20px]">Click to Flip</p>
+		<img src="../../content/flip-icon-{color}.png" alt="flip button" class=" h-[25px] w-[25px] md:h-[35px] md:w-[35px]">
+	</div>
 	</div>
 </div>
 
@@ -69,7 +70,7 @@ class={
 	}
 
 	.flip:hover {
-		transform: scale(1.3)
+		transform: scale(1.25)
 	}
 
 	.black-hidden {
@@ -114,7 +115,7 @@ class={
 		}
 		.flip{
 			position: relative;
-			top: 20px;
+			top: 50px;
 		}
 	}
 	.card-container {
