@@ -1,6 +1,7 @@
 <script>
 	export let show = false;
 	import { modalText, modalState } from '../store/store';
+	import 'material-icons/iconfont/material-icons.css';
 	import { XCircleIcon } from 'svelte-feather-icons';
 	let modalTextValue;
 	let modalStateValue;
@@ -13,22 +14,86 @@
 	function closeModal() {
 		modalState.set(false);
 	}
+	
 </script>
 
 {#if modalStateValue}
-	<div class="modal-container">
-		<div class="modal p-24">
-			<button class="close-btn" on:click={closeModal}
-				><XCircleIcon></XCircleIcon></button
-			>
+
+			{#if modalTextValue.includes("/")}
+			<div class="modal-container-image">
+				<div class="modal-image">
+					<div class="relative flex flex-row-reverse left-7 m-5">
+			<span class="material-symbols-outlined close-btn-image hover:cursor-pointer" on:click={closeModal}>
+				cancel
+				</span>
+			<img src={modalTextValue} class="zoom-image " alt="">
+			</div>
+		</div>
+			</div>
+			{/if}
+			{#if modalTextValue.includes(":")}
+			<div class="modal-container">
+				<div class="modal">
 			<div class="modal-text">
-				{modalTextValue}
+				<button class="close-btn" on:click={closeModal}><span class="material-symbols-outlined">
+					cancel
+					</span></button>
+				<p id="paragraphText" class="p-12">{modalTextValue}</p>
 			</div>
 		</div>
 	</div>
+	{/if}
 {/if}
 
 <style>
+
+	.close-btn-image {
+		width: 40px;
+		height: 40px;
+		position: relative;
+		top: 15px;
+		font-size: 28px;
+		right: 50px;
+		z-index: 100;
+		color: white;
+		background-color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+	}
+
+	.modal-image {
+		width: auto;
+		max-height: 50vh;
+		position: relative;
+		display: flex;	
+		justify-content: center;
+		align-items: center;
+	}
+
+	.zoom-image {
+		position: relative;
+		margin: auto;
+		max-height: 50vh;
+
+	}
+
+	.modal-container-image {
+		position: fixed;
+		z-index: 50;
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.9);
+		left: 0;
+		top: 0;
+		border-radius: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+
 	.close-btn {
 		width: 30px;
 		height: 30px;
@@ -42,6 +107,7 @@
 		background: white;
 		margin: 25vh auto;
 		position: relative;
+		display: flex;
 	}
 	.modal-container {
 		position: fixed;
