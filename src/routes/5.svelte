@@ -6,6 +6,8 @@
 	import Card from '../components/card.svelte';
 	import SectionHero from '../components/section-hero.svelte';
 	import Footer from '../components/footer.svelte';
+	import Audio from '../components/audio.svelte';
+
 </script>
 
 <Transition>
@@ -74,6 +76,7 @@
 	</Background>
 	
 	<Background src="../../backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="6">
+		<Audio></Audio>
 		<Card class="" light>
 			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the
 			coronation and Charles’s documented embarrassment about it, to attribute the character of this
