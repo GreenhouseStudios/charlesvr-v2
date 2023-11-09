@@ -7,7 +7,7 @@
 	export { classes as class };
 </script>
 
-<div class={"flex items-center sm:w-max  " +
+<div class={"flex items-center sm:w-max drop-shadow-[0_0_15px_rgba(0,0,0,0.25)] " +
 classes}>
 	<a
 		id="button"
