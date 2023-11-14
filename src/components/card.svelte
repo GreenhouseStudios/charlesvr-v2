@@ -6,10 +6,10 @@
 
 <div
 	class={
-		'font-normal md:my-12 my-4 backdrop-blur-2xl rounded-md  h-min m-6 p-4 md:m-16 md:p-16 leading-relaxed ' +
+		'font-normal md:my-12 my-4 backdrop-blur-2xl rounded-md  h-min m-6 p-4 md:m-16 md:p-16 leading-relaxed text-[18px] md:text-[20px] lg:text-[22px] ' +
 		(light
-			? 'bg-opacity-90 text-[#1C0A10] md:text-[24px] text-[20px]  '
-			: 'bg-opacity-80 text-[#F9F4E8] md:text-[24px] text-[20px] ') +
+			? 'bg-opacity-90 text-[#1C0A10]'
+			: 'bg-opacity-80 text-[#F9F4E8]') +
 		classes}
 
 >
@@ -19,6 +19,3 @@
 <style>
 
 </style>
-
-<!-- bg-[#F9F4E8]
-bg-[#1C0A10] -->
