@@ -28,7 +28,7 @@
 		class="flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<Card
-			class="flex w-full justify-center p-4 text-[18px] leading-relaxed md:p-16 md:text-[20px] lg:text-[24px]"
+			class="" 
 		>
 			On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
 			Basilica San Petronio in Bologna. It was the last time a pope would crown an emperor, ending a
