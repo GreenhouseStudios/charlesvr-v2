@@ -46,7 +46,7 @@
 		opacity2="8"
 		class="flex h-full flex-col "
 	>
-		<div class="grid items-center lg:grid-cols-[1fr_1fr]">
+		<div class=" flex flex-col-reverse lg:grid items-center lg:grid-cols-[1fr_1fr]">
 			<Card light class="m-24 p-4 md:p-16 text-[18px] leading-relaxed  md:text-[20px] lg:text-[24px]">
 					Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
@@ -61,7 +61,7 @@
 				src="../../character-cards/Francis I.jpg"
 				years="1494-1547"
 				color="black"
-				class="flex h-full items-center justify-center  "
+				class="flex h-full w-full items-center justify-center  "
 				citation="http://img.over-blog.com/222x300/4/98/42/54/renaissance/francois.jpg"
 				light
 			>
@@ -80,7 +80,7 @@
 		class="flex flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64 items-center"
 		scrim="maroonblack" opacity1="8" opacity2="8"
 	>
-		<Card class="flex w-full justify-center p-4 text-[18px] leading-relaxed md:p-16 md:text-[20px] lg:text-[24px]" >
+		<Card class="" >
 				Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
 				especially badly in the 1525 Battle of Pavia, where he was roundly defeated and taken
 				prisoner. Charles, however, lacked the funds to pay his victorious, mostly Lutheran, army. In
