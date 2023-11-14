@@ -136,7 +136,7 @@
 		<div class="flex items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16 ">
 			<Card  class="w-[100%] md:w-[80%]">
 				<div class="p-4">
-					<h1 class="m-4 text-center text-6xl"><strong>Credits</strong></h1>
+					<h1 class="m-4 text-center text-6xl text-white"><strong>Credits</strong></h1>
 					<img
 						class="mx-auto my-20 hidden  w-[50%] md:block"
 						src="../../logos/greenhouselogowhite.png"
@@ -150,7 +150,7 @@
 
 					<div class="grid sm:grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
 						{#each people as person}
-							<div class="text-center">
+							<div class="text-center text-white">
 								<div class="mb-1 leading-10"><strong>{person.personName}</strong></div>
 								<div class="mb-5 text-[18px] leading-5">{person.personTitle}</div>
 							</div>
