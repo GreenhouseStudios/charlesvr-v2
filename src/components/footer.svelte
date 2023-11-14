@@ -2,7 +2,7 @@
 
 </script>
 <div class="bg-[#401421] flex flex-col items-center justify-center p-12">
-<img src="../static/logos/charlesvr-lightgold.png" class="w-[300px]" alt="Charles VR Logo">
+<img src="../../logos/charlesvr-lightgold.png" class="w-[300px]" alt="Charles VR Logo">
 <div class="flex items-center justify-center gap-5 m-5">
 <p class="text-[#F6C869] text-3xl">©</p>
 <img src="../../logos/greenhouse-yellow.png" class="w-[250px]" alt="Greenhouse Studios Logo">
