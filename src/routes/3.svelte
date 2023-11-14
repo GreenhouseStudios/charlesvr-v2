@@ -98,7 +98,7 @@
 		scrim="maroon"
 		src="../../backgrounds/maroon-background.jpg"
 		parallax
-		class="flex flex-col-reverse items-center justify-center md:grid md:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 		<TextCard class="">
 			Charles's sack of Rome had made a Roman coronation impossible. Bologna, with its large
@@ -125,7 +125,7 @@
 		scrim="light"
 		src="../../backgrounds/light-background.jpg"
 		parallax
-		class="flex flex-col items-center justify-center md:grid md:grid-cols-[1fr_1fr]"
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 		<img
 			src="../../backgrounds/crowning.jpg"
@@ -150,7 +150,7 @@
 		opacity1="7"
 		opacity2="9"
 		scrim="maroon"
-		class="flex flex-col-reverse items-center justify-center md:grid md:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
 		<TextCard class="">
@@ -174,17 +174,17 @@
 		opacity1="7"
 		opacity2="9"
 		scrim="light"
-		class="flex flex-col items-center justify-center md:grid md:grid-cols-[1fr_1fr]"
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
-	<div class="flex flex-col">
+	<div class="flex lg:flex-col flex-row items-center">
 		<ImageCard
 		src="../../content/procession-artwork.png"
 		citation="https://rosettaapp.getty.edu/delivery/DeliveryManagerServlet?dps_pid=IE483735"
 		class=""
 		light
 		caption="Artistic representation of the procession"
-		width="w-1/2"
+		width="lg:w-1/2"
 	/>
 		<ImageCard
 			src="../../content/rota-porfiletica-st-peter.jpg"
@@ -193,7 +193,7 @@
 			class=""
 			light
 			caption="Porphyry Disc in St. Peter's"
-			width="w-1/2"
+			width="lg:w-1/2"
 		/>
 </div>
 		<TextCard class="" light>
@@ -220,7 +220,7 @@
 		opacity1="7"
 		opacity2="9"
 		scrim="maroon"
-		class="flex flex-col-reverse items-center justify-center md:grid md:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
 		<TextCard class="">
@@ -245,10 +245,10 @@
 		opacity1="7"
 		opacity2="9"
 		scrim="light"
-		class="flex flex-col items-center justify-center md:grid md:grid-cols-[1fr_1fr]"
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
-		<div class="flex flex-row items-center md:flex-col">
+		<div class="flex flex-row items-center lg:flex-col">
 			<ImageCard
 				src="../../content/tempchapels.jpg"
 				citation=""
@@ -287,7 +287,7 @@
 		opacity1="7"
 		opacity2="9"
 		scrim="maroon"
-		class="flex flex-col-reverse items-center justify-center md:grid md:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
 		<TextCard class="">
@@ -310,7 +310,7 @@
 		opacity1="7"
 		opacity2="9"
 		scrim="light"
-		class="flex flex-col items-center md:grid md:grid-cols-[1fr_1fr]"
+		class="flex flex-col items-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
 		<div class="flex flex-col items-center">
@@ -346,9 +346,9 @@
 		opacity2="8"
 		scrim="maroon"
 		src="../../backgrounds/tex16-35.jpg"
-		class="flex flex-col-reverse items-center md:grid md:grid-cols-[1fr_1fr] "
+		class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr] "
 	>
-		<TextCard class="text-[18px] leading-relaxed md:text-[20px] lg:text-[24px] ">
+		<TextCard class="text-[18px] leading-relaxed lg:text-[20px] lg:text-[24px] ">
 			<div class="pb-10">
 				Such precious stuffs adorned the garb of the spectators as well as the interior of the
 				church. Indeed the most detailed contemporary account of the coronation devotes more space
