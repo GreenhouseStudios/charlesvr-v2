@@ -7,11 +7,11 @@
 	export { classes as class };
 </script>
 
-<div class={"flex items-center sm:w-max drop-shadow-[0_0_15px_rgba(0,0,0,0.25)] " +
+<div class={"flex items-center sm:w-max drop-shadow-[0_0_15px_rgba(0,0,0,0.15)] " +
 classes}>
 	<a
 		id="button"
-		class="group flex flex-row items-center justify-center rounded-xl p-2 shadow-black/30   sm:gap-6"
+		class="group flex flex-row items-center justify-center rounded-xl p-2   sm:gap-6"
 		href={path}
 	>
 		<p class="numeral text-4xl px-2 text-gold-400 transition-colors group-hover:text-gold-400 duration-500">
