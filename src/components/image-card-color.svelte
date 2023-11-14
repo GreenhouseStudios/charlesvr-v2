@@ -10,7 +10,7 @@
 
 <div
 	class={'flex flex-col items-center md:flex-row p-5' +
-		(light ? ' text-[#1C0A10]  bg-[rgb(255,226,165)]  ' : ' text-[rgb(249,244,232)]  bg-[#54182c]  ') +
+		(light ? ' text-[#1C0A10]  bg-[#ffe2a5]  ' : ' text-[rgb(249,244,232)]  bg-[#54182c]  ') +
 		classes}
 >
 	<div class=" bioimg flex w-1/2 flex-col items-center justify-center break-words">
@@ -52,6 +52,13 @@
         cursor: pointer;
 
     }
+
+	a {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
     .source:hover hr {
         display: block;
