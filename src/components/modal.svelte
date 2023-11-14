@@ -1,5 +1,6 @@
 <script>
 	export let show = false;
+	export let light = false;
 	import { modalText, modalState } from '../store/store';
 	import 'material-icons/iconfont/material-icons.css';
 	import { XCircleIcon } from 'svelte-feather-icons';
@@ -23,7 +24,9 @@
 			<div class="modal-container-image">
 				<div class="modal-image">
 					<div class="relative flex flex-row-reverse left-7 m-5">
-			<span class="material-symbols-outlined close-btn-image hover:cursor-pointer" on:click={closeModal}>
+			<span class={"material-symbols-outlined close-btn-image hover:cursor-pointer" + (light
+			? ' bg-[#FFE2A5]'
+			: ' bg-[#54182c]')} on:click={closeModal}>
 				cancel
 				</span>
 			<img src={modalTextValue} class="zoom-image " alt="">
@@ -56,7 +59,6 @@
 		right: 50px;
 		z-index: 100;
 		color: white;
-		background-color: black;
 		display: flex;
 		justify-content: center;
 		align-items: center;
