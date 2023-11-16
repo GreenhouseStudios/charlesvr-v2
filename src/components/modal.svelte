@@ -82,8 +82,8 @@
 	.modal-container-image {
 		position: fixed;
 		z-index: 50;
-		min-width: 100vw;
-		min-height: 100vh;
+		min-width: 100%;
+		min-height: 100%;
 		background: rgba(0, 0, 0, 0.9);
 		left: 0;
 		top: 20px;
