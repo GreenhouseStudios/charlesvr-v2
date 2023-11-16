@@ -24,9 +24,7 @@
 			<div class="modal-container-image">
 				<div class="modal-image">
 					<div class="relative flex flex-row-reverse left-7 m-5">
-			<span class={"material-symbols-outlined close-btn-image hover:cursor-pointer" + (light
-			? ' bg-[#FFE2A5]'
-			: ' bg-[#54182c]')} on:click={closeModal}>
+			<span class="material-symbols-outlined close-btn-image hover:cursor-pointer bg-black" on:click={closeModal}>
 				cancel
 				</span>
 			<img src={modalTextValue} class="zoom-image " alt="">
@@ -67,7 +65,7 @@
 
 	.modal-image {
 		width: auto;
-		max-height: 50vh;
+		max-height: 70vh;
 		position: relative;
 		display: flex;	
 		justify-content: center;
@@ -77,7 +75,7 @@
 	.zoom-image {
 		position: relative;
 		margin: auto;
-		max-height: 50vh;
+		max-height: 70vh;
 
 	}
 
@@ -88,7 +86,7 @@
 		height: 100vh;
 		background: rgba(0, 0, 0, 0.9);
 		left: 0;
-		top: 0;
+		top: 20px;
 		border-radius: 10px;
 		display: flex;
 		align-items: center;
@@ -104,10 +102,10 @@
 		right: 0;
 	}
 	.modal {
-		width: 90%;
-		height: 50vh;
+		width: 100%;
+		height: 80vh;
 		background: white;
-		margin: 25vh auto;
+		margin: 15vh auto;
 		position: relative;
 		display: flex;
 	}
