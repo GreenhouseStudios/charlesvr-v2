@@ -8,9 +8,16 @@
 	import Tooltip from '../components/tooltip.svelte';
 	import Footer from '../components/footer.svelte';
 	import ImageCardColor from '../components/image-card-color.svelte';
+	
+	const appHeight = () => {
+		const doc = document.documentElement;
+		doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+	};
+	window.addEventListener('resize', appHeight);
+	appHeight();
 </script>
 
-<Transition>
+<body>
 	<SectionHero
 		title="The Coronation in Context"
 		bg="../../backgrounds/earlyflagdark.jpg"
@@ -27,9 +34,7 @@
 		src="../../backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
 		class="flex-col justify-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
 	>
-		<Card
-			class="" 
-		>
+		<Card class="">
 			On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
 			Basilica San Petronio in Bologna. It was the last time a pope would crown an emperor, ending a
 			700-year-old tradition that began with Charlemagne's coronation on Christmas Day in 800.
@@ -55,10 +60,7 @@
 		class="flex flex-col bg-center	"
 	>
 		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]  ">
-			<Card
-				class=""
-				light
-			>
+			<Card class="" light>
 				The Holy Roman Empire was an idealized re-establishment of the realm of <strong
 					>Charlemagne</strong
 				>, the Frankish ruler whose territories corresponded roughly to those of modern France and
@@ -97,9 +99,7 @@
 		class="flex flex-col bg-center	"
 	>
 		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
-			<Card
-				class=""
-			>
+			<Card class="">
 				After Charlemagne's death, disputes over power among his grandsons led to the precipitous
 				decline of the dynasty. For nearly a century the title went unclaimed, but was revived in
 				962 when <strong>Otto I</strong>, the elected King of the Saxons, was once again crowned
@@ -130,10 +130,7 @@
 	>
 		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
 			<div>
-				<Card
-					class=""
-					light
-				>
+				<Card class="" light>
 					<h2 class="m-12 text-center text-4xl text-black md:text-6xl ">
 						<strong>Dual Coronations</strong>
 					</h2>
@@ -148,17 +145,17 @@
 					</div>
 					<div class="flex flex-col items-center">
 						<div>
-						During these five and a half centuries, these dual coronations served to ease two
-						important political tensions: the role of the German electors in choosing their leader
-						versus traditions of <Tooltip
-							def="Primogeniture: An exclusive right of inheritance belonging to the eldest son"
-							>primogeniture</Tooltip
-						> and the role of papal, or sacred, power versus imperial, or secular, power. While every
-						Christian coronation ceremony aims to affirm the new monarch’s power as God-given, the particular
-						tension between these political elements in the German realm made such an affirmation of
-						paramount importance. These twin ceremonies were thus charged with meaning, elevating the
-						emperor as the primary defender of the Christian faith, just as Charlemagne had been.
-					</div>
+							During these five and a half centuries, these dual coronations served to ease two
+							important political tensions: the role of the German electors in choosing their leader
+							versus traditions of <Tooltip
+								def="Primogeniture: An exclusive right of inheritance belonging to the eldest son"
+								>primogeniture</Tooltip
+							> and the role of papal, or sacred, power versus imperial, or secular, power. While every
+							Christian coronation ceremony aims to affirm the new monarch’s power as God-given, the
+							particular tension between these political elements in the German realm made such an affirmation
+							of paramount importance. These twin ceremonies were thus charged with meaning, elevating
+							the emperor as the primary defender of the Christian faith, just as Charlemagne had been.
+						</div>
 						<ChapterButton
 							numeral="II"
 							chapter="Who Was Charles V?"
@@ -179,8 +176,19 @@
 			<ChapterButton numeral="II" chapter="Who Was Charles V?" path="2" />
 		</div> -->
 	</Background>
-</Transition>
-<Footer />
+	<Footer />
+</body>
 
 <style>
+	:root {
+		--app-height: 100%;
+	}
+	body {
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+		width: 100vw;
+		height: 100vh;
+		height: var(--app-height);
+	}
 </style>
