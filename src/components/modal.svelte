@@ -15,6 +15,16 @@
 	function closeModal() {
 		modalState.set(false);
 	}
+
+	let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+
 </script>
 <body>
 {#if modalStateValue}
@@ -83,7 +93,7 @@
 		position: fixed;
 		z-index: 50;
 		min-width: 100%;
-		min-height: 100%;
+		min-height: 100;
 		background: rgba(0, 0, 0, 0.9);
 		left: 0;
 		top: 20px;
@@ -91,7 +101,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		min-height: -webkit-fill-available;
+		height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
 	}
 
 
