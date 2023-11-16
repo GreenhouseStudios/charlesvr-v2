@@ -25,7 +25,7 @@
 		opacity1="7"
 		opacity2="2"
 		src="../../backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
-		class="flex-col justify-center space-y-24 p-4 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex-col justify-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<Card
 			class="" 
