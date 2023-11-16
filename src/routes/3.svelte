@@ -165,7 +165,7 @@
 			src="../../content/popeclementvii.jpg"
 			citation=""
 			class=""
-			width="w-1/2"
+			width="sm:w-1/2"
 			caption="Nicolaus Hogenberg, Procession of Pope Clement VII and the Emperor Charles V after the coronation at Bologna on the 24th February, MDXXX"
 		/>
 	</Background>
@@ -177,14 +177,14 @@
 		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
-	<div class="flex lg:flex-col flex-row items-center">
+	<div class="flex flex-col items-center">
 		<ImageCard
 		src="../../content/procession-artwork.png"
 		citation="https://rosettaapp.getty.edu/delivery/DeliveryManagerServlet?dps_pid=IE483735"
 		class=""
 		light
 		caption="Artistic representation of the procession"
-		width="lg:w-1/2"
+		width="sm:w-1/2"
 	/>
 		<ImageCard
 			src="../../content/rota-porfiletica-st-peter.jpg"
@@ -193,7 +193,7 @@
 			class=""
 			light
 			caption="Porphyry Disc in St. Peter's"
-			width="lg:w-1/2"
+			width="sm:w-1/2"
 		/>
 </div>
 		<TextCard class="" light>
@@ -237,7 +237,7 @@
 			citation="https://commons.wikimedia.org/wiki/File:Maarten_van_Heemskerck_013.jpg"
 			class=""
 			caption="Drawing of St. Peter’s in 1530"
-			width="w-2/3"
+			width="sm:w-2/3"
 		/>
 	</Background>
 	<Background
@@ -248,20 +248,20 @@
 		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
-		<div class="flex flex-row items-center lg:flex-col">
+		<div class="flex flex-col items-center">
 			<ImageCard
 				src="../../content/tempchapels.jpg"
 				citation=""
 				class=""
-				width="md:w-2/3"
+				width="sm:w-2/3"
 				light
 				caption="VR recreation of the wooden platform in San Petronio"
 			/>
 			<ImageCard
-				src="static/content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
+				src="../../content/Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
 				citation="https://commons.wikimedia.org/wiki/File:Rom,_Basilika_Santa_Maria_Maggiore,_Innenansicht.jpg"
 				class=""
-				width="md:w-2/3"
+				width="sm:w-2/3"
 				light
 				caption="Santa Maria Maggiore, Rome"
 			/>
@@ -302,7 +302,7 @@
 		<ImageCard
 			src="../../content/Sanpetroniointerior.jpg"
 			citation="https://commons.wikimedia.org/wiki/File:Sanpetroniointerior.jpg"
-			width="w-2/3"
+			width="sm:w-2/3"
 		/>
 	</Background>
 	<Background
@@ -348,7 +348,7 @@
 		src="../../backgrounds/tex16-35.jpg"
 		class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr] "
 	>
-		<TextCard class="text-[18px] leading-relaxed lg:text-[20px] lg:text-[24px] ">
+		<TextCard class="text-[18px] leading-relaxed md:text-[20px] lg:text-[24px] flex flex-col items-center ">
 			<div class="pb-10">
 				Such precious stuffs adorned the garb of the spectators as well as the interior of the
 				church. Indeed the most detailed contemporary account of the coronation devotes more space
