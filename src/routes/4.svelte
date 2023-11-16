@@ -43,7 +43,7 @@
 	scrim="light"
 	opacity1="7"
 	opacity2="5"
-	class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+	class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
 >
 	<Card class="" light>
 		Music was extremely important to the ceremony and to the culture and politics of the
@@ -117,7 +117,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 	>
 		<source src="../../backgrounds/choirman2.mp4" type="video/mp4" />
 	</video>
-	<Background src="" class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64" scrim="maroon" opacity1="7" opacity2="5">
+	<Background src="" class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64" scrim="maroon" opacity1="7" opacity2="5">
 		<Card class="" >
 			Other aspects of the event demonstrate the ways in which music was put to political purposes
 			in the coronation. Because the <Tooltip def="Retinues: A group of retainers or attendants" light>retinues</Tooltip> of both the pope and the emperor were in attendance at
@@ -136,7 +136,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 		scrim="light"
 		opacity1="7"
 		opacity2="5"
-		class="flex flex-col justify-center h-[100vh] items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<Card class="" light>
 			Festa’s contribution was the six-voice motet, Ecce advenit dominator. It is preserved in a
@@ -185,7 +185,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		scrim="light" opacity1="9" opacity2="9"
 	>
-		<TextCard light>
+		<TextCard light class="flex flex-col items-center">
 			<div class="pb-10">
 			There was a kind of parity between the choirs of Clement and Charles, since a composer from
 			each ensemble contributed a motet for the event. Adrien Thiebeault’s contribution to the
