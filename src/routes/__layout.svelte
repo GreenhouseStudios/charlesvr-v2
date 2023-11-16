@@ -122,33 +122,34 @@
 					<div id="progress-bar" class="h-[8px] w-full " />
 				</div>
 				<br />
-				<li>
+				<!-- <li class:active-state="{$page.url.pathname==='/1'}"> -->
+					<li class:active-state="{$page.url.pathname==='/1'}">
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/1"
 						>I: The Coronation in Context</a
 					>
 				</li>
-				<li>
+				<li class:active-state="{$page.url.pathname==='/2'}" >
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/2"
 						>II: Who was Charles V?</a
 					>
 				</li>
-				<li>
-					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/3"
+				<li class:active-state="{$page.url.pathname==='/3'}">
+					<a class="menu__item hover:bg-maroon"  on:click={toggleMenu} href="/3"
 						>III: An Imperial Coronation in Bologna</a
 					>
 				</li>
-				<li>
-					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/4"
+				<li class:active-state="{$page.url.pathname==='/4'}">
+					<a class="menu__item hover:bg-maroon"  on:click={toggleMenu} href="/4"
 						>IV: A Focus on Music</a
 					>
 				</li>
-				<li>
+				<li class:active-state="{$page.url.pathname==='/5'}">
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/5"
 						>V: A Melancholy Mass</a
 					>
 				</li>
-				<li>
-					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/6"
+				<li class:active-state="{$page.url.pathname==='/6'}">
+					<a class="menu__item hover:bg-maroon"  on:click={toggleMenu} href="/6"
 						>VI: The Charles V|R Experience</a
 					>
 				</li>
@@ -247,9 +248,13 @@
 		padding: 25px 50px;
 		width: 75%;
 	}
+.active-state {
+	text-decoration: underline;
+	background-color: #401221;
+
+}
 
 .active {
 text-decoration: underline;
 }
-
 </style>
