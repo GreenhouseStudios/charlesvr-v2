@@ -7,7 +7,7 @@
 	export { classes as class };
 </script>
 
-<div class={"flex items-center sm:w-max drop-shadow-[0_0_15px_rgba(0,0,0,0.15)] " +
+<div class={"flex items-center sm:w-max drop-shadow-[0_0_15px_rgba(0,0,0,0.15)] m-5 " +
 classes}>
 	<a
 		id="button"
@@ -45,7 +45,7 @@ classes}>
 
 
 
-	@media screen and (max-width: 650px) {
+	@media screen and (max-width: 768px) {
   .chapter {
     display: none;
   }
