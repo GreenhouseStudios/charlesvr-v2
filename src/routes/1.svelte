@@ -9,12 +9,12 @@
 	import Footer from '../components/footer.svelte';
 	import ImageCardColor from '../components/image-card-color.svelte';
 	
-	const appHeight = () => {
-		const doc = document.documentElement;
-		doc.style.setProperty('--app-height', `${window.innerHeight}px`);
-	};
-	window.addEventListener('resize', appHeight);
-	appHeight();
+	// const appHeight = () => {
+	// 	const doc = document.documentElement;
+	// 	doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+	// };
+	// window.addEventListener('resize', appHeight);
+	// appHeight();
 </script>
 
 <body>
@@ -183,12 +183,12 @@
 	:root {
 		--app-height: 100%;
 	}
-	body {
+	/* body {
 		padding: 0;
 		margin: 0;
 		overflow: hidden;
 		width: 100vw;
 		height: 100vh;
 		height: var(--app-height);
-	}
+	} */
 </style>
