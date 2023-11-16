@@ -15,9 +15,17 @@
 	function closeModal() {
 		modalState.set(false);
 	}
+
+		
+	const appHeight = () => {
+		const doc = document.documentElement;
+		doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+	};
+	window.addEventListener('resize', appHeight);
+	appHeight();
 	
 </script>
-
+<body>
 {#if modalStateValue}
 
 			{#if modalTextValue.includes("/")}
@@ -45,7 +53,7 @@
 	</div>
 	{/if}
 {/if}
-
+</body>
 <style>
 
 	.close-btn-image {
@@ -92,6 +100,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		min-height: -webkit-fill-available;
 	}
 
 
