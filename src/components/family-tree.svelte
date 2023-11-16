@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="bg-contain bg-center bg-no-repeat md:w-2/3"
+	class="bg-contain bg-center bg-no-repeat md:w-2/3 m-4"
 	style:background-image="url(..//family-tree/tree.svg"
 >
 	<div class="grid grid-cols-4 items-end gap-4">
