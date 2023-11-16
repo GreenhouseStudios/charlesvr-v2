@@ -105,5 +105,4 @@
 </Transition>
 <Footer></Footer>
 <style>
-
 </style>
