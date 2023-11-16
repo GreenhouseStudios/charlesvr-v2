@@ -43,7 +43,7 @@
 	class={'grid h-[85vh] place-items-center bg-cover bg-top md:h-screen ' + classes}
 	style:background-image={background}
 >
-	<div class="px-4 text-center text-5xl md:text-6xl text-white md:text-[72px] font-semibold title ">
+	<div class="m-6 text-center text-5xl md:text-6xl text-white md:text-[72px] font-semibold title ">
 		{title}
 	</div>
 </div>
