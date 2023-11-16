@@ -6,6 +6,7 @@
 	import Card from '../components/card.svelte';
 	import SectionHero from '../components/section-hero.svelte';
 	import Footer from '../components/footer.svelte';
+	import TextCard from '../components/text-card.svelte';
 </script>
 
 <Transition>
@@ -24,7 +25,7 @@
 		scrim="maroon"
 		opacity1="7"
 		opacity2="5"
-		class="flex flex-row items-center p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh]"
+		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<Card class="">
 			<div class="w-full ">
@@ -47,10 +48,9 @@
 		scrim="light"
 		opacity1="9"
 		opacity2="7"
-		class="flex flex-col p-4 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
-		<div class="my-24 flex grid-cols-2 flex-col gap-24 md:grid items-center">
-			<div class="grid grid-cols-2 place-items-center gap-16 md:order-last">
+			<div class="grid grid-cols-2 place-items-center gap-16 md:order-last p-10 w-2/3 m-auto">
 				<div class="flex flex-col items-center">
 					<img src="../../content/pope.png" alt="" class="mb-2" />
 					Pope Clement VII
@@ -68,7 +68,7 @@
 					Church Attendee
 				</div>
 			</div>
-			<Card light class="">
+			<TextCard light class="">
 				The Charles V|R experience encourages students to engage with these issues in their
 				historical context. Users can inhabit four different characters, each in a different
 				location inside the Basilica of San Petronio, and each with a different role in the
@@ -77,34 +77,34 @@
 				comprehension of the proceedings and the activity each character undertakes. The four roles
 				the user can inhabit demonstrate the degree to which physical access, literacy, and overall
 				understanding were determined by class distinctions in early modern society.
-			</Card>
-		</div>
+			</TextCard>
 	</Background>
 	<Background
-		src="../../backgrounds/crown.png"
+		src="../../backgrounds/maroon-background.png"
 		parallax
 		scrim="maroon"
 		opacity1="8"
 		opacity2="5"
-		class="flex flex-col items-end p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh] justify-center"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
-		<Card class="">
+	<img
+	src="../../backgrounds/crown.png"
+	alt=" Crowning of Charles V"
+	class="h-full w-full object-cover opacity-50 ">
+		<TextCard class="">
 			During the experience, Pope Clement VII places the crown on Charles’s head, recites an oath,
 			and conveys the imperial insignia. He understands the Latin he is reciting perfectly, and to
 			emulate this, the text and translation of what he is saying accompanies his voice in the
 			program. As the pope places the crown on Charles’s head or the scepter in his hand, the user
 			can reflect on the symbolism of each object by looking at it and clicking on a footnote
 			symbol.
-		</Card>
+		</TextCard>
 	</Background>
 	<Background
-		src="../../backgrounds/vr-overview.jpg"
-		scrim="light"
-		opacity1="8"
-		opacity2="6"
-		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh] justify-center"
+		src="../../backgrounds/light-background.png"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
-		<Card class="" light>
+		<TextCard class="" light>
 			The three other characters all experience different levels of understanding in regard to the
 			ceremony. The member of the papal choir sings plainchant and complex polyphony in Latin as the
 			ceremony progresses. He is engaged and focused on the music, while the attendee in the nave of
@@ -114,14 +114,26 @@
 			pays little attention to the liturgy. He alternatively looks on from one of the many side
 			chapels in the cathedral. He marvels at the artwork and architecture that surround him and
 			sizes up the clothing of his peers with a critical eye.
-		</Card>
+		</TextCard>
+		<img
+		src="../../backgrounds/vr-overview.jpg"
+		alt=" Crowning of Charles V"
+		class="h-full w-full object-cover opacity-70">
 	</Background>
-	<Background src="" class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64 h-[100vh] justify-center" scrim="maroonblack" opacity1="5" opacity2="7">
-		<Card class="">
-			The coronation mass would have been heard by many and seen directly by very few. Its sound and
-			its location were undoubtedly its most important features. Users can encounter both from
-			various points of view in the Charles V|R Experience.
-		</Card>
+	<Background src="../../backgrounds/maroon-background.png" class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]">
+		<video
+		class=" inset-0  aspect-auto object-contain opacity-50"
+		loop={true}
+		muted={true}
+		autoplay={true}
+	>
+		<source src="../../backgrounds/introcrawl.mp4" type="video/mp4" />
+	</video>
+	<TextCard class="">
+		The coronation mass would have been heard by many and seen directly by very few. Its sound and
+		its location were undoubtedly its most important features. Users can encounter both from
+		various points of view in the Charles V|R Experience.
+	</TextCard>
 	</Background>
 </Transition>
 <Footer></Footer>
