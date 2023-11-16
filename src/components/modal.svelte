@@ -65,7 +65,7 @@
 
 	.modal-image {
 		width: auto;
-		max-height: 70vh;
+		max-height: 100vh;
 		position: relative;
 		display: flex;	
 		justify-content: center;
