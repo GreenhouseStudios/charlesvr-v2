@@ -274,7 +274,7 @@
 		margin-left: -20px;
 		width: 75px;
 		height: 75px;
-		background-image: url(../../content/down-arrow.png);
+		background-image: url("../../content/down-arrow.png");
 		background-size: contain;
 	}
 
