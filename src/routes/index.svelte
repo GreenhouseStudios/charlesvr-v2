@@ -52,9 +52,8 @@
 				style="pointer-events: none;"
 			/>
 			<div class="mt-32 sm:max-w-[70%]">
-				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm hidden sm:block" />
-				<img src="../../logos/charlesvr-shortened-newduotone.png" class="block sm:hidden w-3/4 mx-auto drop-shadow-md " alt="charles vr shortened logo">
-				<div class="  mx-auto mt-5 text-center text-[18px] font-medium text-[#4D1B2C] sm:text-3xl w-3/4 sm:w-full ">
+				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
+				<div class="  mx-auto mt-5 text-center text-[18px] font-medium text-[#4D1B2C] sm:text-3xlsm:w-full ">
 					Experience the Imperial Coronation of Holy Roman Emperor Charles V
 				</div>
 			</div>

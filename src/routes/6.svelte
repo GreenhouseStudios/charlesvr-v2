@@ -10,21 +10,13 @@
 </script>
 
 <Transition>
-	<video
-		class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
-		loop={true}
-		muted={true}
-		autoplay={true}
-	>
-		<source src="../../backgrounds/introcrawl.mp4" type="video/mp4" />
-	</video>
 	<SectionHero title="The Charles V|R Experience" bg="../../backgrounds/vr-goggles.jpg" scrim="blackgold" opacity1="5" opacity2="7" />
 	<Background
 		parallax
 		src="../../backgrounds/fabric.jpg"
 		scrim="maroon"
-		opacity1="7"
-		opacity2="5"
+		opacity1="9"
+		opacity2="7"
 		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
 	>
 		<Card class="">

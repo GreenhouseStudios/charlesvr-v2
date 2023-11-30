@@ -24,8 +24,8 @@
 		background-size: 200% 100%;
 		background-position: right bottom;
 		border: #F6C869 3px solid;
-		background: #54182c;
-	}
+		background: #401421
+		}
 
 	.material-icons{
 		color: #F6C869;
@@ -46,6 +46,7 @@
 	flex-direction: row;
 	justify-content: center;
     padding: 10px;
+	background-color: #401421
   }
 
   .material-icons{

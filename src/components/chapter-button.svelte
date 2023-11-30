@@ -30,12 +30,12 @@ classes}>
 		background-size: 200% 100%;
 		background-position: right bottom;
 		border: #F6C869 3px solid;
-		background: #54182c;
+		background-color: #401421	
 	}
 
 	#button:hover {
 		background-position: left bottom;
-		background: #000000;
+		background: #54182c;
 	}
 
 	.material-icons{

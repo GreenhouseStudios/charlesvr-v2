@@ -79,10 +79,11 @@
 			</Background>
 			<Background src="../../backgrounds/mural.jpg" class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="7" opacity2="5" >
 				<Card class="" light>
-		<div class="  text-2xl md:text-3xl italic p-4 ">
+		<div class="  text-xl md:text-2xl italic p-4 "><strong>
 			“Above all regrets, I cry
 			most piteously for my own, heaving sighs piercing my weary heart. Since I have lost my amiable
 			liqueur, I complain and will complain for a long time.”
+		</strong>
 		</div>
 		</Card>
 		</Background>
