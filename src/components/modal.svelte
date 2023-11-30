@@ -99,13 +99,14 @@ visibility: hidden;
 		z-index: 50;
 		min-width: 100%;
 		min-height: 100dvh;
-		background: rgba(0, 0, 0, 0.9);
+		background: rgba(0, 0, 0, 0.75);
 		left: 0;
 		top: 20px;
 		border-radius: 10px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		backdrop-filter: blur(3px);
 	}
 
 
@@ -132,6 +133,7 @@ visibility: hidden;
 		width: 100vw;
 		height: 100dvh;
 		background: rgba(0, 0, 0, 0.75);
+		backdrop-filter: blur(3px);
 		left: 0;
 		top: 0;
 		border-radius: 10px;
