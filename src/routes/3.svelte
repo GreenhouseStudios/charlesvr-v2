@@ -110,7 +110,7 @@
 			The imperial and papal courts therefore set about faithfully reproducing the symbolic geography
 			of Rome in and around the Basilica of San Petronio. They also worked to ensure that the liturgy
 			of the coronation Mass was performed as it would have been in Rome, drawing up a detailed <Tooltip
-				def="Ordo: A list of offices and feasts of the Roman Catholic Church for each day of the year"
+				word="Ordo" def="A list of offices and feasts of the Roman Catholic Church for each day of the year"
 				light>ordo</Tooltip
 			> which specified the texts to be read and chanted in keeping with the age-old traditions.
 		</TextCard>
@@ -205,8 +205,8 @@
 				were set up inside the church on the left side. These temporary structures helped to
 				“transform” for the occasion the church of San Petronio into the Vatican basilica of St.
 				Peter’s; they stood in for three chapels in St. Peter’s that were important to the
-				coronation ceremony. A disc of <Tooltip
-					def="Porphyry: A rock consisting of feldspar crystals embedded in a compact dark red or purple groundmass"
+				coronation ceremony. A disc of <Tooltip word="Porphyry"
+					 def="A rock consisting of feldspar crystals embedded in a compact dark red or purple groundmass"
 					>porphyry</Tooltip
 				> for Charles to kneel on when he was crowned was placed inside the church on the wooden ramp
 				leading from the church entrance to the High Altar. This was a reference to the the rota porphiletica
@@ -331,9 +331,9 @@
 			help us to visualize the event. The sumptuous decorations of tapestries and luxurious textiles
 			not only gave the occasion and the interior a festive air, but also showcased the quality of
 			textile production in Charles V’s Flemish territories. These <Tooltip
-				def="Brocades: A rich silk fabric with raised patterns in gold and silver">brocades</Tooltip
-			>, silks, velvets and <Tooltip
-				def="Damasks: A firm lustrous fabric (as of linen, cotton, silk, or rayon) made with flat patterns in a satin weave on a plain-woven ground on jacquard looms"
+				word="Brocades"def="A rich silk fabric with raised patterns in gold and silver">brocades</Tooltip
+			>, silks, velvets and <Tooltip word="Damasks"
+				def="A firm lustrous fabric (as of linen, cotton, silk, or rayon) made with flat patterns in a satin weave on a plain-woven ground on jacquard looms"
 				>damasks</Tooltip
 			> were made in imitation of and in competition with the prized textiles of the Islamic world and
 			of China.

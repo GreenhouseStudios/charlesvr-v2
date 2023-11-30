@@ -48,7 +48,7 @@
 		scrim="light"
 		opacity1="9"
 		opacity2="7"
-		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 			<div class="grid grid-cols-2 place-items-center gap-16 md:order-last p-10 w-2/3 m-auto">
 				<div class="flex flex-col items-center">
@@ -85,7 +85,7 @@
 		scrim="maroon"
 		opacity1="8"
 		opacity2="5"
-		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 	<img
 	src="../../backgrounds/crown.png"
@@ -120,7 +120,7 @@
 		alt=" Crowning of Charles V"
 		class="h-full w-full object-cover opacity-70">
 	</Background>
-	<Background src="../../backgrounds/maroon-background.png" class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]">
+	<Background src="../../backgrounds/maroon-background.png" class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]">
 		<video
 		class=" inset-0  aspect-auto object-contain opacity-50"
 		loop={true}

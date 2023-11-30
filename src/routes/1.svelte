@@ -8,6 +8,7 @@
 	import Tooltip from '../components/tooltip.svelte';
 	import Footer from '../components/footer.svelte';
 	import ImageCardColor from '../components/image-card-color.svelte';
+	
 </script>
 
 <body>
@@ -61,7 +62,7 @@
 				the system of government of the Roman Catholic Church of which the pope is the supreme head
 				Charlemagne came to the aid of Pope Leo III, who had run afoul of the nobility in Rome. He
 				convened a council in Rome that affirmed Leo's <Tooltip
-					def="Papacy: The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
+					word="Papacy" def="The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
 					>papacy</Tooltip
 				> on December 1. In return Leo crowned Charlemagne “Emperor of the Romans” in Old St. Peter's
 				Basilica in a Mass on Christmas Day, reserving for Charlemagne (now Charles I) the role of defender
@@ -91,15 +92,7 @@
 		opacity2="9"
 		class="flex flex-col bg-center	"
 	>
-		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
-			<Card class="">
-				After Charlemagne's death, disputes over power among his grandsons led to the precipitous
-				decline of the dynasty. For nearly a century the title went unclaimed, but was revived in
-				962 when <strong>Otto I</strong>, the elected King of the Saxons, was once again crowned
-				Emperor of the Romans by the Pope in Rome. Otto's coronation forged a centuries-long special
-				relationship between the Papacy, the memory of Ancient Rome, and the consolidated Germanic
-				realm–a “Holy Roman Empire.”
-			</Card>
+		<div class="flex flex-col items-center lg:grid lg:grid-cols-[1fr_1fr]">
 			<BioCard
 				name="Otto I"
 				src="../../character-cards/Otto-card.jpg"
@@ -112,6 +105,14 @@
 				<p>Crowned Holy Roman Emperor in 962 due to his aid of Pope John XXII two years prior</p>
 				<p>Began the tradition of imperial coronations for Germanic rulers</p>
 			</BioCard>
+			<Card class="">
+				After Charlemagne's death, disputes over power among his grandsons led to the precipitous
+				decline of the dynasty. For nearly a century the title went unclaimed, but was revived in
+				962 when <strong>Otto I</strong>, the elected King of the Saxons, was once again crowned
+				Emperor of the Romans by the Pope in Rome. Otto's coronation forged a centuries-long special
+				relationship between the Papacy, the memory of Ancient Rome, and the consolidated Germanic
+				realm–a “Holy Roman Empire.”
+			</Card>
 		</div>
 	</Background>
 	<Background
@@ -130,7 +131,7 @@
 					<div class="mb-5">
 						Symbolically and politically, this relationship was marked in two coronations. The first
 						was a royal coronation as King of the Germans by the <Tooltip
-							def="Ducal: The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
+							word="Ducal" def="The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
 							>ducal</Tooltip
 						> electors in Charlemagne’s old capital, Aachen. The second was an imperial, or papal, coronation
 						as Emperor of the Romans in Rome under the pope’s hand. From 962 until 1530, in principle
@@ -140,8 +141,8 @@
 						<div>
 							During these five and a half centuries, these dual coronations served to ease two
 							important political tensions: the role of the German electors in choosing their leader
-							versus traditions of <Tooltip
-								def="Primogeniture: An exclusive right of inheritance belonging to the eldest son"
+							versus traditions of <Tooltip word="Primogeniture"
+								def="An exclusive right of inheritance belonging to the eldest son"
 								>primogeniture</Tooltip
 							> and the role of papal, or sacred, power versus imperial, or secular, power. While every
 							Christian coronation ceremony aims to affirm the new monarch’s power as God-given, the

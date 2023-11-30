@@ -49,7 +49,7 @@
 	>
 		<source src="../../backgrounds/choirshot.mp4" type="video/mp4" />
 	</video>
-	<Background src="../../backgrounds/light-background.png" parallax class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]" scrim="light" opacity1="8" opacity2="6">
+	<Background src="../../backgrounds/light-background.png" parallax class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]" scrim="light" opacity1="8" opacity2="6">
 		<img
 		src="../../backgrounds/basilicaexterior.jpg"
 		alt=" Crowning of Charles V"
@@ -143,7 +143,7 @@
 	<Background
 		src="../../backgrounds/light-background.png"
 		parallax
-		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		scrim="goldblack" opacity1="7" opacity2="7"
 	>
 		<img
