@@ -3,6 +3,7 @@
 	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
 	import Tooltip from './../components/tooltip.svelte';
+	import Tooltiplarge from './../components/tooltip.svelte';
 	import Footer from './../components/footer.svelte';
 	import Button from './../components/button.svelte';
 	let people = [
@@ -39,7 +40,7 @@
 <Transition>
 	<Background src="../../charlesvrvideoblur.mp4" scrim="gold" opacity1="5" opacity2="7" class="">
 		<div
-			class=" flex h-[80vh] flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16"
+			class=" flex h-[100vh] flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16"
 		>
 			<video
 				class="fixed inset-0 -z-50 aspect-auto h-screen w-screen object-cover"
@@ -50,14 +51,15 @@
 				loop
 				style=""
 			/>
-			<div class="mt-32 md:max-w-[70%]">
-				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
-				<div class="  m-3 mt-5 text-center text-xl font-medium text-[#4D1B2C] md:text-3xl">
+			<div class="mt-32 sm:max-w-[70%]">
+				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm hidden sm:block" />
+				<img src="../../logos/charlesvr-shortened-newduotone.png" class="block sm:hidden w-3/4 mx-auto drop-shadow-md " alt="charles vr shortened logo">
+				<div class="  mx-auto mt-5 text-center text-[18px] font-medium text-[#4D1B2C] sm:text-3xl w-3/4 sm:w-full ">
 					Experience the Imperial Coronation of Holy Roman Emperor Charles V
 				</div>
 			</div>
 			<br />
-			<div class="arrow animated bounce" />
+			<img src="../../content/down-arrow.png" class="arrow bounce h-[50px] md:h-[75px]" alt="bouncing arrow pointing to scroll down the page">
 		</div>
 	</Background>
 	<Background
@@ -68,15 +70,15 @@
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center justify-center  sm:my-0 sm:flex-row  sm:px-0 ">
-				<Card light class="m-0 md:m-0 lg:m-18 xl:m-28 md:text-[22px] text-[20px] lg:text-[28px]">
-					<p class="pb-12 sm:pb-0">
-						Travel to 1530 Bologna to attend the <Tooltip
-							def="Coronation: The act or occasion of crowning"><p class="md:text-[22px] text-[20px] lg:text-[28px]">coronation</p></Tooltip
+				<Card light class="m-0 md:m-0 lg:m-18 xl:m-28 ">
+					<p class="pb-12 sm:pb-0 md:text-[22px] text-[20px] lg:text-[28px]">
+						Travel to 1530 Bologna to attend the <Tooltip word="Coronation"
+							def="The act or occasion of crowning" ><p class="md:text-[22px] text-[20px] lg:text-[28px]">coronation</p></Tooltip
 						> mass of the Holy Roman Emperor, Charles V, in this virtual reality recreation of San Petronio.
 						The details of the coronation reflect the social and political turmoil of the times; the
 						experience itself recreates the sights and sounds of this religious and political ceremony
 						using <Tooltip
-							def="Contemporaneous: Existing, occurring, or originating during the same time
+							word="Contemporaneous" def="Existing, occurring, or originating during the same time
 					"><p class="md:text-[22px] text-[20px] lg:text-[28px]">contemporaneous</p></Tooltip
 						> accounts, artwork, and music as source material.
 					</p>
@@ -97,8 +99,8 @@
 				<p class="pb-12 sm:pb-0">
 					Experience the event from multiple perspectives — that of a member of the imperial papal
 					court, a 
-						<Tooltip
-						def="Basilica: A Roman Catholic church given ceremonial privileges"
+						<Tooltip word="Basilica"
+						def="A Roman Catholic church given ceremonial privileges"
 						light><p class="md:text-[22px] text-[20px] lg:text-[28px]">basilica</p>
 						</Tooltip> 
 					official, or a Bolognese citizen. Hear music performed during the ceremony as recorded by
@@ -199,6 +201,7 @@
 		}
 	}
 
+
 	@media screen and (max-width: 640px) {
 		.dog {
 			aspect-ratio: auto;
@@ -206,6 +209,16 @@
 			height: auto;
 		}
 	}
+
+
+	.arrow {
+		bottom: 50px;
+		left: 50%;
+		/* width: 100px;
+		height: 100px; */
+	}
+
+
 
 	@-moz-keyframes bounce {
 		0%,
@@ -217,12 +230,12 @@
 			transform: translateY(0);
 		}
 		40% {
-			-moz-transform: translateY(-20px);
-			transform: translateY(-20px);
-		}
-		60% {
 			-moz-transform: translateY(-10px);
 			transform: translateY(-10px);
+		}
+		60% {
+			-moz-transform: translateY(-5px);
+			transform: translateY(-5px);
 		}
 	}
 	@-webkit-keyframes bounce {
@@ -235,12 +248,12 @@
 			transform: translateY(0);
 		}
 		40% {
-			-webkit-transform: translateY(-20px);
-			transform: translateY(-20px);
-		}
-		60% {
 			-webkit-transform: translateY(-10px);
 			transform: translateY(-10px);
+		}
+		60% {
+			-webkit-transform: translateY(-5px);
+			transform: translateY(-5px);
 		}
 	}
 	@keyframes bounce {
@@ -255,28 +268,19 @@
 			transform: translateY(0);
 		}
 		40% {
-			-moz-transform: translateY(-20px);
-			-ms-transform: translateY(-20px);
-			-webkit-transform: translateY(-20px);
-			transform: translateY(-20px);
-		}
-		60% {
 			-moz-transform: translateY(-10px);
 			-ms-transform: translateY(-10px);
 			-webkit-transform: translateY(-10px);
 			transform: translateY(-10px);
 		}
+		60% {
+			-moz-transform: translateY(-5px);
+			-ms-transform: translateY(-5px);
+			-webkit-transform: translateY(-5px);
+			transform: translateY(-5px);
+		}
 	}
 
-	.arrow {
-		bottom: 50px;
-		left: 50%;
-		margin-left: -20px;
-		width: 75px;
-		height: 75px;
-		background-image: url("../../content/down-arrow.png");
-		background-size: contain;
-	}
 
 	.bounce {
 		-moz-animation: bounce 2s infinite;
