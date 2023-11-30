@@ -6,8 +6,13 @@
 	import { XCircleIcon } from 'svelte-feather-icons';
 	let modalTextValue;
 	let modalStateValue;
+	let definition
+	let word
 	modalText.subscribe((value) => {
 		modalTextValue = value;
+	   word = modalTextValue.split(':')[0]
+	   definition = modalTextValue.split(":")[1]
+
 	});
 	modalState.subscribe((value) => {
 		modalStateValue = value;
@@ -32,21 +37,29 @@
 		</div>
 			</div>
 			{/if}
+			<div class="mobile-display">
 			{#if modalTextValue.includes(":")}
+			
 			<div class="modal-container">
 				<div class="modal">
-			<div class="modal-text">
+			<div class="modal-text p-6">
 				<button class="close-btn" on:click={closeModal}><span class="material-symbols-outlined">
 					cancel
 					</span></button>
-				<p id="paragraphText" class="p-12">{modalTextValue}</p>
+				<p id="paragraphText" class="text-[18px] md:text-[20px]"><strong>{word}</strong>: {definition}</p>
 			</div>
 		</div>
 	</div>
 	{/if}
+</div>
 {/if}
 </body>
 <style>
+		@media screen and (min-width: 1024px) {
+			.mobile-display {
+visibility: hidden;
+	}
+		}
 
 	.close-btn-image {
 		width: 40px;
@@ -62,6 +75,7 @@
 		align-items: center;
 		border-radius: 10px;
 	}
+
 
 	.modal-image {
 		width: auto;
@@ -99,25 +113,30 @@
 		width: 30px;
 		height: 30px;
 		position: absolute;
-		top: 0;
+		top: 2px;
 		right: 0;
 	}
 	.modal {
-		width: 100%;
-		height: 80vh;
+		max-width: 90%;
+		height: auto;
 		background: white;
-		margin: 15vh auto;
 		position: relative;
 		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 10px;
 	}
 	.modal-container {
 		position: fixed;
 		z-index: 50;
 		width: 100vw;
 		height: 100vh;
-		background: rgba(0, 0, 0, 0.9);
+		background: rgba(0, 0, 0, 0.75);
 		left: 0;
 		top: 0;
 		border-radius: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 </style>
