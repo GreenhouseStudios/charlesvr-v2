@@ -130,7 +130,7 @@ visibility: hidden;
 		position: fixed;
 		z-index: 50;
 		width: 100vw;
-		height: 100vh;
+		height: 100dvh;
 		background: rgba(0, 0, 0, 0.75);
 		left: 0;
 		top: 0;
