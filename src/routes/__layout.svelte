@@ -106,7 +106,7 @@
 	<div id="nav-mobile" class="flex h-16 items-center justify-between pl-4 md:hidden">
 		<a href="/" class="flex h-full shrink py-5 pr-4">
 			<img src="../../logos/charlesvr-lightgold.png" alt="Charles VR" class="max-h-full hidden sm:block" />
-			<img src="../../logos/charlesvr-shortened-newduotone.png" class="block sm:hidden w-full mx-auto drop-shadow-md " alt="charles vr shortened logo">		</a>
+			<img src="../../logos/charlesvr-shortened-newduotone.png" class="block sm:hidden max-h-full drop-shadow-md " alt="charles vr shortened logo">		</a>
 		<div class="hamburger-menu">
 			<input id="menu__toggle" type="checkbox" checked={menuOpen} on:click={toggleMenu} />
 			<label class="menu__btn" for="menu__toggle">
