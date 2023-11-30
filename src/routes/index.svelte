@@ -38,7 +38,7 @@
 </script>
 
 <Transition>
-	<Background src="../../charlesvrvideoblur.mp4" scrim="gold" opacity1="5" opacity2="7" class="">
+	<Background scrim="gold" opacity1="5" opacity2="7" class="">
 		<div
 			class=" flex h-[100vh] flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16"
 		>
@@ -49,7 +49,7 @@
 				autoplay
 				muted
 				loop
-				style=""
+				style="pointer-events: none;"
 			/>
 			<div class="mt-32 sm:max-w-[70%]">
 				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm hidden sm:block" />
@@ -63,7 +63,6 @@
 		</div>
 	</Background>
 	<Background
-		src="../../charlesvrvideoblur.mp4"
 		scrim="light"
 		opacity1="9"
 		opacity2="9"
@@ -87,7 +86,6 @@
 		</div>
 	</Background>
 	<Background
-		src="../../charlesvrvideoblur.mp4"
 		scrim="maroon"
 		opacity1="9"
 		opacity2="9"
@@ -111,7 +109,6 @@
 		</div>
 	</Background>
 	<Background
-		src="../../charlesvrvideoblur.mp4"
 		scrim="light"
 		opacity1="9"
 		opacity2="9"
@@ -134,7 +131,7 @@
 			<img src="../../content/rudy-placeholder-2.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
-	<Background src="../../charlesvrvideoblur.mp4" scrim="maroon" opacity1="9" opacity2="9" class="">
+	<Background  scrim="maroon" opacity1="9" opacity2="9" class="">
 		<div class="flex items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16 ">
 			<Card  class="w-[100%] md:w-[80%]">
 				<div class="p-4">
@@ -162,7 +159,7 @@
 			</Card>
 		</div>
 	</Background>
-	<Background src="../../charlesvrvideoblur.mp4" scrim="light" opacity1="9" opacity2="9" class="">
+	<Background  scrim="light" opacity1="9" opacity2="9" class="">
 		<div class=" flex flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16">
 			<Card light class="flex flex-col  ">
 				<h1 class="my-10 text-center text-6xl text-[#54182c] md:mb-20 ">
