@@ -1,5 +1,6 @@
 <script>
 	export let def = 'definition of the word';
+	export let word = 'word';
 	export let light = false;
 	export let classes = '';
 	export { classes as class };
@@ -13,7 +14,7 @@
 
 	function toggle() {
 		if (!modalStateValue) modalState.set(true);
-		modalText.set(def);
+		modalText.set(`${word}:${def}`);
 	}
 </script>
 
@@ -26,7 +27,7 @@
 		<slot />
 		<span class={(light
 			? 'tooltiplight tooltiptext'
-			: ' tooltipdark tooltiptext') + classes}>{def}</span>
+			: ' tooltipdark tooltiptext') + classes}> <strong>{word}:</strong> <span class="font-thin">{def}</span></span>
 	</strong>
 </span>
 <style>
