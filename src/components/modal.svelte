@@ -55,7 +55,7 @@
 {/if}
 </body>
 <style>
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 768px) {
 			.mobile-display {
 visibility: hidden;
 	}

@@ -32,6 +32,8 @@
 </span>
 <style>
 	
+
+
 .tooltip {
 		cursor: pointer;
 		position: relative;
@@ -69,6 +71,12 @@
 		transition: 0.3s;
 	}
 
+
+	@media screen and (max-width: 768px) {
+		.tooltip:hover .tooltiptext {
+		opacity: 0;
+	}
+		}
 	.tooltiptext:hover {
 		display: none;
 	}
