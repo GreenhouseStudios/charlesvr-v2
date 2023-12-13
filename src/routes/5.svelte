@@ -25,8 +25,12 @@
 				the time of the coronation, and the mass in question is securely attributed to Gombert in
 				two printed sources. The assertion that this mass was at least composed for Charles’s
 				imperial coronation is therefore widely accepted.
-<br>
-<br>
+		</TextCard>
+		<img
+		src="../../backgrounds/paintings.jpg"
+		alt=" Crowning of Charles V"
+		class="h-full w-full object-cover opacity-70 ">
+		<TextCard class="">
 			A mass is a much larger undertaking than a motet. There is no question that Gombert’s mass is
 			an impressive work, one fairly typical of the composer’s style. All voice parts move
 			continuously, contain few rests, and are linked by imitation in which one voice repeats,
@@ -35,10 +39,6 @@
 			despite the fact that Thiebault was senior to Gombert in the emperor’s musical hierarchy,
 			Charles held his maître des enfants in higher regard than his choirmaster.
 		</TextCard>
-		<img
-		src="../../backgrounds/paintings.jpg"
-		alt=" Crowning of Charles V"
-		class="h-full w-full object-cover opacity-70 ">
 	</Background>
 
 	<video
@@ -49,7 +49,7 @@
 	>
 		<source src="../../backgrounds/choirshot.mp4" type="video/mp4" />
 	</video>
-	<Background src="../../backgrounds/light-background.png" parallax class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]" scrim="light" opacity1="8" opacity2="6">
+	<Background src="../../backgrounds/light-background.png"  class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]" scrim="light" opacity1="8" opacity2="6">
 		<img
 		src="../../backgrounds/basilicaexterior.jpg"
 		alt=" Crowning of Charles V"
@@ -77,7 +77,7 @@
 			alt=" Crowning of Charles V"
 			class="h-full w-full object-cover opacity-70 ">
 			</Background>
-			<Background src="../../backgrounds/mural.jpg" class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="7" opacity2="5" >
+			<Background src="../../backgrounds/mural.jpg" class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed" scrim="light" opacity1="7" opacity2="5" >
 				<Card class="" light>
 		<div class="  text-xl md:text-2xl italic p-4 "><strong>
 			“Above all regrets, I cry
@@ -101,7 +101,7 @@
 		class="h-full w-full object-cover opacity-70 ">
 	</Background>
 	
-	<Background src="../../backgrounds/basilicaexterior2.jpg" parallax class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64" scrim="light" opacity1="8" opacity2="6">
+	<Background src="../../backgrounds/basilicaexterior2.jpg"  class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed" scrim="light" opacity1="8" opacity2="6">
 		<Card class="" light>
 			<!-- <Audio></Audio> -->
 			It is tempting, given the circumstances leading to the Sack of Rome three years prior to the

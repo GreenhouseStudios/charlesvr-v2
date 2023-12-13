@@ -43,7 +43,7 @@
 	scrim="light"
 	opacity1="7"
 	opacity2="5"
-	class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
+	class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed"
 >
 	<Card class="" light>
 		Music was extremely important to the ceremony and to the culture and politics of the

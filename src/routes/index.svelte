@@ -3,7 +3,7 @@
 	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
 	import Tooltip from './../components/tooltip.svelte';
-	import Tooltiplarge from './../components/tooltip.svelte';
+	import ChapterButton from '../components/chapter-button.svelte';
 	import Footer from './../components/footer.svelte';
 	import Button from './../components/button.svelte';
 	let people = [
@@ -50,22 +50,20 @@
 				muted
 				loop
 				style="pointer-events: none;"
+				playsinline
 			/>
 			<div class="mt-32 sm:max-w-[70%]">
 				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
-				<div class="  mx-auto mt-5 text-center text-[18px] font-medium text-[#4D1B2C] sm:text-3xlsm:w-full ">
+				<div class="  mx-auto mt-5 text-center text-[18px] md:text-[32px] font-medium text-[#4D1B2C] sm:text-3xlsm:w-full ">
 					Experience the Imperial Coronation of Holy Roman Emperor Charles V
 				</div>
 			</div>
 			<br />
-			<img src="../../content/down-arrow.png" class="arrow bounce h-[50px] md:h-[75px]" alt="bouncing arrow pointing to scroll down the page">
+			<a href="#text-content"><img src="../../content/down-arrow.png" class="arrow bounce h-[50px] md:h-[75px]" alt="bouncing arrow pointing to scroll down the page"></a>
 		</div>
 	</Background>
 	<Background
-		src=""
-		scrim="light"
-		opacity1="9"
-		opacity2="9"
+		src="../../backgrounds/light-background.png"
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center justify-center  sm:my-0 sm:flex-row  sm:px-0 ">
@@ -82,14 +80,11 @@
 						> accounts, artwork, and music as source material.
 					</p>
 				</Card>
-			<img src="../../content/rudy-placeholder-4.jpg" alt="tbd" class="dog h-[75vh]" />
+			<img src="../../content/rudy-placeholder-4.jpg" alt="tbd" class="dog h-[75vh]" id="text-content" />
 		</div>
 	</Background>
 	<Background
-		src=""
-		scrim="maroon"
-		opacity1="9"
-		opacity2="9"
+	src="../../backgrounds/light-maroon-background.png"
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col items-center justify-center sm:my-0 sm:flex-row sm:px-0 ">
@@ -110,10 +105,7 @@
 		</div>
 	</Background>
 	<Background
-		src=""
-		scrim="light"
-		opacity1="9"
-		opacity2="9"
+		src="../../backgrounds/light-background.png"
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center sm:my-0 sm:flex-row sm:px-0 image-description">
@@ -124,8 +116,8 @@
 						for enthusiasts, students, and scholars of art, architecture, history, music, religion,
 						and virtual reality.
 					</p>
-					<div class="mt-10 flex gap-10">
-						<Button title="Read More" path="1"/>
+					<div class="mt-10 flex gap-5 md:gap-10 flex-col md:flex-row items-center justify-center">
+						<Button title="Learn More" path="1"/>
 						<Button title="Download" path="2"/>
 					</div>
 					</div>
@@ -133,7 +125,8 @@
 			<img src="../../content/rudy-placeholder-2.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
-	<Background src="" scrim="maroon" opacity1="9" opacity2="9" class="">
+	<Background 	src="../../backgrounds/light-maroon-background.png"
+	 class="">
 		<div class="flex items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16 ">
 			<Card  class="w-[100%] md:w-[80%]">
 				<div class="p-4">
@@ -144,7 +137,7 @@
 						alt="credits placeholder"
 					/>
 					<img
-						class=" mx-auto my-10 w-[25%] md:hidden"
+						class=" mx-auto my-10 w-[50%] md:hidden"
 						src="../../logos/greenhouse-square-logo.png"
 						alt="credits placeholder"
 					/>
@@ -152,7 +145,7 @@
 					<div class="grid sm:grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
 						{#each people as person}
 							<div class="text-center text-white">
-								<div class="mb-1 leading-10"><strong>{person.personName}</strong></div>
+								<div class="mb-1 leading-10 text-[20px] md:text-[22px]"><strong>{person.personName}</strong></div>
 								<div class="mb-5 text-[18px] leading-5">{person.personTitle}</div>
 							</div>
 						{/each}
@@ -161,14 +154,15 @@
 			</Card>
 		</div>
 	</Background>
-	<Background src="" scrim="light" opacity1="9" opacity2="9" class="">
+	<Background 		src="../../backgrounds/light-background.png"
+	class="">
 		<div class=" flex flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16">
-			<Card light class="flex flex-col  ">
-				<h1 class="my-10 text-center text-6xl text-[#54182c] md:mb-20 ">
+			<Card light class="flex flex-col ">
+				<h1 class="my-10 text-center text-6xl text-[#54182c] mb-20 ">
 					<strong>Partners</strong>
 				</h1>
 				<div
-					class="flex flex-col items-center justify-center gap-16 my-10 md:grid md:grid-cols-4"
+					class="flex flex-col items-center justify-center gap-16 mb-20 my-10 md:grid md:grid-cols-4"
 				>
 					<img
 						class="max-h-[100px] md:max-h-full p-2 "
@@ -183,6 +177,12 @@
 					<img class=" max-h-[125px] md:max-h-full p-2" src="../../logos/OrigoLogo.png" alt="credits placeholder" />
 					<img class=" max-h-[100px] md:max-h-full p-2" src="../../logos/kress-logo.png" alt="credits placeholder" />
 				</div>
+				<ChapterButton
+				numeral="I"
+				chapter="The Coronation in Context"
+				path="1"
+				class="my-10 justify-center text-center mx-auto"
+			/>
 			</Card>
 		</div>
 	</Background>

@@ -7,11 +7,11 @@
 <div class="flex items-center sm:w-max">
 	<a
 		id="button"
-		class="group flex flex-row items-center justify-center rounded-xl p-3 shadow-black/30   sm:gap-6"
+		class="group flex flex-row items-center justify-center rounded-xl p-3 shadow-black/30   sm:gap-6 w-[225px]"
 		href={path}
 	>
 
-		<p class=" text-xl text-white title">
+		<p class=" text-xl text-white title p-2">
 			{title} 	
 		</p>
 		<span class="material-icons">chevron_right</span>
@@ -34,7 +34,7 @@
 
 	#button:hover {
 		background-position: left bottom;
-		background: #000000;
+		background: #54182c;
 	}
 
 

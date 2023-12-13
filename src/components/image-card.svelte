@@ -41,7 +41,7 @@
 		</div>
 
 		<div
-			class={'text-[18px]  p-5  w-full text-center ' + (light ? 'bg-[#FFE2A5]' : 'bg-[#4D1B2C]')}
+			class={'text-[16px] md:text-[18px] p-5  w-full text-center ' + (light ? 'bg-[#FFE2A5]' : 'bg-[#4D1B2C]')}
 		>
 			{caption}
 			<div class="source flex flex-col items-center justify-center">

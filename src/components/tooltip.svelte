@@ -47,12 +47,12 @@
 		color: black;
 		border-radius: 6px;
 		position: absolute;
-		padding: 10px;
+		padding: 12px;
 		z-index: auto;
-		width: 200px;
+		width: 250px;
 	    bottom: 30px; 
 		left: -25px;
-		line-height: 1.1;
+		line-height: 1.35;
 		font-size: 18px;
 	}
 
@@ -62,7 +62,7 @@
 	}
 
 	.tooltipdark{
-		background-color: rgb(0, 0, 0);
+		background-color:#54182c;
 		color: rgb(255, 255, 255);
 	}
 

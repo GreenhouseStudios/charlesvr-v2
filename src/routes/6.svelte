@@ -17,7 +17,7 @@
 		scrim="maroon"
 		opacity1="9"
 		opacity2="7"
-		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed"
 	>
 		<Card class="">
 			<div class="w-full ">
