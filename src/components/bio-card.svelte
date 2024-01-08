@@ -41,21 +41,20 @@ class={
 				'card' 
 				>
 				{#if flipped}
-				<div class="side flex flex-col ds" transition:flip>
-					<div class={"side flex flex-col p-2 text-center rounded-2xl drop-shadow-md" + (light
-					? '  bg-[#f3cd7a] '
+				<div class="side flex flex-col ds overflow-hidden" transition:flip>
+					<div class={"side flex flex-col p-6 text-center rounded-2xl drop-shadow-md" + (light
+					? '  bg-[#f3cd7a]'
 					: '  bg-[#401323] ')}>
-						<strong class="text-2xl lg:text-5xl">{name}</strong>
-						<br />
-						<div class="m-2 text-xl italic md:m-4 lg:text-4xl">{years}</div>
-						<div class="space-y-4 text-lg text-[18px] md:leading-12 lg:space-y-8">
+						<strong class="text-2xl lg:text-4xl">{name}</strong>
+						<div class="m-2 text-xl italic mb-8 md:m-4 lg:text-xl">{years}</div>
+						<div class="space-y-4 text-lg text-[16px] md:leading-12 lg:space-y-8">
 							<slot />
 						</div>
 					</div>
 				</div>
 				{:else}
 				<div class="side drop-shadow-md" transition:flip>
-					<img {src} {alt} class="rounded-2xl drop-shadow-md bioimg h-full ds" />
+					<img {src} {alt} class="rounded-2xl w-full h-full overflow-hidden"/>
 				</div>
 				{/if}
 			</div>
@@ -127,8 +126,8 @@ class={
 		.bioimg{
 			object-fit: cover;
 			padding: 10px;
-			width: 400px; 
-            height: 300px;
+			width: 100%; 
+            height: 100%;
 			object-position: 80% 20%;;
 		}
 		.flip{
@@ -137,13 +136,12 @@ class={
 		}
 		.flip-mobile{
 			position: relative;
-			top: 50px;
 		}
 	}
 	.card-container {
 		position: relative;
-		height: 500px;
-		width: 350px;
+		height: 450px;
+		width: 300px;
 		margin: 10px;
 	}
 	
@@ -155,12 +153,11 @@ class={
 	
 	.side {
 		position: absolute;
-		height: 100%;
-		width: 100%;
+		height: 450px;
+		width: 300px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
 		}
 
 .bioimg:hover {
