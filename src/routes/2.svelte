@@ -15,7 +15,7 @@
 	<Background
 		scrim="maroonblack" opacity1="7" opacity2="7"
 		src="../../backgrounds/fabric.jpg"
-		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-center items-center md:space-y-24 md:py-16 2xl:p-32 2xl:px-64"
 	>
 		<Card class=" ">
 			<div class="w-full  ">
@@ -46,7 +46,7 @@
 		class="flex h-full flex-col "
 	>
 		<div class=" flex flex-col lg:grid items-center lg:grid-cols-[1fr_1fr]">
-			<Card light class="m-24 p-4 md:p-16 text-[18px] leading-relaxed  md:text-[20px] lg:text-[24px]">
+			<Card light class="m-24 p-4 md:p-16 leading-relaxed ">
 					Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
 				grandfather, Holy Roman Emperor Maximilian I. He was selected over other possible candidates
@@ -76,7 +76,7 @@
 	<Background
 		src="../../backgrounds/sackofrome.jpg"
 		parallax
-		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-center items-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64"
 		scrim="maroonblack" opacity1="8" opacity2="5"
 	>
 		<Card class="" >

@@ -104,8 +104,6 @@
 			Basilica San Petronio, was chosen as a suitable substitute location, but the change of venue
 			presented significant problems from a symbolic point of view. The geography of the Eternal
 			City and Saint Peter’s Basilica were vital to the centuries-old rituals of the event.
-			<br />
-			<br />
 			</TextCard>
 			<video class="lg:h-full object-cover opacity-70" loop={true} muted={true} autoplay={true} playsinline>
 				<source src="../../backgrounds/updatedmap.mp4" type="video/mp4" />
@@ -333,7 +331,7 @@ width="sm:w-1/2"
 		class="flex flex-col items-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
-	<TextCard class="text-[18px] leading-relaxed md:text-[20px] lg:text-[24px]" light>
+	<TextCard class="" light>
 		Although there are no detailed visual records of the ceremony, other depictions of the
 		temporary decorations set up for post-medieval coronations taking place in Gothic churches
 		help us to visualize the event. The sumptuous decorations of tapestries and luxurious textiles
@@ -351,7 +349,7 @@ width="sm:w-1/2"
 				src={carouselPhotos[count].link}
 				citation={carouselPhotos[count].citation}
 				light
-				height="h-[400px]"
+				height="h-[150px] sm:h-[300px]"
 			/>
 			<div class="flex items-center gap-5 pb-10">
 				<button class="material-symbols-outlined" on:click={decrement}> arrow_back </button>
@@ -368,7 +366,7 @@ width="sm:w-1/2"
 		class="flex flex-col items-center  "
 	>
 
-		<TextCard class="text-[18px] leading-relaxed md:text-[20px] lg:text-[24px] flex flex-col items-center ">
+		<TextCard class=" flex flex-col items-center ">
 			<div class="">
 				Such precious stuffs adorned the garb of the spectators as well as the interior of the
 				church. Indeed the most detailed contemporary account of the coronation devotes more space
@@ -382,7 +380,7 @@ width="sm:w-1/2"
 				<ImageCard
 					src={peopleCarouselPhotos[countPeople].link}
 					citation={peopleCarouselPhotos[countPeople].citation}
-					height="h-[400px]"
+					height="h-[250px] sm:h-[500px]"
 				/>
 				<div class="flex items-center gap-5 pb-10">
 					<button class="material-symbols-outlined text-white" on:click={decrementPeople}>
@@ -393,14 +391,14 @@ width="sm:w-1/2"
 					</button>
 				</div>
 			</div>
-			<TextCard class="text-[18px] leading-relaxed md:text-[20px] lg:text-[24px] flex flex-col items-center ">
-			<div class="pb-5">
+			<TextCard class="">
+			<div class="pb-10">
 				Decorations with fragrant foliage and flowers freshened the air inside the crowded church,
 				at a time when frequent bathing was rare. Temporary bleacher-like seating filled the space
 				and accommodated the spectators; some of the bleachers collapsed at one point in the
 				ceremony, causing panic among the crowd and killing a few unfortunate onlookers.
 			</div>
-			<ChapterButton numeral="IV" chapter="A Focus on Music" path="4" />
+			<ChapterButton numeral="IV" chapter="A Focus on Music" path="4" class="flex items-center justify-center m-auto"/>
 		</TextCard>
 	</Background>
 </Transition>

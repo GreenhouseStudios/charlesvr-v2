@@ -1,12 +1,11 @@
 <script>
 	import Transition from '../components/transition.svelte';
-	import BioCard from '../components/bio-card.svelte';
-	import ChapterButton from '../components/chapter-button.svelte';
 	import Background from '../components/background.svelte';
 	import Card from '../components/card.svelte';
 	import SectionHero from '../components/section-hero.svelte';
 	import Footer from '../components/footer.svelte';
 	import TextCard from '../components/text-card.svelte';
+	import Button from './../components/button.svelte';
 </script>
 
 <Transition>
@@ -40,7 +39,7 @@
 		scrim="light"
 		opacity1="9"
 		opacity2="7"
-		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 			<div class="grid grid-cols-2 place-items-center gap-16 md:order-last p-10 w-2/3 m-auto">
 				<div class="flex flex-col items-center">
@@ -77,7 +76,7 @@
 		scrim="maroon"
 		opacity1="8"
 		opacity2="5"
-		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 	<img
 	src="../../backgrounds/crown.png"
@@ -94,7 +93,7 @@
 	</Background>
 	<Background
 		src="../../backgrounds/light-background.png"
-		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 		<TextCard class="" light>
 			The three other characters all experience different levels of understanding in regard to the
@@ -112,12 +111,14 @@
 		alt=" Crowning of Charles V"
 		class="h-full w-full object-cover opacity-70">
 	</Background>
-	<Background src="../../backgrounds/maroon-background.png" class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]">
+	<Background src="../../backgrounds/maroon-background.png" class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]">
 		<video
 		class=" inset-0  aspect-auto object-contain opacity-50"
 		loop={true}
 		muted={true}
 		autoplay={true}
+		playsinline
+
 	>
 		<source src="../../backgrounds/introcrawl.mp4" type="video/mp4" />
 	</video>
@@ -125,6 +126,10 @@
 		The coronation mass would have been heard by many and seen directly by very few. Its sound and
 		its location were undoubtedly its most important features. Users can encounter both from
 		various points of view in the Charles V|R Experience.
+		<div class="flex-col md:flex">
+		<Button title="Placeholder" path="1" class="m-2"/>
+		<Button title="Placeholder" path="2"/>
+	</div>
 	</TextCard>
 	</Background>
 </Transition>

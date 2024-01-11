@@ -17,12 +17,12 @@
 		scrim="maroon"
 		opacity1="9"
 		opacity2="9"
-		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 	<img
 	src="../../backgrounds/Elderly_Karl_V.jpg"
 	alt=" Crowning of Charles V"
-	class="h-full w-full object-cover opacity-50 bg-left"
+	class="h-full w-full object-cover opacity-50 object-left"
 />
 	<TextCard class="" >
 		Charles and Clement could also control aspects of the prescribed liturgy and the music of
@@ -31,7 +31,7 @@
 		biography of Charles V underscores the ruler’s interest in music:
 		<br />
 		<br />
-		<div class="text-gold-400 italic">
+		<div class="text-gold-400 italic m-8">
 		“And he knew music, and felt it and liked it, for many times the friars, behind the door,
 		heard him leave his cell and go to the main altar, and they saw him beating time and singing
 		in harmony with those who sang in the choir...”
@@ -43,7 +43,7 @@
 	scrim="light"
 	opacity1="7"
 	opacity2="5"
-	class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed"
+	class="flex flex-col justify-center items-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed"
 >
 	<Card class="" light>
 		Music was extremely important to the ceremony and to the culture and politics of the
@@ -64,7 +64,7 @@
 		scrim="maroon"
 		opacity1="9"
 		opacity2="9"
-		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		parallax
 	>
 <img
@@ -90,7 +90,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 		scrim="light"
 		opacity1="7"
 		opacity2="7"
-		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr] "
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr] "
 	>
 <TextCard light>
 			The allegorical significance of the texts of these chants in this context would not have gone
@@ -114,10 +114,12 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 		loop={true}
 		muted={true}
 		autoplay={true}
+		playsinline
+
 	>
 		<source src="../../backgrounds/choirman2.mp4" type="video/mp4" />
 	</video>
-	<Background src="" class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64" scrim="maroon" opacity1="7" opacity2="5">
+	<Background src="" class="flex flex-col justify-center items-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64" scrim="maroon" opacity1="7" opacity2="5">
 		<Card class="" >
 			Other aspects of the event demonstrate the ways in which music was put to political purposes
 			in the coronation. Because the <Tooltip word="Retinues" def="A group of retainers or attendants" light>retinues</Tooltip> of both the pope and the emperor were in attendance at
@@ -136,7 +138,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 		scrim="light"
 		opacity1="7"
 		opacity2="5"
-		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-center items-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64"
 	>
 		<Card class="" light>
 			Festa’s contribution was the six-voice motet, Ecce advenit dominator. It is preserved in a
@@ -151,7 +153,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 	</Background>
 	<Background
 		src="../../backgrounds/detail.jpg"
-		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		scrim="maroon" opacity1="9" opacity2="9"
 	>
 	<img
@@ -185,7 +187,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		scrim="light" opacity1="9" opacity2="9"
 	>
-		<TextCard light class="flex flex-col items-center">
+		<TextCard light class="flex flex-col items-center justify-center">
 			<div class="pb-10">
 			There was a kind of parity between the choirs of Clement and Charles, since a composer from
 			each ensemble contributed a motet for the event. Adrien Thiebeault’s contribution to the
@@ -201,12 +203,14 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 			pope’s feet. Clement was heard apologizing to the emperor in the first instance, and embracing
 			him to prevent the second from taking place.
 		</div>
-				<ChapterButton numeral="V" chapter="A Coronation Mass" path="5" />
+		<div class="flex items-center justify-center">
+				<ChapterButton numeral="V" chapter="A Coronation Mass" path="5" class="flex items-center justify-center m-auto" />
+				</div>
 		</TextCard>
 		<img
 		src="../../backgrounds/pope.jpg"
 		alt=" Crowning of Charles V"
-		class="h-full w-full object-cover opacity-50"
+		class="h-full w-full object-cover opacity-50 object-left"
 	/>
 	</Background>
 </Transition>

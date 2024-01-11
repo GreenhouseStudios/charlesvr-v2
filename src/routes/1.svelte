@@ -25,7 +25,7 @@
 		opacity1="7"
 		opacity2="2"
 		src="../../backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
-		class="flex-col justify-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex-col justify-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64"
 	>
 		<Card class="">
 			On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
@@ -124,8 +124,8 @@
 		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
 			<div>
 				<Card class="" light>
-					<h2 class="m-12 text-center text-4xl text-black md:text-6xl ">
-						<strong>Dual Coronations</strong>
+					<h2 class="my-12 text-center font-bold text-4xl text-black md:text-5xl ">
+						Dual Coronations
 					</h2>
 					<div class="mb-5">
 						Symbolically and politically, this relationship was marked in two coronations. The first
@@ -179,7 +179,7 @@
 		<div class="flex flex-col-reverse">
 			<div>
 				<Card class="" light>
-					<h2 class="m-12 text-center text-4xl text-black md:text-6xl ">
+					<h2 class="m-12 text-center text-2xl text-black md:text-4xl ">
 						<strong>Dual Coronations</strong>
 					</h2>
 					<div class="mb-5">
@@ -197,7 +197,7 @@
 					src="../../content/dualcoronations.png"
 					light
 					citation=""
-					width="w-1/3"
+					width="sm:w-1/3"
 				/>
 					<Card class="" light>
 					<div class="flex flex-col items-center">
