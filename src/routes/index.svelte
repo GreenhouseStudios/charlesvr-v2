@@ -2,6 +2,7 @@
 	import Transition from './../components/transition.svelte';
 	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
+	import TextCard from './../components/card.svelte';
 	import Tooltip from './../components/tooltip.svelte';
 	import ChapterButton from '../components/chapter-button.svelte';
 	import Footer from './../components/footer.svelte';
@@ -54,7 +55,7 @@
 			/>
 			<div class="mt-32 sm:max-w-[70%]">
 				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
-				<div class="  mx-auto mt-5 text-center text-[18px] md:text-[32px] font-medium text-[#4D1B2C] sm:text-3xlsm:w-full ">
+				<div class="  mx-auto mt-5 text-center text-[18px] md:text-[32px] font-medium text-[#4D1B2C] sm:text-3xl sm:w-full ">
 					Experience the Imperial Coronation of Holy Roman Emperor Charles V
 				</div>
 			</div>
@@ -67,19 +68,19 @@
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center justify-center  sm:my-0 sm:flex-row  sm:px-0 ">
-				<Card light class="m-0 md:m-0 lg:m-18 xl:m-28 ">
-					<p class="pb-12 sm:pb-0 md:text-[22px] text-[20px] lg:text-[28px]">
+				<TextCard light class="m-0 md:m-4 lg:m-12 xl:m-24  md:text-[20px] text-[18px] lg:text-[24px]">
+					<p class="">
 						Travel to 1530 Bologna to attend the <Tooltip word="Coronation"
-							def="The act or occasion of crowning" ><p class="md:text-[22px] text-[20px] lg:text-[28px]">coronation</p></Tooltip
+							def="The act or occasion of crowning" ><p class="md:text-[20px] text-[18px] lg:text-[24px]">coronation</p></Tooltip
 						> mass of the Holy Roman Emperor, Charles V, in this virtual reality recreation of San Petronio.
 						The details of the coronation reflect the social and political turmoil of the times; the
 						experience itself recreates the sights and sounds of this religious and political ceremony
 						using <Tooltip
 							word="Contemporaneous" def="Existing, occurring, or originating during the same time
-					"><p class="md:text-[22px] text-[20px] lg:text-[28px]">contemporaneous</p></Tooltip
+					"><p class="md:text-[20px] text-[18px] lg:text-[24px]">contemporaneous</p></Tooltip
 						> accounts, artwork, and music as source material.
 					</p>
-				</Card>
+				</TextCard>
 			<img src="../../content/rudy-placeholder-4.jpg" alt="tbd" class="dog h-[75vh]" id="text-content" />
 		</div>
 	</Background>
@@ -89,18 +90,16 @@
 	>
 		<div class="flex flex-col items-center justify-center sm:my-0 sm:flex-row sm:px-0 ">
 			<img src="../../content/rudy-placeholder.jpg" alt="tbd" class="dog  h-[75vh]" />
-			<Card class=" m-0 md:m-4 lg:m-18 xl:m-28    md:text-[20px] text-[20px] lg:text-[28px] ">
-				<p class="pb-12 sm:pb-0">
+			<Card class=" m-0 md:m-4 lg:m-12 xl:m-24  md:text-[20px] text-[18px] lg:text-[24px] ">
 					Experience the event from multiple perspectives — that of a member of the imperial papal
 					court, a 
 						<Tooltip word="Basilica"
 						def="A Roman Catholic church given ceremonial privileges"
-						light><p class="md:text-[22px] text-[20px] lg:text-[28px]">basilica</p>
+						light><p class="md:text-[20px] text-[18px] lg:text-[24px]">basilica</p>
 						</Tooltip> 
 					official, or a Bolognese citizen. Hear music performed during the ceremony as recorded by
 					Ensemble Origo. Call up scholarly annotations to explore the layers of meaning embedded in
 					the art, architecture, and various ceremonial objects present in the scene.
-				</p>
 			</Card>
 		</div>
 	</Background>
@@ -109,8 +108,8 @@
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center sm:my-0 sm:flex-row sm:px-0 image-description">
-				<Card class="m-0 md:m-4 lg:m-18 xl:m-28  md:text-[20px] text-[20px] lg:text-[28px]" light>
-					<div class="pb-12 sm:pb-0">
+				<Card class="m-0 md:m-4 lg:m-18 xl:m-24  md:text-[20px] text-[18px] lg:text-[24px]" light>
+					<div class="">
 					<p class="">
 						Charles V|R offers a multi-modal window into this event of world-historical importance
 						for enthusiasts, students, and scholars of art, architecture, history, music, religion,
@@ -127,7 +126,7 @@
 	</Background>
 	<Background 	src="../../backgrounds/light-maroon-background.png"
 	 class="">
-		<div class="flex items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16 ">
+		<div class="flex items-center justify-center gap-10 bg-cover bg-center">
 			<Card  class="w-[100%] md:w-[80%]">
 				<div class="p-4">
 					<h1 class="m-4 text-center text-6xl text-white"><strong>Credits</strong></h1>
@@ -145,8 +144,8 @@
 					<div class="grid sm:grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
 						{#each people as person}
 							<div class="text-center text-white">
-								<div class="mb-1 leading-10 text-[20px] md:text-[22px]"><strong>{person.personName}</strong></div>
-								<div class="mb-5 text-[18px] leading-5">{person.personTitle}</div>
+								<div class=" leading-10 text-[18px] md:text-[22px]"><strong>{person.personName}</strong></div>
+								<div class="mb-5 text-[16px] leading-5">{person.personTitle}</div>
 							</div>
 						{/each}
 					</div>
@@ -156,9 +155,9 @@
 	</Background>
 	<Background 		src="../../backgrounds/light-background.png"
 	class="">
-		<div class=" flex flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16">
+		<div class=" flex flex-col items-center justify-center gap-10 bg-cover bg-center">
 			<Card light class="flex flex-col ">
-				<h1 class="my-10 text-center text-6xl text-[#54182c] mb-20 ">
+				<h1 class="my-10 text-center text-6xl mb-20 ">
 					<strong>Partners</strong>
 				</h1>
 				<div
