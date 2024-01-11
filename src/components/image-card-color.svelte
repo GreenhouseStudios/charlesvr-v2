@@ -115,7 +115,7 @@
 
 	.horizontal-line-black {
         border: 1px solid black ;
-        width: 100px;
+        width: 75px;
         display:none
     }
 

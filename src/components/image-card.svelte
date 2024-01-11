@@ -41,22 +41,22 @@
 		</div>
 
 		<div
-			class={'text-[16px] md:text-[18px] p-5  w-full text-center ' + (light ? 'bg-[#FFE2A5]' : 'bg-[#4D1B2C]')}
+			class={'text-[14px] md:text-[18px] p-5  w-full text-center ' + (light ? 'bg-[#FFE2A5]' : 'bg-[#4D1B2C]')}
 		>
 			{caption}
 			<div class="source flex flex-col items-center justify-center">
 				<a href={citation}>
 					{#if caption}
 						<div class="mt-2 flex items-center gap-2">
-							<span class="material-icons text-[20px]">menu_book</span>
-							<span class=" text-[18px] ">Source</span>
+							<span class="material-icons text-[16px] sm:text-[20px]">menu_book</span>
+							<span class=" text-[14px] sm:text-[18px] ">Source</span>
 						</div>
 						<hr class={light ? 'horizontal-line-black' : 'horizontal-line-white'} />
 					{/if}
 					{#if !caption}
 						<div class="flex items-center gap-2">
-							<span class="material-icons text-[20px]">menu_book</span>
-							<span class=" text-[18px] ">Source</span>
+							<span class="material-icons text-[16px] sm:text-[20px]">menu_book</span>
+							<span class="text-[14px] sm:text-[18px]">Source</span>
 						</div>
 						<hr class={light ? 'horizontal-line-black' : 'horizontal-line-white'} />
 					{/if}
