@@ -28,8 +28,8 @@
 			{#if modalTextValue.includes("/")}
 			<div class="modal-container-image">
 				<div class="modal-image">
-					<div class="relative flex flex-row-reverse left-7 m-5">
-			<span class="material-symbols-outlined close-btn-image hover:cursor-pointer bg-black" on:click={closeModal}>
+					<div class="relative flex flex-row-reverse left-10 m-5">
+			<span class="material-symbols-outlined close-btn-image hover:cursor-pointer bg-black " on:click={closeModal}>
 				cancel
 				</span>
 			<img src={modalTextValue} class="zoom-image " alt="">
@@ -62,7 +62,7 @@ visibility: hidden;
 		}
 
 	.close-btn-image {
-		width: 40px;
+		min-width: 40px;
 		height: 40px;
 		position: relative;
 		top: 15px;
