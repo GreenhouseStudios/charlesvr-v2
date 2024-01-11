@@ -20,8 +20,8 @@
 
 <span
 	class={(light
-		? 'tooltip text-[#F9F4E8] text-[18px] md:text-[20px] lg:text-[22px]'
-		: ' tooltip text-[#1C0A10] text-[18px] md:text-[20px] lg:text-[22px]') + classes}
+		? 'tooltip text-[#F9F4E8] text-[15px] md:text-[20px] lg:text-[22px]'
+		: ' tooltip text-[#1C0A10] text-[15px] md:text-[20px] lg:text-[22px]') + classes}
 >
 	<strong on:click={toggle}>
 		<slot />
