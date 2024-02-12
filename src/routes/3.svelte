@@ -89,7 +89,7 @@
 		title="An Imperial Coronation in Bologna"
 		bg="../../backgrounds/abolcoronationdark.jpg"
 		opacity1="2"
-		opacity2="7"
+		opacity2="6"
 		scrim="blackgold"
 	/>
 	<Background
@@ -97,25 +97,37 @@
 		opacity2="9"
 		scrim="maroon"
 		src="../../backgrounds/maroon-background.jpg"
-		class="flex flex-col-reverse items-center justify-center "
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
-		<TextCard class="">
+	<TextCard>
+		<div class="">
 			Charles's sack of Rome had made a Roman coronation impossible. Bologna, with its large
 			Basilica San Petronio, was chosen as a suitable substitute location, but the change of venue
 			presented significant problems from a symbolic point of view. The geography of the Eternal
 			City and Saint Peter’s Basilica were vital to the centuries-old rituals of the event.
-			</TextCard>
+		</div>
+	</TextCard>
 			<video class="lg:h-full object-cover opacity-70" loop={true} muted={true} autoplay={true} playsinline>
 				<source src="../../backgrounds/updatedmap.mp4" type="video/mp4" />
 			</video>
-			<TextCard>
+			</Background>
+			<Background
+		opacity1="9"
+		opacity2="9"
+		scrim="maroon"
+		src="../../backgrounds/maroon-background.jpg"
+		class="flex flex-col-reverse items-center justify-center xl:p-24 xl:py-32 2xl:h-screen 2xl:p-32 2xl:px-64"
+	>
+		<Card class="">
+			<div class="">
 			The imperial and papal courts therefore set about faithfully reproducing the symbolic geography
-			of Rome in and around the Basilica of San Petronio. They also worked to ensure that the liturgy
-			of the coronation Mass was performed as it would have been in Rome, drawing up a detailed <Tooltip
-				word="Ordo" def="A list of offices and feasts of the Roman Catholic Church for each day of the year"
-				light>ordo</Tooltip
-			> which specified the texts to be read and chanted in keeping with the age-old traditions.
-		</TextCard>
+		of Rome in and around the Basilica of San Petronio. They also worked to ensure that the liturgy
+		of the coronation Mass was performed as it would have been in Rome, drawing up a detailed <Tooltip
+			word="Ordo" def="A list of offices and feasts of the Roman Catholic Church for each day of the year"
+			light>ordo</Tooltip
+		> which specified the texts to be read and chanted in keeping with the age-old traditions.
+			</div>
+			</Card>
 		<div />
 	</Background>
 	<Background
@@ -315,11 +327,10 @@ width="sm:w-1/2"
 		/>
 		<TextCard class="">
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-				laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-				cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Decorations with fragrant foliage and flowers freshened the air inside the crowded church,
+				at a time when frequent bathing was rare. Temporary bleacher-like seating filled the space
+				and accommodated the spectators; some of the bleachers collapsed at one point in the
+				ceremony, causing panic among the crowd and killing a few unfortunate onlookers.
 			</p>
 		</TextCard>
 	</Background>
@@ -349,7 +360,7 @@ width="sm:w-1/2"
 				src={carouselPhotos[count].link}
 				citation={carouselPhotos[count].citation}
 				light
-				height="h-[150px] sm:h-[300px]"
+				height="h-[175px] sm:h-[300px]"
 			/>
 			<div class="flex items-center gap-5 pb-10">
 				<button class="material-symbols-outlined" on:click={decrement}> arrow_back </button>
@@ -363,19 +374,8 @@ width="sm:w-1/2"
 		opacity2="8"
 		scrim="maroon"
 		src="../../backgrounds/tex16-35.jpg"
-		class="flex flex-col items-center  "
+		class="flex flex-col items-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
-
-		<TextCard class=" flex flex-col items-center ">
-			<div class="">
-				Such precious stuffs adorned the garb of the spectators as well as the interior of the
-				church. Indeed the most detailed contemporary account of the coronation devotes more space
-				to minute description of what the dignitaries were wearing than to any other subject.
-				Aristocratic portraits of the period give a good idea of what the effect of the costume and
-				textile decorations would have been. The vestments of the clergy, choristers and musicians
-				were every bit as elaborate.
-			</div>
-			</TextCard>
 			<div class="flex flex-col items-center justify-center">
 				<ImageCard
 					src={peopleCarouselPhotos[countPeople].link}
@@ -393,10 +393,12 @@ width="sm:w-1/2"
 			</div>
 			<TextCard class="">
 			<div class="pb-10">
-				Decorations with fragrant foliage and flowers freshened the air inside the crowded church,
-				at a time when frequent bathing was rare. Temporary bleacher-like seating filled the space
-				and accommodated the spectators; some of the bleachers collapsed at one point in the
-				ceremony, causing panic among the crowd and killing a few unfortunate onlookers.
+				Such precious stuffs adorned the garb of the spectators as well as the interior of the
+				church. Indeed the most detailed contemporary account of the coronation devotes more space
+				to minute description of what the dignitaries were wearing than to any other subject.
+				Aristocratic portraits of the period give a good idea of what the effect of the costume and
+				textile decorations would have been. The vestments of the clergy, choristers and musicians
+				were every bit as elaborate.
 			</div>
 			<ChapterButton numeral="IV" chapter="A Focus on Music" path="4" class="flex items-center justify-center m-auto"/>
 		</TextCard>

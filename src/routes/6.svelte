@@ -42,21 +42,29 @@
 		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 			<div class="grid grid-cols-2 place-items-center gap-16 md:order-last p-10 w-2/3 m-auto">
-				<div class="flex flex-col items-center">
+				<div class="flex flex-col items-center text-center text-[16px]">
 					<img src="../../content/pope.png" alt="" class="mb-2" />
+					<p class="leading-tight font-bold">
 					Pope Clement VII
+					</p>
 				</div>
-				<div class="flex flex-col items-center">
+				<div class="flex flex-col items-center text-center text-[16px]">
 					<img src="../../content/choirsinger.png" alt="" class="mb-2" />
+					<p class="leading-tight font-bold">
 					Papal Choir Member
+					</p>
 				</div>
-				<div class="flex flex-col items-center">
+				<div class="flex flex-col items-center text-center text-[16px]">
 					<img src="../../content/pope.png" alt="" class="mb-2" />
+					<p class="leading-tight font-bold">
 					Church Official
+					</p>
 				</div>
-				<div class="flex flex-col items-center">
+				<div class="flex flex-col items-center text-center text-[16px]">
 					<img src="../../content/choirsinger.png" alt="" class="mb-2" />
+					<p class="leading-tight font-bold">
 					Church Attendee
+				</p>
 				</div>
 			</div>
 			<TextCard light class="">
@@ -111,7 +119,7 @@
 		alt=" Crowning of Charles V"
 		class="h-full w-full object-cover opacity-70">
 	</Background>
-	<Background src="../../backgrounds/maroon-background.png" class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]">
+	<Background src="../../backgrounds/maroon-background.png" class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]">
 		<video
 		class=" inset-0  aspect-auto object-contain opacity-50"
 		loop={true}
@@ -122,13 +130,12 @@
 	>
 		<source src="../../backgrounds/introcrawl.mp4" type="video/mp4" />
 	</video>
-	<TextCard class="">
+	<TextCard class=" flex flex-col items-center">
 		The coronation mass would have been heard by many and seen directly by very few. Its sound and
 		its location were undoubtedly its most important features. Users can encounter both from
 		various points of view in the Charles V|R Experience.
-		<div class="flex-col md:flex">
-		<Button title="Placeholder" path="1" class="m-2"/>
-		<Button title="Placeholder" path="2"/>
+		<div class="my-3">
+		<Button title="Placeholder" path="1"/>
 	</div>
 	</TextCard>
 	</Background>

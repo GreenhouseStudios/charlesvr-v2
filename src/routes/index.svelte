@@ -55,7 +55,7 @@
 			/>
 			<div class="mt-32 sm:max-w-[70%]">
 				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
-				<div class="  mx-auto mt-5 text-center text-[18px] md:text-[32px] font-medium text-[#4D1B2C] sm:text-3xl sm:w-full ">
+				<div class="mx-auto mt-5 text-center text-[18px] md:text-[32px] font-medium text-[#4D1B2C] sm:text-3xl sm:w-full ">
 					Experience the Imperial Coronation of Holy Roman Emperor Charles V
 				</div>
 			</div>
@@ -68,7 +68,7 @@
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center justify-center  sm:my-0 sm:flex-row  sm:px-0 ">
-				<TextCard light class="m-0 md:m-4 lg:m-12 xl:m-24  md:text-[20px] text-[18px] lg:text-[24px]">
+				<TextCard light class="m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 md:text-[20px] text-[18px] lg:text-[24px]">
 					<p class="">
 						Travel to 1530 Bologna to attend the <Tooltip word="Coronation"
 							def="The act or occasion of crowning" ><p class="md:text-[20px] text-[18px] lg:text-[24px]">coronation</p></Tooltip
@@ -90,7 +90,7 @@
 	>
 		<div class="flex flex-col items-center justify-center sm:my-0 sm:flex-row sm:px-0 ">
 			<img src="../../content/rudy-placeholder.jpg" alt="tbd" class="dog  h-[75vh]" />
-			<Card class=" m-0 md:m-4 lg:m-12 xl:m-24  md:text-[20px] text-[18px] lg:text-[24px] ">
+			<TextCard class=" m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 md:text-[20px] text-[18px] lg:text-[24px]">
 					Experience the event from multiple perspectives — that of a member of the imperial papal
 					court, a 
 						<Tooltip word="Basilica"
@@ -100,7 +100,7 @@
 					official, or a Bolognese citizen. Hear music performed during the ceremony as recorded by
 					Ensemble Origo. Call up scholarly annotations to explore the layers of meaning embedded in
 					the art, architecture, and various ceremonial objects present in the scene.
-			</Card>
+			</TextCard>
 		</div>
 	</Background>
 	<Background
@@ -108,7 +108,7 @@
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center sm:my-0 sm:flex-row sm:px-0 image-description">
-				<Card class="m-0 md:m-4 lg:m-18 xl:m-24  md:text-[20px] text-[18px] lg:text-[24px]" light>
+				<TextCard class="m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 md:text-[20px] text-[18px] lg:text-[24px]" light>
 					<div class="">
 					<p class="">
 						Charles V|R offers a multi-modal window into this event of world-historical importance
@@ -120,7 +120,7 @@
 						<Button title="Download" path="2"/>
 					</div>
 					</div>
-				</Card>
+				</TextCard>
 			<img src="../../content/rudy-placeholder-2.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
@@ -129,7 +129,7 @@
 		<div class="flex items-center justify-center gap-10 bg-cover bg-center">
 			<Card  class="w-[100%] md:w-[80%]">
 				<div class="p-4">
-					<h1 class="m-4 text-center text-6xl text-white"><strong>Credits</strong></h1>
+					<h1 class="m-4 text-center text-4xl text-white"><strong>Credits</strong></h1>
 					<img
 						class="mx-auto my-20 hidden  w-[50%] md:block"
 						src="../../logos/greenhouselogowhite.png"
@@ -157,7 +157,7 @@
 	class="">
 		<div class=" flex flex-col items-center justify-center gap-10 bg-cover bg-center">
 			<Card light class="flex flex-col ">
-				<h1 class="my-10 text-center text-6xl mb-20 ">
+				<h1 class="my-10 text-center text-4xl mb-20 ">
 					<strong>Partners</strong>
 				</h1>
 				<div
@@ -200,7 +200,7 @@
 	}
 
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 639px) {
 		.dog {
 			aspect-ratio: auto;
 			width: 100%;

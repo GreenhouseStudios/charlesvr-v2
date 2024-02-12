@@ -15,7 +15,7 @@
 	<Background
 		scrim="maroonblack" opacity1="7" opacity2="7"
 		src="../../backgrounds/fabric.jpg"
-		class="flex flex-col justify-center items-center md:space-y-24 md:py-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-center items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64"
 	>
 		<Card class=" ">
 			<div class="w-full  ">
@@ -76,7 +76,7 @@
 	<Background
 		src="../../backgrounds/sackofrome.jpg"
 		parallax
-		class="flex flex-col justify-center items-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-center items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64"
 		scrim="maroonblack" opacity1="8" opacity2="5"
 	>
 		<Card class="" >

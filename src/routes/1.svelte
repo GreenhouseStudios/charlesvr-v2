@@ -1,5 +1,4 @@
 <script>
-	import Transition from '../components/transition.svelte';
 	import BioCard from '../components/bio-card.svelte';
 	import ChapterButton from '../components/chapter-button.svelte';
 	import Background from '../components/background.svelte';
@@ -7,7 +6,9 @@
 	import SectionHero from '../components/section-hero.svelte';
 	import Tooltip from '../components/tooltip.svelte';
 	import Footer from '../components/footer.svelte';
-	import ImageCardColor from '../components/image-card-color.svelte';
+	import TextCard from '../components/text-card.svelte';
+	import ImageCard from '../components/image-card.svelte';
+
 	
 </script>
 
@@ -25,7 +26,7 @@
 		opacity1="7"
 		opacity2="2"
 		src="../../backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
-		class="flex-col justify-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64"
+		class="flex flex-col-reverse items-center justify-center xl:p-24 xl:py-32 2xl:h-screen 2xl:p-32 2xl:px-64"
 	>
 		<Card class="">
 			On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
@@ -123,8 +124,8 @@
 	>
 		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
 			<div>
-				<Card class="" light>
-					<h2 class="my-12 text-center font-bold text-4xl text-black md:text-5xl ">
+				<TextCard class="" light>
+					<h2 class="mb-12 text-center font-bold text-4xl text-black ">
 						Dual Coronations
 					</h2>
 					<div class="mb-5">
@@ -153,17 +154,19 @@
 							numeral="II"
 							chapter="Who Was Charles V?"
 							path="2"
-							class="my-10 justify-center"
+							class="mt-10 justify-center"
 						/>
 					</div>
-				</Card>
+				</TextCard>
 			</div>
-			<ImageCardColor
-				class="flex h-full items-center justify-center"
-				src="../../content/dualcoronations.png"
-				light
-				citation=""
-			/>
+			<ImageCard
+			src="../../content/dualcoronations.png"
+			citation=""
+			class=""
+			width="max-w-[500px]"
+			light
+			caption="VR recreation of the wooden platform in San Petronio"
+		/>
 		</div>
 		<!-- <div class="col-span-2 mx-auto">
 			<ChapterButton numeral="II" chapter="Who Was Charles V?" path="2" />
@@ -178,7 +181,7 @@
 	>
 		<div class="flex flex-col-reverse">
 			<div>
-				<Card class="" light>
+				<TextCard class="" light>
 					<h2 class="m-12 text-center text-2xl text-black md:text-4xl ">
 						<strong>Dual Coronations</strong>
 					</h2>
@@ -191,15 +194,16 @@
 						as Emperor of the Romans in Rome under the pope’s hand. From 962 until 1530, in principle
 						each ruler of the Holy Roman Empire was to receive both a royal and an imperial coronation.
 					</div>
-					</Card>
-					<ImageCardColor
-					class="flex h-full items-center justify-center"
+					</TextCard>
+					<ImageCard
 					src="../../content/dualcoronations.png"
-					light
 					citation=""
-					width="sm:w-1/3"
+					class=""
+					width="max-w-[500px]"
+					light
+					caption="VR recreation of the wooden platform in San Petronio"
 				/>
-					<Card class="" light>
+					<TextCard class="" light>
 					<div class="flex flex-col items-center">
 						<div>
 							During these five and a half centuries, these dual coronations served to ease two
@@ -220,7 +224,7 @@
 							class="my-10 justify-center"
 						/>
 					</div>
-				</Card>
+				</TextCard>
 			</div>
 		</div>
 	</Background>

@@ -43,7 +43,7 @@
 	scrim="light"
 	opacity1="7"
 	opacity2="5"
-	class="flex flex-col justify-center items-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed"
+	class="flex flex-col justify-center 2xl:h-screen items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed"
 >
 	<Card class="" light>
 		Music was extremely important to the ceremony and to the culture and politics of the
@@ -119,7 +119,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 	>
 		<source src="../../backgrounds/choirman2.mp4" type="video/mp4" />
 	</video>
-	<Background src="" class="flex flex-col justify-center items-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64" scrim="maroon" opacity1="7" opacity2="5">
+	<Background src="" class="flex flex-col justify-center items-center 2xl:h-screen xl:p-24 xl:py-32 2xl:p-32 2xl:px-64" scrim="maroon" opacity1="7" opacity2="5">
 		<Card class="" >
 			Other aspects of the event demonstrate the ways in which music was put to political purposes
 			in the coronation. Because the <Tooltip word="Retinues" def="A group of retainers or attendants" light>retinues</Tooltip> of both the pope and the emperor were in attendance at
@@ -138,7 +138,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 		scrim="light"
 		opacity1="7"
 		opacity2="5"
-		class="flex flex-col justify-center items-center md:space-y-24 md:py-32 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-center 2xl:h-screen items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64"
 	>
 		<Card class="" light>
 			Festa’s contribution was the six-voice motet, Ecce advenit dominator. It is preserved in a
