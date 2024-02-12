@@ -68,6 +68,15 @@
 </div>
 
 <style>
+	@media screen and (max-width: 640px) {
+			.horizontal-line-white {
+				width: 500px;	
+			}
+			 .horizontal-line-black {
+			width: 500px;
+
+		}
+	}
 	.horizontal-line-black {
 		border: 1px solid black;
 		width: 75px;
