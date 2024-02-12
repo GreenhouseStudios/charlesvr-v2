@@ -2,9 +2,12 @@
 	import 'material-icons/iconfont/material-icons.css';
 	export let title;
 	export let path;
+	export let classes = '';
+	export { classes as class };
 </script>
 
-<div class="flex items-center sm:w-max">
+<div class={"flex items-center sm:w-max" +
+classes}>
 	<a
 		id="button"
 		class="group flex flex-row items-center justify-center rounded-xl p-3 shadow-black/30   sm:gap-6 w-[225px]"
