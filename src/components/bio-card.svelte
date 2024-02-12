@@ -44,7 +44,7 @@ class={
 				<div class="side flex flex-col ds" transition:flip>
 					<div class={"side flex flex-col p-4 sm:p-6 text-center rounded-2xl drop-shadow-md" + (light
 					? '  bg-[#f3cd7a]'
-					: '  bg-[#401323] ')}>
+					: '  bg-[#2c0c17] ')}>
 						<strong class="text-[20px] sm:text-4xl">{name}</strong>
 						<div class="m-0 text-[16px] sm:text-[18px] italic mb-1 sm:mb-8 sm:m-4">{years}</div>
 						<div class="space-y-2  text-[14px] sm:text-[16px] sm:leading-12 sm:space-y-8">
@@ -78,7 +78,7 @@ class={
 	}
 
 	.flip:hover {
-		transform: scale(1.25)
+		transform: scale(1.15)
 	}
 	.flip-mobile:active {
 		transition: bounce 0.25s ease-in-out;
