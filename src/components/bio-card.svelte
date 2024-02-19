@@ -45,9 +45,9 @@ class={
 					<div class={"side flex flex-col p-4 sm:p-6 text-center rounded-2xl drop-shadow-md" + (light
 					? '  bg-[#f3cd7a]'
 					: '  bg-[#2c0c17] ')}>
-						<strong class="text-[20px] sm:text-4xl">{name}</strong>
-						<div class="m-0 text-[16px] sm:text-[18px] italic mb-1 sm:mb-8 sm:m-4">{years}</div>
-						<div class="space-y-2  text-[14px] sm:text-[16px] sm:leading-12 sm:space-y-8">
+						<strong class="text-[16px] sm:text-4xl">{name}</strong>
+						<div class="m-0 text-[14x] sm:text-[18px] italic mb-1 sm:mb-4 sm:m-2">{years}</div>
+						<div class="space-y-2  text-[12px] sm:text-[16px] sm:leading-12 sm:space-y-8">
 							<slot />
 						</div>
 					</div>
