@@ -25,7 +25,7 @@
 
 			</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] hover:text-gold-500 group-hover:opacity-100"
+				class="h-0 text-center  text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] hover:text-gold-500 group-hover:opacity-100"
 			>
 				Introduction to Charles V|R
 			</div>
@@ -37,7 +37,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/1'}">I</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight  opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				The Coronation in Context
 			</div>
@@ -49,7 +49,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/2'}">II</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight  opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				Who Was Charles V?
 			</div>
@@ -61,7 +61,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/3'}">III</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				An Imperial Coronation in Bologna
 			</div>
@@ -73,7 +73,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/4'}">IV</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				A Focus on Music
 			</div>
@@ -85,7 +85,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/5'}">V</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				A Melancholy Mass
 			</div>
@@ -97,7 +97,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/6'}">VI</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				The Charles V|R Experience
 			</div>
