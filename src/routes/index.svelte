@@ -55,7 +55,7 @@
 			/>
 			<div class="mt-32 sm:max-w-[70%]">
 				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
-				<div class="mx-auto mt-5 text-center text-[18px] md:text-[32px] font-medium text-[#4D1B2C] sm:text-3xl sm:w-full ">
+				<div class="mx-auto mt-5 text-center text-[18px] md:text-[24px] font-medium text-[#4D1B2C]  sm:w-full ">
 					Experience the Imperial Coronation of Holy Roman Emperor Charles V
 				</div>
 			</div>
@@ -68,16 +68,16 @@
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center justify-center  sm:my-0 sm:flex-row  sm:px-0 ">
-				<TextCard light class="m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 md:text-[20px] text-[18px] lg:text-[24px]">
+				<TextCard light class="m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 text-[14px] md:text-[16px] lg:text-[22px]">
 					<p class="">
 						Travel to 1530 Bologna to attend the <Tooltip word="Coronation"
-							def="The act or occasion of crowning" ><p class="md:text-[20px] text-[18px] lg:text-[24px]">coronation</p></Tooltip
+							def="The act or occasion of crowning" ><p class="text-[14px] md:text-[16px] lg:text-[22px]">coronation</p></Tooltip
 						> mass of the Holy Roman Emperor, Charles V, in this virtual reality recreation of San Petronio.
 						The details of the coronation reflect the social and political turmoil of the times; the
 						experience itself recreates the sights and sounds of this religious and political ceremony
 						using <Tooltip
 							word="Contemporaneous" def="Existing, occurring, or originating during the same time
-					"><p class="md:text-[20px] text-[18px] lg:text-[24px]">contemporaneous</p></Tooltip
+					"><p class="text-[14px] md:text-[16px] lg:text-[22px]">contemporaneous</p></Tooltip
 						> accounts, artwork, and music as source material.
 					</p>
 				</TextCard>
@@ -90,12 +90,12 @@
 	>
 		<div class="flex flex-col items-center justify-center sm:my-0 sm:flex-row sm:px-0 ">
 			<img src="../../content/rudy-placeholder.jpg" alt="tbd" class="dog  h-[75vh]" />
-			<TextCard class=" m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 md:text-[20px] text-[18px] lg:text-[24px]">
+			<TextCard class=" m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 text-[14px] md:text-[16px] lg:text-[22px]">
 					Experience the event from multiple perspectives — that of a member of the imperial papal
 					court, a 
 						<Tooltip word="Basilica"
 						def="A Roman Catholic church given ceremonial privileges"
-						light><p class="md:text-[20px] text-[18px] lg:text-[24px]">basilica</p>
+						light><p class="text-[14px] md:text-[16px] lg:text-[22px]">basilica</p>
 						</Tooltip> 
 					official, or a Bolognese citizen. Hear music performed during the ceremony as recorded by
 					Ensemble Origo. Call up scholarly annotations to explore the layers of meaning embedded in
@@ -108,7 +108,7 @@
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center sm:my-0 sm:flex-row sm:px-0 image-description">
-				<TextCard class="m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 md:text-[20px] text-[18px] lg:text-[24px]" light>
+				<TextCard class="m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 text-[14px] md:text-[16px] lg:text-[22px]" light>
 					<div class="">
 					<p class="">
 						Charles V|R offers a multi-modal window into this event of world-historical importance
@@ -144,7 +144,7 @@
 					<div class="grid sm:grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
 						{#each people as person}
 							<div class="text-center text-white">
-								<div class=" leading-10 text-[18px] md:text-[22px]"><strong>{person.personName}</strong></div>
+								<div class=" leading-10 text-[18px] md:text-[22px]  font-normal"><strong>{person.personName}</strong></div>
 								<div class="mb-5 text-[16px] leading-5">{person.personTitle}</div>
 							</div>
 						{/each}
