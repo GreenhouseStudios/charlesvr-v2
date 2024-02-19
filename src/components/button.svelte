@@ -10,39 +10,44 @@
 classes}>
 	<a
 		id="button"
-		class="group flex flex-row items-center justify-center rounded-xl p-3 shadow-black/30   sm:gap-6 w-[225px]"
+		class="group flex flex-row items-center justify-center rounded-3xl p-3 shadow-black/30   sm:gap-6 w-[225px] group-hover:text-gold-400"
 		href={path}
 	>
 
-		<p class=" text-xl text-white title p-2">
+		<p class=" text-[18px] sm:text-xl text-white title p-2 group-hover:text-gold-400 " id="button-title">
 			{title} 	
 		</p>
-		<span class="material-icons">chevron_right</span>
+		<span class="material-icons  group-hover:text-gold-400">chevron_right</span>
 		</a>
 </div>
 
 <style>
-	#button {
+
+#button {
 		/* background: linear-gradient(to left, #401221 50%, rgb(84, 24, 44) 50%); */
 		background-size: 200% 100%;
 		background-position: right bottom;
-		border: #F6C869 3px solid;
-		background: #401421
-		}
-
-	.material-icons{
-		color: #F6C869;
-		font-size: 48px;
+		border: #F6C869 5px solid;
+		background: #54182c;
 	}
 
 	#button:hover {
 		background-position: left bottom;
-		background: #54182c;
+		background-color: #401421	
+	}
+
+		p {
+			font-family: "Roboto";
+		}
+
+	.material-icons{
+		color: white;
+		font-size: 42px;
 	}
 
 
 
-	@media screen and (max-width: 650px) {
+	@media screen and (max-width: 640px) {
 
   #button {
 	display:flex;
@@ -53,8 +58,7 @@ classes}>
   }
 
   .material-icons{
-		color: #F6C869;
-		font-size: 36px;
+		font-size: 32px;
 	}
 }
 </style>
