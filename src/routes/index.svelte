@@ -7,6 +7,7 @@
 	import ChapterButton from '../components/chapter-button.svelte';
 	import Footer from './../components/footer.svelte';
 	import Button from './../components/button.svelte';
+	import MetaButton from './../components/meta-button.svelte';
 	let people = [
 		{ personName: 'Jonathan Ampiaw', personTitle: 'MFA ‘20 Digital Media & Design' },
 		{ personName: 'Clarissa Ceglio', personTitle: 'Greenhouse Studios Associate Director of Research' },
@@ -81,7 +82,7 @@
 						> accounts, artwork, and music as source material.
 					</p>
 				</TextCard>
-			<img src="../../content/rudy-placeholder-4.jpg" alt="tbd" class="dog h-[75vh]" id="text-content" />
+			<img src="../../screenshots/screen2.jpg" alt="tbd" class="dog h-[75vh]" id="text-content" />
 		</div>
 	</Background>
 	<Background
@@ -89,7 +90,7 @@
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col items-center justify-center sm:my-0 sm:flex-row sm:px-0 ">
-			<img src="../../content/rudy-placeholder.jpg" alt="tbd" class="dog  h-[75vh]" />
+			<img src="../../screenshots/screen3.jpg" alt="tbd" class="dog  h-[75vh]" />
 			<TextCard class=" m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 text-[14px] md:text-[16px] lg:text-[22px]">
 					Experience the event from multiple perspectives — that of a member of the imperial papal
 					court, a 
@@ -117,11 +118,11 @@
 					</p>
 					<div class="mt-10 flex gap-5 md:gap-10 flex-col md:flex-row items-center justify-center">
 						<Button title="Learn More" path="1"/>
-						<Button title="Download" path="2"/>
+						<MetaButton text="Try on Meta Quest"/>
 					</div>
 					</div>
 				</TextCard>
-			<img src="../../content/rudy-placeholder-2.jpg" alt="tbd" class="dog h-[75vh]" />
+			<img src="../../screenshots/screen1.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
 	<Background 	src="../../backgrounds/light-maroon-background.png"
