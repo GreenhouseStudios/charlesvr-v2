@@ -20,20 +20,21 @@
 
 <span
 	class={(light
-		? 'tooltip text-[#F9F4E8] text-[18px] md:text-[20px] lg:text-[22px]'
-		: ' tooltip text-[#1C0A10] text-[18px] md:text-[20px] lg:text-[22px]') + classes}
+		? 'tooltip text-[#F9F4E8] text-[16px] md:text-[18px] lg:text-[20px]'
+		: ' tooltip text-[#1C0A10] text-[16px] md:text-[18px] lg:text-[20px]') + classes}
 >
 	<strong on:click={toggle}>
 		<slot />
 		<span class={(light
 			? 'tooltiplight tooltiptext'
-			: ' tooltipdark tooltiptext') + classes}> <strong>{word}:</strong> <span class="font-thin">{def}</span></span>
+			: ' tooltipdark tooltiptext') + classes}> <strong>{word}:</strong> <span>{def}</span></span>
 	</strong>
 </span>
 <style>
 	
-
-
+strong {
+	font-weight: 600;
+}
 .tooltip {
 		cursor: pointer;
 		position: relative;
@@ -47,13 +48,14 @@
 		color: black;
 		border-radius: 6px;
 		position: absolute;
-		padding: 10px;
+		padding: 12px;
 		z-index: auto;
-		width: 200px;
+		width: 250px;
 	    bottom: 30px; 
 		left: -25px;
-		line-height: 1.1;
-		font-size: 18px;
+		line-height: 1.35;
+		font-size: 16px;
+		font-weight: 300;
 	}
 
 	.tooltiplight{
@@ -62,7 +64,7 @@
 	}
 
 	.tooltipdark{
-		background-color: rgb(0, 0, 0);
+		background-color:#54182c;
 		color: rgb(255, 255, 255);
 	}
 

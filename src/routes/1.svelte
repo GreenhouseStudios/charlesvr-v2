@@ -1,5 +1,4 @@
 <script>
-	import Transition from '../components/transition.svelte';
 	import BioCard from '../components/bio-card.svelte';
 	import ChapterButton from '../components/chapter-button.svelte';
 	import Background from '../components/background.svelte';
@@ -7,7 +6,9 @@
 	import SectionHero from '../components/section-hero.svelte';
 	import Tooltip from '../components/tooltip.svelte';
 	import Footer from '../components/footer.svelte';
-	import ImageCardColor from '../components/image-card-color.svelte';
+	import TextCard from '../components/text-card.svelte';
+	import ImageCard from '../components/image-card.svelte';
+
 	
 </script>
 
@@ -21,12 +22,11 @@
 		class="backdrop-brightness-50"
 	/>
 	<Background
-		parallax
 		scrim="maroon"
 		opacity1="7"
 		opacity2="2"
 		src="../../backgrounds/Bologna_Italy_San_Petronio_from_Asinelli.jpg"
-		class="flex-col justify-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col-reverse items-center justify-center xl:p-24 xl:py-32 2xl:h-screen 2xl:p-32 2xl:px-64"
 	>
 		<Card class="">
 			On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
@@ -53,7 +53,7 @@
 		opacity2="8"
 		class="flex flex-col bg-center	"
 	>
-		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]  ">
+		<div class="flex flex-col items-center lg:grid lg:grid-cols-[1fr_1fr]  ">
 			<Card class="" light>
 				The Holy Roman Empire was an idealized re-establishment of the realm of <strong
 					>Charlemagne</strong
@@ -92,7 +92,7 @@
 		opacity2="9"
 		class="flex flex-col bg-center	"
 	>
-		<div class="flex flex-col items-center lg:grid lg:grid-cols-[1fr_1fr]">
+		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
 			<BioCard
 				name="Otto I"
 				src="../../character-cards/Otto-card.jpg"
@@ -120,13 +120,13 @@
 		scrim="light"
 		opacity1="9"
 		opacity2="7"
-		class="flex flex-col"
+		class=" lg:flex-col hidden lg:flex"
 	>
 		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
 			<div>
-				<Card class="" light>
-					<h2 class="m-12 text-center text-4xl text-black md:text-6xl ">
-						<strong>Dual Coronations</strong>
+				<TextCard class="" light>
+					<h2 class="mb-12 text-center font-bold text-4xl text-black ">
+						Dual Coronations
 					</h2>
 					<div class="mb-5">
 						Symbolically and politically, this relationship was marked in two coronations. The first
@@ -154,21 +154,79 @@
 							numeral="II"
 							chapter="Who Was Charles V?"
 							path="2"
-							class="my-10 justify-center"
+							class="mt-10 justify-center"
 						/>
 					</div>
-				</Card>
+				</TextCard>
 			</div>
-			<ImageCardColor
-				class="flex h-full items-center justify-center"
-				src="../../content/dualcoronations.png"
-				light
-				citation=""
-			/>
+			<ImageCard
+			src="../../content/dualcoronations.png"
+			citation=""
+			class=""
+			width="max-w-[500px]"
+			light
+			caption="VR recreation of the wooden platform in San Petronio"
+		/>
 		</div>
 		<!-- <div class="col-span-2 mx-auto">
 			<ChapterButton numeral="II" chapter="Who Was Charles V?" path="2" />
 		</div> -->
+	</Background>
+	<Background
+		src="../../backgrounds/damask_albedo-01.svg"
+		scrim="light"
+		opacity1="9"
+		opacity2="7"
+		class="flex flex-col  lg:hidden"
+	>
+		<div class="flex flex-col-reverse">
+			<div>
+				<TextCard class="" light>
+					<h2 class="m-12 text-center text-2xl text-black md:text-4xl ">
+						<strong>Dual Coronations</strong>
+					</h2>
+					<div class="mb-5">
+						Symbolically and politically, this relationship was marked in two coronations. The first
+						was a royal coronation as King of the Germans by the <Tooltip
+							word="Ducal" def="The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
+							>ducal</Tooltip
+						> electors in Charlemagne’s old capital, Aachen. The second was an imperial, or papal, coronation
+						as Emperor of the Romans in Rome under the pope’s hand. From 962 until 1530, in principle
+						each ruler of the Holy Roman Empire was to receive both a royal and an imperial coronation.
+					</div>
+					</TextCard>
+					<ImageCard
+					src="../../content/dualcoronations.png"
+					citation=""
+					class=""
+					width="max-w-[500px]"
+					light
+					caption="VR recreation of the wooden platform in San Petronio"
+				/>
+					<TextCard class="" light>
+					<div class="flex flex-col items-center">
+						<div>
+							During these five and a half centuries, these dual coronations served to ease two
+							important political tensions: the role of the German electors in choosing their leader
+							versus traditions of <Tooltip word="Primogeniture"
+								def="An exclusive right of inheritance belonging to the eldest son"
+								>primogeniture</Tooltip
+							> and the role of papal, or sacred, power versus imperial, or secular, power. While every
+							Christian coronation ceremony aims to affirm the new monarch’s power as God-given, the
+							particular tension between these political elements in the German realm made such an affirmation
+							of paramount importance. These twin ceremonies were thus charged with meaning, elevating
+							the emperor as the primary defender of the Christian faith, just as Charlemagne had been.
+						</div>
+						<ChapterButton
+							numeral="II"
+							chapter="Who Was Charles V?"
+							path="2"
+							class="my-10 justify-center"
+						/>
+					</div>
+				</TextCard>
+			</div>
+		</div>
 	</Background>
 	<Footer />
 </body>

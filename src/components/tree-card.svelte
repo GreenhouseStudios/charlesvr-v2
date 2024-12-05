@@ -14,13 +14,13 @@
 	{/if}
 	<div class="shadow-lg  rounded-sm">
 		<img {src} {alt} class="rounded-t" />
-		<div class="rounded-b px-2 background">
+		<div class="rounded-b px-2 background text-[14px]">
 			<div class="md:block hidden">
 			<div class="flex flex-col items-center text-center p-2 text-[#fec755]">
 				<div class="leading-tight tracking-wide">
 					{name}
 				</div>
-				<em>{years}</em>
+				<em class="text-[13px]">{years}</em>
 				<p class="material-icons"><a href="{citation}">menu_book</a></p>
 			</div>
 		</div>

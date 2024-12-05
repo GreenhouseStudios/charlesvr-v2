@@ -13,10 +13,9 @@
 <Transition>
 	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charlesedit.jpg" scrim="blackgold" opacity1="5" opacity2="7" class="" />
 	<Background
-		parallax
 		scrim="maroonblack" opacity1="7" opacity2="7"
 		src="../../backgrounds/fabric.jpg"
-		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
+		class="flex flex-col justify-center items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64"
 	>
 		<Card class=" ">
 			<div class="w-full  ">
@@ -46,12 +45,12 @@
 		opacity2="8"
 		class="flex h-full flex-col "
 	>
-		<div class=" flex flex-col-reverse lg:grid items-center lg:grid-cols-[1fr_1fr]">
-			<Card light class="m-24 p-4 md:p-16 text-[18px] leading-relaxed  md:text-[20px] lg:text-[24px]">
+		<div class=" flex flex-col lg:grid items-center lg:grid-cols-[1fr_1fr]">
+			<Card light class="m-24 p-4 md:p-16 leading-relaxed ">
 					Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
 				grandfather, Holy Roman Emperor Maximilian I. He was selected over other possible candidates
-				such as King Henry VIII of England, King Francis I of France, and Frederick the Wise, the
+				such as King Henry VIII of England, <strong>King Francis I</strong> of France, and Frederick the Wise, the
 				duke of Saxony. Following his royal coronation in Aachen in 1520, he did what many of these
 				other European rulers feared he would: he joined his grandfather’s Holy Roman Empire with
 				his mother’s kingdoms of Spain and the Netherlands.
@@ -77,8 +76,8 @@
 	<Background
 		src="../../backgrounds/sackofrome.jpg"
 		parallax
-		class="flex flex-col justify-center items-center md:space-y-24 md:p-16 2xl:p-32 2xl:px-64"
-		scrim="maroonblack" opacity1="8" opacity2="8"
+		class="flex flex-col justify-center items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64"
+		scrim="maroonblack" opacity1="8" opacity2="5"
 	>
 		<Card class="" >
 				Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
@@ -100,7 +99,7 @@
 			unrest associated with the beginning of the Protestant Reformation, was the context in which
 			choices about the setting and music for the imperial coronation were made.
 		</Card>
-		<ChapterButton numeral="III" chapter="An Imperial Coronation in Bologna" path="3" class="mb-12" />
+		<ChapterButton numeral="III" chapter="Next Chapter" path="3" class="mb-12" />
 	</Background>
 </Transition>
 <Footer></Footer>

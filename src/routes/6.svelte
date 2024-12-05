@@ -45,7 +45,7 @@
 		scrim="light"
 		opacity1="9"
 		opacity2="7"
-		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 		<div class="m-auto grid w-2/3 grid-cols-2 place-items-center gap-16 p-10 md:order-last">
 			<div class="flex flex-col items-center">
@@ -82,7 +82,7 @@
 		scrim="maroon"
 		opacity1="8"
 		opacity2="5"
-		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 		<img
 			src="../../backgrounds/crown.png"
@@ -100,7 +100,7 @@
 	</Background>
 	<Background
 		src="../../backgrounds/light-background.png"
-		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
+		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 		<TextCard class="" light>
 			The three other characters all experience different levels of understanding in regard to the

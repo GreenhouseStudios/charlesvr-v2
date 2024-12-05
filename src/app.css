@@ -4,7 +4,15 @@
 
 @layer base {
 	html {
-		font-family: 'EB Garamond', serif;
+		font-family: 'Roboto Serif', serif;
 		background: black;
+	}
+
+	#button-title, #button {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.numeral {
+		font-family: 'Roboto Serif', serif;	
 	}
 }

@@ -1,13 +1,12 @@
 <script>
-	export let show = false;
-	export let light = false;
 	import { modalText, modalState } from '../store/store';
+	import {clickOutside} from '../store/store';
 	import 'material-icons/iconfont/material-icons.css';
-	import { XCircleIcon } from 'svelte-feather-icons';
 	let modalTextValue;
 	let modalStateValue;
 	let definition
 	let word
+
 	modalText.subscribe((value) => {
 		modalTextValue = value;
 	   word = modalTextValue.split(':')[0]
@@ -28,12 +27,12 @@
 			{#if modalTextValue.includes("/")}
 			<div class="modal-container-image">
 				<div class="modal-image">
-					<div class="relative flex flex-row-reverse left-7 m-5">
-			<span class="material-symbols-outlined close-btn-image hover:cursor-pointer bg-black" on:click={closeModal}>
+			<span class="material-symbols-outlined close-btn-image hover:cursor-pointer bg-black " on:click={closeModal}>
 				cancel
 				</span>
+				<div use:clickOutside on:click_outside={closeModal}>
 			<img src={modalTextValue} class="zoom-image " alt="">
-			</div>
+		</div>
 		</div>
 			</div>
 			{/if}
@@ -41,7 +40,7 @@
 			{#if modalTextValue.includes(":")}
 			
 			<div class="modal-container">
-				<div class="modal">
+				<div class="modal" use:clickOutside on:click_outside={closeModal}>
 			<div class="modal-text p-6">
 				<button class="close-btn" on:click={closeModal}><span class="material-symbols-outlined">
 					cancel
@@ -62,18 +61,19 @@ visibility: hidden;
 		}
 
 	.close-btn-image {
-		width: 40px;
+		min-width: 40px;
 		height: 40px;
-		position: relative;
-		top: 15px;
+		position: absolute;
 		font-size: 28px;
-		right: 50px;
+		right: 35px;
+		top: 35px;
 		z-index: 100;
 		color: white;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		border-radius: 10px;
+		z-index: 100;
 	}
 
 
@@ -81,10 +81,11 @@ visibility: hidden;
 		width: auto;
 		max-height: 100vh;
 		/* max-height: 70vh; */
-		position: relative;
+		position: absolute;
 		display: flex;	
 		justify-content: center;
 		align-items: center;
+		padding: 25px
 	}
 
 	.zoom-image {
@@ -114,8 +115,8 @@ visibility: hidden;
 		width: 30px;
 		height: 30px;
 		position: absolute;
-		top: 2px;
-		right: 0;
+		top: 5px;
+		right: 5px;
 	}
 	.modal {
 		max-width: 90%;
@@ -136,7 +137,7 @@ visibility: hidden;
 		backdrop-filter: blur(3px);
 		left: 0;
 		top: 0;
-		border-radius: 10px;
+		border-radius: 0px;
 		display: flex;
 		align-items: center;
 		justify-content: center;

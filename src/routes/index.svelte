@@ -2,8 +2,9 @@
 	import Transition from './../components/transition.svelte';
 	import Background from './../components/background.svelte';
 	import Card from './../components/card.svelte';
+	import TextCard from './../components/card.svelte';
 	import Tooltip from './../components/tooltip.svelte';
-	import Tooltiplarge from './../components/tooltip.svelte';
+	import ChapterButton from '../components/chapter-button.svelte';
 	import Footer from './../components/footer.svelte';
 	import Button from './../components/button.svelte';
 	let people = [
@@ -50,101 +51,92 @@
 				muted
 				loop
 				style="pointer-events: none;"
+				playsinline
 			/>
 			<div class="mt-32 sm:max-w-[70%]">
 				<img src="../../logos/charlesvr-newduotone.png" alt="Charles VR" class="drop-shadow-sm" />
-				<div class="  mx-auto mt-5 text-center text-[18px] font-medium text-[#4D1B2C] sm:text-3xlsm:w-full ">
+				<div class="mx-auto mt-5 text-center text-[18px] md:text-[24px] font-medium text-[#4D1B2C]  sm:w-full ">
 					Experience the Imperial Coronation of Holy Roman Emperor Charles V
 				</div>
 			</div>
 			<br />
-			<img src="../../content/down-arrow.png" class="arrow bounce h-[50px] md:h-[75px]" alt="bouncing arrow pointing to scroll down the page">
+			<a href="#text-content"><img src="../../content/down-arrow.png" class="arrow bounce h-[50px] md:h-[75px]" alt="bouncing arrow pointing to scroll down the page"></a>
 		</div>
 	</Background>
 	<Background
-		src=""
-		scrim="light"
-		opacity1="9"
-		opacity2="9"
+		src="../../backgrounds/light-background.png"
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center justify-center  sm:my-0 sm:flex-row  sm:px-0 ">
-				<Card light class="m-0 md:m-0 lg:m-18 xl:m-28 ">
-					<p class="pb-12 sm:pb-0 md:text-[22px] text-[20px] lg:text-[28px]">
+				<TextCard light class="m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 text-[14px] md:text-[16px] lg:text-[22px]">
+					<p class="">
 						Travel to 1530 Bologna to attend the <Tooltip word="Coronation"
-							def="The act or occasion of crowning" ><p class="md:text-[22px] text-[20px] lg:text-[28px]">coronation</p></Tooltip
+							def="The act or occasion of crowning" ><p class="text-[14px] md:text-[16px] lg:text-[22px]">coronation</p></Tooltip
 						> mass of the Holy Roman Emperor, Charles V, in this virtual reality recreation of San Petronio.
 						The details of the coronation reflect the social and political turmoil of the times; the
 						experience itself recreates the sights and sounds of this religious and political ceremony
 						using <Tooltip
 							word="Contemporaneous" def="Existing, occurring, or originating during the same time
-					"><p class="md:text-[22px] text-[20px] lg:text-[28px]">contemporaneous</p></Tooltip
+					"><p class="text-[14px] md:text-[16px] lg:text-[22px]">contemporaneous</p></Tooltip
 						> accounts, artwork, and music as source material.
 					</p>
-				</Card>
-			<img src="../../content/rudy-placeholder-4.jpg" alt="tbd" class="dog h-[75vh]" />
+				</TextCard>
+			<img src="../../content/rudy-placeholder-4.jpg" alt="tbd" class="dog h-[75vh]" id="text-content" />
 		</div>
 	</Background>
 	<Background
-		src=""
-		scrim="maroon"
-		opacity1="9"
-		opacity2="9"
+	src="../../backgrounds/light-maroon-background.png"
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col items-center justify-center sm:my-0 sm:flex-row sm:px-0 ">
 			<img src="../../content/rudy-placeholder.jpg" alt="tbd" class="dog  h-[75vh]" />
-			<Card class=" m-0 md:m-4 lg:m-18 xl:m-28    md:text-[20px] text-[20px] lg:text-[28px] ">
-				<p class="pb-12 sm:pb-0">
+			<TextCard class=" m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 text-[14px] md:text-[16px] lg:text-[22px]">
 					Experience the event from multiple perspectives — that of a member of the imperial papal
 					court, a 
 						<Tooltip word="Basilica"
 						def="A Roman Catholic church given ceremonial privileges"
-						light><p class="md:text-[22px] text-[20px] lg:text-[28px]">basilica</p>
+						light><p class="text-[14px] md:text-[16px] lg:text-[22px]">basilica</p>
 						</Tooltip> 
 					official, or a Bolognese citizen. Hear music performed during the ceremony as recorded by
 					Ensemble Origo. Call up scholarly annotations to explore the layers of meaning embedded in
 					the art, architecture, and various ceremonial objects present in the scene.
-				</p>
-			</Card>
+			</TextCard>
 		</div>
 	</Background>
 	<Background
-		src=""
-		scrim="light"
-		opacity1="9"
-		opacity2="9"
+		src="../../backgrounds/light-background.png"
 		class="flex h-min flex-col items-center justify-center sm:h-[75vh]"
 	>
 		<div class="flex flex-col-reverse items-center sm:my-0 sm:flex-row sm:px-0 image-description">
-				<Card class="m-0 md:m-4 lg:m-18 xl:m-28  md:text-[20px] text-[20px] lg:text-[28px]" light>
-					<div class="pb-12 sm:pb-0">
+				<TextCard class="m-0 md:m-4 lg:m-10 xl:m-20 2xl:m-32 text-[14px] md:text-[16px] lg:text-[22px]" light>
+					<div class="">
 					<p class="">
 						Charles V|R offers a multi-modal window into this event of world-historical importance
 						for enthusiasts, students, and scholars of art, architecture, history, music, religion,
 						and virtual reality.
 					</p>
-					<div class="mt-10 flex gap-10">
-						<Button title="Read More" path="1"/>
+					<div class="mt-10 flex gap-5 md:gap-10 flex-col md:flex-row items-center justify-center">
+						<Button title="Learn More" path="1"/>
 						<Button title="Download" path="2"/>
 					</div>
 					</div>
-				</Card>
+				</TextCard>
 			<img src="../../content/rudy-placeholder-2.jpg" alt="tbd" class="dog h-[75vh]" />
 		</div>
 	</Background>
-	<Background src="" scrim="maroon" opacity1="9" opacity2="9" class="">
-		<div class="flex items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16 ">
+	<Background 	src="../../backgrounds/light-maroon-background.png"
+	 class="">
+		<div class="flex items-center justify-center gap-10 bg-cover bg-center">
 			<Card  class="w-[100%] md:w-[80%]">
 				<div class="p-4">
-					<h1 class="m-4 text-center text-6xl text-white"><strong>Credits</strong></h1>
+					<h1 class="m-4 text-center text-4xl text-white"><strong>Credits</strong></h1>
 					<img
 						class="mx-auto my-20 hidden  w-[50%] md:block"
 						src="../../logos/greenhouselogowhite.png"
 						alt="credits placeholder"
 					/>
 					<img
-						class=" mx-auto my-10 w-[25%] md:hidden"
+						class=" mx-auto my-10 w-[50%] md:hidden"
 						src="../../logos/greenhouse-square-logo.png"
 						alt="credits placeholder"
 					/>
@@ -152,8 +144,8 @@
 					<div class="grid sm:grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
 						{#each people as person}
 							<div class="text-center text-white">
-								<div class="mb-1 leading-10"><strong>{person.personName}</strong></div>
-								<div class="mb-5 text-[18px] leading-5">{person.personTitle}</div>
+								<div class=" leading-10 text-[18px] md:text-[22px]  font-normal"><strong>{person.personName}</strong></div>
+								<div class="mb-5 text-[16px] leading-5">{person.personTitle}</div>
 							</div>
 						{/each}
 					</div>
@@ -161,14 +153,15 @@
 			</Card>
 		</div>
 	</Background>
-	<Background src="" scrim="light" opacity1="9" opacity2="9" class="">
-		<div class=" flex flex-col items-center justify-center gap-10 bg-cover bg-center p-4 md:p-16">
-			<Card light class="flex flex-col  ">
-				<h1 class="my-10 text-center text-6xl text-[#54182c] md:mb-20 ">
+	<Background 		src="../../backgrounds/light-background.png"
+	class="">
+		<div class=" flex flex-col items-center justify-center gap-10 bg-cover bg-center">
+			<Card light class="flex flex-col ">
+				<h1 class="my-10 text-center text-4xl mb-20 ">
 					<strong>Partners</strong>
 				</h1>
 				<div
-					class="flex flex-col items-center justify-center gap-16 my-10 md:grid md:grid-cols-4"
+					class="flex flex-col items-center justify-center gap-16 mb-20 my-10 md:grid md:grid-cols-4"
 				>
 					<img
 						class="max-h-[100px] md:max-h-full p-2 "
@@ -183,6 +176,12 @@
 					<img class=" max-h-[125px] md:max-h-full p-2" src="../../logos/OrigoLogo.png" alt="credits placeholder" />
 					<img class=" max-h-[100px] md:max-h-full p-2" src="../../logos/kress-logo.png" alt="credits placeholder" />
 				</div>
+				<ChapterButton
+				numeral="I"
+				chapter="The Coronation in Context"
+				path="1"
+				class="my-10 justify-center text-center mx-auto"
+			/>
 			</Card>
 		</div>
 	</Background>
@@ -201,7 +200,7 @@
 	}
 
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 639px) {
 		.dog {
 			aspect-ratio: auto;
 			width: 100%;

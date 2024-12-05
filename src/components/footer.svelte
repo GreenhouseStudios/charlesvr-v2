@@ -3,8 +3,8 @@
 </script>
 <div class="bg-[#401421] flex flex-col items-center justify-center p-12">
 <img src="../../logos/charlesvr-lightgold.png" class="w-[300px]" alt="Charles VR Logo">
-<div class="flex items-center justify-center gap-5 m-5">
-<p class="text-[#F6C869] text-3xl">©</p>
+<div class="flex items-center justify-center gap-2 m-5">
+<p class="text-[#F6C869] text-2xl">©</p>
 <img src="../../logos/greenhouse-yellow.png" class="w-[250px]" alt="Greenhouse Studios Logo">
 </div>
 <div class="social-media-container">
@@ -28,7 +28,7 @@
 <style>
 .social-media-icons{
     color: #54182c;
-    background-color: #F6C869;
+    background-color: #f2dca1;
     padding: 5px;
    margin: 0px 25px;
    display: flex;
@@ -38,7 +38,7 @@
 }
 
 .social-media-icons:hover{
-    background-color: #98793a;
+    background-color: #F6C869;
 }
 
 .social-media-container{
