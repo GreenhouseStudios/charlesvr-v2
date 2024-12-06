@@ -4,7 +4,7 @@
 	export let classes = '';
 	export let text = '';
 	export { classes as class };
-    let imgSrc = "../../static/logos/meta.png";
+    let imgSrc = "../../logos/meta.png";
 	let link =
 		'https://www.meta.com/en-gb/experiences/charles-vr/5970368989647308/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect';
 </script>
