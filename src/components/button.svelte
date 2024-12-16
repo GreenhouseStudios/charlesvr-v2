@@ -10,14 +10,13 @@
 classes}>
 	<a
 		id="button"
-		class="group flex flex-row items-center justify-center rounded-3xl p-3 shadow-black/30   sm:gap-6 w-[225px] group-hover:text-gold-400"
+		class="group flex flex-row items-center justify-center rounded-3xl px-2 p-3 shadow-black/30   sm:gap-6 w-[225px] group-hover:text-gold-400"
 		href={path}
 	>
 
 		<p class=" text-[18px] sm:text-xl text-white title p-2 group-hover:text-gold-400 " id="button-title">
 			{title} 	
 		</p>
-		<span class="material-icons  group-hover:text-gold-400">chevron_right</span>
 		</a>
 </div>
 
@@ -45,7 +44,9 @@ classes}>
 		font-size: 42px;
 	}
 
-
+	.title {
+		font-weight: 500;
+	}
 
 	@media screen and (max-width: 640px) {
 

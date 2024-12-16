@@ -33,7 +33,7 @@
 <style>
 	
 strong {
-	font-weight: 600;
+	font-weight: 700;
 }
 .tooltip {
 		cursor: pointer;

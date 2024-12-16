@@ -42,25 +42,25 @@
 		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 			<div class="grid grid-cols-2 place-items-center gap-16 md:order-last p-10 w-2/3 m-auto">
-				<div class="flex flex-col items-center text-center text-[16px]">
+				<div class="flex flex-col items-center text-center text-[14px]">
 					<img src="../../content/pope.png" alt="" class="mb-2" />
 					<p class="leading-tight font-bold">
 					Pope Clement VII
 					</p>
 				</div>
-				<div class="flex flex-col items-center text-center text-[16px]">
+				<div class="flex flex-col items-center text-center text-[14px]">
 					<img src="../../content/choirsinger.png" alt="" class="mb-2" />
 					<p class="leading-tight font-bold">
 					Papal Choir Member
 					</p>
 				</div>
-				<div class="flex flex-col items-center text-center text-[16px]">
+				<div class="flex flex-col items-center text-center text-[14px]">
 					<img src="../../content/pope.png" alt="" class="mb-2" />
 					<p class="leading-tight font-bold">
 					Church Official
 					</p>
 				</div>
-				<div class="flex flex-col items-center text-center text-[16px]">
+				<div class="flex flex-col items-center text-center text-[14px]">
 					<img src="../../content/choirsinger.png" alt="" class="mb-2" />
 					<p class="leading-tight font-bold">
 					Church Attendee
@@ -134,7 +134,7 @@
 		The coronation mass would have been heard by many and seen directly by very few. Its sound and
 		its location were undoubtedly its most important features. Users can encounter both from
 		various points of view in the Charles V|R Experience.
-		<div class="my-3">
+		<div class="my-8">
 		<Button title="Placeholder" path="1"/>
 	</div>
 	</TextCard>
