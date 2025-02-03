@@ -20,10 +20,12 @@
 	>
 		<a href="/" data-chapter="1" class="my-6 flex flex-col justify-center pl-6">
 			<div class="mb-2 flex h-5 flex-col items-center">
-				<img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class="max-h-full" />
+				<img src="../../logos/charlesvr-lightgold.png" alt="Charles VR" class="max-h-full hidden sm:block" />
+				<img src="../../logos/charlesvr-shortened-newduotone.png" class="block sm:hidden w-3/4 mx-auto drop-shadow-md " alt="charles vr shortened logo">
+
 			</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] hover:text-gold-500 group-hover:opacity-100"
+				class="h-0 text-center  text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] hover:text-gold-500 group-hover:opacity-100"
 			>
 				Introduction to Charles V|R
 			</div>
@@ -35,7 +37,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/1'}">I</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight  opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				The Coronation in Context
 			</div>
@@ -47,7 +49,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/2'}">II</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight  opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				Who Was Charles V?
 			</div>
@@ -59,7 +61,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/3'}">III</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				An Imperial Coronation in Bologna
 			</div>
@@ -71,7 +73,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/4'}">IV</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				A Focus on Music
 			</div>
@@ -83,7 +85,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/5'}">V</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				A Melancholy Mass
 			</div>
@@ -95,7 +97,7 @@
 		>
 			<div class="text-center text-4xl" class:active="{$page.url.pathname==='/6'}">VI</div>
 			<div
-				class="h-0 text-center text-lg leading-none opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
+				class="h-0 text-center text-[14px] leading-tight opacity-0 transition-opacity delay-200 duration-[200ms] group-hover:opacity-100"
 			>
 				The Charles V|R Experience
 			</div>
@@ -103,8 +105,8 @@
 	</div>
 	<div id="nav-mobile" class="flex h-16 items-center justify-between pl-4 md:hidden">
 		<a href="/" class="flex h-full shrink py-5 pr-4">
-			<img src="..//logos/charlesvr-lightgold.png" alt="Charles VR" class=" h-full w-auto" />
-		</a>
+			<img src="../../logos/charlesvr-lightgold.png" alt="Charles VR" class="max-h-full hidden sm:block" />
+			<img src="../../logos/charlesvr-shortened-newduotone.png" class="block sm:hidden max-h-full drop-shadow-md " alt="charles vr shortened logo">		</a>
 		<div class="hamburger-menu">
 			<input id="menu__toggle" type="checkbox" checked={menuOpen} on:click={toggleMenu} />
 			<label class="menu__btn" for="menu__toggle">
@@ -114,7 +116,7 @@
 				<li>
 					<a class="" on:click={toggleMenu} href="/"
 						>
-					<img src="static/logos/charlesvr-lightgold.png" alt="Charles VR" class=" menu_icon" />
+					<img src="../../logos/charlesvr-lightgold.png" alt="Charles VR" class=" menu_icon" />
 					</a>
 				</li>
 				<br />
@@ -122,33 +124,34 @@
 					<div id="progress-bar" class="h-[8px] w-full " />
 				</div>
 				<br />
-				<li>
+				<!-- <li class:active-state="{$page.url.pathname==='/1'}"> -->
+					<li class:active-state="{$page.url.pathname==='/1'}">
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/1"
 						>I: The Coronation in Context</a
 					>
 				</li>
-				<li>
+				<li class:active-state="{$page.url.pathname==='/2'}" >
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/2"
 						>II: Who was Charles V?</a
 					>
 				</li>
-				<li>
-					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/3"
+				<li class:active-state="{$page.url.pathname==='/3'}">
+					<a class="menu__item hover:bg-maroon"  on:click={toggleMenu} href="/3"
 						>III: An Imperial Coronation in Bologna</a
 					>
 				</li>
-				<li>
-					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/4"
+				<li class:active-state="{$page.url.pathname==='/4'}">
+					<a class="menu__item hover:bg-maroon"  on:click={toggleMenu} href="/4"
 						>IV: A Focus on Music</a
 					>
 				</li>
-				<li>
+				<li class:active-state="{$page.url.pathname==='/5'}">
 					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/5"
 						>V: A Melancholy Mass</a
 					>
 				</li>
-				<li>
-					<a class="menu__item hover:bg-maroon" on:click={toggleMenu} href="/6"
+				<li class:active-state="{$page.url.pathname==='/6'}">
+					<a class="menu__item hover:bg-maroon"  on:click={toggleMenu} href="/6"
 						>VI: The Charles V|R Experience</a
 					>
 				</li>
@@ -247,9 +250,13 @@
 		padding: 25px 50px;
 		width: 75%;
 	}
+.active-state {
+	text-decoration: underline;
+	background-color: #401221;
+
+}
 
 .active {
 text-decoration: underline;
 }
-
 </style>

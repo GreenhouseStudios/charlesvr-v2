@@ -1,5 +1,6 @@
 <script>
 	export let def = 'definition of the word';
+	export let word = 'word';
 	export let light = false;
 	export let classes = '';
 	export { classes as class };
@@ -13,51 +14,27 @@
 
 	function toggle() {
 		if (!modalStateValue) modalState.set(true);
-		modalText.set(def);
+		modalText.set(`${word}:${def}`);
 	}
 </script>
 
 <span
 	class={(light
-		? 'tooltip text-[#F9F4E8] md:text-[24px] text-[18px]'
-		: ' tooltip text-[#1C0A10] md:text-[24px] text-[18px] ') + classes}
+		? 'tooltip text-[#F9F4E8] text-[16px] md:text-[18px] lg:text-[20px]'
+		: ' tooltip text-[#1C0A10] text-[16px] md:text-[18px] lg:text-[20px]') + classes}
 >
 	<strong on:click={toggle}>
 		<slot />
 		<span class={(light
 			? 'tooltiplight tooltiptext'
-			: ' tooltipdark tooltiptext') + classes}>{def}</span>
+			: ' tooltipdark tooltiptext') + classes}> <strong>{word}:</strong> <span>{def}</span></span>
 	</strong>
 </span>
 <style>
 	
-/* .tooltip {
-  position: relative;
-  display: inline-block;
-  text-decoration: underline;
+strong {
+	font-weight: 700;
 }
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 150px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  border-radius: 6px;
-  font-size: 16px;
-  padding: 5px 0;
-  line-height: 24px;
-    position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-} */
-	
 .tooltip {
 		cursor: pointer;
 		position: relative;
@@ -71,13 +48,14 @@
 		color: black;
 		border-radius: 6px;
 		position: absolute;
-		padding: 10px;
+		padding: 12px;
 		z-index: auto;
-		width: 200px;
+		width: 250px;
 	    bottom: 30px; 
 		left: -25px;
-		line-height: 1.1;
-		font-size: 18px;
+		line-height: 1.35;
+		font-size: 16px;
+		font-weight: 300;
 	}
 
 	.tooltiplight{
@@ -86,7 +64,7 @@
 	}
 
 	.tooltipdark{
-		background-color: rgb(0, 0, 0);
+		background-color:#54182c;
 		color: rgb(255, 255, 255);
 	}
 
@@ -95,6 +73,12 @@
 		transition: 0.3s;
 	}
 
+
+	@media screen and (max-width: 768px) {
+		.tooltip:hover .tooltiptext {
+		opacity: 0;
+	}
+		}
 	.tooltiptext:hover {
 		display: none;
 	}

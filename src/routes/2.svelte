@@ -11,15 +11,14 @@
 </script>
 
 <Transition>
-	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charles.jpg" scrim="gold" opacity1="0" opacity2="5" />
+	<SectionHero title="Who was Charles V?" bg="..//backgrounds/charlesedit.jpg" scrim="blackgold" opacity1="5" opacity2="7" class="" />
 	<Background
-		parallax
 		scrim="maroonblack" opacity1="7" opacity2="7"
-		src="..//backgrounds/fabric.jpg"
-		class="flex flex-col items-center p-4 md:p-16 2xl:p-32 2xl:px-64"
+		src="../../backgrounds/fabric.jpg"
+		class="flex flex-col justify-center items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64"
 	>
-		<Card class="">
-			<div class="w-full ">
+		<Card class=" ">
+			<div class="w-full  ">
 				Charles Habsburg was born in Ghent, a region now located in Belgium. His four grandparents,
 				Emperor Maximilian I of the Holy Roman Empire, Duchess Mary of Burgundy, King Ferdinand II
 				of Aragon, and Queen Isabella I of Castile, carefully planned a dynastic marriage that would
@@ -40,67 +39,69 @@
 		</Card>
 	</Background>
 	<Background
-		src="..//backgrounds/battle-of-pavia.jpg"
-		scrim="light" opacity1="9" opacity2="7"
-		class="flex flex-col items-center p-4 justify-center md:p-16 "
-		parallax
+		src="../../backgrounds/battle-of-pavia.jpg"
+		scrim="light"
+		opacity1="8"
+		opacity2="8"
+		class="flex h-full flex-col "
 	>
-		<div class="grid items-center md:h-[100vh] gap-12 xl:grid-cols-[1fr_1fr]">
-			<Card class="" light>
-				Through this formidable personal inheritance and a combination of bribes and threats,
+		<div class=" flex flex-col lg:grid items-center lg:grid-cols-[1fr_1fr]">
+			<Card light class="m-24 p-4 md:p-16 leading-relaxed ">
+					Through this formidable personal inheritance and a combination of bribes and threats,
 				Charles was able to position himself as the electors’ choice for successor to his late
 				grandfather, Holy Roman Emperor Maximilian I. He was selected over other possible candidates
-				such as King Henry VIII of England, King Francis I of France, and Frederick the Wise, the
+				such as King Henry VIII of England, <strong>King Francis I</strong> of France, and Frederick the Wise, the
 				duke of Saxony. Following his royal coronation in Aachen in 1520, he did what many of these
 				other European rulers feared he would: he joined his grandfather’s Holy Roman Empire with
 				his mother’s kingdoms of Spain and the Netherlands.
 			</Card>
 			<BioCard
 				name="King Francis I"
-				src="..//character-cards/Francis I.jpg"
+				src="../../character-cards/Francis I.jpg"
 				years="1494-1547"
-				class="items-center w-full"
+				color="black"
+				class="flex h-full w-full items-center justify-center  "
 				citation="http://img.over-blog.com/222x300/4/98/42/54/renaissance/francois.jpg"
+				light
 			>
-				<p>Crowned King of France in January 1515</p>
-				<p>
-					Made France the first country in Europe to establish formal relations with the Ottoman
-					Empire
-				</p>
-				<p>Upheld a rivalry with Charles V until relucantly signing the Truce of Nice in 1538</p>
+			<p>Crowned King of France in January 1515</p>
+			<p>
+				Made France the first country in Europe to establish formal relations with the Ottoman
+				Empire
+			</p>
+			<p>Upheld a rivalry with Charles V until relucantly signing the Truce of Nice in 1538</p>
 			</BioCard>
 		</div>
 	</Background>
 	<Background
-		src="..//backgrounds/sackofrome.jpg"
+		src="../../backgrounds/sackofrome.jpg"
 		parallax
-		class="flex flex-col items-center p-4  md:p-16"
-		scrim="maroonblack" opacity1="9" opacity2="7"
+		class="flex flex-col justify-center items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64"
+		scrim="maroonblack" opacity1="8" opacity2="5"
 	>
-		<Card class="" dark >
+		<Card class="" >
 				Francis and Charles became bitter rivals. Pope Clement VII sided with France. Francis fared
 				especially badly in the 1525 Battle of Pavia, where he was roundly defeated and taken
 				prisoner. Charles, however, lacked the funds to pay his victorious, mostly Lutheran, army. In
 				the face of poverty, Lutheran hostility to the Papacy, and Clement’s alliance with France, the
 				army marched on Rome.
-</Card>
-<Card>
+				<br />
+				<br />
 			The sack was brutal, and in the context of the history of the Holy Roman Empire, a shocking
 			event. Instead of defending Rome and its Church, the would-be Holy Roman Emperor besieged it
 			and effectively imprisoned the pope. In the aftermath, Charles heard from counselors who
 			denounced the sack and from others who supported it, but he seems to have had difficulty
 			reconciling the accounts of its brutality with political justifications.
-		</Card>
-		<Card>
+			<br />
+			<br />
 			In the end, he wanted all memory of the event erased and to put the episode behind him.
 			Clement also felt prudent to make his peace with Charles. This, along with the political
 			unrest associated with the beginning of the Protestant Reformation, was the context in which
 			choices about the setting and music for the imperial coronation were made.
 		</Card>
-		<ChapterButton numeral="III" chapter="An Imperial Coronation in Bologna" path="3" />
+		<ChapterButton numeral="III" chapter="Next Chapter" path="3" class="mb-12" />
 	</Background>
 </Transition>
 <Footer></Footer>
 <style>
-
 </style>

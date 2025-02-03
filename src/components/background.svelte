@@ -7,7 +7,7 @@
 	export let cover = true;
 	export let opacity1 = '0';
 	export let opacity2 = '100';
-
+	
 	let background;
 	switch (scrim) {
 		case 'light':
@@ -51,9 +51,8 @@
 
 <div
 	style:background-image={background}
-	class:bg-fixed={parallax}
-	class:bg-cover={cover}
-	class={'h-min flex justify-center'+ classes}
+
+	class={'h-min flex justify-center bg-cover lg:bg-fixed'+ classes}
 >
 	<slot />
 </div>
