@@ -45,7 +45,7 @@
 		>
 			{caption}
 			<div class="source flex flex-col items-center justify-center">
-				<a href={citation}>
+				<!-- <a href={citation}>
 					{#if caption}
 						<div class="mt-2 flex items-center gap-2">
 							<span class="material-icons text-[16px] sm:text-[20px]">menu_book</span>
@@ -60,7 +60,7 @@
 						</div>
 						<hr class={light ? 'horizontal-line-black' : 'horizontal-line-white'} />
 					{/if}
-				</a>
+				</a> -->
 			</div>
 		</div>
 	</div>

@@ -102,7 +102,7 @@
 	<TextCard>
 		<div class="">
 			Charles's sack of Rome had made a Roman coronation impossible. Bologna, with its large
-			Basilica San Petronio, was chosen as a suitable substitute location, but the change of venue
+			Basilica of San Petronio, was chosen as a suitable substitute location, but the change of venue
 			presented significant problems from a symbolic point of view. The geography of the Eternal
 			City and Saint Peter’s Basilica were vital to the centuries-old rituals of the event.
 		</div>
@@ -144,16 +144,19 @@
 			February 24 celebrates the life of Saint Mathias, the man chosen to replace Judas Iscariot as
 			the twelfth apostle. By virtue of the fact that Charles was born on his feast day, Mathias was
 			effectively Charles’s patron saint. The selection of this day drew attention to the
-			relationship, symbolically casting Charles in Mathias’s place. The text of the proper for
+			relationship, symbolically casting Charles in Mathias’s place. The text of the <Tooltip word="Proper" def="Those sections of the mass recited on a specific feast day, especially the Introit, Gradual, Alleluia or Tract, Offertory, and Communion chants.">proper</Tooltip> for
 			Mathias’s feast day consistently underscores the close connection between Christ, his
 			apostles, and kingship, making it altogether appropriate for the occasion. The Gospel reading
 			for the day, from the passage in Acts in which the selection of Mathias is described, followed
 			immediately after the coronation itself.
 		</TextCard>
-		<img
+		<ImageCard 
 		src="../../backgrounds/crowning.jpg"
-		alt=" Crowning of Charles V"
-		class="h-full w-full object-cover opacity-70 ">
+		citation=""
+		class="h-full w-full object-cover text-white"
+		width=""
+		caption="Jan Erasmus Quellinus, The Coronation of Charles V in Bologna (1681), Kunsthistoriches Museum, Vienna."
+		/>
 	</Background>
 	<!-- Purple Section -->
 	<Background
@@ -168,14 +171,14 @@
 	citation=""
 	class=""
 	width="sm:w-1/2"
-	caption="Nicolaus Hogenberg, Procession of Pope Clement VII and the Emperor Charles V after the coronation at Bologna on the 24th February, MDXXX"
+	caption="Johann Nikolaus Hogenberg, Procession of Pope Clement VII and the Emperor Charles V after the coronation at Bologna on the 24th February, 1530"
 />
 		<TextCard class="">
 			The splendor of the temporary décor set up for the coronation inside the church interior was
-			foreshadowed by the triumphal arches in the new all’antica architectural style of the Italian
+			foreshadowed by the triumphal arches in the new <Tooltip word="All'antica" def="In the style of Classical Antiquity" light>all’antica</Tooltip> architectural style of the Italian
 			Renaissance that were set up along the processional route leading from the town hall to the
 			entrance of San Petronio. These were a marked departure from allegorizing mythological or
-			sacred tableaux vivants in the medieval manner set up along the processional routes of earlier
+			sacred <Tooltip word="Tableaux Vivants" def="French for 'living pictures,' these were groups of people posed to represent a painting, often an existing one." light>tableaux vivants</Tooltip> in the medieval manner set up along the processional routes of earlier
 			coronations.
 		</TextCard>
 	</Background>
@@ -191,10 +194,10 @@
 			<p>
 				A wooden ramp led from one end of the piazza to the church entrance; it was lined with
 				parade armaments and with beautiful greenery in gilded basins. At the top of the steps
-				leading to the church’s main entrance portal, a temporary wooden chapel of Sancta Maria
-				Inter Turres was erected; two more such chapels, named for San Gregorio and San Maurizio,
+				leading to the church’s main entrance portal, a temporary wooden chapel of Santa Maria
+				in Turri was erected; two more such chapels, named for San Gregorio and San Maurizio,
 				were set up inside the church on the left side. These temporary structures helped to
-				“transform” for the occasion the church of San Petronio into the Vatican basilica of St.
+				“transform” for the occasion the Basilica of San Petronio into the Vatican/Roman Basilica of St.
 				Peter’s; they stood in for three chapels in St. Peter’s that were important to the
 				coronation ceremony.
 			</p>
@@ -204,7 +207,7 @@ src="../../content/procession-artwork.png"
 citation="https://rosettaapp.getty.edu/delivery/DeliveryManagerServlet?dps_pid=IE483735"
 class=""
 light
-caption="Artistic representation of the procession"
+caption="Artistic representation of the procession from the Hogenberg"
 width="sm:w-1/2"
 />
 </Background>
@@ -222,16 +225,16 @@ citation="https://www.romawonder.com/wp-content/uploads/2017/07/rota-porfiletica
 peter.jpg"
 class=""
 light
-caption="Porphyry Disc in St. Peter's"
+caption="The porphyry disc in the Basilica of St. Peter today; this was integrated into the &quot;new&quot;St. Peter's (completed in 1626)."
 width="sm:w-1/2"
 />
 <TextCard light>
 	A disc of <Tooltip word="Porphyry"
 			 def="A rock consisting of feldspar crystals embedded in a compact dark red or purple groundmass"
 			>porphyry</Tooltip
-		> for Charles to kneel on when he was crowned was placed inside the church on the wooden ramp
-		leading from the church entrance to the High Altar. This was a reference to the the rota porphiletica
-		in the pavement of St. Peter’s, which marked the spot whereon Charlemagne knelt when he was crowned
+		> for Charles to kneel on when he was crowned was placed inside the church on the wooden platform
+		leading from the church entrance to the High Altar. This was a reference to the the <i>rota porphiletica</i>
+		in the pavement of St. Peter’s, which marked the spot where Charlemagne knelt when he was crowned
 		by Pope Leo III.
 </TextCard>
 	</Background>
@@ -277,7 +280,7 @@ width="sm:w-1/2"
 />
 	<TextCard class="" light>
 		<p>
-			The Church of San Petronio itself was still under construction; it had yet to be vaulted and
+			The Basilica of San Petronio itself was still under construction; it had yet to be vaulted and
 			the choir was later extended and enlarged. The unfinished condition of both churches may
 			have made the conceit of San Petronio tranformed into St. Peter’s easier to accept at the
 			time. The wooden platform put up for the occasion in the middle of San Petronio was arranged
@@ -296,12 +299,12 @@ width="sm:w-1/2"
 		>
 			<TextCard light>
 				<p>
-			According to Vasari, the nave was lined
+			According to Georgio Vasari, the nave was lined
 			with wooden Ionic colonnades set up for the coronation. If Vasari was correct, these
 			colonnades would have enhanced the intended transformation of San Petronio into Saint
 			Peter’s, which, as the drawing shows, still had its original Constantinian rows of spolia
 			columns lining the nave. An idea of what such an Ionic colonnade would have looked like can
-			be gained from a Fifth-Century Christian basilica in Rome, Santa Maria Maggiore.
+			be gained from a fifth-century Christian basilica in Rome, Santa Maria Maggiore.
 		</p>
 	</TextCard>
 			<ImageCard

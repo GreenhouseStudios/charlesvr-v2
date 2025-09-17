@@ -43,11 +43,11 @@
 	scrim="light"
 	opacity1="7"
 	opacity2="5"
-	class="flex flex-col justify-center 2xl:h-screen items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed"
+	class="flex flex-col justify-center 2xl:hf-screen items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64 bg-cover lg:bg-fixed"
 >
 	<Card class="" light>
 		Music was extremely important to the ceremony and to the culture and politics of the
-		Renaissance. Nearly every liturgical text in the period was sung, and even lay people could
+		Renaissance. Nearly every liturgical text in the period was sung rather than read, and even lay people could
 		recognize <Tooltip word="Plainchant" def="A monophonic rhythmically free liturgical chant of any of various Christian rites">plainchant</Tooltip> sung daily or on important feast days. Because liturgical music had a
 		long tradition of elaborations of prescribed plainchant with polyphony (music with multiple
 		parts), listeners in the period were often very capable of hearing the original chant embedded
@@ -68,7 +68,7 @@
 		parallax
 	>
 <img
-src="..//backgrounds/sheetmusic.jpg"
+src="..//backgrounds/Chigi_codex.jpg"
 alt=" Crowning of Charles V"
 class="h-full w-full object-cover opacity-60 aspect-square"
 />
@@ -96,14 +96,14 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 			The allegorical significance of the texts of these chants in this context would not have gone
 			unnoticed, for they refer repeatedly to Christ as a new king. The newly crowned king was to
 			rule on Christ’s behalf, and his authority was revealed to the faithful in the course of the
-			coronation ceremony, just as Christ was revealed to the Magi. As the Magi recognized the
+			coronation ceremony, just as Christ was revealed to the Magi in the Biblical account of the Epiphany. As the Magi recognized the
 			authority of the infant Christ, kneeling down and paying him homage, so the secular rulers of
 			the Empire were to pay homage to the newly crowned king. In contrast to the proper chants of
 			Aachen’s royal coronation ceremonies, Rome’s imperial ceremonies required only that the
 			correct proper of the day be sung.
 		</TextCard>
 		<img
-		src="../../backgrounds/laudeswords.png"
+		src="../../static/backgrounds/22487-adoration-of-the-magi-bourdichon-jean.jpg"
 		alt=" Crowning of Charles V"
 		class="h-full w-full object-cover opacity-40 aspect-square"
 		/>
@@ -127,42 +127,47 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 			Italian composer Costanzo Festa, and the imperial choir was directed by Adrien Thiebault, a
 			relatively unknown composer today. The imperial choir’s most illustrious member was the South
 			Netherlandish composer Nicolas Gombert, who served as master of the emperor’s choirboys. A
-			witness to the coronation mentioned that the Credo was sung in canto figurato, a euphemism for
+			witness to the coronation mentioned that the Credo was sung <i>in canto figurato</i>, a euphemism for
 			polyphony at the time. It seems unlikely that the Credo would have been the only work of
 			polyphony at the event. It is likely that polyphonic works by all three composers were heard
 			at Charles’s coronation.
 		</Card>
 	</Background>
+	
+	<div class="flex gap-4 items-start">
+		<TextCard light className="w-1/2">
+		  Festa’s contribution was the six-voice motet <i>Ecce advenit dominator</i>. It is preserved in a
+		  Sistine Chapel manuscript that contains no attributions, but seems to be dedicated exclusively
+		  to Festa’s works. The work’s most immediately striking feature is a 
+		  <Tooltip word="Cantus firmus" def="The plainsong or simple Gregorian melody originally sung in unison and prescribed as to form and use by ecclesiastical tradition">
+			cantus firmus
+		  </Tooltip> 
+		  clearly based upon the ancient opening acclamation of the <i>Laudes Regiae</i>: “Christus vincit, christus
+		  regnat, christus imperat.” For a time, this motet was identified with the coronation of
+		  Clement rather than Charles, but Klaus Pietschmann was able to cite an obscure Spanish manuscript
+		  that also preserves the work. In this version, the word “Christus” in the cantus firmus has
+		  been replaced with “Carolus,” removing any doubt about the work’s association with Charles V.
+		</TextCard>
+	  
+		<img
+		  src="../../backgrounds/laudeswords.png"
+		  alt="Crowning of Charles V"
+		  class="w-1/2 h-full object-cover opacity-40 aspect-square"
+		/>
+	  </div>
+
 	<Background
-		src="../../backgrounds/wideview.jpg"
-		scrim="light"
-		opacity1="7"
-		opacity2="5"
-		class="flex flex-col justify-center 2xl:h-screen items-center xl:p-24 xl:py-32 2xl:p-32 2xl:px-64"
-	>
-		<Card class="" light>
-			Festa’s contribution was the six-voice motet, Ecce advenit dominator. It is preserved in a
-			Sistine Chapel manuscript that contains no attributions, but seems to be dedicated exclusively
-			to Festa’s works. The work’s most immediately striking feature is a <Tooltip word="Cantus firmus" def="The plainsong or simple Gregorian melody originally sung in unison and prescribed as to form and use by ecclesiastical tradition"  >cantus firmus</Tooltip> clearly
-			based upon the ancient opening acclamation of the Laudes Regiæ: “Christus vincit, christus
-			regnat, christus imperat.” For a time, this motet was identified with the coronation of
-			Clement rather than Charles, but Pietschmann is able to cite an obscure Spanish manuscript
-			that also preserves the work. In this version, the word “Christus” in the cantus firmus has
-			been replaced with “Carolus,” removing any doubt about the work’s association with Charles V.
-		</Card>
-	</Background>
-	<Background
-		src="../../backgrounds/detail.jpg"
+		src="../../backgrounds/laudes.jpg"
 		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 		scrim="maroon" opacity1="9" opacity2="9"
 	>
 	<img
-	src="../../backgrounds/detail.jpg"
+	src="../../backgrounds/ecce.jpg"
 	alt=" Crowning of Charles V"
 	class="h-full w-full object-cover opacity-50"
 />
 		<TextCard >
-			The opening of Festa’s motet is derived from the <Tooltip word="Introit" def="A piece of music sung or played at the beginning of a worship service" light >introit</Tooltip> for Epiphany, referencing the royal
+			The opening text of Festa’s motet is derived from the <Tooltip word="Introit" def="A piece of music sung or played at the beginning of a worship service" light >introit</Tooltip> for Epiphany, referencing the royal
 			coronation ceremony in Aachen. The next portion of the text is from the introit for the third
 			mass on Christmas Day, Puer natus est, and may have had the effect of calling Charlemagne’s
 			imperial coronation on Christmas in the year 800 to mind. The rest of the text is derived from
@@ -191,7 +196,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 			<div class="pb-10">
 			There was a kind of parity between the choirs of Clement and Charles, since a composer from
 			each ensemble contributed a motet for the event. Adrien Thiebeault’s contribution to the
-			coronation’s music is the motet Coronat pontifex, which mentions Clement by name as a crowning
+			coronation’s music is the motet <i>Coronat pontifex</i>, which mentions Clement by name as a crowning
 			pope. The motet compliments Clement, but it does so by distinguishing him from other popes who
 			did not have the opportunity to crown a ruler as powerful as Charles. Unfortunately, only two
 			voices of this five- or six-voice work have survived.

@@ -41,13 +41,13 @@
 		opacity2="5"
 	>
 		<Card class="" light>
-			A mass is a much larger undertaking than a motet. There is no question that Gombert’s mass is
+			A mass is a much larger undertaking than a motet, and there is no question that Gombert’s mass is
 			an impressive work, one fairly typical of the composer’s style. All voice parts move
 			continuously, contain few rests, and are linked by imitation in which one voice repeats,
 			recognizably if not literally, a portion of melody previously heard in another voice. This
-			produces a style marked by grandezza and achieves a marvelous effect. It is likely that,
+			produces a style marked by what one contemporary, Cosimo Bartoli, termed grandezza (enormity, greatness) achieving a marvelous effect. It is likely that,
 			despite the fact that Thiebault was senior to Gombert in the emperor’s musical hierarchy,
-			Charles held his maître des enfants in higher regard than his choirmaster.
+			Charles preferred Gombert.
 		</Card>
 	</Background>
 	<video
@@ -59,7 +59,7 @@
 	>
 		<source src="../../backgrounds/choirshot.mp4" type="video/mp4" />
 	</video>
-	<Background
+	<!-- <Background
 		src="../../backgrounds/maroon-background.png"
 		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
@@ -76,36 +76,31 @@
 			This is when the Laudes Regiæ were to be sung, and it seems plausible that the two motets and
 			an abbreviated form of the Laudes could have been sung during this fifteen-minute period.
 		</TextCard>
-	</Background>
+	</Background> -->
 	<Background
 		src="../../backgrounds/maroon-background.png"
 		class="flex flex-col items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
 	>
 		<TextCard class="" light>
 			The mass may strike modern listeners as an odd choice for a coronation. A subsequent print of
-			the work identifies it not as a mass for coronation, but as the Missa Sur tous regretz, the
-			title referring to the fact that Sur tous regretz, a chanson by Jean Richafort, served as the
+			the work identifies it not as a mass for coronation, but as the <i>Missa Sur tous regretz</i>, the
+			title referring to the fact that <i>Sur tous regretz</i>, a chanson by Jean Richafort, served as the
 			mass’s model. The song is a decidedly sad one. Its text translates:
 			<div class="m-8 font-bold italic text-[#54182c]">
 				“Above all regrets, I cry most piteously for my own, heaving sighs piercing my weary heart.
-				Since I have lost my amiable liqueur, I complain and will complain for a long time.”
+				Because I have lost my amiable liqueur, I weep and will weep evermore.”
 			</div>
 		</TextCard>
-		<img
+		<!-- <img
 			src="../../backgrounds/mural.jpg"
 			alt=" Crowning of Charles V"
 			class="h-full w-full object-cover opacity-70 "
-		/>
-	</Background>
-	<Background
-		src="../../backgrounds/maroon-background.png"
-		class="flex flex-col-reverse items-center justify-center lg:grid lg:grid-cols-[1fr_1fr]"
-	>
-		<img
+		/> -->
+		<!-- <img
 			src="../../backgrounds/mural.jpg"
 			alt=" Crowning of Charles V"
 			class="h-full w-full object-cover opacity-70 "
-		/>
+		/> -->
 		<TextCard class="">
 			The tone of the four-voice chanson, which is cast in the Dorian mode, matches the regret of
 			the text, with a pervading imitative texture that Gombert thickens in his mass through the use
@@ -133,10 +128,10 @@
 			A more likely explanation is a particular predilection for melancholic music on Charles’s part.
 			In Luys de Narváez’s 1538 anthology of intabulations for the vihuela—versions of polyphonic works
 			for a guitar-like instrument popular in Spain at the time—a version of Josquin des Prez’s Mille
-			Regretz bears the title “La Canción del Emperador.” Mille Regretz was the model for a mass by Cristóbal
+			Regretz bears the title “La Canción del Emperador.” <i>Mille regretz</i> was the model for a mass by Cristóbal
 			de Morales that appeared in a print bearing Charles’s coat of arms. In a 1995 article on allusions
-			to Josquin’s Mille Regretz, Owen Rees noted Charles’s likely familiarity with a manuscript owned
-			by his aunt that contained a number of similar “regret” chansons. While it may be difficult for
+			to Josquin’s <i>Mille regretz</i>, Owen Rees noted Charles’s likely familiarity with a manuscript owned
+			by his aunt that contained a number of similar “regret” chansons, and Ekaterini Akarepi identified an entire network of such songs in her 2009 doctoral dissertation. While it may be difficult for
 			modern listeners to distinguish between expressions of sadness and solemnity in this style of polyphony,
 			this particular occasion seems to express the latter by redeploying counterpoint originally meant
 			to express the former.
@@ -177,7 +172,7 @@
 		<TextCard class="flex flex-col items-center " light>
 			<div class="pb-10">
 				It is conceivable that Charles and Gombert were the only listeners who knew the model
-				definitively during the coronation ceremony itself. What is clear is that Charles and
+				definitively during the coronation ceremony itself. The model is heard most clearly in the final Agnus Dei of the work, in which the top voice quotes the melody note for note, and anyone who knew the song well would likely have identified it at the time. What is clear is that Charles and
 				Clement both made conscious choices about the repertory to be performed in the context of a
 				highly prescribed ceremony and that the music was imbued with meaning that was meant to
 				transcend the political circumstances of the day.

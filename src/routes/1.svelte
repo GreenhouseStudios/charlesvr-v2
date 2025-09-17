@@ -29,12 +29,12 @@
 		class="flex flex-col-reverse items-center justify-center xl:p-24 xl:py-32 2xl:h-screen 2xl:p-32 2xl:px-64"
 	>
 		<Card class="">
-			On February 24, 1530, Pope Clement VII crowned Charles Habsburg Holy Roman Emperor in the
-			Basilica San Petronio in Bologna. It was the last time a pope would crown an emperor, ending a
+			On February 24, 1530, Pope Clement VII crowned the Habsburg Ruler Charles V Holy Roman Emperor in the
+			Basilica of San Petronio in Bologna. It was the last time a pope would crown an emperor, ending a
 			700-year-old tradition that began with Charlemagne's coronation on Christmas Day in 800.
 			<br />
 			<br />
-			Amid increasing power of the Ottoman Empire to the east, the subjugation of the New World to the
+			Amid the increasing power of the Ottoman Empire to the east, the subjugation of the New World to the
 			west, and the rise of Protestantism within Europe itself, the political situation was delicate.
 			Charles could not be crowned in Rome, because Protestant German mercenaries he employed in a conflict
 			with France had sacked the Eternal City three years earlier.
@@ -58,13 +58,11 @@
 				The Holy Roman Empire was an idealized re-establishment of the realm of <strong
 					>Charlemagne</strong
 				>, the Frankish ruler whose territories corresponded roughly to those of modern France and
-				Germany. In the year 800, Protestantism the office of the pope; succession or line of popes;
-				the system of government of the Roman Catholic Church of which the pope is the supreme head
-				Charlemagne came to the aid of Pope Leo III, who had run afoul of the nobility in Rome. He
+				Germany. In the year 800, Charlemagne came to the aid of Pope Leo III, who had run afoul of the nobility in Rome. He
 				convened a council in Rome that affirmed Leo's <Tooltip
 					word="Papacy" def="The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
 					>papacy</Tooltip
-				> on December 1. In return Leo crowned Charlemagne “Emperor of the Romans” in Old St. Peter's
+				> on December 1. In return, Leo crowned Charlemagne “Emperor of the Romans” in Old St. Peter's
 				Basilica in a Mass on Christmas Day, reserving for Charlemagne (now Charles I) the role of defender
 				of Rome and of the Church.
 			</Card>
@@ -101,7 +99,6 @@
 				class="flex h-full w-full items-center justify-center  "
 				citation="https://upload.wikimedia.org/wikipedia/commons/9/99/Bas-c%C3%B4t%C3%A9_nord,_baie_VI_Otto_Rex_(dernier_tiers_XIIe).jpg"
 			>
-				<p>Called the "Father of Europe" for uniting most of Western Europe</p>
 				<p>Crowned Holy Roman Emperor in 962 due to his aid of Pope John XXII two years prior</p>
 				<p>Began the tradition of imperial coronations for Germanic rulers</p>
 			</BioCard>
@@ -131,7 +128,7 @@
 					<div class="mb-5">
 						Symbolically and politically, this relationship was marked in two coronations. The first
 						was a royal coronation as King of the Germans by the <Tooltip
-							word="Ducal" def="The office of the pope; succession or line of popes; the system of government of the Roman Catholic Church of which the pope is the supreme head"
+							word="Ducal" def="Of, like, or relating to a duke or dukedom."
 							>ducal</Tooltip
 						> electors in Charlemagne’s old capital, Aachen. The second was an imperial, or papal, coronation
 						as Emperor of the Romans in Rome under the pope’s hand. From 962 until 1530, in principle

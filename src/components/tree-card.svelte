@@ -21,7 +21,7 @@
 					{name}
 				</div>
 				<em class="text-[13px]">{years}</em>
-				<p class="material-icons"><a href="{citation}">menu_book</a></p>
+				<!-- <p class="material-icons"><a href="{citation}">menu_book</a></p> -->
 			</div>
 		</div>
 		</div>
