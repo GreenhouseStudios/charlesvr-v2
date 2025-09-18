@@ -153,6 +153,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 		  src="../../backgrounds/laudeswords.png"
 		  alt="Crowning of Charles V"
 		  class="w-1/2 h-full object-cover opacity-40 aspect-square"
+		  style="width:50%; height:100%; object-fit:cover; object-position:top; opacity:0.4; aspect-ratio:1/1;"
 		/>
 	  </div>
 
