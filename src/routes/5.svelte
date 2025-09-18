@@ -28,7 +28,7 @@
 			coronation is therefore widely accepted.
 		</TextCard>
 		<img
-			src="../../backgrounds/paintings.jpg"
+			src="../../backgrounds/Scotto.jpg"
 			alt=" Crowning of Charles V"
 			class="h-full w-full object-cover opacity-70 "
 		/>

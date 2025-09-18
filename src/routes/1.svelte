@@ -119,7 +119,7 @@
 		opacity2="7"
 		class=" lg:flex-col hidden lg:flex"
 	>
-		<div class="flex flex-col-reverse items-center lg:grid lg:grid-cols-[1fr_1fr]">
+		<div class="">
 			<div>
 				<TextCard class="" light>
 					<h2 class="mb-12 text-center font-bold text-4xl text-black ">
@@ -156,14 +156,14 @@
 					</div>
 				</TextCard>
 			</div>
-			<ImageCard
+			<!-- <ImageCard
 			src="../../content/dualcoronations.png"
 			citation=""
 			class=""
 			width="max-w-[500px]"
 			light
 			caption="VR recreation of the wooden platform in San Petronio"
-		/>
+			/> -->
 		</div>
 		<!-- <div class="col-span-2 mx-auto">
 			<ChapterButton numeral="II" chapter="Who Was Charles V?" path="2" />
@@ -192,14 +192,14 @@
 						each ruler of the Holy Roman Empire was to receive both a royal and an imperial coronation.
 					</div>
 					</TextCard>
-					<ImageCard
-					src="../../content/dualcoronations.png"
-					citation=""
-					class=""
-					width="max-w-[500px]"
-					light
-					caption="VR recreation of the wooden platform in San Petronio"
-				/>
+					<!-- <ImageCard
+						src="../../content/dualcoronations.png"
+						citation=""
+						class=""
+						width="max-w-[500px]"
+						light
+						caption="VR recreation of the wooden platform in San Petronio"
+					/> -->
 					<TextCard class="" light>
 					<div class="flex flex-col items-center">
 						<div>
