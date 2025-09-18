@@ -103,7 +103,7 @@ class="h-full w-full object-cover opacity-60 aspect-square"
 			correct proper of the day be sung.
 		</TextCard>
 		<img
-		src="../../static/backgrounds/magi.jpg"
+		src="https://upload.wikimedia.org/wikipedia/commons/7/73/Jean_Bourdichon_-_Adoration_of_the_Magi_-_WGA02939.jpg"
 		alt=" Crowning of Charles V"
 		class="h-full w-full object-cover opacity-40 aspect-square"
 		/>
